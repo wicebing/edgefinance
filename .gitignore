@@ -1,0 +1,42 @@
+# Credentials stay local, including atlas-credentials.env.
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+!*.env.example
+
+# Legacy reference material contains embedded database credentials and exports.
+# Migrate and sanitize selected code before placing it in src/.
+/News Scrapping/
+/專利公開資訊API申請及操作手冊.pdf
+
+# Local source material, analysis logs, databases and recovery state.
+/data/
+/work/
+/runs/
+/backups/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.duckdb
+*.duckdb.wal
+*.log
+
+# Local environments and generated build output.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+node_modules/
+dist/
+.astro/
+.DS_Store
+Thumbs.db

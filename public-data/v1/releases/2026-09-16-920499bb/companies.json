@@ -1,0 +1,311 @@
+[
+  {
+    "aliases": [
+      "Nvidia Corp",
+      "NVIDIA Corporation",
+      "輝達公司"
+    ],
+    "cik": "1045810",
+    "name": "NVIDIA",
+    "ticker": "NVDA",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "Advanced Micro Devices Inc",
+      "超微半導體公司"
+    ],
+    "cik": "2488",
+    "name": "Advanced Micro Devices",
+    "ticker": "AMD",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "Vertiv Holdings"
+    ],
+    "cik": "1674101",
+    "name": "Vertiv",
+    "ticker": "VRT",
+    "topics": [
+      "compute",
+      "energy"
+    ]
+  },
+  {
+    "aliases": [
+      "Eaton Corporation"
+    ],
+    "cik": "1551182",
+    "name": "Eaton",
+    "ticker": "ETN",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [
+      "Rockwell Automation Inc"
+    ],
+    "cik": "1024478",
+    "name": "Rockwell Automation",
+    "ticker": "ROK",
+    "topics": [
+      "automation"
+    ]
+  },
+  {
+    "aliases": [
+      "Teradyne Inc"
+    ],
+    "cik": "97210",
+    "name": "Teradyne",
+    "ticker": "TER",
+    "topics": [
+      "automation"
+    ]
+  },
+  {
+    "aliases": [
+      "Broadcom Corporation",
+      "博通公司"
+    ],
+    "cik": "1730168",
+    "name": "Broadcom",
+    "ticker": "AVGO",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "Intel Corporation",
+      "英特爾公司"
+    ],
+    "cik": "50863",
+    "name": "Intel",
+    "ticker": "INTC",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "TSMC",
+      "台灣積體電路製造股份有限公司",
+      "台積電"
+    ],
+    "cik": "1046179",
+    "name": "Taiwan Semiconductor Manufacturing",
+    "ticker": "TSM",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "ASML Netherlands B.V.",
+      "艾司摩爾公司"
+    ],
+    "cik": "937966",
+    "name": "ASML",
+    "ticker": "ASML",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "Applied Materials Inc",
+      "應用材料公司"
+    ],
+    "cik": "6951",
+    "name": "Applied Materials",
+    "ticker": "AMAT",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "Lam Research Corporation",
+      "科林研發公司"
+    ],
+    "cik": "707549",
+    "name": "Lam Research",
+    "ticker": "LRCX",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "319201",
+    "name": "KLA",
+    "ticker": "KLAC",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "Micron Technology Inc",
+      "美光科技公司"
+    ],
+    "cik": "723125",
+    "name": "Micron Technology",
+    "ticker": "MU",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1835632",
+    "name": "Marvell Technology",
+    "ticker": "MRVL",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1596532",
+    "name": "Arista Networks",
+    "ticker": "ANET",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "820318",
+    "name": "Coherent",
+    "ticker": "COHR",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1633978",
+    "name": "Lumentum",
+    "ticker": "LITE",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1996810",
+    "name": "GE Vernova",
+    "ticker": "GEV",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "753308",
+    "name": "NextEra Energy",
+    "ticker": "NEE",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1274494",
+    "name": "First Solar",
+    "ticker": "FSLR",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1463101",
+    "name": "Enphase Energy",
+    "ticker": "ENPH",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1868941",
+    "name": "Fluence Energy",
+    "ticker": "FLNC",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1758766",
+    "name": "Stem",
+    "ticker": "STEM",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "915913",
+    "name": "Albemarle",
+    "ticker": "ALB",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "909037",
+    "name": "Sociedad Quimica y Minera",
+    "ticker": "SQM",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1091587",
+    "name": "ABB",
+    "ticker": "ABB",
+    "topics": [
+      "automation",
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "851205",
+    "name": "Cognex",
+    "ticker": "CGNX",
+    "topics": [
+      "automation"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1837240",
+    "name": "Symbotic",
+    "ticker": "SYM",
+    "topics": [
+      "automation"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1035267",
+    "name": "Intuitive Surgical",
+    "ticker": "ISRG",
+    "topics": [
+      "automation"
+    ]
+  }
+]

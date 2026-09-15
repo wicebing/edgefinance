@@ -1,0 +1,1833 @@
+[
+  {
+    "caution": "此為專利架構主張；原文使用 polarity，依光通訊上下文理解為偏振，未附實測證據。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-0c9689eb4d8b55f4",
+    "kind": "patent",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，兩個濾波波長不同，且第二個調變光訊號的偏振與第一個正交。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "本段未提供效能損失數值、測試條件或比較結果，不能視為已驗證效益。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-9be959da22da3dd4",
+    "kind": "patent",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，將濾波安排在調變之前，可使光資料訊號不經過光學濾波，並宣稱濾波造成的效能損失可忽略。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為示例編碼安排，未提供實際頻寬、串擾或功耗量測。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-7a7e3d830d198497",
+    "kind": "patent",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，示例僅使用八種可能編碼通道狀態的一半，並選擇使任意兩個通道不會在三個維度中的兩個維度重疊的狀態。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "這是通道配置的技術描述；降低串擾要求的效果未附實測數據。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-48928683a904dcc2",
+    "kind": "patent",
+    "locator": "normalized characters 10000–20000, chunk 2",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，兩個方向、兩種偏振與兩個波長形成八種可能狀態，但此架構僅使用其中四種。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "屬可行配置的描述，不能據此認定已有產品或部署。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-c291c331b2bdc37a",
+    "kind": "patent",
+    "locator": "normalized characters 10000–20000, chunk 2",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，部分配置可不固定發射與接收埠，並可用單根光纖連接兩端，兩端使用相同收發器及光源。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "本段未量化效能改善，也未提供比較測試。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-f54c827e73d403d1",
+    "kind": "patent",
+    "locator": "normalized characters 10000–20000, chunk 2",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，此架構將光學波長濾波移出調變器與偵測器之間的傳統位置，以處理該位置可能造成的高頻衰減、振幅漣波或群延遲問題。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "僅提出控制方式，未揭露追蹤速度、穩定性或實作驗證結果。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-303feb2b0ed8ecae",
+    "kind": "patent",
+    "locator": "normalized characters 10000–20000, chunk 2",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，光纖中的偏振旋轉可能隨時間漂移，因此可在偏振控制器周圍配置閉迴路追蹤系統。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "屬特定專利實施例的技術描述，未證明已實作或商用。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-8c0b6f0fbf9f1f67",
+    "kind": "patent",
+    "locator": "normalized characters 20000–30000, chunk 3",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，圖六實施例不包含所述偏振控制器，改採雙波長傳輸的偏振分集方案。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此限制對應圖六實施例，不宜推及所有架構。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-a695ad2484115078",
+    "kind": "patent",
+    "locator": "normalized characters 20000–30000, chunk 3",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，圖六實施例不具單工能力，必須以兩條光傳播路徑構成雙工配置。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "這是來源宣稱的設計效益，缺乏尺寸比較或實測驗證。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-92368444b28f52fc",
+    "kind": "patent",
+    "locator": "normalized characters 20000–30000, chunk 3",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，圖六及圖七藉由減少或移除偏振控制器，可縮小收發器面積；本段未量化縮減幅度。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "描述訊號配置，未提供傳輸速率、誤碼率或實際性能證據。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-38d2df3d9503ea5d",
+    "kind": "patent",
+    "locator": "normalized characters 20000–30000, chunk 3",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，所述通訊方法使用兩個不同的濾出波長，且第二調變光訊號與第一調變光訊號採正交偏振。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "屬請求項的技術限定，未附傳輸效能驗證；原文使用 polarity 一詞。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-d286b92ae54e49a5",
+    "kind": "patent",
+    "locator": "normalized characters 30000–40000, chunk 4",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，第二濾出波長不同於第一波長，且第二調變光訊號的偏振與第一訊號正交。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為方法請求項，不能據此確認雙向傳輸已實作或商用。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-e25d19c1505a2cfe",
+    "kind": "patent",
+    "locator": "normalized characters 30000–40000, chunk 4",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，第三調變光訊號由光傳播路徑的另一端輸出，方向與第一方向相反。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "屬附屬請求項配置，未提供製程、良率或整合效益數據。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-322345a72e164634",
+    "kind": "patent",
+    "locator": "normalized characters 30000–40000, chunk 4",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，偏振分光旋轉器與偏振耦合器可整合於二維光柵耦合器。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "未揭露資料速率、錯誤率或功耗，不能推定產品性能。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-fe2cfa832a83156e",
+    "kind": "patent",
+    "locator": "normalized characters 30000–40000, chunk 4",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，第一與第二調變光訊號承載由一個或多個驅動器的電位元序列編碼而成的資料訊號。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "這是專利中的配置主張，未附實測結果。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-59e9d6a422fbfa71",
+    "kind": "patent",
+    "locator": "normalized characters 40000–41780, chunk 5",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，第二共振調變器經光傳播路徑第一端、沿第一方向送出第二調變光訊號，其極性與第一訊號正交。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "本段未提供波長數值、間隔或通道效能。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-131c052049d7584e",
+    "kind": "patent",
+    "locator": "normalized characters 40000–41780, chunk 5",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，第二光學增刪多工／解多工器接收連續波光束，將第二濾波波長送至第二共振調變器，且第二波長不同於第一波長。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為依附請求項21的技術限定，不證明已製造或商用。",
+    "document_version": "187ce5002ecf57557ffbff53",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-8870320f4cb1a09b",
+    "kind": "patent",
+    "locator": "normalized characters 40000–41780, chunk 5",
+    "origin": "uspto",
+    "published_at": "2025-04-09",
+    "source_id": "us-patent-watch",
+    "statement": "來源表示，請求項22所述第一共振調變器包含微共振調變器，用於在第一濾波波長產生第一調變光訊號。",
+    "title": "Optical link architecture \n       ",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://patents.google.com/patent/US20250105920A1/en",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為期末存量，並非當季現金流入；本段未提供現金使用限制。",
+    "document_version": "f40c1059d597dfab807180e7",
+    "entities": [
+      "VRT"
+    ],
+    "id": "E-65f67f5d3f290c2f",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001674101",
+    "published_at": "2026-07-29",
+    "source_id": "sec",
+    "statement": "來源表示，2026年6月30日現金及約當現金帳面金額為28.106億美元。",
+    "title": "VRT · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute",
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001674101.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此科目不代表總負債，本段未提供完整到期結構或利率條件。",
+    "document_version": "f40c1059d597dfab807180e7",
+    "entities": [
+      "VRT"
+    ],
+    "id": "E-a4767d2019663189",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001674101",
+    "published_at": "2026-07-29",
+    "source_id": "sec",
+    "statement": "來源表示，2026年6月30日非流動長期負債為29.398億美元。",
+    "title": "VRT · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute",
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001674101.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為上半年累計數，不能視為第二季單季數；未提供營運資金變動明細。",
+    "document_version": "f40c1059d597dfab807180e7",
+    "entities": [
+      "VRT"
+    ],
+    "id": "E-a78f4104cc52c0d4",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001674101",
+    "published_at": "2026-07-29",
+    "source_id": "sec",
+    "statement": "來源表示，2026年1月1日至6月30日營業活動淨現金流入為18.666億美元。",
+    "title": "VRT · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute",
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001674101.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為單季淨利，並非上半年或全年數；缺少非經常性項目說明。",
+    "document_version": "f40c1059d597dfab807180e7",
+    "entities": [
+      "VRT"
+    ],
+    "id": "E-7ed873461b6726f2",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001674101",
+    "published_at": "2026-07-29",
+    "source_id": "sec",
+    "statement": "來源表示，2026年4月1日至6月30日第二季淨利為4.978億美元。",
+    "title": "VRT · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute",
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001674101.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為單季收入，不能當作全年收入或獲利。",
+    "document_version": "f40c1059d597dfab807180e7",
+    "entities": [
+      "VRT"
+    ],
+    "id": "E-d3d91a4f2e5dd969",
+    "kind": "financial",
+    "locator": "normalized characters 10000–17137, chunk 2",
+    "origin": "issuer:0001674101",
+    "published_at": "2026-07-29",
+    "source_id": "sec",
+    "statement": "來源表示，VRT 2026 年第二季客戶合約收入（不含代徵稅款）為 32.743 億美元。",
+    "title": "VRT · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute",
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001674101.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為六個月累計，已包含第二季收入，不可再與第二季加總。",
+    "document_version": "f40c1059d597dfab807180e7",
+    "entities": [
+      "VRT"
+    ],
+    "id": "E-226d9ef300b2f7b7",
+    "kind": "financial",
+    "locator": "normalized characters 10000–17137, chunk 2",
+    "origin": "issuer:0001674101",
+    "published_at": "2026-07-29",
+    "source_id": "sec",
+    "statement": "來源表示，VRT 2026 年上半年客戶合約收入（不含代徵稅款）累計為 59.238 億美元。",
+    "title": "VRT · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute",
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001674101.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為期末餘額，不是期間收益；本段未解釋權益變動來源。",
+    "document_version": "f40c1059d597dfab807180e7",
+    "entities": [
+      "VRT"
+    ],
+    "id": "E-c55f0a86032e3dd0",
+    "kind": "financial",
+    "locator": "normalized characters 10000–17137, chunk 2",
+    "origin": "issuer:0001674101",
+    "published_at": "2026-07-29",
+    "source_id": "sec",
+    "statement": "來源表示，VRT 截至 2026 年 6 月 30 日的股東權益為 47.576 億美元。",
+    "title": "VRT · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute",
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001674101.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為全年費用，不能與季度科目直接比較，也不證明研發已形成產品或營收。",
+    "document_version": "f40c1059d597dfab807180e7",
+    "entities": [
+      "VRT"
+    ],
+    "id": "E-b51d5573cdc0137e",
+    "kind": "financial",
+    "locator": "normalized characters 10000–17137, chunk 2",
+    "origin": "issuer:0001674101",
+    "published_at": "2026-07-29",
+    "source_id": "sec",
+    "statement": "來源表示，VRT 2025 全年研發費用為 4.417 億美元。",
+    "title": "VRT · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute",
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001674101.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為期末餘額，並非該季現金流入，也未涵蓋全部流動資產。",
+    "document_version": "50a5e03c63c05d3f82061201",
+    "entities": [
+      "TER"
+    ],
+    "id": "E-120448a06b21a90c",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0000097210",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，截至2026年6月28日，現金及約當現金帳面金額為349,538,000美元。",
+    "title": "TER · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000097210.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為年初至期末累計數，不是第二季單季數；本段未提供現金流入的構成。",
+    "document_version": "50a5e03c63c05d3f82061201",
+    "entities": [
+      "TER"
+    ],
+    "id": "E-a849d5d3f7aea39f",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0000097210",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2026年1月1日至6月28日營業活動淨現金流入為734,262,000美元。",
+    "title": "TER · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000097210.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為單季淨利，不能與半年累計或全年數直接比較；缺少損益明細以判斷獲利來源。",
+    "document_version": "50a5e03c63c05d3f82061201",
+    "entities": [
+      "TER"
+    ],
+    "id": "E-5ed1fdd3af979581",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0000097210",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2026年3月30日至6月28日單季淨利為374,533,000美元。",
+    "title": "TER · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000097210.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為半年累計支出，不代表全部投資活動現金流出；未提供用途與預期效益。",
+    "document_version": "50a5e03c63c05d3f82061201",
+    "entities": [
+      "TER"
+    ],
+    "id": "E-6591342bb90e0551",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0000097210",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2026年1月1日至6月28日購置不動產、廠房及設備的現金支出為155,439,000美元。",
+    "title": "TER · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000097210.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為單季營收，不是半年累計或全年數字。",
+    "document_version": "50a5e03c63c05d3f82061201",
+    "entities": [
+      "TER"
+    ],
+    "id": "E-9795fc117589528b",
+    "kind": "financial",
+    "locator": "normalized characters 10000–14870, chunk 2",
+    "origin": "issuer:0000097210",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2026-03-30 至 2026-06-28 的季度營收為 1,328,990,000 美元。",
+    "title": "TER · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000097210.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為 2026-07-31 申報資料所列去年同期數字；本段未說明比較口徑是否有調整。",
+    "document_version": "50a5e03c63c05d3f82061201",
+    "entities": [
+      "TER"
+    ],
+    "id": "E-3ff9ba41b3918229",
+    "kind": "financial",
+    "locator": "normalized characters 10000–14870, chunk 2",
+    "origin": "issuer:0000097210",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2025-03-31 至 2025-06-29 的季度營收為 651,797,000 美元。",
+    "title": "TER · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000097210.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為年初至期末累計數，已包含第二季營收，不應再與單季數相加。",
+    "document_version": "50a5e03c63c05d3f82061201",
+    "entities": [
+      "TER"
+    ],
+    "id": "E-5cc4c8e96cd9c131",
+    "kind": "financial",
+    "locator": "normalized characters 10000–14870, chunk 2",
+    "origin": "issuer:0000097210",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2026-01-01 至 2026-06-28 的累計營收為 2,611,484,000 美元。",
+    "title": "TER · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000097210.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "股東權益為期末存量，不代表當期獲利、現金或公司市值。",
+    "document_version": "50a5e03c63c05d3f82061201",
+    "entities": [
+      "TER"
+    ],
+    "id": "E-cf318129823c6c63",
+    "kind": "financial",
+    "locator": "normalized characters 10000–14870, chunk 2",
+    "origin": "issuer:0000097210",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，截至 2026-06-28，股東權益為 3,437,162,000 美元。",
+    "title": "TER · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000097210.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為期末存量，不代表當季現金流入；未經外部核驗。",
+    "document_version": "f76a815762542c4e0781dbc9",
+    "entities": [
+      "ETN"
+    ],
+    "id": "E-982ef92c120478fc",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001551182",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2026年6月30日現金及約當現金帳面金額為4.83億美元。",
+    "title": "ETN · SEC 財務觀測（選定科目）",
+    "topics": [
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001551182.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為上半年累計數，不能當作第二季單季或全年數據。",
+    "document_version": "f76a815762542c4e0781dbc9",
+    "entities": [
+      "ETN"
+    ],
+    "id": "E-60f0d63b3a268b1e",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001551182",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2026年1月1日至6月30日營業活動淨現金流入為16.34億美元。",
+    "title": "ETN · SEC 財務觀測（選定科目）",
+    "topics": [
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001551182.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為單季淨利；本段未提供其組成或變動原因。",
+    "document_version": "f76a815762542c4e0781dbc9",
+    "entities": [
+      "ETN"
+    ],
+    "id": "E-816ff91401da8f52",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001551182",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2026年第二季（4月1日至6月30日）淨利為8.21億美元。",
+    "title": "ETN · SEC 財務觀測（選定科目）",
+    "topics": [
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001551182.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為上半年特定資產購置支出，未揭露用途、預期收益或全部投資活動。",
+    "document_version": "f76a815762542c4e0781dbc9",
+    "entities": [
+      "ETN"
+    ],
+    "id": "E-81b69c0f76e88969",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001551182",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2026年上半年購置不動產、廠房及設備的現金支出為4.46億美元。",
+    "title": "ETN · SEC 財務觀測（選定科目）",
+    "topics": [
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001551182.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為單季收入；來源紀錄未在本次抽取中獲獨立核實。",
+    "document_version": "f76a815762542c4e0781dbc9",
+    "entities": [
+      "ETN"
+    ],
+    "id": "E-5aaa83275892e45b",
+    "kind": "financial",
+    "locator": "normalized characters 10000–16137, chunk 2",
+    "origin": "issuer:0001551182",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2026 年第二季（4 月 1 日至 6 月 30 日）客戶合約收入（不含代徵稅款）為 85.31 億美元。",
+    "title": "ETN · SEC 財務觀測（選定科目）",
+    "topics": [
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001551182.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為半年累計，已包含第二季收入，不可再與第二季相加。",
+    "document_version": "f76a815762542c4e0781dbc9",
+    "entities": [
+      "ETN"
+    ],
+    "id": "E-b2b4b9304506b1b0",
+    "kind": "financial",
+    "locator": "normalized characters 10000–16137, chunk 2",
+    "origin": "issuer:0001551182",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2026 年上半年（1 月 1 日至 6 月 30 日）客戶合約收入（不含代徵稅款）累計為 159.82 億美元。",
+    "title": "ETN · SEC 財務觀測（選定科目）",
+    "topics": [
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001551182.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為全年數值，不能直接與單季或半年數值比較成長率。",
+    "document_version": "f76a815762542c4e0781dbc9",
+    "entities": [
+      "ETN"
+    ],
+    "id": "E-22aa4703b896aa2c",
+    "kind": "financial",
+    "locator": "normalized characters 10000–16137, chunk 2",
+    "origin": "issuer:0001551182",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2025 全年客戶合約收入（不含代徵稅款）為 274.48 億美元。",
+    "title": "ETN · SEC 財務觀測（選定科目）",
+    "topics": [
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001551182.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為期末存量，並非該季獲利或現金流。",
+    "document_version": "f76a815762542c4e0781dbc9",
+    "entities": [
+      "ETN"
+    ],
+    "id": "E-ce4f6174ff0aaefd",
+    "kind": "financial",
+    "locator": "normalized characters 10000–16137, chunk 2",
+    "origin": "issuer:0001551182",
+    "published_at": "2026-07-31",
+    "source_id": "sec",
+    "statement": "來源表示，2026 年 6 月 30 日股東權益為 202.54 億美元。",
+    "title": "ETN · SEC 財務觀測（選定科目）",
+    "topics": [
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001551182.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為三個月淨利，不是九個月累計或全年淨利；本段未解釋獲利來源。",
+    "document_version": "0dc58dc01b44eeb0ddd031da",
+    "entities": [
+      "ROK"
+    ],
+    "id": "E-8d1be8a6011a47c1",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001024478",
+    "published_at": "2026-08-04",
+    "source_id": "sec",
+    "statement": "來源表示，2026年4月1日至6月30日的單季淨利為4.08億美元。",
+    "title": "ROK · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001024478.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為九個月累計，不能視為單季或全年現金流，也不等於自由現金流。",
+    "document_version": "0dc58dc01b44eeb0ddd031da",
+    "entities": [
+      "ROK"
+    ],
+    "id": "E-578ab09a0319acb8",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001024478",
+    "published_at": "2026-08-04",
+    "source_id": "sec",
+    "statement": "來源表示，2025年10月1日至2026年6月30日的九個月營業活動淨現金流入為12.78億美元。",
+    "title": "ROK · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001024478.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為期末餘額，不是期間現金流入；本段未提供完整流動性資訊。",
+    "document_version": "0dc58dc01b44eeb0ddd031da",
+    "entities": [
+      "ROK"
+    ],
+    "id": "E-ce547a5716c71340",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001024478",
+    "published_at": "2026-08-04",
+    "source_id": "sec",
+    "statement": "來源表示，截至2026年6月30日，現金及約當現金帳面金額為4.79億美元。",
+    "title": "ROK · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001024478.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此科目不含長期債務流動部分，不代表全部債務或總負債。",
+    "document_version": "0dc58dc01b44eeb0ddd031da",
+    "entities": [
+      "ROK"
+    ],
+    "id": "E-917649cbbb36005e",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001024478",
+    "published_at": "2026-08-04",
+    "source_id": "sec",
+    "statement": "來源表示，截至2026年6月30日，非流動長期債務為25.70億美元。",
+    "title": "ROK · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001024478.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為單季營收；本段未提供分部組成或變動原因。",
+    "document_version": "0dc58dc01b44eeb0ddd031da",
+    "entities": [
+      "ROK"
+    ],
+    "id": "E-2d9487bc4b450742",
+    "kind": "financial",
+    "locator": "normalized characters 10000–18705, chunk 2",
+    "origin": "issuer:0001024478",
+    "published_at": "2026-08-04",
+    "source_id": "sec",
+    "statement": "來源表示，2026 年 4 月 1 日至 6 月 30 日，排除代徵稅款的客戶合約營收為 23.13 億美元。",
+    "title": "ROK · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001024478.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為九個月累計值，包含上述單季，不可相加或視為全年營收。",
+    "document_version": "0dc58dc01b44eeb0ddd031da",
+    "entities": [
+      "ROK"
+    ],
+    "id": "E-17192a2e6d93de98",
+    "kind": "financial",
+    "locator": "normalized characters 10000–18705, chunk 2",
+    "origin": "issuer:0001024478",
+    "published_at": "2026-08-04",
+    "source_id": "sec",
+    "statement": "來源表示，2025 年 10 月 1 日至 2026 年 6 月 30 日，排除代徵稅款的客戶合約累計營收為 66.57 億美元。",
+    "title": "ROK · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001024478.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "營業利益不等於淨利或營業現金流。",
+    "document_version": "0dc58dc01b44eeb0ddd031da",
+    "entities": [
+      "ROK"
+    ],
+    "id": "E-00fd405bdbd29c6b",
+    "kind": "financial",
+    "locator": "normalized characters 10000–18705, chunk 2",
+    "origin": "issuer:0001024478",
+    "published_at": "2026-08-04",
+    "source_id": "sec",
+    "statement": "來源表示，2026 年 4 月 1 日至 6 月 30 日營業利益為 5.50 億美元。",
+    "title": "ROK · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001024478.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為期末存量，不是季度收益；本段未說明權益變動原因。",
+    "document_version": "0dc58dc01b44eeb0ddd031da",
+    "entities": [
+      "ROK"
+    ],
+    "id": "E-bd44c6b60eed2be8",
+    "kind": "financial",
+    "locator": "normalized characters 10000–18705, chunk 2",
+    "origin": "issuer:0001024478",
+    "published_at": "2026-08-04",
+    "source_id": "sec",
+    "statement": "來源表示，截至 2026 年 6 月 30 日股東權益為 34.94 億美元。",
+    "title": "ROK · SEC 財務觀測（選定科目）",
+    "topics": [
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001024478.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為期末餘額，不是期間現金流量，也不代表全部可用資金。",
+    "document_version": "75a5aea3074e6d56aa0e0e2e",
+    "entities": [
+      "AMD"
+    ],
+    "id": "E-b64641a58e32c048",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0000002488",
+    "published_at": "2026-08-05",
+    "source_id": "sec",
+    "statement": "來源表示，截至2026年6月27日，現金及約當現金帳面金額為50.86億美元。",
+    "title": "AMD · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為單季數值；本段未說明稅項、非營業項目或一次性因素的影響。",
+    "document_version": "75a5aea3074e6d56aa0e0e2e",
+    "entities": [
+      "AMD"
+    ],
+    "id": "E-4e231ec2101e633d",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0000002488",
+    "published_at": "2026-08-05",
+    "source_id": "sec",
+    "statement": "來源表示，2026年3月29日至6月27日單季淨利為22.97億美元。",
+    "title": "AMD · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "本段未提供營收及部門資料，無法據此判定營業利益率或獲利來源。",
+    "document_version": "75a5aea3074e6d56aa0e0e2e",
+    "entities": [
+      "AMD"
+    ],
+    "id": "E-1a3413f8cbcb02f5",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0000002488",
+    "published_at": "2026-08-05",
+    "source_id": "sec",
+    "statement": "來源表示，2026年3月29日至6月27日單季營業利益為19.90億美元。",
+    "title": "AMD · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為半年累計數值，不能當作第二季單季現金流，亦不等於自由現金流。",
+    "document_version": "75a5aea3074e6d56aa0e0e2e",
+    "entities": [
+      "AMD"
+    ],
+    "id": "E-61fa2dd765539a37",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0000002488",
+    "published_at": "2026-08-05",
+    "source_id": "sec",
+    "statement": "來源表示，2025年12月28日至2026年6月27日累計營業活動現金淨流入為53.21億美元。",
+    "title": "AMD · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為單季收入，不能與全年或半年累計金額直接比較。",
+    "document_version": "75a5aea3074e6d56aa0e0e2e",
+    "entities": [
+      "AMD"
+    ],
+    "id": "E-8b95b2d53d31b70c",
+    "kind": "financial",
+    "locator": "normalized characters 10000–18027, chunk 2",
+    "origin": "issuer:0000002488",
+    "published_at": "2026-08-05",
+    "source_id": "sec",
+    "statement": "來源表示，2026-03-29 至 2026-06-27 單季客戶合約收入（不含代徵稅款）為 115.36 億美元。",
+    "title": "AMD · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為半年累計收入，包含第二季，兩者不可相加。",
+    "document_version": "75a5aea3074e6d56aa0e0e2e",
+    "entities": [
+      "AMD"
+    ],
+    "id": "E-5fd4756e8cca5aed",
+    "kind": "financial",
+    "locator": "normalized characters 10000–18027, chunk 2",
+    "origin": "issuer:0000002488",
+    "published_at": "2026-08-05",
+    "source_id": "sec",
+    "statement": "來源表示，2025-12-28 至 2026-06-27 上半年累計客戶合約收入（不含代徵稅款）為 217.89 億美元。",
+    "title": "AMD · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為期末帳面權益，不代表現金餘額或市場價值。",
+    "document_version": "75a5aea3074e6d56aa0e0e2e",
+    "entities": [
+      "AMD"
+    ],
+    "id": "E-a8cb5d91eaffd802",
+    "kind": "financial",
+    "locator": "normalized characters 10000–18027, chunk 2",
+    "origin": "issuer:0000002488",
+    "published_at": "2026-08-05",
+    "source_id": "sec",
+    "statement": "來源表示，截至 2026-06-27，股東權益為 672.24 億美元。",
+    "title": "AMD · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此科目僅為長期債務流動部分，不能視為總債務或全部流動負債。",
+    "document_version": "75a5aea3074e6d56aa0e0e2e",
+    "entities": [
+      "AMD"
+    ],
+    "id": "E-4391d7016177831a",
+    "kind": "financial",
+    "locator": "normalized characters 10000–18027, chunk 2",
+    "origin": "issuer:0000002488",
+    "published_at": "2026-08-05",
+    "source_id": "sec",
+    "statement": "來源表示，截至 2026-06-27，長期債務流動部分為 8.75 億美元。",
+    "title": "AMD · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為期末餘額，不能視為當季現金流入。",
+    "document_version": "d844a6b69460b6b999aa470a",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-0054e3b268e54a48",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001045810",
+    "published_at": "2026-08-26",
+    "source_id": "sec",
+    "statement": "來源表示，截至2026年7月26日，現金及約當現金帳面金額為224.43億美元。",
+    "title": "NVDA · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此科目不含流動部分，不能視為全部負債；本段未交代融資條件與用途。",
+    "document_version": "d844a6b69460b6b999aa470a",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-a9db782d7f77d3d8",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001045810",
+    "published_at": "2026-08-26",
+    "source_id": "sec",
+    "statement": "來源表示，截至2026年7月26日，非流動長期負債為323.66億美元。",
+    "title": "NVDA · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為約半年累計值，並非單季或全年值，也不等於自由現金流。",
+    "document_version": "d844a6b69460b6b999aa470a",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-7e8298e760ec222e",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001045810",
+    "published_at": "2026-08-26",
+    "source_id": "sec",
+    "statement": "來源表示，2026年1月26日至7月26日累計營業活動現金流入淨額為744.21億美元。",
+    "title": "NVDA · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為單季數值；本段未提供稅項或其他損益明細以解釋淨利組成。",
+    "document_version": "d844a6b69460b6b999aa470a",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-e8cf3817f64ad7cd",
+    "kind": "financial",
+    "locator": "normalized characters 0–10000, chunk 1",
+    "origin": "issuer:0001045810",
+    "published_at": "2026-08-26",
+    "source_id": "sec",
+    "statement": "來源表示，2026年4月27日至7月26日單季淨利為596.88億美元。",
+    "title": "NVDA · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為單季數值；僅依本段來源紀錄，未獨立核實申報內容。",
+    "document_version": "d844a6b69460b6b999aa470a",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-18fb1e0ea0dc93fd",
+    "kind": "financial",
+    "locator": "normalized characters 10000–17298, chunk 2",
+    "origin": "issuer:0001045810",
+    "published_at": "2026-08-26",
+    "source_id": "sec",
+    "statement": "來源表示，2026 年 4 月 27 日至 7 月 26 日單季營收為 96,221,000,000 美元。",
+    "title": "NVDA · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為約半年的累計數值，包含上述單季，不能與其相加。",
+    "document_version": "d844a6b69460b6b999aa470a",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-172a42c86e68e8f4",
+    "kind": "financial",
+    "locator": "normalized characters 10000–17298, chunk 2",
+    "origin": "issuer:0001045810",
+    "published_at": "2026-08-26",
+    "source_id": "sec",
+    "statement": "來源表示，2026 年 1 月 26 日至 7 月 26 日累計營收為 177,837,000,000 美元。",
+    "title": "NVDA · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "研發費用數值不能直接證明產品成果或未來營收。",
+    "document_version": "d844a6b69460b6b999aa470a",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-16d4f1202672b4b2",
+    "kind": "financial",
+    "locator": "normalized characters 10000–17298, chunk 2",
+    "origin": "issuer:0001045810",
+    "published_at": "2026-08-26",
+    "source_id": "sec",
+    "statement": "來源表示，2026 年 4 月 27 日至 7 月 26 日單季研發費用為 7,054,000,000 美元。",
+    "title": "NVDA · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為特定日期的存量，並非季度獲利或現金餘額。",
+    "document_version": "d844a6b69460b6b999aa470a",
+    "entities": [
+      "NVDA"
+    ],
+    "id": "E-d7fae2819c21e1fd",
+    "kind": "financial",
+    "locator": "normalized characters 10000–17298, chunk 2",
+    "origin": "issuer:0001045810",
+    "published_at": "2026-08-26",
+    "source_id": "sec",
+    "statement": "來源表示，截至 2026 年 7 月 26 日，股東權益為 228,984,000,000 美元。",
+    "title": "NVDA · SEC 財務觀測（選定科目）",
+    "topics": [
+      "compute"
+    ],
+    "type": "source_statement",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "屬資料包的事件標記，不能據此確認目前法律效力或企業映射。",
+    "document_version": "1771bf0c56917b263af627db",
+    "entities": [],
+    "id": "E-6da0afd1708fbb4f",
+    "kind": "patent",
+    "locator": "normalized characters 0–9790, chunk 1",
+    "origin": "epo",
+    "published_at": "2026-09-09",
+    "source_id": "epo-grants",
+    "statement": "來源表示，EP2151037B1 被標記為新授權事件，首次授權日為2026年9月9日；法律狀態尚未驗證，映射狀態未解決。",
+    "title": "SYSTEM AND METHOD FOR INDUCTIVE CHARGING OF PORTABLE DEVICES",
+    "topics": [
+      "compute",
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2151037NWB1/document.xml",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "僅為選擇性啟動線圈的技術主張，未提供實測表現。",
+    "document_version": "1771bf0c56917b263af627db",
+    "entities": [],
+    "id": "E-b2f4505589493456",
+    "kind": "patent",
+    "locator": "normalized characters 0–9790, chunk 1",
+    "origin": "epo",
+    "published_at": "2026-09-09",
+    "source_id": "epo-grants",
+    "statement": "來源表示，請求項主張基地單元在感測到裝置靠近某一初級線圈時，可啟動該線圈向裝置接收線圈供電。",
+    "title": "SYSTEM AND METHOD FOR INDUCTIVE CHARGING OF PORTABLE DEVICES",
+    "topics": [
+      "compute",
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2151037NWB1/document.xml",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "未揭露調節精度、充電效率或商用實作結果。",
+    "document_version": "1771bf0c56917b263af627db",
+    "entities": [],
+    "id": "E-3e9590444aa9325c",
+    "kind": "patent",
+    "locator": "normalized characters 0–9790, chunk 1",
+    "origin": "epo",
+    "published_at": "2026-09-09",
+    "source_id": "epo-grants",
+    "statement": "來源表示，請求項主張充電期間可調整已啟動初級線圈的切換頻率、工作週期或輸入電壓，以閉迴路方式調節接收電路的輸出電壓或電流。",
+    "title": "SYSTEM AND METHOD FOR INDUCTIVE CHARGING OF PORTABLE DEVICES",
+    "topics": [
+      "compute",
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2151037NWB1/document.xml",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "未提供有效區域尺寸、容許偏移量或產品採用證據。",
+    "document_version": "1771bf0c56917b263af627db",
+    "entities": [],
+    "id": "E-d8a408932dff8064",
+    "kind": "patent",
+    "locator": "normalized characters 0–9790, chunk 1",
+    "origin": "epo",
+    "published_at": "2026-09-09",
+    "source_id": "epo-grants",
+    "statement": "來源表示，請求項主張以多層重疊初級線圈形成有效區域，透過啟動單一或選定線圈，為中心位於該區域內的接收線圈充電。",
+    "title": "SYSTEM AND METHOD FOR INDUCTIVE CHARGING OF PORTABLE DEVICES",
+    "topics": [
+      "compute",
+      "energy"
+    ],
+    "type": "source_statement",
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2151037NWB1/document.xml",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "依書目排列辨識；公開資料不代表專利已獲授權。",
+    "document_version": "be69d7433fb84b9c1ce83b0e",
+    "entities": [],
+    "id": "E-770a6e27a1237c6a",
+    "kind": "patent",
+    "locator": "normalized characters 0–1062, chunk 1",
+    "origin": "epo",
+    "published_at": "2026-09-09",
+    "source_id": "epo",
+    "statement": "來源表示，文件公開編號為 EP 4801253 A1，所列公開日期為 2026 年 9 月 9 日。",
+    "title": "PLOUGH",
+    "topics": [],
+    "type": "source_statement",
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4801253NWA1/document.xml",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "題名僅提供技術主題，未揭露具體技術主張。",
+    "document_version": "be69d7433fb84b9c1ce83b0e",
+    "entities": [],
+    "id": "E-e0995c9d3128e70a",
+    "kind": "patent",
+    "locator": "normalized characters 0–1062, chunk 1",
+    "origin": "epo",
+    "published_at": "2026-09-09",
+    "source_id": "epo",
+    "statement": "來源表示，文件英文題名為「PLOUGH」（犁）。",
+    "title": "PLOUGH",
+    "topics": [],
+    "type": "source_statement",
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4801253NWA1/document.xml",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "本段未呈現欄位標籤，不能單憑公司名稱確認其法律角色或目前權利歸屬。",
+    "document_version": "be69d7433fb84b9c1ce83b0e",
+    "entities": [],
+    "id": "E-84dfe26914fc7031",
+    "kind": "patent",
+    "locator": "normalized characters 0–1062, chunk 1",
+    "origin": "epo",
+    "published_at": "2026-09-09",
+    "source_id": "epo",
+    "statement": "來源表示，書目列有 Maschio Gaspardo S.p.A.，並附義大利地址。",
+    "title": "PLOUGH",
+    "topics": [],
+    "type": "source_statement",
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4801253NWA1/document.xml",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "可作關聯文件追查線索；本段未提供該文件內容。",
+    "document_version": "be69d7433fb84b9c1ce83b0e",
+    "entities": [],
+    "id": "E-08d125d390016a2b",
+    "kind": "patent",
+    "locator": "normalized characters 0–1062, chunk 1",
+    "origin": "epo",
+    "published_at": "2026-09-09",
+    "source_id": "epo",
+    "statement": "來源表示，書目另列國際公開編號 WO2025094160，日期為 2025 年 5 月 8 日。",
+    "title": "PLOUGH",
+    "topics": [],
+    "type": "source_statement",
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4801253NWA1/document.xml",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "此為徵詢意見的草案，並非已定稿指引。",
+    "document_version": "a12725d818678521dec30cdd",
+    "entities": [],
+    "id": "E-509505df92971d2a",
+    "kind": "article",
+    "locator": "normalized characters 0–3553, chunk 1",
+    "origin": "federal-reserve",
+    "published_at": "2026-09-11",
+    "source_id": "fed",
+    "statement": "來源表示，FDIC、聯準會、NCUA及OCC共同就協助金融機構管理第三方關係風險的指引草案徵詢意見。",
+    "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+    "topics": [
+      "macro"
+    ],
+    "type": "source_statement",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "替換既有指引以定稿為前提，本段未列定稿日期。",
+    "document_version": "a12725d818678521dec30cdd",
+    "entities": [],
+    "id": "E-8919f45cf5c372fb",
+    "kind": "article",
+    "locator": "normalized characters 0–3553, chunk 1",
+    "origin": "federal-reserve",
+    "published_at": "2026-09-11",
+    "source_id": "fed",
+    "statement": "來源表示，草案採原則導向且不具約束力；聯邦銀行監理機關計畫在定稿後撤銷並取代既有第三方風險管理指引。",
+    "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+    "topics": [
+      "macro"
+    ],
+    "type": "source_statement",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "本段未提供《聯邦公報》刊登日期，無法據此確定截止日。",
+    "document_version": "a12725d818678521dec30cdd",
+    "entities": [],
+    "id": "E-b57131e41553ff6f",
+    "kind": "article",
+    "locator": "normalized characters 0–3553, chunk 1",
+    "origin": "federal-reserve",
+    "published_at": "2026-09-11",
+    "source_id": "fed",
+    "statement": "來源表示，草案意見提交期限為《聯邦公報》刊登後60日。",
+    "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+    "topics": [
+      "macro"
+    ],
+    "type": "source_statement",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "本段未列出具體考量因素，不能推定監理或執法已放寬。",
+    "document_version": "a12725d818678521dec30cdd",
+    "entities": [],
+    "id": "E-860e082bd079c27e",
+    "kind": "article",
+    "locator": "normalized characters 0–3553, chunk 1",
+    "origin": "federal-reserve",
+    "published_at": "2026-09-11",
+    "source_id": "fed",
+    "statement": "來源表示，聯邦銀行監理機關另發布社區銀行與核心服務供應商往來聲明，討論對該等供應商作出監理及執法決策時會考量的因素。",
+    "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
+    "topics": [
+      "macro"
+    ],
+    "type": "source_statement",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "人數見本段前句；培訓目標不代表已獲任務指派。",
+    "document_version": "627cc140bb0bb5950c19a330",
+    "entities": [],
+    "id": "E-b9aef158f867865d",
+    "kind": "article",
+    "locator": "normalized characters 0–6414, chunk 1",
+    "origin": "nasa",
+    "published_at": "2026-09-14",
+    "source_id": "nasa",
+    "statement": "來源表示，10 名候選人已完成近兩年培訓約一半，訓練旨在為低地球軌道、月球及最終火星任務做準備。",
+    "title": "Summer Training: Catching Up With NASA’s Astronaut Candidates",
+    "topics": [
+      "energy",
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/summer-training-catching-up-with-nasas-astronaut-candidates/",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "僅涉及部分候選人，未提供月面任務名單或時程。",
+    "document_version": "627cc140bb0bb5950c19a330",
+    "entities": [],
+    "id": "E-b5bbba99e61d7d91",
+    "kind": "article",
+    "locator": "normalized characters 0–6414, chunk 1",
+    "origin": "nasa",
+    "published_at": "2026-09-14",
+    "source_id": "nasa",
+    "statement": "來源表示，部分候選人於 7 月與 NASA 太空人及 Artemis 任務支援團隊在冰島進行地質實地訓練，練習觀察、採樣、導航及團隊合作。",
+    "title": "Summer Training: Catching Up With NASA’s Astronaut Candidates",
+    "topics": [
+      "energy",
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/summer-training-catching-up-with-nasas-astronaut-candidates/",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "使用既有機型訓練不構成新增採購或供應商營收證據。",
+    "document_version": "627cc140bb0bb5950c19a330",
+    "entities": [],
+    "id": "E-8e8f512b25b96283",
+    "kind": "article",
+    "locator": "normalized characters 0–6414, chunk 1",
+    "origin": "nasa",
+    "published_at": "2026-09-14",
+    "source_id": "nasa",
+    "statement": "來源表示，該班夏季飛行訓練包含 WB-57，亦已開始駕駛 T-38 超音速噴射機。",
+    "title": "Summer Training: Catching Up With NASA’s Astronaut Candidates",
+    "topics": [
+      "energy",
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/summer-training-catching-up-with-nasas-astronaut-candidates/",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "屬預期進度，尚非畢業或執行飛行任務的證實。",
+    "document_version": "627cc140bb0bb5950c19a330",
+    "entities": [],
+    "id": "E-0357f35dbef54991",
+    "kind": "article",
+    "locator": "normalized characters 0–6414, chunk 1",
+    "origin": "nasa",
+    "published_at": "2026-09-14",
+    "source_id": "nasa",
+    "statement": "來源表示，該班預計於 2027 年畢業，加入 NASA 現役太空人隊伍並等待首次飛行指派。",
+    "title": "Summer Training: Catching Up With NASA’s Astronaut Candidates",
+    "topics": [
+      "energy",
+      "automation"
+    ],
+    "type": "source_statement",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/summer-training-catching-up-with-nasas-astronaut-candidates/",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "指數水準並非通膨百分比。",
+    "document_version": "befe806c4b4f6d715716bb3f",
+    "entities": [],
+    "id": "E-d32804853f605755",
+    "kind": "macro",
+    "locator": "normalized characters 0–3610, chunk 1",
+    "origin": "bls",
+    "published_at": "2026-09-14",
+    "source_id": "bls",
+    "statement": "來源表示，此序列為美國都市消費者季節調整後 CPI，單位為1982–84年＝100的指數。",
+    "title": "US CPI all urban consumers (seasonally adjusted)",
+    "topics": [
+      "macro"
+    ],
+    "type": "source_statement",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUSR0000SA0",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "日期代表觀測月份；數值屬目前擷取版本。",
+    "document_version": "befe806c4b4f6d715716bb3f",
+    "entities": [],
+    "id": "E-cfecb53f9719737f",
+    "kind": "macro",
+    "locator": "normalized characters 0–3610, chunk 1",
+    "origin": "bls",
+    "published_at": "2026-09-14",
+    "source_id": "bls",
+    "statement": "來源表示，2026年7月與8月指數分別為332.813及334.131，8月高於7月。",
+    "title": "US CPI all urban consumers (seasonally adjusted)",
+    "topics": [
+      "macro"
+    ],
+    "type": "source_statement",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUSR0000SA0",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "單月回落不足以判定持續趨勢。",
+    "document_version": "befe806c4b4f6d715716bb3f",
+    "entities": [],
+    "id": "E-b5df0118557fb180",
+    "kind": "macro",
+    "locator": "normalized characters 0–3610, chunk 1",
+    "origin": "bls",
+    "published_at": "2026-09-14",
+    "source_id": "bls",
+    "statement": "來源表示，2026年5月指數為333.979，6月降至332.568。",
+    "title": "US CPI all urban consumers (seasonally adjusted)",
+    "topics": [
+      "macro"
+    ],
+    "type": "source_statement",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUSR0000SA0",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "缺值不代表零值，也不能直接將9月至11月變化當成單月變化。",
+    "document_version": "befe806c4b4f6d715716bb3f",
+    "entities": [],
+    "id": "E-8e8a0eab02b6b640",
+    "kind": "macro",
+    "locator": "normalized characters 0–3610, chunk 1",
+    "origin": "bls",
+    "published_at": "2026-09-14",
+    "source_id": "bls",
+    "statement": "來源表示，2025年10月資料因2025年撥款中斷而無法取得。",
+    "title": "US CPI all urban consumers (seasonally adjusted)",
+    "topics": [
+      "macro"
+    ],
+    "type": "source_statement",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUSR0000SA0",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "數值屬目前擷取版本，不能據此確定各月最初發布值。",
+    "document_version": "f4f6885c455b7e1082debedf",
+    "entities": [],
+    "id": "E-969f0c7293091bae",
+    "kind": "macro",
+    "locator": "normalized characters 0–3328, chunk 1",
+    "origin": "bls",
+    "published_at": "2026-09-14",
+    "source_id": "bls",
+    "statement": "來源表示，經季節調整失業率於2026年6月為4.2%，7月降至4.1%，8月維持4.1%。",
+    "title": "US unemployment rate (seasonally adjusted)",
+    "topics": [
+      "macro"
+    ],
+    "type": "source_statement",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LNS14000000",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "該月為缺值，不代表失業率為零，也無法直接計算跨該月的連續月變動。",
+    "document_version": "f4f6885c455b7e1082debedf",
+    "entities": [],
+    "id": "E-a613426ba5563ba0",
+    "kind": "macro",
+    "locator": "normalized characters 0–3328, chunk 1",
+    "origin": "bls",
+    "published_at": "2026-09-14",
+    "source_id": "bls",
+    "statement": "來源表示，2025年10月資料因2025年撥款中斷而無法取得。",
+    "title": "US unemployment rate (seasonally adjusted)",
+    "topics": [
+      "macro"
+    ],
+    "type": "source_statement",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LNS14000000",
+    "verification": "quote_matched; semantic_review_pending"
+  },
+  {
+    "caution": "本段未提供修訂前數值或修訂幅度。",
+    "document_version": "f4f6885c455b7e1082debedf",
+    "entities": [],
+    "id": "E-b39db3361d430c37",
+    "kind": "macro",
+    "locator": "normalized characters 0–3328, chunk 1",
+    "origin": "bls",
+    "published_at": "2026-09-14",
+    "source_id": "bls",
+    "statement": "來源表示，2026年1月失業率為4.3%，該月估計值已修訂以納入更新的人口控制數據。",
+    "title": "US unemployment rate (seasonally adjusted)",
+    "topics": [
+      "macro"
+    ],
+    "type": "source_statement",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LNS14000000",
+    "verification": "quote_matched; semantic_review_pending"
+  }
+]

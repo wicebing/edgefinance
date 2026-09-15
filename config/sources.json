@@ -1,0 +1,143 @@
+[
+  {
+    "id": "sec",
+    "name": "SEC 公司申報與財務",
+    "kind": "sec",
+    "enabled": true,
+    "origin": "sec",
+    "docs": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+  },
+  {
+    "id": "fed",
+    "name": "Federal Reserve 官方公告",
+    "kind": "rss",
+    "enabled": true,
+    "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+    "origin": "federal-reserve",
+    "topics": [
+      "macro"
+    ],
+    "docs": "https://www.federalreserve.gov/feeds/feeds.htm"
+  },
+  {
+    "id": "nasa",
+    "name": "NASA 技術與研究",
+    "kind": "rss",
+    "enabled": true,
+    "url": "https://www.nasa.gov/feed/",
+    "origin": "nasa",
+    "topics": [],
+    "docs": "https://www.nasa.gov"
+  },
+  {
+    "id": "epo",
+    "name": "EPO 每週公開專利",
+    "kind": "epo",
+    "enabled": true,
+    "origin": "epo",
+    "docs": "https://www.epo.org/en/searching-for-patents/data/web-services/publication-server"
+  },
+  {
+    "id": "us-patent-watch",
+    "name": "美國專利觀察樣本（Google Patents 鏡像）",
+    "kind": "patent_pages",
+    "enabled": true,
+    "origin": "uspto",
+    "urls": [
+      "https://patents.google.com/patent/US20250105920A1/en",
+      "https://patents.google.com/patent/US12519544B2/en",
+      "https://patents.google.com/patent/US20240088524A1/en"
+    ],
+    "docs": "https://patents.google.com"
+  },
+  {
+    "id": "treasury",
+    "name": "美國財政部每日殖利率",
+    "kind": "treasury",
+    "enabled": true,
+    "origin": "us-treasury",
+    "docs": "https://home.treasury.gov/interest-rates-data-csv-archive"
+  },
+  {
+    "id": "fred",
+    "name": "FRED／ALFRED 歷史可得數列",
+    "kind": "fred",
+    "enabled": true,
+    "credential": "FRED_API_KEY",
+    "series": [
+      "DGS10",
+      "T10Y2Y",
+      "BAMLH0A0HYM2",
+      "UNRATE",
+      "CPIAUCSL"
+    ],
+    "origin": "fred",
+    "docs": "https://fred.stlouisfed.org/docs/api/fred/"
+  },
+  {
+    "id": "uspto-odp",
+    "name": "USPTO ODP 批次資料目錄",
+    "kind": "odp_catalog",
+    "enabled": true,
+    "credential": "USPTO_API_KEY",
+    "origin": "uspto",
+    "docs": "https://data.uspto.gov/apis/bulk-data/search"
+  },
+  {
+    "id": "uspto-local",
+    "name": "USPTO downloaded Red Book ZIP/XML",
+    "kind": "uspto_local",
+    "enabled": true,
+    "origin": "uspto",
+    "docs": "https://data.uspto.gov/bulkdata/datasets"
+  },
+  {
+    "id": "bls",
+    "name": "BLS employment and inflation",
+    "kind": "bls",
+    "enabled": true,
+    "origin": "bls",
+    "docs": "https://www.bls.gov/developers/api_signature_v2.htm",
+    "series": [
+      {
+        "id": "LNS14000000",
+        "name": "US unemployment rate (seasonally adjusted)",
+        "unit": "percent"
+      },
+      {
+        "id": "CUSR0000SA0",
+        "name": "US CPI all urban consumers (seasonally adjusted)",
+        "unit": "index 1982-84=100"
+      }
+    ]
+  },
+  {
+    "id": "epo-grants",
+    "name": "EPO weekly grants and amendments",
+    "kind": "epo_grants",
+    "enabled": true,
+    "origin": "epo",
+    "docs": "https://www.epo.org/en/searching-for-patents/technical/publication-server/help"
+  },
+  {
+    "id": "tipo-grants",
+    "name": "台灣智慧局核准專利公報與個案資料",
+    "kind": "tipo_grants",
+    "enabled": true,
+    "origin": "tipo",
+    "credentials": [
+      "TIPO_API_USERNAME",
+      "TIPO_API_PASSWORD"
+    ],
+    "docs": "https://cloud.tipo.gov.tw/S220/gazette/patent"
+  },
+  {
+    "id": "uspto-grants",
+    "name": "USPTO weekly grant XML API",
+    "kind": "uspto_grants",
+    "enabled": true,
+    "origin": "uspto",
+    "credential": "USPTO_API_KEY",
+    "docs": "https://data.uspto.gov/apis/bulk-data/product"
+  }
+]

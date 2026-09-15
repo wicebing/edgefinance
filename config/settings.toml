@@ -1,0 +1,35 @@
+[project]
+name = "EdgeFinance"
+timezone = "Asia/Taipei"
+lookback_days = 7
+bootstrap_days = 120
+
+[collection]
+timeout_seconds = 25
+retries = 2
+max_response_mb = 25
+max_items_per_source = 8
+sec_company_limit = 6
+epo_document_limit = 3
+grant_details_per_run = 2
+tipo_details_per_run = 8
+uspto_records_per_file = 500
+uspto_zip_files_per_run = 1
+uspto_download_mb = 1024
+user_agent = "EdgeFinance/0.1 personal research"
+
+[analysis]
+provider = "codex"
+model = ""
+chunk_characters = 10000
+max_jobs = 60
+timeout_seconds = 240
+max_minutes = 60
+
+[mongodb]
+enabled = false
+database = "edgefinance"
+max_documents = 500
+
+[site]
+output = "dist"

@@ -1,0 +1,52 @@
+[
+  {
+    "description": "追蹤資料移動、能耗、先進封裝與量產門檻。",
+    "id": "compute",
+    "keywords": [
+      "photon",
+      "optical",
+      "interconnect",
+      "semiconductor",
+      "packaging",
+      "thermal",
+      "chip",
+      "gpu",
+      "光子",
+      "半導體",
+      "散熱"
+    ],
+    "name": "運算、互連與散熱"
+  },
+  {
+    "description": "追蹤儲能成本、可靠性、電網接入及付費部署。",
+    "id": "energy",
+    "keywords": [
+      "battery",
+      "energy storage",
+      "grid",
+      "power electronics",
+      "inverter",
+      "electricity",
+      "storage system",
+      "電池",
+      "電網",
+      "儲能"
+    ],
+    "name": "儲能與電力基礎設施"
+  },
+  {
+    "description": "追蹤感測、致動、可靠性與每次任務成本。",
+    "id": "automation",
+    "keywords": [
+      "robot",
+      "automation",
+      "vision",
+      "actuator",
+      "sensor",
+      "autonomous",
+      "機器人",
+      "自動化"
+    ],
+    "name": "機器人與真實世界自動化"
+  }
+]

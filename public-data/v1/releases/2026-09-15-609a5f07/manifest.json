@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "release_id": "2026-09-15-609a5f07",
+  "as_of": "2026-09-15",
+  "files": [
+    {
+      "path": "releases/2026-09-15-609a5f07/companies.json",
+      "sha256": "2576cd3fa84f6cb7210c8a037efff4621ac774e262bd91646f61b70591febd20",
+      "bytes": 4376
+    },
+    {
+      "path": "releases/2026-09-15-609a5f07/evidence.json",
+      "sha256": "ba3da6913b59e302c6e5f8aa7a9a8d31eba631c8a24003aead1958dc487c14d6",
+      "bytes": 70868
+    },
+    {
+      "path": "releases/2026-09-15-609a5f07/overview.json",
+      "sha256": "03c9866efd4d37e48b2786feac863099fb4cd6723953d4c41ff8315f62a4d591",
+      "bytes": 8695
+    },
+    {
+      "path": "releases/2026-09-15-609a5f07/patents.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "releases/2026-09-15-609a5f07/report.json",
+      "sha256": "8c4bdb8e3c2b399f51dd4d7670f94c9e36c0226eaca6a5ecba5f849e5b33c092",
+      "bytes": 322763
+    },
+    {
+      "path": "releases/2026-09-15-609a5f07/technologies.json",
+      "sha256": "525fe9ae9a87e384e2d933bdbbc0352c774a08c5378ba98c2edb0f6c092de678",
+      "bytes": 1073
+    }
+  ]
+}
