@@ -7,7 +7,7 @@
 3. 用 `.venv` 的 Python 執行 `python -m edgefinance validate` 與 `python -m pytest -q`。
 4. `git status --short`、`git diff --cached --stat` 檢查提交內容。提交程式、設定、文件、範本、workflow、測試及 `public-data/`；不用 `git add -f` 加入忽略檔。
 5. 提交並推送 `main`。如需設定 Git 身分，使用自己的名字和 email。
-6. GitHub Settings → Pages → Source 選 **GitHub Actions**，從 Actions 啟動 **Verify and publish research**。
+6. 首次 push 會由 workflow 的 `enablement: true` 嘗試自動啟用 Pages。若帳號政策不允許自動啟用，再到 GitHub Settings → Pages → Source 選 **GitHub Actions**，並重新執行 **Verify and publish research**。
 7. 成功後 deployment job 與 Pages 設定會顯示正式網址。
 
 `src refspec main does not match any` 表示本機 `main` 還沒有第一個 commit。依序執行 `git add -A`、`git commit -m "feat: build EdgeFinance research MVP"`，確認 `git branch --show-current` 為 `main` 後再 push。遠端 repository 不存在或未登入，會是不同的錯誤。
