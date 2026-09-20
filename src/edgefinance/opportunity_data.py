@@ -423,6 +423,22 @@ def score_crypto_candidates(records: list[dict]) -> list[dict]:
     return output
 
 
+def select_crypto_tickers(tickers: list[dict], allowed: dict[str, dict], top_n: int) -> list[dict]:
+    liquid = [row for row in tickers if row.get("symbol") in allowed and _number(row.get("quoteVolume")) is not None]
+    liquid.sort(key=lambda row: _number(row["quoteVolume"]), reverse=True)
+    by_symbol = {row["symbol"]: row for row in liquid}
+    selected = []
+    for symbol in ["BTCUSDT", "ETHUSDT", "BNBUSDT"]:
+        if symbol in by_symbol:
+            selected.append(by_symbol[symbol])
+    for row in liquid:
+        if row["symbol"] not in {item["symbol"] for item in selected}:
+            selected.append(row)
+        if len(selected) >= top_n:
+            break
+    return selected[:top_n]
+
+
 def binance_opportunities(project, fetch, store, source, as_of, cap, emit, state):
     base = "https://data-api.binance.vision"
     raw_info, _ = fetch.get(base + "/api/v3/exchangeInfo")
@@ -435,8 +451,7 @@ def binance_opportunities(project, fetch, store, source, as_of, cap, emit, state
         and row.get("baseAsset") not in stablecoins
         and not re.search(r"(?:UP|DOWN|BULL|BEAR)$", row.get("baseAsset", ""))}
     liquid = [row for row in tickers if row.get("symbol") in allowed and _number(row.get("quoteVolume")) is not None]
-    liquid.sort(key=lambda row: _number(row["quoteVolume"]), reverse=True)
-    selected = liquid[:max(1, min(source.get("top_symbols", 12), max(cap, 1)))]
+    selected = select_crypto_tickers(tickers, allowed, max(1, source.get("top_symbols", 12)))
     records, kline_raw = [], {}
     for ticker in selected:
         symbol = ticker["symbol"]

@@ -1,7 +1,8 @@
 from datetime import datetime, timedelta, timezone
 
 from edgefinance.opportunity_data import (_crypto_metrics, parse_tw_market, parse_tw_revenue,
-    parse_tw_valuation, patent_candidate_radar, score_sec_candidates, score_taiwan_candidates, _reported_quarter)
+    parse_tw_valuation, patent_candidate_radar, score_sec_candidates, score_taiwan_candidates,
+    select_crypto_tickers, _reported_quarter)
 
 
 def test_taiwan_screen_joins_official_rows_and_explains_score():
@@ -58,6 +59,15 @@ def test_crypto_metrics_preserve_volatility_and_drawdown():
     assert metrics["daily_points"] == 121
     assert metrics["annualized_volatility_pct"] > 0 and metrics["max_drawdown_pct"] < 0
     assert metrics["return_90d_pct"] is not None
+
+
+def test_crypto_sample_keeps_bitcoin_ether_and_bnb_before_volume_fill():
+    tickers = [{"symbol": symbol, "quoteVolume": str(volume)} for symbol, volume in
+        [("SOLUSDT", 1000), ("XRPUSDT", 900), ("BTCUSDT", 800), ("ETHUSDT", 700), ("BNBUSDT", 10)]]
+    allowed = {row["symbol"]: {} for row in tickers}
+    selected = select_crypto_tickers(tickers, allowed, 4)
+    assert [row["symbol"] for row in selected[:3]] == ["BTCUSDT", "ETHUSDT", "BNBUSDT"]
+    assert selected[3]["symbol"] == "SOLUSDT"
 
 
 def test_patent_radar_requires_exact_company_name(project):
