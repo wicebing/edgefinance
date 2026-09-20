@@ -1,6 +1,7 @@
 import json
 import pytest
-from edgefinance.grant_feeds import epo_entries, epo_grants, uspto_grant_files
+from edgefinance.grant_feeds import (epo_entries, epo_grants, parse_uspto_gazette_detail,
+    uspto_gazette_entries, uspto_gazette_issues, uspto_grant_files)
 from edgefinance.collectors import Fetcher
 from edgefinance.tipo import company_candidates, grant_issues, grant_page, roc_date
 
@@ -38,6 +39,38 @@ def test_uspto_grant_batch_dates_not_catalog_modified_dates():
 
 def test_uspto_download_must_not_send_api_key_elsewhere():
     with pytest.raises(ValueError):uspto_grant_files({'fileName':'ipg260908.zip','fileDownloadURI':'https://untrusted.example/file.zip'},'2026-09-08','2026-09-15')
+
+
+def test_uspto_gazette_enumerates_official_issue_without_key(project):
+    index = b'<a href="https://patentsgazette.uspto.gov/week36">September 08, 2026</a><a href="https://example.org/week37">September 15, 2026</a>'
+    issues = uspto_gazette_issues(index, '2026-09-20')
+    assert issues == [{'published_at': '2026-09-08', 'url': 'https://patentsgazette.uspto.gov/week36'}]
+    listing = b'''<script>var patentListString = "12730001,D1148001";
+        var strHtmlFolder="html/1550-2"; var IssueDate="20260908";</script>'''
+    entries = uspto_gazette_entries(listing, issues[0])
+    assert [row['publication_number'] for row in entries] == ['US12730001', 'USD1148001']
+    assert entries[0]['url'].endswith('/OG/html/1550-2/US12730001-20260908.html')
+
+    detail = b'''<table><tr><td><b>US 12,730,001 B2</b></td></tr>
+        <tr><td style="text-transform: uppercase"><b>Optical compute package</b></td></tr>
+        <tr><td><b>Assigned to NVIDIA Corporation, Santa Clara, CA (US)</b></td></tr></table>
+        <div class="claim_text_root"><b>1</b>. A verified synthetic optical claim.</div>'''
+    doc = parse_uspto_gazette_detail(detail, entries[0], project)
+    assert doc['title'] == 'Optical compute package'
+    assert doc['metadata']['assignees'] == ['NVIDIA Corporation']
+    assert doc['entities'] == ['NVDA'] and doc['coverage'] == 'official_gazette_bibliography_and_first_claim'
+
+    plant = {**entries[1], 'publication_number': 'USPP037692'}
+    plant_detail = b'''<table><tr><td><b>US PP37,692 P2</b></td></tr>
+        <tr><td style="text-transform: uppercase"><b>Test plant</b></td></tr>
+        <tr><td><b>Assigned to Example B.V., De Lier (NL)</b></td></tr></table>'''
+    plant_doc = parse_uspto_gazette_detail(plant_detail, plant, project)
+    assert plant_doc['metadata']['assignees'] == ['Example B.V.']
+
+    reexam = {**entries[0], 'publication_number': 'US7669236'}
+    reexam_detail = b'''<table><tr><td><b>US 7,669,236 C1 (13,365th)</b></td></tr>
+        <tr><td style="text-transform: uppercase"><b>Passcode system</b></td></tr></table>'''
+    assert parse_uspto_gazette_detail(reexam_detail, reexam, project)['metadata']['kind_code'] == 'C1'
 
 
 def test_tipo_roc_dates_and_issue_schema():

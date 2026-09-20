@@ -1,6 +1,6 @@
 # 每週核准專利 API
 
-更新：2026-09-15。此功能已納入 `weekly`；歐洲已做真實請求，美國等待有效 USPTO key 實測。
+更新：2026-09-20。此功能已納入 `weekly`；USPTO 官方 Gazette、EPO Publication Server 與 TIPO 公報都已用真實請求驗證。
 
 ## 歐洲：EPO Publication Server
 
@@ -14,7 +14,7 @@
 
 **B1 是核准公開；B2、B3 是修訂／限縮後文件；B8、B9 是更正。** 後者不當作新的獨立核准。2026-09-09 實際批次列舉得到 1,832 件 B1 及 20 件其他 B 類事件。列舉不代表所有全文已取回或已分析。
 
-預設每次最多取得 2 件詳細 XML，設定 `collection.grant_details_per_run` 可調高。第一階段提供 Codex 的是書目、英文摘要／請求項，明示 `grant_bibliography_and_claims`；完整 XML 保留本機，說明書尚不包含在此分析階段。未取得或未閱讀的部分不能算完成。
+預設每次最多取得 40 件詳細 XML，設定 `collection.grant_details_per_run` 可調整。第一階段提供 Codex 的是書目、英文摘要／請求項，明示 `grant_bibliography_and_claims`；完整 XML 保留本機，說明書尚不包含在此分析階段。未取得或未閱讀的部分不能算完成。
 
 ```powershell
 # 只更新完整批次清單，不下載詳細 XML
@@ -27,7 +27,18 @@
 
 [EPO 官方 REST 服務](https://www.epo.org/en/searching-for-patents/data/web-services/publication-server)、[文件分類與每週更新說明](https://www.epo.org/en/searching-for-patents/technical/publication-server/help)。通常每週三公開，程式以官方可見批次為準。
 
-## 美國：ODP API + 核准專利 XML 批次
+## 美國：免金鑰 Gazette 發現 + ODP 完整 XML
+
+`uspto-gazette-grants` 先讀 USPTO 官方 Patent Gazette 目錄，選擇截止日以前最新一期，再解析該期 `patent.html` 內的完整案號清單。這條路徑不需 API key；每次最多讀取 40 個官方詳情頁，取得題名、權利人、種類與畫面提供的第一項請求項。全部案號會保留，尚未詳讀數會公開顯示。
+
+```powershell
+.\.venv\Scripts\python.exe -m edgefinance collect --sources uspto-gazette-grants
+.\.venv\Scripts\python.exe -m edgefinance resume
+```
+
+Gazette 詳情不是完整說明書，也不能取代 XML。它的作用是讓每週發現不被金鑰卡住，並建立可接續的研究佇列；全量全文仍使用下列 ODP／下載檔流程。
+
+### ODP API + 核准專利 XML 批次
 
 使用 `USPTO_API_KEY`，由 API 取得 PTGRXML 產品資料，再使用回應提供的 `fileDownloadURI` 下載每週 `ipgYYMMDD.zip`，不自行猜 ZIP 下載網址。
 
@@ -53,7 +64,7 @@ USPTO_API_KEY=YOUR_OWN_KEY
 
 新公開申請用於較早發現研發方向；新核准與後續修訂用於確認權利文件進展。兩條線並行，搭配申請日、優先權、家族、剩餘年限、公司歸屬及商業證據。新核准可能是多年前提交的技術，不能直接解讀為剛發明或即將大賣。
 
-網頁 `patents.html` 提供本週案號、事件種類、來源和詳細資料狀態；每版機器資料 `patents.json` 可供其他程式讀取。`data/patent-feeds/` 保留跨週清單、批次與待處理項目。核准公開的確認不等於已確認目前權利有效或權利人未變更。
+網頁 `patents.html` 使用 USPTO、EPO、TIPO 各自最新可得批次，提供案號、事件種類、來源、詳讀覆蓋率、技術主題和權利人研究佇列；每版機器資料 `patent-landscape.json` 與 `patents.json` 可供其他程式讀取。`data/patent-feeds/` 保留跨週清單、批次與待處理項目。核准公開的確認不等於已確認目前權利有效或權利人未變更。
 
 ## 台灣：公報列舉 + 個案 API 補全
 

@@ -9,9 +9,9 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from .analysis import CodexError, evidence_bundle, synthesize
+from .analysis import CodexError, evidence_bundle, synthesize, synthesize_monthly_feature
 from .core import PACKAGE, Project, digest, dumps, jsonfile, now, public_url, readjson, write
-from .opportunity_data import patent_candidate_radar
+from .opportunity_data import patent_landscape
 
 
 def build_report(project: Project, as_of: str, use_codex=True):
@@ -19,7 +19,8 @@ def build_report(project: Project, as_of: str, use_codex=True):
     try:
         evidence, summaries, coverage = evidence_bundle(project, store, as_of)
         docs = store.documents(as_of, latest_only=True)
-        previous = next((r for r in store.reports() if r["as_of"] < as_of), None)
+        stored_reports = store.reports()
+        previous = next((r for r in stored_reports if r["as_of"] < as_of), None)
         indicator_names = {indicator["id"]: indicator["name"] for source in project.sources
             for indicator in source.get("indicators", [])}
         def display_title(document):
@@ -45,7 +46,7 @@ def build_report(project: Project, as_of: str, use_codex=True):
             synthesis = {"summary": "資料庫已保存來源與取得紀錄。完整研究論點將在 Codex 分段理解及引用驗證完成後更新；目前不據此產生投資排名。",
                 "theses": [], "risks": [{"horizon_days": h, "title": f"{h} 天風險 · 待完成證據分析", "assessment": "unknown",
                     "rationale": "目前不足以提出有證據的風險判斷。", "evidence_ids": [], "transmission": "待驗證資料補齊後分析。",
-                    "triggers": [], "easing_conditions": [], "limitations": ["尚未完成跨來源分析"]} for h in [90, 180]],
+                    "triggers": [], "easing_conditions": [], "limitations": ["尚未完成跨來源分析"]} for h in [14, 30, 90, 180]],
                 "next_week": ["補齊資料來源權限，完成待讀文件並覆核核心引用。"], "limitations": [error or "尚未執行或完成 Codex 綜合分析"]}
         evidence_map = {e["id"]: e for e in evidence}
         for thesis in synthesis["theses"]:
@@ -127,23 +128,19 @@ def build_report(project: Project, as_of: str, use_codex=True):
         for source_state in source_states:
             if source_state["id"] in configured_sources:
                 source_state["name"] = configured_sources[source_state["id"]]["name"]
-        patent_updates = []
-        patent_since = (date.fromisoformat(as_of) - timedelta(days=7)).isoformat()
-        patent_feed_path = project.data / "patent-feeds" / "epo-grants.json"
-        if patent_feed_path.exists():
-            for entry in readjson(patent_feed_path)["entries"].values():
-                if patent_since <= entry["published_at"] <= as_of:
-                    patent_updates.append({k: entry[k] for k in ["publication_number", "kind_code", "event", "published_at", "url", "detail_status", "title", "assignees"]})
-        tipo_feed_path = project.data / "patent-feeds" / "tipo-grants.json"
-        if tipo_feed_path.exists():
-            for entry in readjson(tipo_feed_path)["entries"].values():
-                if patent_since <= entry["published_at"] <= as_of:
-                    patent_updates.append({k: entry[k] for k in ["publication_number", "kind_code", "event", "published_at", "url", "detail_status", "title", "assignees"]})
+        patents = patent_landscape(project, as_of)
+        patent_updates = patents["entries"]
+        patent_keys = {(item.get("publication_number"), item.get("published_at")) for item in patent_updates}
+        patent_since = (date.fromisoformat(as_of) - timedelta(days=35)).isoformat()
         for d in docs:
             meta = d.get("metadata", {})
-            if d["origin"] == "uspto" and meta.get("patent_event") in {"new_grant", "other_grant_publication"} and patent_since <= d["published_at"] <= as_of:
-                patent_updates.append({"publication_number": meta["publication_number"], "kind_code": meta["kind_code"], "event": meta["patent_event"],
-                    "published_at": d["published_at"], "url": d["url"], "detail_status": "complete", "title": d["title"], "assignees": meta.get("assignees", [])})
+            key = (meta.get("publication_number"), d["published_at"])
+            if d["origin"] == "uspto" and key not in patent_keys and meta.get("patent_event") in {"new_grant", "other_grant_publication"} and patent_since <= d["published_at"] <= as_of:
+                patent_updates.append({"authority": "USPTO", "source_id": d["source_id"],
+                    "publication_number": meta["publication_number"], "kind_code": meta["kind_code"], "event": meta["patent_event"],
+                    "published_at": d["published_at"], "url": d["url"], "detail_status": "complete", "title": d["title"],
+                    "assignees": meta.get("assignees", []), "topics": d.get("topics", []), "companies": d.get("entities", [])})
+                patent_keys.add(key)
         def latest_dashboard(source_id):
             candidates = [d for d in docs if d["source_id"] == source_id and d.get("metadata", {}).get("dashboard")]
             if not candidates:
@@ -152,12 +149,37 @@ def build_report(project: Project, as_of: str, use_codex=True):
         opportunities = {"taiwan": latest_dashboard("taiwan-opportunities"),
             "sec": latest_dashboard("sec-opportunities"),
             "crypto": latest_dashboard("binance-opportunities"),
-            "patents": patent_candidate_radar(project, patent_updates)}
-        report = {"schema_version": 1, "id": report_id, "as_of": as_of, "generated_at": now(), "snapshot_frozen_at": now(),
+            "patents": patents["organizations"]}
+        prior_reports, prior_dates = [], set()
+        for item in stored_reports:
+            if item["as_of"] < as_of and item["as_of"] not in prior_dates:
+                prior_reports.append(item)
+                prior_dates.add(item["as_of"])
+        weekly_comparisons = []
+        for thesis in synthesis["theses"]:
+            matches = []
+            for prior_report in prior_reports[:12]:
+                for old in prior_report.get("theses", []):
+                    shared = sorted(set(thesis["company_ids"]) & set(old.get("company_ids", [])))
+                    if old.get("topic_id") == thesis["topic_id"] or shared:
+                        matches.append({"report_id": prior_report["id"], "as_of": prior_report["as_of"],
+                            "title": old["title"], "statement": old["statement"], "gate": old.get("gate"),
+                            "shared_companies": shared})
+                        break
+            weekly_comparisons.append({"thesis_id": thesis["id"], "title": thesis["title"],
+                "status": "new" if not matches else ("continued" if thesis["statement"] == matches[0]["statement"] else "changed"),
+                "history": matches})
+        risk_history = [{"horizon_days": risk["horizon_days"], "current": risk["assessment"],
+            "history": [{"report_id": item["id"], "as_of": item["as_of"], "assessment": old["assessment"], "title": old["title"]}
+                for item in prior_reports[:12] for old in item.get("risks", []) if old["horizon_days"] == risk["horizon_days"]][:8]}
+            for risk in synthesis["risks"]]
+        monthly_feature = synthesize_monthly_feature(project, evidence, stored_reports, as_of) if use_codex else None
+        report = {"schema_version": 2, "id": report_id, "as_of": as_of, "generated_at": now(), "snapshot_frozen_at": now(),
             "decision_available_at": now(), "status": "partial" if errors else "draft", "review_status": "pending",
             "summary": synthesis["summary"], "theses": synthesis["theses"], "risks": synthesis["risks"],
             "document_summaries": summaries,
             "patent_updates": patent_updates,
+            "patent_landscape": {key: value for key, value in patents.items() if key != "entries"},
             "thesis_changes": [{"id": t["id"], "title": t["title"], "previous_report_id": previous["id"],
                 "status": "not_selected_this_report", "reason": "本期綜合未選入此論點；尚未確認失效，保留前版供追蹤。"}
                 for t in (previous or {}).get("theses", []) if t["id"] not in {x["id"] for x in synthesis["theses"]}],
@@ -170,6 +192,8 @@ def build_report(project: Project, as_of: str, use_codex=True):
             "timeline": timeline, "observations": current_points, "companies": project.companies, "topics": project.topics,
             "economies": project.economies, "global_latest": sorted(latest_global.values(), key=lambda p: (p["series"], p["economy"])),
             "opportunities": opportunities,
+            "weekly_comparisons": weekly_comparisons, "risk_history": risk_history,
+            "monthly_feature": monthly_feature,
             "taiwan": {"markets": sorted(taiwan_markets.values(), key=lambda row: row["market"]),
                 "revenue": sorted(taiwan_revenue.values(), key=lambda row: row["market"]),
                 "disclosures": sorted(taiwan_disclosures, key=lambda row: row["published_at"], reverse=True)[:50]},
@@ -192,7 +216,7 @@ def build_report(project: Project, as_of: str, use_codex=True):
 
 
 def validate_report(report):
-    if report.get("schema_version") != 1:
+    if report.get("schema_version") not in {1, 2}:
         raise ValueError("Unsupported report schema")
     date.fromisoformat(report["as_of"])
     if not re.fullmatch(r"[A-Za-z0-9_-]{1,80}", report["id"]):
@@ -206,7 +230,8 @@ def validate_report(report):
     evidence_ids = {e["id"] for e in report["evidence"]}
     if len(evidence_ids) != len(report["evidence"]):
         raise ValueError("Duplicate evidence ID")
-    if sorted(r["horizon_days"] for r in report["risks"]) != [90, 180]:
+    expected_horizons = [90, 180] if report["schema_version"] == 1 else [14, 30, 90, 180]
+    if sorted(r["horizon_days"] for r in report["risks"]) != expected_horizons:
         raise ValueError("Risk horizons incomplete")
     for e in report["evidence"]:
         public_url(e["url"])
@@ -268,13 +293,19 @@ def render_site(project: Project, output: Path | None = None, from_public=False)
         current = next(r for r in reports if r["id"] == latest["release_id"])
     else:
         store = project.store()
-        reports = store.reports()
+        retained_reports = store.reports()
         store.close()
-        if not reports:
+        if not retained_reports:
             raise ValueError("Create a report first")
+        for report in retained_reports:
+            validate_report(report)
+        reports, seen_retained_dates = [], set()
+        for report in retained_reports:
+            if report["as_of"] not in seen_retained_dates:
+                reports.append(report)
+                seen_retained_dates.add(report["as_of"])
         current = reports[0]
         for report in reports:
-            validate_report(report)
             release_dir = public / "releases" / report["id"]
             if (release_dir / "manifest.json").exists():
                 if readjson(release_dir / "report.json") != report:
@@ -289,6 +320,9 @@ def render_site(project: Project, output: Path | None = None, from_public=False)
             for name, value in [("overview", {k: report[k] for k in ["id", "as_of", "status", "summary", "coverage", "theses", "risks"]}),
                 ("evidence", report["evidence"]), ("companies", report["companies"]), ("technologies", report["topics"]),
                 ("patents", report.get("patent_updates", [])), ("economies", report.get("economies", [])),
+                ("patent-landscape", report.get("patent_landscape", {})),
+                ("history", {"weekly_comparisons": report.get("weekly_comparisons", []), "risk_history": report.get("risk_history", [])}),
+                ("monthly-feature", report.get("monthly_feature") or {}),
                 ("global", report.get("global_latest", [])), ("taiwan", report.get("taiwan", {})),
                 ("opportunities", report.get("opportunities", {})), ("crypto", report.get("opportunities", {}).get("crypto", {}))]:
                 jsonfile(release_dir / f"{name}.json", value)
@@ -298,6 +332,15 @@ def render_site(project: Project, output: Path | None = None, from_public=False)
         jsonfile(public / "latest.json", {"schema_version": 1, "release_id": current["id"], "manifest": f"releases/{current['id']}/manifest.json"})
     for report in reports:
         validate_report(report)
+    # Multiple same-day builds are revisions, not additional weekly editions.
+    # Keep immutable releases available as JSON while showing only the newest
+    # revision for each cutoff date in navigation and the archive.
+    visible_reports, seen_dates = [], set()
+    for historical in reports:
+        if historical["as_of"] not in seen_dates:
+            visible_reports.append(historical)
+            seen_dates.add(historical["as_of"])
+    reports = visible_reports
     output = (output or project.root / project.settings["site"]["output"]).resolve()
     if not output.is_relative_to(project.root) or output in {project.root, project.data}:
         raise ValueError("Site output must be a dedicated project subdirectory")
@@ -331,7 +374,7 @@ def render_site(project: Project, output: Path | None = None, from_public=False)
     pages = [("index.html", "home", None), ("opportunities.html", "opportunities", None),
         ("crypto.html", "crypto", None), ("global.html", "global", None), ("taiwan.html", "taiwan", None),
         ("research.html", "research", None), ("risks.html", "risks", None),
-        ("patents.html", "patents", None),
+        ("patents.html", "patents", None), ("features.html", "features", None),
         ("sources.html", "sources", None), ("archive.html", "archive", None), ("methodology.html", "methodology", None)]
     for company in current["companies"]:
         pages.append((f"company-{company['ticker']}.html", "company", company))

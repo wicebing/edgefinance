@@ -12,7 +12,7 @@ import re
 import statistics
 from datetime import date, datetime, timedelta, timezone
 
-from .core import digest, dumps, now
+from .core import digest, dumps, now, readjson
 from .tipo import roc_date
 
 
@@ -482,6 +482,87 @@ def binance_opportunities(project, fetch, store, source, as_of, cap, emit, state
     state["notes"].append(f"從 {len(liquid)} 個可交易 USDT 現貨對中，依 24h 成交額分析前 {len(candidates)} 個；沒有使用 Binance API 金鑰。")
 
 
+def patent_landscape(project, as_of: str) -> dict:
+    """Summarize the latest available official grant batch per authority.
+
+    Patent offices publish on different schedules.  Selecting each authority's
+    latest batch prevents a quiet week from turning a fully retained batch into
+    an empty public page.
+    """
+    def norm(value):
+        return re.sub(r"[^a-z0-9\u4e00-\u9fff]", "", str(value).lower())
+    company_names = {}
+    for company in project.companies:
+        for name in [company["name"], *company.get("aliases", [])]:
+            company_names[norm(name)] = company["ticker"]
+    sources, entries = [], []
+    for source_id, filename, authority in [
+        ("uspto-gazette-grants", "uspto-gazette-grants.json", "USPTO"),
+        ("epo-grants", "epo-grants.json", "EPO"),
+        ("tipo-grants", "tipo-grants.json", "TIPO"),
+    ]:
+        path = project.data / "patent-feeds" / filename
+        if not path.exists():
+            sources.append({"source_id": source_id, "authority": authority, "status": "not_collected",
+                "batch_date": None, "events": 0, "new_grants": 0, "details_complete": 0,
+                "details_pending": 0, "latency_days": None})
+            continue
+        retained = [entry for entry in readjson(path).get("entries", {}).values()
+            if entry.get("published_at", "9999-99-99") <= as_of]
+        if not retained:
+            sources.append({"source_id": source_id, "authority": authority, "status": "no_eligible_batch",
+                "batch_date": None, "events": 0, "new_grants": 0, "details_complete": 0,
+                "details_pending": 0, "latency_days": None})
+            continue
+        latest = max(entry["published_at"] for entry in retained)
+        batch = [entry for entry in retained if entry["published_at"] == latest]
+        complete = sum(entry.get("detail_status") == "complete" for entry in batch)
+        sources.append({"source_id": source_id, "authority": authority, "status": "partial" if complete < len(batch) else "complete",
+            "batch_date": latest, "events": len(batch), "new_grants": sum(entry.get("event") == "new_grant" for entry in batch),
+            "details_complete": complete, "details_pending": len(batch) - complete,
+            "titles_available": sum(bool(entry.get("title")) for entry in batch),
+            "assignees_available": sum(bool(entry.get("assignees")) for entry in batch),
+            "latency_days": (date.fromisoformat(as_of) - date.fromisoformat(latest)).days})
+        for entry in batch:
+            title = entry.get("title", "")
+            event = entry.get("event")
+            if authority == "USPTO" and entry.get("detail_status") != "complete" and event == "new_grant":
+                event = "gazette_listing"
+            topics = sorted(set(entry.get("topics", [])) | set(project.topic_ids(title)))
+            companies = set(entry.get("entities", []))
+            for assignee in entry.get("assignees", []):
+                if norm(assignee) in company_names:
+                    companies.add(company_names[norm(assignee)])
+            entries.append({"authority": authority, "source_id": source_id,
+                **{key: entry.get(key) for key in ["publication_number", "kind_code", "published_at", "url",
+                    "detail_status", "title", "assignees"]},
+                "event": event, "topics": topics, "companies": sorted(companies)})
+    topic_rows = []
+    for topic in project.topics:
+        matched = [entry for entry in entries if topic["id"] in entry["topics"]]
+        if matched:
+            topic_rows.append({"topic_id": topic["id"], "name": topic["name"], "count": len(matched),
+                "authorities": sorted({entry["authority"] for entry in matched}),
+                "companies": sorted({ticker for entry in matched for ticker in entry["companies"]}),
+                "examples": [{key: entry[key] for key in ["publication_number", "title", "url", "authority"]}
+                    for entry in sorted(matched, key=lambda item: (bool(item["companies"]), item["detail_status"] == "complete"), reverse=True)[:5]]})
+    organizations = patent_candidate_radar(project, entries)
+    prioritized = sorted(entries, key=lambda item: (bool(item["companies"]), bool(item["topics"]),
+        item["detail_status"] == "complete", item["event"] == "new_grant", item["publication_number"]), reverse=True)
+    return {"as_of": as_of, "latest_batches": sources, "total_events": len(entries),
+        "new_grants": sum(entry["event"] == "new_grant" for entry in entries),
+        "details_complete": sum(entry["detail_status"] == "complete" for entry in entries),
+        "titles_available": sum(bool(entry["title"]) for entry in entries),
+        "assignees_available": sum(bool(entry["assignees"]) for entry in entries),
+        "topic_trends": sorted(topic_rows, key=lambda row: (-row["count"], row["topic_id"])),
+        "organizations": organizations, "entries": prioritized[:300],
+        "method": "Each authority's latest retained grant batch; topic matching uses configured title keywords; company mapping requires exact configured names.",
+        "limitations": ["USPTO Gazette 可免金鑰完整列舉每週案號，但個別頁只提供書目與畫面上的第一項請求項；完整全文仍需 ODP PTGRXML 或本機 ZIP。",
+            "EPO 已完整列舉最新 B 類公開案號，但只有分批取得的 XML 才有題名、權利人與請求項。",
+            "TIPO 公報提供全批次題名與申請人；個案 API 只補全優先權、分類與程序歷程。",
+            "專利件數與文字關鍵字不代表專利品質、有效性、自由實施、可量產性或公司營收。"]}
+
+
 def patent_candidate_radar(project, patent_updates: list[dict]) -> list[dict]:
     def norm(value):
         return re.sub(r"[^a-z0-9\u4e00-\u9fff]", "", str(value).lower())
@@ -491,14 +572,19 @@ def patent_candidate_radar(project, patent_updates: list[dict]) -> list[dict]:
             company_names[norm(name)] = company["ticker"]
     grouped = {}
     for patent in patent_updates:
-        for assignee in patent.get("assignees", []) or ["未解析權利人"]:
+        # Missing assignees are a coverage gap, not an organization. Keeping
+        # them out prevents one synthetic "unknown" row from outranking every
+        # real owner in the research queue.
+        for assignee in patent.get("assignees", []):
             key = norm(assignee) or "unresolved"
-            item = grouped.setdefault(key, {"assignee": assignee or "未解析權利人", "patents": [], "companies": set(), "topics": set()})
+            item = grouped.setdefault(key, {"assignee": assignee, "patents": [], "companies": set(), "topics": set()})
             item["patents"].append({k: patent.get(k) for k in ["publication_number", "title", "published_at", "url", "detail_status"]})
             if key in company_names:
                 item["companies"].add(company_names[key])
-            for topic in project.topic_ids(patent.get("title", "")):
+            for topic in set(patent.get("topics", [])) | set(project.topic_ids(patent.get("title", ""))):
                 item["topics"].add(topic)
+            for company in patent.get("companies", []):
+                item["companies"].add(company)
     output = []
     for item in grouped.values():
         complete = sum(p.get("detail_status") == "complete" for p in item["patents"])

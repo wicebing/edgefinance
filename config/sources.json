@@ -116,6 +116,7 @@
     "name": "EPO weekly grants and amendments",
     "kind": "epo_grants",
     "enabled": true,
+    "max_items_per_run": 40,
     "origin": "epo",
     "docs": "https://www.epo.org/en/searching-for-patents/technical/publication-server/help"
   },
@@ -124,12 +125,22 @@
     "name": "台灣智慧局核准專利公報與個案資料",
     "kind": "tipo_grants",
     "enabled": true,
+    "max_items_per_run": 40,
     "origin": "tipo",
     "credentials": [
       "TIPO_API_USERNAME",
       "TIPO_API_PASSWORD"
     ],
     "docs": "https://cloud.tipo.gov.tw/S220/gazette/patent"
+  },
+  {
+    "id": "uspto-gazette-grants",
+    "name": "USPTO 每週官方 Patent Gazette 核准專利",
+    "kind": "uspto_gazette_grants",
+    "enabled": true,
+    "max_items_per_run": 40,
+    "origin": "uspto",
+    "docs": "https://www.uspto.gov/learning-and-resources/official-gazette/official-gazette-patents"
   },
   {
     "id": "uspto-grants",

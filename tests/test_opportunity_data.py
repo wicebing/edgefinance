@@ -1,8 +1,9 @@
 from datetime import datetime, timedelta, timezone
 
 from edgefinance.opportunity_data import (_crypto_metrics, parse_tw_market, parse_tw_revenue,
-    parse_tw_valuation, patent_candidate_radar, score_sec_candidates, score_taiwan_candidates,
+    parse_tw_valuation, patent_candidate_radar, patent_landscape, score_sec_candidates, score_taiwan_candidates,
     select_crypto_tickers, _reported_quarter)
+from edgefinance.core import jsonfile
 
 
 def test_taiwan_screen_joins_official_rows_and_explains_score():
@@ -80,3 +81,31 @@ def test_patent_radar_requires_exact_company_name(project):
     unresolved = next(row for row in radar if row["assignee"] == "NVIDIA-ish")
     assert mapped["companies"] == ["NVDA"] and not unresolved["companies"]
     assert unresolved["mapping_status"].startswith("unresolved")
+
+
+def test_patent_landscape_uses_each_authoritys_latest_retained_batch(project):
+    folder = project.data / "patent-feeds"
+    folder.mkdir(parents=True)
+    jsonfile(folder / "epo-grants.json", {"entries": {
+        "old": {"publication_number": "EP1B1", "kind_code": "B1", "event": "new_grant",
+            "published_at": "2026-08-01", "url": "https://example.org/old", "detail_status": "complete",
+            "title": "Old battery", "assignees": ["Old Co"], "topics": ["energy"], "entities": []},
+        "new": {"publication_number": "EP2B1", "kind_code": "B1", "event": "new_grant",
+            "published_at": "2026-09-09", "url": "https://example.org/new", "detail_status": "complete",
+            "title": "Optical compute package", "assignees": ["NVIDIA Corporation"], "topics": ["compute"], "entities": ["NVDA"]}}})
+    jsonfile(folder / "tipo-grants.json", {"entries": {
+        "tw": {"publication_number": "TW1", "kind_code": "I", "event": "new_grant",
+            "published_at": "2026-09-11", "url": "https://example.org/tw", "detail_status": "not_selected",
+            "title": "量子光學元件", "assignees": ["測試公司"], "topics": ["quantum_photonics"], "entities": []}}})
+    result = patent_landscape(project, "2026-09-20")
+    assert result["total_events"] == 2
+    assert {row["batch_date"] for row in result["latest_batches"] if row["batch_date"]} == {"2026-09-09", "2026-09-11"}
+    assert next(row for row in result["latest_batches"] if row["authority"] == "USPTO")["status"] == "not_collected"
+    assert {row["publication_number"] for row in result["entries"]} == {"EP2B1", "TW1"}
+    assert any(row["companies"] == ["NVDA"] for row in result["organizations"])
+
+
+def test_patent_radar_does_not_rank_missing_assignee_as_an_organization(project):
+    assert patent_candidate_radar(project, [{"publication_number": "EP1B1", "title": "Unknown",
+        "published_at": "2026-09-20", "url": "https://example.org", "detail_status": "pending",
+        "assignees": []}]) == []

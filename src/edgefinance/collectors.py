@@ -231,13 +231,19 @@ def collect(project: Project, as_of: str, source_ids: list[str] | None = None, *
                     continue
                 if source["kind"] == "epo_grants":
                     from .grant_feeds import epo_grants
-                    epo_grants(project, fetch, store, source, as_of, cap, emit, state)
+                    epo_grants(project, fetch, store, source, as_of,
+                        cap if limit is not None else source.get("max_items_per_run", cap), emit, state)
                 elif source["kind"] == "tipo_grants":
                     from .tipo import tipo_grants
-                    tipo_grants(project, fetch, store, source, as_of, cap, emit, state)
+                    tipo_grants(project, fetch, store, source, as_of,
+                        cap if limit is not None else source.get("max_items_per_run", cap), emit, state)
                 elif source["kind"] == "uspto_grants":
                     from .grant_feeds import uspto_grants
                     uspto_grants(project, fetch, store, source, as_of, state)
+                elif source["kind"] == "uspto_gazette_grants":
+                    from .grant_feeds import uspto_gazette_grants
+                    uspto_gazette_grants(project, fetch, store, source, as_of,
+                        cap if limit is not None else source.get("max_items_per_run", cap), emit, state)
                 elif source["kind"] == "uspto_local":
                     from .uspto import import_inbox
                     imports = import_inbox(project, as_of)

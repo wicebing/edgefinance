@@ -1,0 +1,191 @@
+[
+  {
+    "description": "追蹤資料移動、能耗、先進封裝與量產門檻。",
+    "id": "compute",
+    "keywords": [
+      "photon",
+      "optical",
+      "interconnect",
+      "semiconductor",
+      "packaging",
+      "thermal",
+      "chip",
+      "gpu",
+      "光子",
+      "半導體",
+      "散熱"
+    ],
+    "name": "運算、互連與散熱"
+  },
+  {
+    "description": "追蹤儲能成本、可靠性、電網接入及付費部署。",
+    "id": "energy",
+    "keywords": [
+      "battery",
+      "energy storage",
+      "grid",
+      "power electronics",
+      "inverter",
+      "electricity",
+      "storage system",
+      "電池",
+      "電網",
+      "儲能"
+    ],
+    "name": "儲能與電力基礎設施"
+  },
+  {
+    "description": "追蹤感測、致動、可靠性與每次任務成本。",
+    "id": "automation",
+    "keywords": [
+      "robot",
+      "automation",
+      "vision",
+      "actuator",
+      "sensor",
+      "autonomous",
+      "機器人",
+      "自動化"
+    ],
+    "name": "機器人與真實世界自動化"
+  },
+  {
+    "description": "追蹤新療法、診斷、生物製程、臨床轉譯與給付路徑。",
+    "id": "biotech",
+    "keywords": [
+      "biotech",
+      "therapeutic",
+      "antibody",
+      "gene therapy",
+      "cell therapy",
+      "protein",
+      "vaccine",
+      "diagnostic",
+      "drug delivery",
+      "生物技術",
+      "藥物",
+      "抗體",
+      "基因治療",
+      "細胞治療",
+      "診斷"
+    ],
+    "name": "生物科技、藥物與精準醫療"
+  },
+  {
+    "description": "追蹤醫療感測、手術系統、照護效率、法規核准與臨床採用。",
+    "id": "digital_health",
+    "keywords": [
+      "medical device",
+      "surgical",
+      "patient monitoring",
+      "healthcare",
+      "implant",
+      "prosthetic",
+      "醫療器材",
+      "手術",
+      "病患監測",
+      "植入物"
+    ],
+    "name": "醫療器材與數位健康"
+  },
+  {
+    "description": "追蹤材料性能、良率、規模化製造與供應鏈替代。",
+    "id": "advanced_materials",
+    "keywords": [
+      "advanced material",
+      "composite",
+      "ceramic",
+      "alloy",
+      "nanomaterial",
+      "additive manufacturing",
+      "3d printing",
+      "coating",
+      "先進材料",
+      "複合材料",
+      "陶瓷",
+      "合金",
+      "奈米",
+      "積層製造",
+      "塗層"
+    ],
+    "name": "先進材料與製造製程"
+  },
+  {
+    "description": "追蹤量子元件、光學系統、精密量測與工程化門檻。",
+    "id": "quantum_photonics",
+    "keywords": [
+      "quantum",
+      "photonics",
+      "laser",
+      "lidar",
+      "optical sensor",
+      "spectroscopy",
+      "量子",
+      "光電",
+      "雷射",
+      "光達",
+      "光學感測",
+      "光譜"
+    ],
+    "name": "量子、光電與新型感測"
+  },
+  {
+    "description": "追蹤減碳、碳捕捉、水處理、回收與法規驅動需求。",
+    "id": "climate_water",
+    "keywords": [
+      "carbon capture",
+      "decarbon",
+      "water treatment",
+      "desalination",
+      "recycling",
+      "waste",
+      "hydrogen",
+      "碳捕捉",
+      "減碳",
+      "水處理",
+      "海水淡化",
+      "回收",
+      "氫能"
+    ],
+    "name": "氣候、水與循環經濟技術"
+  },
+  {
+    "description": "追蹤衛星、推進、航空效率、通訊覆蓋與發射經濟性。",
+    "id": "aerospace",
+    "keywords": [
+      "satellite",
+      "spacecraft",
+      "rocket",
+      "propulsion",
+      "aerospace",
+      "aircraft",
+      "orbital",
+      "衛星",
+      "太空",
+      "火箭",
+      "推進",
+      "航空"
+    ],
+    "name": "太空、航空與低軌通訊"
+  },
+  {
+    "description": "追蹤攻擊面、身份驗證、密碼技術與合規需求。",
+    "id": "cybersecurity",
+    "keywords": [
+      "cybersecurity",
+      "encryption",
+      "authentication",
+      "malware",
+      "privacy",
+      "secure computing",
+      "zero trust",
+      "資安",
+      "加密",
+      "驗證",
+      "惡意軟體",
+      "隱私",
+      "零信任"
+    ],
+    "name": "資安、隱私與可信運算"
+  }
+]

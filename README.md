@@ -2,7 +2,9 @@
 
 每週在本機累積公開資料，使用 **Codex CLI 的 ChatGPT 訂閱登入**逐段閱讀、核對引用，生成繁體中文研究週報及 GitHub Pages 靜態網站。
 
-目前為可運行 v0.3：採集、可恢復儲存、Codex 分段抽取／綜合分析、90／180 天風險卡、全球經濟與台灣即時頁，以及台灣上市櫃、SEC 美國／在美上市國際公司、Bitcoin／Binance 公開現貨與每週專利權利人的研究候選雷達。候選分數只決定查證順序；結論仍是待覆核研究假說，尚無完整估值、總報酬回測或經驗證的選股勝率。
+網站使用 [YAB LAB 原始標誌](https://github.com/wicebing/Copyright/blob/main/yabilab_logo_20241105.png) 作為品牌標誌與低透明度浮水印。
+
+目前為可運行 v0.4：採集、可恢復儲存、最多三份並行的 Codex 分段抽取／綜合分析、14／30／90／180 天風險卡、全球經濟與台灣即時頁，以及台灣上市櫃、SEC 美國／在美上市國際公司、Bitcoin／Binance 公開現貨與美國／歐洲／台灣每週核准專利雷達。週報會連回並比較過去 12 期的相似論點；每月 1–7 日執行時會從累積證據產生一份專題。候選分數只決定查證順序；結論仍是待覆核研究假說，尚無完整估值、總報酬回測或經驗證的選股勝率。
 
 ## 開始使用
 
@@ -56,7 +58,7 @@ python -m venv .venv
 
 ## 現有資料來源
 
-**新增：每週核准專利 API。** EPO B1 核准與 B 類變更完整列舉、分批抓取詳細 XML；美國 ODP 核准 XML 批次下載接入待有效 key 實測。操作、限制及分類差異見 [每週核准專利](docs/WEEKLY_PATENTS.zh-TW.md)。
+**每週核准專利。** USPTO 官方 Gazette、EPO B 類與 TIPO 公報都先完整列舉最新批次，再分批取得可分析詳情；美國完整全文另保留 ODP XML／本機 ZIP 路徑。操作、限制及分類差異見 [每週核准專利](docs/WEEKLY_PATENTS.zh-TW.md)。
 
 | 來源 | 已實作方式與限制 |
 |---|---|
@@ -64,7 +66,9 @@ python -m venv .venv
 | SEC 全市場雷達 | 官方上市代號母體，聯結最近已結束季度與去年同季的 Revenue、Net Income、R&D XBRL Frames；目前可比 2,336 家，會漏掉概念或財年無法對齊者 |
 | Federal Reserve、NASA | 官方 RSS 及可取得的文章；全文失敗明示 RSS 摘要，保留重試佇列 |
 | EPO | Publication Server 最新公開批次前 3 件；可能只有書目，非主題代表樣本或完整覆蓋 |
-| EPO grants | 完整列舉所選週間的核准／修訂案號；預設每次 2 件詳細 XML，佇列接續 |
+| USPTO Patent Gazette | 免金鑰完整列舉每週核准案號；每次最多 40 個官方詳情頁，含書目與第一項請求項，非完整 XML |
+| EPO grants | 完整列舉所選週間的核准／修訂案號；預設每次 40 件詳細 XML，佇列接續 |
+| TIPO grants | 完整列舉最新台灣核准公報題名與申請人；每次最多 40 件個案 API 深化 |
 | US 觀察樣本 | 設定內 3 個 Google Patents 頁面；歷史樣本，非當週全部新申請 |
 | USPTO 本機 ZIP/XML | 匯入實際提供的檔案；游標與已處理範圍可查 |
 | BLS | 免 key 單一數列 API，失業率／CPI；保留修訂快照，觀察月份不當作公告日期 |
@@ -114,7 +118,9 @@ Codex 接收隔離的公開資料包，唯讀 sandbox、關閉 shell／外部工
 
 歷史回補不等於當時已可交易的訊號。分開保留公開、首次取得、產生及可用時間。`--as-of` 篩選來源日期，不把今天取得的修訂值當作過去已知值；前瞻比較要使用當週實際生成的凍結週報。
 
-90／180 天風險卡有期限、傳導、觸發與緩和條件，沒有未校準數字機率。到期後可用 `record-outcome --check-id ... --outcome observed|not_observed|inconclusive --source-url ... --note ...` 記錄條件檢查；這不是投資報酬。
+14／30／90／180 天風險卡有期限、傳導、觸發與緩和條件，沒有未校準數字機率。14／30 天著重事件、流動性與政策衝擊；90／180 天著重景氣、信用、獲利與資本支出。到期後可用 `record-outcome --check-id ... --outcome observed|not_observed|inconclusive --source-url ... --note ...` 記錄條件檢查；這不是投資報酬。
+
+每次週報保存當時的結論，再依主題或共同公司搜尋過去 12 期，標示新論點、延續或更新並提供原報告連結。每月 1–7 日的 `weekly` 會再從已保存證據與歷史週報選出累積訊號最強的主題，產生「為何現在、反方論點、12 個月與 3–10 年里程碑、下一步查證」專刊；證據不足就不產生空泛專題。
 
 ## GitHub Pages
 
@@ -143,4 +149,4 @@ MVP 已接入 `tipo-grants`。每週先完整列出智慧局最新公報中的�
 .\.venv\Scripts\python.exe -m edgefinance build-site --from-public
 ```
 
-新版方向見 [專案規劃 v2](docs/PROJECT_PLAN_V2.zh-TW.md)、[多市場候選雷達](docs/MARKET_RADARS.zh-TW.md) 與 [全球及台灣資料契約](docs/GLOBAL_AND_TAIWAN_SOURCES.zh-TW.md)。其他待辦見 [持續演化清單](docs/EVOLUTION.zh-TW.md)。原始規劃保留：[專案規劃](docs/PROJECT_PLAN.zh-TW.md)、[來源](docs/DATA_SOURCES.zh-TW.md)、[網頁規格](docs/REPORT_AND_SITE_SPEC.zh-TW.md)、[儲存決策](docs/STORAGE_AND_PUBLISHING.zh-TW.md)。規劃不是功能完成清單，實際狀態以本 README 為準。
+操作細節見 [每週研究與每月專刊](docs/WEEKLY_AND_MONTHLY_REPORTS.zh-TW.md)。新版方向見 [專案規劃 v2](docs/PROJECT_PLAN_V2.zh-TW.md)、[多市場候選雷達](docs/MARKET_RADARS.zh-TW.md) 與 [全球及台灣資料契約](docs/GLOBAL_AND_TAIWAN_SOURCES.zh-TW.md)。其他待辦見 [持續演化清單](docs/EVOLUTION.zh-TW.md)。原始規劃保留：[專案規劃](docs/PROJECT_PLAN.zh-TW.md)、[來源](docs/DATA_SOURCES.zh-TW.md)、[網頁規格](docs/REPORT_AND_SITE_SPEC.zh-TW.md)、[儲存決策](docs/STORAGE_AND_PUBLISHING.zh-TW.md)。規劃不是功能完成清單，實際狀態以本 README 為準。

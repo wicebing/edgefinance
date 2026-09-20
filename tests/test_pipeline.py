@@ -9,7 +9,8 @@ from urllib.parse import urlsplit, unquote
 import pytest
 from bs4 import BeautifulSoup
 from edgefinance.core import digest, jsonfile, public_url
-from edgefinance.analysis import chunks, validate_extraction, validate_synthesis, evidence_bundle, job_id, _pack_records
+from edgefinance.analysis import (chunks, validate_extraction, validate_synthesis, evidence_bundle, job_id,
+    _balanced_brief_evidence, _pack_records, synthesize_monthly_feature)
 from edgefinance.collectors import parse_feed, parse_epo, financial_snapshot
 from edgefinance.report import build_report, render_site, validate_report
 from edgefinance.uspto import records, import_bulk, parse_patent
@@ -40,6 +41,18 @@ def test_hierarchical_packets_retain_every_evidence_record():
     packets = _pack_records(records, max_chars=280)
     assert [record for packet in packets for record in packet] == records
     assert len(packets) > 1
+
+
+def test_final_hierarchical_selection_rotates_across_packets_and_purposes():
+    evidence = [{"id": f"E-{i}", "statement": "x" * 80} for i in range(6)]
+    briefs = [
+        {"opportunity_evidence_ids": ["E-0", "E-1"], "risk_evidence_ids": ["E-2"], "counterevidence_ids": []},
+        {"opportunity_evidence_ids": ["E-3"], "risk_evidence_ids": ["E-4"], "counterevidence_ids": ["E-5"]},
+    ]
+    selected = _balanced_brief_evidence(briefs, evidence, max_chars=10_000)
+    assert {item["id"] for item in selected} == {item["id"] for item in evidence}
+    constrained = _balanced_brief_evidence(briefs, evidence, max_chars=len(json.dumps(evidence[0])) * 2 + 10)
+    assert constrained[0]["id"] == "E-0" and constrained[1]["id"] == "E-3"
 
 
 def test_quote_validation_rejects_invention():
@@ -114,6 +127,8 @@ def test_report_export_build_and_all_relative_links(project,document):
     out=render_site(project)
     assert r['coverage']['pending_chunks']==1 and not r['theses']
     assert (out/'data/v1/latest.json').exists()
+    assert (out/'features.html').exists() and (out/'assets/yabilab-logo.png').exists()
+    assert '每月第一週' in (out/'features.html').read_text(encoding='utf-8')
     assert '<script>alert(1)</script>' not in (out/'sources.html').read_text(encoding='utf-8')
     for file in out.glob('*.html'):
         soup=BeautifulSoup(file.read_text(encoding='utf-8'),'html.parser')
@@ -199,9 +214,13 @@ def test_site_failure_keeps_previous_build(project,document,monkeypatch):
 def test_company_without_mapped_evidence_is_rejected(project):
     risk=lambda h:dict(horizon_days=h,title='test',assessment='unknown',rationale='test',evidence_ids=[],transmission='test',triggers=[],easing_conditions=[],limitations=[])
     thesis=dict(topic_id=project.topics[0]['id'],title='test',statement='test',company_ids=['NVDA'],evidence_ids=['E-1'],counterevidence_ids=[],counterargument='test',value_capture='test',maturity='test',invalidation='test',next_check='test')
-    result=dict(summary='test',theses=[thesis],risks=[risk(90),risk(180)],next_week=[],limitations=[])
+    result=dict(summary='test',theses=[thesis],risks=[risk(14),risk(30),risk(90),risk(180)],next_week=[],limitations=[])
     with pytest.raises(ValueError):validate_synthesis(result,[{'id':'E-1','entities':[]}],project)
     validate_synthesis(result,[{'id':'E-1','entities':['NVDA']}],project)
+
+
+def test_monthly_feature_only_runs_in_first_week(project):
+    assert synthesize_monthly_feature(project,[{'id':'E-1'}],[],'2026-09-20') is None
 
 
 def test_public_export_rejects_path_traversal(project):
@@ -216,6 +235,16 @@ def test_frozen_report_not_overwritten_by_later_build(project):
     before={p.name:p.read_bytes() for p in release.glob('*.json')}
     build_report(project,'2026-01-03',False);render_site(project)
     assert before=={p.name:p.read_bytes() for p in release.glob('*.json')}
+
+
+def test_same_day_revisions_publish_only_latest_weekly_edition(project):
+    first=build_report(project,'2026-01-02',False)
+    second=build_report(project,'2026-01-02',False)
+    out=render_site(project)
+    archive=BeautifulSoup((out/'archive.html').read_text(encoding='utf-8'),'html.parser')
+    links=[a['href'] for a in archive.select('.archive-list > a')]
+    assert links == [f"report-{second['id']}.html"]
+    assert not (project.root/'public-data/v1/releases'/first['id']).exists()
 
 
 def test_failed_synthesis_preserves_previous_report(project,document,monkeypatch):

@@ -283,6 +283,17 @@ def tipo_grants(project, fetch, store, source, as_of, cap, emit, state):
     feed["last_discovery_as_of"] = as_of
     jsonfile(path, feed)
 
+    # Topic and company dictionaries evolve over time. Reclassify retained
+    # bibliography rows so an expanded research universe can promote older
+    # rows into the bounded detail-enrichment queue without redownloading the
+    # official gazette issue.
+    for entry in feed["entries"].values():
+        entry["topics"] = project.topic_ids(entry.get("title", ""))
+        entry["entities"] = company_candidates(project, entry.get("assignees", []))
+        if entry.get("detail_status") == "not_selected" and (entry["topics"] or entry["entities"]):
+            entry["detail_status"] = "pending"
+    jsonfile(path, feed)
+
     current = [entry for entry in feed["entries"].values() if state["since"] <= entry["published_at"] <= as_of]
     candidates = [entry for entry in feed["entries"].values()
         if entry["published_at"] <= as_of and entry["detail_status"] in {"pending", "failed"}]
