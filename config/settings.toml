@@ -34,3 +34,11 @@ max_documents = 500
 
 [site]
 output = "dist"
+
+[podcast]
+show_name = "edgeFinance4Podcast"
+language = "zh-Hant"
+target_minutes_min = 12
+target_minutes_max = 18
+codex_timeout_seconds = 900
+public_site_base_url = "https://wicebing.github.io/edgefinance/"

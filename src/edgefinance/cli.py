@@ -56,6 +56,18 @@ def parser():
     outcome.add_argument("--outcome", choices=["observed", "not_observed", "inconclusive"], required=True)
     outcome.add_argument("--source-url", required=True)
     outcome.add_argument("--note", required=True)
+    podcast = sub.add_parser("podcast", help="Generate the latest Ying/Bing weekly episode locally")
+    podcast.add_argument("--report-id", help="Frozen public report release ID; defaults to latest")
+    podcast.add_argument("--script-only", action="store_true")
+    podcast.add_argument("--device", choices=["auto", "cpu", "cuda"], default="auto")
+    podcast.add_argument("--force-script", action="store_true", help="Regenerate a valid cached Codex script")
+    youtube = sub.add_parser("youtube", help="Build a YouTube-ready MP4, subtitles, thumbnail and metadata")
+    youtube.add_argument("--episode-id", help="Podcast ID YYYY-wNN; defaults to latest")
+    youtube.add_argument("--plan-only", action="store_true")
+    media = sub.add_parser("media", help="Generate the latest podcast and YouTube upload package")
+    media.add_argument("--report-id", help="Frozen public report release ID; defaults to latest")
+    media.add_argument("--device", choices=["auto", "cpu", "cuda"], default="auto")
+    media.add_argument("--force-script", action="store_true")
     return p
 
 
@@ -94,6 +106,18 @@ def main():
             from .analysis import analyze
             from .collectors import collect, html_text, parse_epo
             from .report import build_report, render_site, validate_report
+            if args.command in {"podcast", "media"}:
+                from .media import run_podcast, run_youtube
+                podcast_result = run_podcast(project, args.report_id, script_only=getattr(args, "script_only", False),
+                    device=args.device, force=args.force_script)
+                print(dumps(podcast_result))
+                if args.command == "media":
+                    print(dumps(run_youtube(project, podcast_result["id"])))
+                return
+            if args.command == "youtube":
+                from .media import run_youtube
+                print(dumps(run_youtube(project, args.episode_id, args.plan_only)))
+                return
             if args.command in {"weekly", "collect"}:
                 source_ids = args.sources.split(",") if args.sources else None
                 if source_ids and not set(source_ids) <= {s["id"] for s in project.sources}:

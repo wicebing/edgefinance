@@ -14,6 +14,7 @@
 # Local source material, analysis logs, databases and recovery state.
 /data/
 /work/
+/youtube-output/
 /runs/
 /backups/
 *.db

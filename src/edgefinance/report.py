@@ -369,13 +369,20 @@ def render_site(project: Project, output: Path | None = None, from_public=False)
     global_indicators = {}
     for point in current.get("global_latest", []):
         global_indicators.setdefault(point.get("series_name", point["series"]), []).append(point)
-    common = {"report": current, "reports": reports, "series": risk_series,
+    podcasts_path = project.root / "public-media" / "podcasts.json"
+    podcasts = readjson(podcasts_path) if podcasts_path.exists() else {
+        "schema_version": 1, "show": {"name": "edgeFinance4Podcast", "language": "zh-Hant"}, "episodes": []}
+    if podcasts_path.exists():
+        from .media import validate_podcast_collection
+        validate_podcast_collection(podcasts, project.root)
+    common = {"report": current, "reports": reports, "series": risk_series, "podcasts": podcasts,
         "global_indicators": global_indicators, "project_name": "EdgeFinance"}
     pages = [("index.html", "home", None), ("opportunities.html", "opportunities", None),
         ("crypto.html", "crypto", None), ("global.html", "global", None), ("taiwan.html", "taiwan", None),
         ("research.html", "research", None), ("risks.html", "risks", None),
         ("patents.html", "patents", None), ("features.html", "features", None),
-        ("sources.html", "sources", None), ("archive.html", "archive", None), ("methodology.html", "methodology", None)]
+        ("podcast.html", "podcast", None), ("sources.html", "sources", None),
+        ("archive.html", "archive", None), ("methodology.html", "methodology", None)]
     for company in current["companies"]:
         pages.append((f"company-{company['ticker']}.html", "company", company))
     for topic in current["topics"]:
@@ -389,6 +396,11 @@ def render_site(project: Project, output: Path | None = None, from_public=False)
         write(output / "assets" / p.name, p.read_bytes())
     for p in public.rglob("*.json"):
         write(output / "data" / "v1" / p.relative_to(public), p.read_bytes())
+    public_media = project.root / "public-media"
+    if public_media.exists():
+        for p in public_media.rglob("*"):
+            if p.is_file():
+                write(output / "media" / p.relative_to(public_media), p.read_bytes())
     write(output / ".nojekyll", "")
     write(output / "404.html", template.render(**common, page="notfound", entity=None))
     if sum(p.stat().st_size for p in output.rglob("*") if p.is_file()) > 800_000_000:

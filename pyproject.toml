@@ -7,7 +7,7 @@ name = "edgefinance"
 version = "0.1.0"
 description = "Local-first, evidence-backed weekly investment research"
 requires-python = ">=3.11"
-dependencies = ["httpx>=0.28,<0.29", "beautifulsoup4>=4.13,<5", "defusedxml>=0.7,<1", "jinja2>=3.1,<4", "jsonschema>=4.23,<5", "python-dotenv>=1.1,<2", "pymongo>=4.10,<5", "pypdf>=6,<7"]
+dependencies = ["httpx>=0.28,<0.29", "beautifulsoup4>=4.13,<5", "defusedxml>=0.7,<1", "jinja2>=3.1,<4", "jsonschema>=4.23,<5", "python-dotenv>=1.1,<2", "pymongo>=4.10,<5", "pypdf>=6,<7", "Pillow>=11,<13", "imageio-ffmpeg>=0.6,<0.7"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8,<10"]
@@ -24,4 +24,3 @@ edgefinance = ["assets/*", "templates/*", "schemas/*"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
-

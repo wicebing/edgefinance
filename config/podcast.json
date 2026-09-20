@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "showName": "edgeFinance4Podcast",
+  "language": "zh-Hant",
+  "languageCode": "zh-cn",
+  "targetMinutes": { "minimum": 12, "maximum": 18 },
+  "hosts": {
+    "host": {
+      "id": "host",
+      "displayName": "Ying",
+      "role": "證據與產業研究主持人",
+      "engine": "xtts-v2",
+      "speakerAudio": "../tts/girl voice.m4a"
+    },
+    "cohost": {
+      "id": "cohost",
+      "displayName": "Bing",
+      "role": "投資風險與反方論證主持人",
+      "engine": "xtts-v2",
+      "speakerAudio": "../tts/man voice.m4a"
+    }
+  },
+  "tts": {
+    "root": "../tts",
+    "device": "auto",
+    "sampleRate": 24000,
+    "mp3Bitrate": "96k",
+    "pauseSameSpeakerSeconds": 0.13,
+    "pauseSpeakerChangeSeconds": 0.22
+  },
+  "disclosure": "本節目由 Codex 根據 EdgeFinance 已發布週報整理，Ying 與 Bing 的合成語音在本機由使用者提供的聲音樣本產生；內容是可追溯的研究討論，不是個人化投資建議。"
+}

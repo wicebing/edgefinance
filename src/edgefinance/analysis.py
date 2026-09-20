@@ -112,7 +112,7 @@ class CodexRunner:
         version = subprocess.run([self.executable, "--version"], capture_output=True, env=self.env, timeout=20)
         self.version = version.stdout.decode("utf-8", "replace").strip()
 
-    def call(self, prompt: str, schema: dict, task_id: str):
+    def call(self, prompt: str, schema: dict, task_id: str, timeout_seconds: int | None = None):
         work = self.project.root / "work" / "packs" / task_id
         work.mkdir(parents=True, exist_ok=True)
         jsonfile(work / "schema.json", schema)
@@ -131,7 +131,7 @@ class CodexRunner:
         with open(work / "events.jsonl", "wb") as events, open(work / "stderr.log", "wb") as errors:
             proc = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=events, stderr=errors, cwd=work, env=self.env)
             try:
-                proc.communicate(prompt.encode("utf-8"), timeout=self.cfg["timeout_seconds"])
+                proc.communicate(prompt.encode("utf-8"), timeout=timeout_seconds or self.cfg["timeout_seconds"])
             except subprocess.TimeoutExpired:
                 if os.name == "nt":
                     subprocess.run(["taskkill", "/PID", str(proc.pid), "/T", "/F"], capture_output=True)
