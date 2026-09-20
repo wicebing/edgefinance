@@ -14,7 +14,7 @@
 
 - Ying：`../tts/girl voice.m4a`，證據與產業研究主持人。
 - Bing：`../tts/man voice.m4a`，投資風險與反方論證主持人。
-- 引擎：本機 XTTS v2，繁體中文講稿以 `zh-cn` 語音前端合成。
+- 引擎：本機 XTTS v2，講稿、口語與所有 YouTube 文案均使用美式英文，語音前端為 `en`。
 - 聲音 profile：mono、24 kHz，保存在 `data/podcast-voices/`。
 - 快取：每個回合以台詞和聲音樣本 SHA-256 建立檔名；同一稿件重跑只混音，不重錄。
 
@@ -41,8 +41,8 @@
 
 輸出在 `youtube-output/`：
 
-- `edgeFinance4Podcast-YYYY-wNN.mp4`：1280×720、5 fps、H.264、AAC，含 `zho` 字幕軌。
-- `edgeFinance4Podcast-YYYY-wNN.srt`：可另外上傳的繁體中文字幕。
+- `edgeFinance4Podcast-YYYY-wNN.mp4`：1280×720、5 fps、H.264、AAC，含 `eng` 字幕軌。
+- `edgeFinance4Podcast-YYYY-wNN.srt`：可另外上傳的美式英文字幕。
 - `edgeFinance4Podcast-YYYY-wNN-thumbnail.png`：YABILAB 品牌縮圖。
 - `*-title.txt`、`*-description.txt`、`*-upload.txt`：標題、說明、標籤、置頂留言與揭露。
 - `*-manifest.json`：檔案名稱、bytes 與 SHA-256。

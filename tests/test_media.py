@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from edgefinance.media import episode_id_for, frame_durations, podcast_schema, prepare_podcast_packet, srt_time, validate_podcast_script
+from edgefinance.media import episode_id_for, frame_durations, podcast_schema, prepare_podcast_packet, public_podcast_source, srt_time, validate_podcast_script, wrap_pixels
 
 
 def test_episode_id_and_srt_time():
@@ -10,6 +10,19 @@ def test_episode_id_and_srt_time():
     durations = frame_durations(timeline, 10.0)
     assert durations == [4.0, 4.0, 2.0]
     assert sum(durations) == 10.0
+    source = public_podcast_source({"id": "e1", "url": "https://example.com", "published_at": "2026-09-20",
+        "source_id": "taiwan-revenue", "title": "TSM · 2026-08 月營收", "statement": "不應公開"})
+    assert source["title"] == "TSM · 2026-08 · monthly revenue"
+    assert "statement" not in source
+
+
+def test_english_video_wrap_keeps_words_intact():
+    from PIL import Image, ImageDraw, ImageFont
+    draw = ImageDraw.Draw(Image.new("RGB", (320, 200)))
+    text = "We connect durable optical links with Taiwan revenue observations."
+    lines = wrap_pixels(draw, text, ImageFont.load_default(size=18), 155)
+    assert " ".join(lines).split() == text.split()
+    assert any("Taiwan" in line for line in lines)
 
 
 def test_packet_is_bounded_and_traceable(project):
@@ -37,33 +50,34 @@ def test_validates_balanced_source_bounded_dialogue():
         "show": {"name": "edgeFinance4Podcast"}, "written_report_url": "https://example.com/report.html",
         "sources": [{"id": f"e{i}", "title": f"來源 {i}", "url": f"https://example.com/{i}"} for i in range(1, 6)],
     }
-    sentence = "我們先確認這項公開資料的比較口徑，再討論它對技術成熟與公司價值取得可能代表什麼，同時保留反方解釋與下一步查證條件。這裡還要區分來源陳述、我們的推論與尚待取得的估值資料，避免把研究順位誤寫成預期報酬。"
+    sentence = ("We first verify the comparison used by the public source, then discuss what it may imply for technology maturity and corporate value capture. "
+        "We also separate the source statement from our inference, preserve a credible counterargument, identify missing valuation evidence, and define the next condition that could disprove the thesis.")
     turns = []
     for index in range(1, 35):
         text = sentence
         if index in {1, 2}:
-            text = "歡迎收聽 edgeFinance4Podcast。" + sentence
+            text = "Welcome to edgeFinance4Podcast. " + sentence
         if index in set(range(3, 11)):
-            text = "這項判斷目前最需要追問的是什麼？我們能用哪個條件驗證？"
+            text = "What should we challenge here, and which observable condition could test it?"
         turns.append({"turn": index, "speaker": "host" if index % 2 else "cohost", "text": text,
             "delivery": "clear", "source_ids": [f"e{(index % 5) + 1}"]})
     script = {
         "schema_version": 1, "id": "2026-w38", "status": "draft", "publish_date": "2026-09-20",
-        "show_name": "edgeFinance4Podcast", "title": "專利與風險的本週交叉訊號", "subtitle": "從公開證據辨認機會、限制與失效條件",
-        "summary": "Ying 與 Bing 逐步比較本週技術、公司與景氣證據，保留來源限制並提出下一週可驗證的問題。",
-        "language": "zh-Hant", "estimated_minutes": 14,
-        "hosts": [{"id": "host", "display_name": "Ying", "role": "證據主持人"}, {"id": "cohost", "display_name": "Bing", "role": "風險主持人"}],
+        "show_name": "edgeFinance4Podcast", "title": "This Week's Patent and Risk Cross-Signals", "subtitle": "Using public evidence to separate opportunity, uncertainty, and invalidation",
+        "summary": "Ying and Bing compare this week's technology, company, and macroeconomic evidence while preserving source limits and defining questions that can be tested next week.",
+        "language": "en-US", "estimated_minutes": 14,
+        "hosts": [{"id": "host", "display_name": "Ying", "role": "Evidence host"}, {"id": "cohost", "display_name": "Bing", "role": "Risk host"}],
         "source_report_id": "2026-09-20-abcdef12", "source_ids": [f"e{i}" for i in range(1, 6)],
-        "learning_goals": ["理解專利邊界", "辨認價值取得", "追蹤市場風險"],
-        "chapters": [{"title": f"章節 {i}", "summary": "整理證據、反方解釋與下一步查證。", "turn_start": start, "accent": "orange"}
+        "learning_goals": ["Understand patent boundaries", "Identify value capture", "Track market risk"],
+        "chapters": [{"title": f"Chapter {i}", "summary": "Organize the evidence, counterargument, and next verification step.", "turn_start": start, "accent": "orange"}
             for i, start in enumerate([1, 9, 17, 25], 1)],
         "dialogue": turns,
-        "fact_checks": [{"claim": f"核心主張 {i}", "source_ids": [f"e{i}"], "boundary": "只代表來源目前所述範圍。"} for i in range(1, 6)],
-        "closing_takeaways": ["先核對來源", "再比較替代解釋", "最後追蹤失效條件"],
-        "disclosure": "本集使用本機合成 Ying 與 Bing 語音，內容是公開證據研究討論，不是個人化投資建議。",
-        "youtube": {"title": "專利、公司與風險｜edgeFinance4Podcast", "description": "本集根據已發布週報，討論技術成熟、價值取得與市場風險。書面週報：https://example.com/report.html\n" + "\n".join(f"來源：https://example.com/{i}" for i in range(1, 6)) + "\n本集使用合成語音，內容是研究討論而非投資建議。",
-            "thumbnail_headline": "專利與風險交叉訊號", "tags": ["投資研究", "專利", "科技", "總體經濟", "Podcast"],
-            "pinned_comment": "你認為哪一項失效條件最值得追蹤？歡迎提出反方資料與可驗證問題，書面週報、完整來源及研究邊界請見說明欄。"},
+        "fact_checks": [{"claim": f"Core claim {i}", "source_ids": [f"e{i}"], "boundary": "This is limited to what the cited source currently reports."} for i in range(1, 6)],
+        "closing_takeaways": ["Verify the source first", "Compare alternative explanations", "Track the invalidation condition"],
+        "disclosure": "This episode uses locally generated synthetic speech for Ying and Bing. It is an evidence-led research discussion, not individualized investment advice.",
+        "youtube": {"title": "Patents, Companies, and Risk | edgeFinance4Podcast", "description": "This episode uses the published weekly report to discuss technology maturity, value capture, and market risk. Read the full written report at https://example.com/report.html.\n" + "\n".join(f"Original source: https://example.com/{i}" for i in range(1, 6)) + "\nYing and Bing use synthetic speech. This is evidence-led research, not individualized investment advice.",
+            "thumbnail_headline": "Patent and Risk Cross-Signals", "tags": ["investment research", "patents", "technology", "macroeconomics", "podcast"],
+            "pinned_comment": "Which invalidation condition should we track first? Share a traceable counter-source or testable question, and use the written report links for the full evidence boundary."},
     }
     validate_podcast_script(script, packet)
     assert podcast_schema("2026-w38", packet["report_id"], packet["show"]["name"])["additionalProperties"] is False

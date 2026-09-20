@@ -2,28 +2,28 @@
   "schema_version": 1,
   "show": {
     "name": "edgeFinance4Podcast",
-    "language": "zh-Hant"
+    "language": "en-US"
   },
   "episodes": [
     {
       "id": "2026-w38",
       "publish_date": "2026-09-20",
       "show_name": "edgeFinance4Podcast",
-      "title": "光互連的成本假說：營收成長如何走到現金回報",
-      "subtitle": "從專利配置、台灣公司需求線索，到 14–180 天風險觀察",
-      "summary": "Ying 與 Bing 拆解光互連專利的設計取捨，討論 NVDA 研發投入、TSM 與鴻海營收線索能支持哪些公司價值假說，再以日本政策、美国物價與 BTC 歷史路徑建立條件式風險觀察。所有結論限於提供的資料包，保留原文與語義覆核需求。",
-      "language": "zh-Hant",
-      "estimated_minutes": 16,
+      "title": "Optical Links, Taiwan Revenue, and the Funding Test",
+      "subtitle": "What patent designs and revenue growth establish, and what remains unverified",
+      "summary": "Ying and Bing examine an optical link patent, the conditions for companies to capture value, Taiwan revenue observations, and conditional risks across 14–180 days. They separate technical claims from demonstrated performance, revenue from cash generation, and policy announcements from observed market stress.",
+      "language": "en-US",
+      "estimated_minutes": 14,
       "hosts": [
         {
           "id": "host",
           "display_name": "Ying",
-          "role": "女聲證據與產業研究主持人"
+          "role": "Female-voice evidence and industry research host"
         },
         {
           "id": "cohost",
           "display_name": "Bing",
-          "role": "男聲投資風險與反方論證主持人"
+          "role": "Male-voice investment risk and counterargument host"
         }
       ],
       "source_report_id": "2026-09-20-dd7bd51a",
@@ -32,11 +32,10 @@
         "E-f54c827e73d403d1",
         "E-c291c331b2bdc37a",
         "E-92368444b28f52fc",
-        "E-16d4f1202672b4b2",
-        "E-48928683a904dcc2",
         "E-303feb2b0ed8ecae",
         "E-8c0b6f0fbf9f1f67",
         "E-a695ad2484115078",
+        "E-16d4f1202672b4b2",
         "E-d7ac7348656a336d",
         "E-dfe7a7565126d198",
         "E-f898e7c137d2e4c1",
@@ -45,8 +44,6 @@
         "E-039389590c47e7e0",
         "E-2480657698990981",
         "E-9e742d7b7e71bbe6",
-        "E-10e5187b0d8c6156",
-        "E-c2a749e37f532191",
         "E-cfecb53f9719737f",
         "E-b5df0118557fb180",
         "E-646a456f26151bbd",
@@ -54,967 +51,863 @@
         "E-cbf2dbe0fbe3d88a"
       ],
       "learning_goals": [
-        "區分專利設計主張、實測效益、商用採用與公司價值取得。",
-        "辨認單季研發、單月營收與累計營收的不同口徑。",
-        "以反方解釋及失效條件檢查長期研究假說。",
-        "用觸發、傳導與緩和條件追蹤 14–180 天風險。",
-        "理解候選分數與歷史回撤的適用範圍。"
+        "Distinguish patent design claims from measured performance and commercial adoption.",
+        "Identify the conditions linking technical savings or revenue growth to company cash generation.",
+        "Interpret Taiwan revenue comparisons without mixing reporting periods.",
+        "Describe risk through triggers, transmission, and easing conditions across 14–180 days.",
+        "Recognize missing ownership, valuation, and market evidence."
       ],
       "fact_checks": [
         {
-          "claim": "專利描述將波長濾波移至調變之前，以避免光資料訊號經過後段光學濾波。",
+          "claim": "The optical architecture places wavelength filtering before modulation to avoid filtering the optical data signal in the conventional downstream location.",
           "source_ids": [
             "E-9be959da22da3dd4",
             "E-f54c827e73d403d1"
           ],
-          "boundary": "屬來源的架構與效益主張，未提供同條件效能比較，不能推論量產或成本優勢。"
+          "boundary": "A patent design claim; the retained passages lack measured performance losses, test conditions, and comparative validation."
         },
         {
-          "claim": "兩個方向、兩種偏振與兩個波長形成八種可能狀態，架構使用其中四種。",
+          "claim": "Some configurations describe a single fiber and identical transceivers and light sources at both ends.",
           "source_ids": [
-            "E-48928683a904dcc2"
+            "E-c291c331b2bdc37a"
           ],
-          "boundary": "狀態組合不是已驗證的可用通道容量，不能推算容量翻倍。"
+          "boundary": "A possible configuration, not evidence of deployment; its features must not be combined indiscriminately with other embodiments."
         },
         {
-          "claim": "部分配置可採單根光纖；圖六則移除所述偏振控制器，並要求兩條光傳播路徑構成雙工配置。",
+          "claim": "The figure six embodiment removes the described polarization controller and requires two optical propagation paths in a duplex arrangement.",
           "source_ids": [
-            "E-c291c331b2bdc37a",
             "E-8c0b6f0fbf9f1f67",
             "E-a695ad2484115078"
           ],
-          "boundary": "不同實施例不能合併成一套已完成產品；圖六限制不能推及全部架構。"
+          "boundary": "This limitation applies to that embodiment, not every architecture; implementation and commercial adoption remain unverified."
         },
         {
-          "claim": "NVDA 在資料列示的 2026 年 4 月 27 日至 7 月 26 日單季研發費用為 70.54 億美元。",
+          "claim": "NVIDIA's reported research and development expense was $7.054 billion for April 27 through July 26, 2026.",
           "source_ids": [
             "E-16d4f1202672b4b2"
           ],
-          "boundary": "公司整體研發費用不能歸屬於此光互連架構，也不證明技術成果、權利歸屬或未來收入。"
+          "boundary": "Companywide expense does not establish spending on this optical architecture, technical success, or future revenue."
         },
         {
-          "claim": "TSM 的 2026 年 8 月營收年增約 53.32%，來源歸因於先進製程產品需求增加。",
+          "claim": "TSM's August 2026 revenue increased approximately 53.32 percent year over year, with the source attributing the change to advanced-process demand.",
           "source_ids": [
             "E-d7ac7348656a336d",
             "E-dfe7a7565126d198"
           ],
-          "boundary": "單月年增與來源歸因未經量價拆分驗證；營收成長不等於獲利或現金流同步成長。"
+          "boundary": "Rounded single-month growth; process-level revenue and demand volumes are missing, and revenue growth does not establish profit growth."
         },
         {
-          "claim": "鴻海截至 2026 年 8 月的年初至今累計營收年增約 39.73%，來源提出伺服器出貨成長的說明。",
+          "claim": "Hon Hai's cumulative revenue through August 2026 increased approximately 39.73 percent against the corresponding prior-year period.",
           "source_ids": [
             "E-f898e7c137d2e4c1",
             "E-5fa87d795304dae8"
           ],
-          "boundary": "屬累計期間，不能直接與 TSM 單月年增排名；未量化產品貢獻，不能將所有伺服器需求等同 AI。"
+          "boundary": "Year-to-date, not full-year or single-month growth; server shipment attribution lacks quantified product contributions and does not identify all demand as AI demand."
         },
         {
-          "claim": "日本央行文件列示隔夜拆款政策目標由約 1.0% 提高至約 1.25%。",
+          "claim": "The Bank of Japan reference document describes an overnight policy setting increase from approximately 1.0 percent to 1.25 percent.",
           "source_ids": [
             "E-1f2bbb87513a90b4"
           ],
-          "boundary": "差額為 0.25 個百分點；政策目標不等於市場成交利率，該段未提供生效日期。"
+          "boundary": "A policy setting is not an observed transaction rate; the passage does not provide the effective date or demonstrate market disruption."
         },
         {
-          "claim": "補充存款機制條款修訂列示預定於 2026 年 9 月 24 日生效。",
+          "claim": "The complementary deposit facility amendment is scheduled to take effect September 24, 2026.",
           "source_ids": [
             "E-039389590c47e7e0"
           ],
-          "boundary": "日期僅對應該修訂，不是所有政策措施的共同生效日，也不證明其後實際執行。"
+          "boundary": "This date applies to the specified amendment, not automatically to every policy change; scheduled effectiveness does not verify subsequent implementation."
         },
         {
-          "claim": "日馬第三次雙邊換匯安排最高額度為 60 億美元或等值日圓，資料記載於 2026 年 9 月 18 日生效。",
+          "claim": "The Japan–Malaysia swap arrangement has a maximum size of $6 billion or equivalent yen.",
           "source_ids": [
-            "E-9e742d7b7e71bbe6",
-            "E-10e5187b0d8c6156",
-            "E-c2a749e37f532191"
+            "E-9e742d7b7e71bbe6"
           ],
-          "boundary": "可用額度、生效日期與實際交易不同；區域安排不代表全球美元流動性獲保障。"
+          "boundary": "Available capacity does not establish actual use, resolution of a funding shortage, or global liquidity protection."
         },
         {
-          "claim": "美國季調 CPI 指數由 2026 年 7 月的 332.813 升至 8 月的 334.131；5 月至 6 月曾回落。",
+          "claim": "The retained seasonally adjusted US CPI index increased from 332.813 in July 2026 to 334.131 in August.",
           "source_ids": [
             "E-cfecb53f9719737f",
             "E-b5df0118557fb180"
           ],
-          "boundary": "屬資料包目前擷取版本的指數水準，並非年通膨率；單次升降不足以判定持續趨勢。"
+          "boundary": "Index levels in the captured data version, not annual inflation rates; a monthly increase does not establish persistent acceleration, and May to June showed a decline."
         },
         {
-          "claim": "BTCUSDT 在所分析樣本排名第一，30 日報酬約 2.6%，90 日區間最大回撤約 -24.2%。",
+          "claim": "The BTCUSDT sample reports a 2.6 percent thirty-day return and approximately 24.2 percent maximum drawdown over ninety days.",
           "source_ids": [
             "E-afcdd2c2f8968c76",
             "E-cbf2dbe0fbe3d88a"
           ],
-          "boundary": "排名限於 Binance 現貨分析樣本；歷史回撤不是未來損失預測，分數不代表安全性或預期報酬。"
+          "boundary": "Rounded historical measures with different windows from a Binance spot sample; neither predicts returns or losses, establishes safety, or represents equity markets."
+        },
+        {
+          "claim": "The 14-day, 30-day, 90-day, and 180-day assessments remain unknown in the report.",
+          "source_ids": [
+            "E-1f2bbb87513a90b4",
+            "E-cfecb53f9719737f",
+            "E-d7ac7348656a336d",
+            "E-f898e7c137d2e4c1"
+          ],
+          "boundary": "Unknown is the report's synthesis of incomplete evidence, not a direct finding of these individual sources or a low-risk designation; monitoring triggers are conditional, not observed events."
         }
       ],
       "closing_takeaways": [
-        "光互連簡化是否有效，要把光源、控制與光路放回同條件的完整系統比較。",
-        "公司取得價值需要權利、產品採用、利潤與現金回收證據逐段銜接。",
-        "TSM 單月與鴻海累計營收口徑不同，需求歸因仍需量價與財務驗證。",
-        "14–180 天以觸發、傳導與緩和條件追蹤；未知不表示低風險。",
-        "候選分數只協助安排研究，歷史價格路徑不提供報酬保證。"
+        "The optical patent supplies testable architecture claims; system performance, ownership, and paid adoption still need verification.",
+        "Taiwan revenue observations support further demand research, with different reporting windows and incomplete profit and cash evidence.",
+        "Company value capture requires retained economics after operating costs, working capital, and investment.",
+        "Risk monitoring across 14–180 days remains conditional, with insufficient evidence to quantify severity or probabilities.",
+        "The packet does not support valuation judgments, price targets, or individualized trading instructions."
       ],
-      "disclosure": "本節目由 Codex 根據 EdgeFinance 已發布週報整理，Ying 與 Bing 的合成語音在本機由使用者提供的聲音樣本產生；內容是可追溯的研究討論，不是個人化投資建議。",
+      "disclosure": "This episode was prepared by Codex from the published EdgeFinance weekly report. Ying and Bing use synthetic speech generated locally from user-supplied voice samples. The discussion is traceable research, not individualized investment advice.",
       "youtube": {
-        "title": "edgeFinance4Podcast｜光互連成本假說、台灣營收線索與 14–180 天風險",
-        "description": "Ying 與 Bing 討論光互連專利的配置取捨、NVDA 研發投入、TSM 與鴻海營收，以及日本政策、美国物價和 BTC 歷史價格風險。研究截止日：2026-09-20。\n\n書面週報：\nhttps://wicebing.github.io/edgefinance/report-2026-09-20-dd7bd51a.html\n\n本集使用的原始來源連結（專利為 Google Patents 鏡像；Binance 連結為 API 方法文件，非本期排名快照）：\n光互連專利：https://patents.google.com/patent/US20250105920A1/en\nNVDA SEC 財務資料：https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json\n台灣月營收：https://openapi.twse.com.tw/v1/opendata/t187ap05_L\n日本央行政策參考文件：http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf\n補充存款機制修訂：http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260918b.pdf\n日本央行政策文件：http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf\n日馬換匯安排：http://www.boj.or.jp/en/intl_finance/cooperate/coop260915a.pdf\n美國季調 CPI：https://api.bls.gov/publicAPI/v2/timeseries/data/CUSR0000SA0\nBinance 現貨市場資料 API：https://developers.binance.com/docs/binance-spot-api-docs/rest-api/market-data-endpoints\n\n合成語音揭露：本節目由 Codex 根據 EdgeFinance 已發布週報整理，Ying 與 Bing 的合成語音在本機由使用者提供的聲音樣本產生；內容是可追溯的研究討論，不是個人化投資建議。\n\n研究限制：本稿只使用提供的週報資料包，未另行查閱外部來源。引文匹配不等於語義、來源真實性或公司映射已獨立核驗，重要數字與原文仍須人工覆核。資料有選樣、涵蓋與擷取版本限制；同一專利或政策事件的多個片段不算獨立確認。專利不證明實測效益或商用，营收不等於獲利與現金流；缺完整估值、負債與市場曝險資料。中期條件是研究規則，不表示事件已發生。候選分數不代表安全性、買進建議或預期報酬。",
-        "thumbnail_headline": "技術如何變成現金？",
+        "title": "edgeFinance4Podcast | Optical Links, Taiwan Revenue, and Funding Risk",
+        "description": "Ying and Bing examine optical link design claims, the conditions for company value capture, TSM and Hon Hai revenue observations, and conditional risks across 14–180 days. Prepared from the September 20, 2026 EdgeFinance weekly report.\n\nWritten report:\nhttps://wicebing.github.io/edgefinance/report-2026-09-20-dd7bd51a.html\n\nOriginal source URLs used in this episode:\nOptical link architecture:\nhttps://patents.google.com/patent/US20250105920A1/en\nNVIDIA SEC company financial data:\nhttps://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json\nTaiwan monthly revenue data:\nhttps://openapi.twse.com.tw/v1/opendata/t187ap05_L\nBank of Japan policy reference:\nhttp://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf\nComplementary deposit facility amendment:\nhttp://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260918b.pdf\nBank of Japan policy guideline:\nhttp://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf\nJapan–Malaysia bilateral swap arrangement:\nhttp://www.boj.or.jp/en/intl_finance/cooperate/coop260915a.pdf\nUS seasonally adjusted CPI series:\nhttps://api.bls.gov/publicAPI/v2/timeseries/data/CUSR0000SA0\nBinance spot market data endpoint documentation:\nhttps://developers.binance.com/docs/binance-spot-api-docs/rest-api/market-data-endpoints\n\nResearch boundary: This script uses only the supplied report packet; linked originals were not independently retrieved or verified for this episode. The Binance link documents endpoints rather than independently reproducing the packet's historical snapshot. Coverage is partial, and quotation matching does not establish semantic accuracy or company ownership. Patent claims do not prove measured performance, products, revenue, profit, or stock returns. Revenue is not profit or cash flow, reporting windows differ, and policy settings are not observed market rates. Risk triggers are conditional monitoring rules, with all four horizon assessments unknown. Missing valuation and exposure data prevent trading or return conclusions.\n\nThis episode was prepared by Codex from the published EdgeFinance weekly report. Ying and Bing use synthetic speech generated locally from user-supplied voice samples. The discussion is traceable research, not individualized investment advice.",
+        "thumbnail_headline": "Optical Links and the Cash Test",
         "tags": [
           "edgeFinance4Podcast",
-          "YAB LAB",
-          "EdgeFinance",
-          "光互連",
-          "專利研究",
-          "NVDA",
+          "YAB LAB EdgeFinance",
+          "optical interconnects",
+          "patent research",
+          "NVIDIA",
           "TSM",
-          "鴻海",
-          "日本央行",
-          "CPI",
-          "Bitcoin",
-          "投資風險"
+          "Hon Hai",
+          "Taiwan revenue",
+          "Bank of Japan",
+          "funding risk",
+          "evidence-based research"
         ],
-        "pinned_comment": "你最想先補哪項證據：光互連完整成本測試、公司毛利與收款，還是政策落地後的融資資料？歡迎提出可追溯來源。書面週報：https://wicebing.github.io/edgefinance/report-2026-09-20-dd7bd51a.html 。本集使用合成語音；研究條件不代表事件已發生，內容不是個人化投資建議。"
+        "pinned_comment": "Which missing evidence would most change your view: matched optical-system tests, verified company rights, or revenue converting into collected cash? Report and source links are in the description. Synthetic voices; traceable research, not individualized investment advice."
       },
       "schema_version": 1,
       "status": "published",
-      "published_at": "2026-09-20T13:13:35+00:00",
+      "published_at": "2026-09-20T13:45:44+00:00",
       "audio": {
-        "src": "podcasts/edgeFinance4Podcast-2026-w38-bbea0c7b417e.mp3",
-        "bytes": 10088396,
+        "src": "podcasts/edgeFinance4Podcast-2026-w38-e0191ed175d8.mp3",
+        "bytes": 9592172,
         "mime_type": "audio/mpeg",
-        "duration_seconds": 840.609,
+        "duration_seconds": 799.261,
         "sample_rate": 24000,
         "bitrate": "96k",
-        "rendered_at": "2026-09-20T13:13:35+00:00"
+        "rendered_at": "2026-09-20T13:45:44+00:00"
       },
       "sources": [
         {
           "id": "E-9be959da22da3dd4",
-          "title": "Optical link architecture \n       ",
           "url": "https://patents.google.com/patent/US20250105920A1/en",
           "published_at": "2025-04-09",
           "source_id": "us-patent-watch",
-          "statement": "來源表示，將濾波安排在調變之前，可使光資料訊號不經過光學濾波，並宣稱濾波造成的效能損失可忽略。",
-          "caution": "本段未提供效能損失數值、測試條件或比較結果，不能視為已驗證效益。",
-          "type": "source_statement"
+          "title": "Optical link architecture"
         },
         {
           "id": "E-f54c827e73d403d1",
-          "title": "Optical link architecture \n       ",
           "url": "https://patents.google.com/patent/US20250105920A1/en",
           "published_at": "2025-04-09",
           "source_id": "us-patent-watch",
-          "statement": "來源表示，此架構將光學波長濾波移出調變器與偵測器之間的傳統位置，以處理該位置可能造成的高頻衰減、振幅漣波或群延遲問題。",
-          "caution": "本段未量化效能改善，也未提供比較測試。",
-          "type": "source_statement"
+          "title": "Optical link architecture"
         },
         {
           "id": "E-c291c331b2bdc37a",
-          "title": "Optical link architecture \n       ",
           "url": "https://patents.google.com/patent/US20250105920A1/en",
           "published_at": "2025-04-09",
           "source_id": "us-patent-watch",
-          "statement": "來源表示，部分配置可不固定發射與接收埠，並可用單根光纖連接兩端，兩端使用相同收發器及光源。",
-          "caution": "屬可行配置的描述，不能據此認定已有產品或部署。",
-          "type": "source_statement"
+          "title": "Optical link architecture"
         },
         {
           "id": "E-92368444b28f52fc",
-          "title": "Optical link architecture \n       ",
           "url": "https://patents.google.com/patent/US20250105920A1/en",
           "published_at": "2025-04-09",
           "source_id": "us-patent-watch",
-          "statement": "來源表示，圖六及圖七藉由減少或移除偏振控制器，可縮小收發器面積；本段未量化縮減幅度。",
-          "caution": "這是來源宣稱的設計效益，缺乏尺寸比較或實測驗證。",
-          "type": "source_statement"
-        },
-        {
-          "id": "E-16d4f1202672b4b2",
-          "title": "NVDA · SEC 財務觀測（選定科目）",
-          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
-          "published_at": "2026-08-26",
-          "source_id": "sec",
-          "statement": "來源表示，2026 年 4 月 27 日至 7 月 26 日單季研發費用為 7,054,000,000 美元。",
-          "caution": "研發費用數值不能直接證明產品成果或未來營收。",
-          "type": "source_statement"
-        },
-        {
-          "id": "E-48928683a904dcc2",
-          "title": "Optical link architecture \n       ",
-          "url": "https://patents.google.com/patent/US20250105920A1/en",
-          "published_at": "2025-04-09",
-          "source_id": "us-patent-watch",
-          "statement": "來源表示，兩個方向、兩種偏振與兩個波長形成八種可能狀態，但此架構僅使用其中四種。",
-          "caution": "這是通道配置的技術描述；降低串擾要求的效果未附實測數據。",
-          "type": "source_statement"
+          "title": "Optical link architecture"
         },
         {
           "id": "E-303feb2b0ed8ecae",
-          "title": "Optical link architecture \n       ",
           "url": "https://patents.google.com/patent/US20250105920A1/en",
           "published_at": "2025-04-09",
           "source_id": "us-patent-watch",
-          "statement": "來源表示，光纖中的偏振旋轉可能隨時間漂移，因此可在偏振控制器周圍配置閉迴路追蹤系統。",
-          "caution": "僅提出控制方式，未揭露追蹤速度、穩定性或實作驗證結果。",
-          "type": "source_statement"
+          "title": "Optical link architecture"
         },
         {
           "id": "E-8c0b6f0fbf9f1f67",
-          "title": "Optical link architecture \n       ",
           "url": "https://patents.google.com/patent/US20250105920A1/en",
           "published_at": "2025-04-09",
           "source_id": "us-patent-watch",
-          "statement": "來源表示，圖六實施例不包含所述偏振控制器，改採雙波長傳輸的偏振分集方案。",
-          "caution": "屬特定專利實施例的技術描述，未證明已實作或商用。",
-          "type": "source_statement"
+          "title": "Optical link architecture"
         },
         {
           "id": "E-a695ad2484115078",
-          "title": "Optical link architecture \n       ",
           "url": "https://patents.google.com/patent/US20250105920A1/en",
           "published_at": "2025-04-09",
           "source_id": "us-patent-watch",
-          "statement": "來源表示，圖六實施例不具單工能力，必須以兩條光傳播路徑構成雙工配置。",
-          "caution": "此限制對應圖六實施例，不宜推及所有架構。",
-          "type": "source_statement"
+          "title": "Optical link architecture"
+        },
+        {
+          "id": "E-16d4f1202672b4b2",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "published_at": "2026-08-26",
+          "source_id": "sec",
+          "title": "NVDA · SEC · SEC financial observations (selected metrics)"
         },
         {
           "id": "E-d7ac7348656a336d",
-          "title": "TSM · 2026-08 月營收",
           "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
           "published_at": "2026-09-17",
           "source_id": "taiwan-revenue",
-          "statement": "來源表示，2026年8月營收年增約53.32%。",
-          "caution": "百分比經四捨五入；營收成長不代表獲利同步成長。",
-          "type": "source_statement"
+          "title": "TSM · 2026-08 · monthly revenue"
         },
         {
           "id": "E-dfe7a7565126d198",
-          "title": "TSM · 2026-08 月營收",
           "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
           "published_at": "2026-09-17",
           "source_id": "taiwan-revenue",
-          "statement": "來源表示，營收變動係因先進製程產品需求增加。",
-          "caution": "屬來源歸因，未提供製程別營收或需求量佐證。",
-          "type": "source_statement"
+          "title": "TSM · 2026-08 · monthly revenue"
         },
         {
           "id": "E-f898e7c137d2e4c1",
-          "title": "2317.TW · 2026-08 月營收",
           "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
           "published_at": "2026-09-17",
           "source_id": "taiwan-revenue",
-          "statement": "來源表示，截至2026年8月，年初至今累計營收為6,511,139,274千元，較去年同期增加約39.73%。",
-          "caution": "累計期間依YearToDate欄位解讀；不是全年營收，成長率經四捨五入。",
-          "type": "source_statement"
+          "title": "2317.TW · 2026-08 · monthly revenue"
         },
         {
           "id": "E-5fa87d795304dae8",
-          "title": "2317.TW · 2026-08 月營收",
           "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
           "published_at": "2026-09-17",
           "source_id": "taiwan-revenue",
-          "statement": "來源表示，營收較去年同期增加主要受惠於伺服器產品出貨持續成長。",
-          "caution": "這是來源提出的原因說明，未附出貨量或產品別營收以量化貢獻。",
-          "type": "source_statement"
+          "title": "2317.TW · 2026-08 · monthly revenue"
         },
         {
           "id": "E-1f2bbb87513a90b4",
-          "title": "(Reference) Change in the Guideline for Money Market Operations (September 2026 MPM)",
           "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf",
           "published_at": "2026-09-18",
           "source_id": "boj-news",
-          "statement": "來源表示，短期政策利率所指的無擔保隔夜拆款利率由約1.0%提高至約1.25%。",
-          "caution": "本段未提供生效日期或實際市場成交利率。",
-          "type": "source_statement"
+          "title": "(Reference) Change in the Guideline for Money Market Operations (September 2026 MPM)"
         },
         {
           "id": "E-039389590c47e7e0",
-          "title": "Amendment to \"Principal Terms and Conditions of Complementary Deposit Facility\"",
           "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260918b.pdf",
           "published_at": "2026-09-18",
           "source_id": "boj-news",
-          "statement": "來源表示，該修訂將於2026年9月24日生效。",
-          "caution": "這是文件所列預定生效日，本段不證明其後實際執行情況。",
-          "type": "source_statement"
+          "title": "Amendment to \"Principal Terms and Conditions of Complementary Deposit Facility\""
         },
         {
           "id": "E-2480657698990981",
-          "title": "Change in the Guideline for Money Market Operations",
           "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf",
           "published_at": "2026-09-18",
           "source_id": "boj-news",
-          "statement": "來源表示，近期須特別關注中東局勢對金融、外匯市場及日本經濟活動與物價的影響。",
-          "caution": "來源指出風險，未量化衝擊幅度、方向或發生機率。",
-          "type": "source_statement"
+          "title": "Change in the Guideline for Money Market Operations"
         },
         {
           "id": "E-9e742d7b7e71bbe6",
-          "title": "Signing of the Third Bilateral Swap Arrangement between Japan and Malaysia",
           "url": "http://www.boj.or.jp/en/intl_finance/cooperate/coop260915a.pdf",
           "published_at": "2026-09-15",
           "source_id": "boj-news",
-          "statement": "來源表示，日本與馬來西亞已簽署第三次雙邊換匯安排，最高換匯額度為60億美元或等值日圓。",
-          "caution": "最高額度不代表已實際動用的金額。",
-          "type": "source_statement"
-        },
-        {
-          "id": "E-10e5187b0d8c6156",
-          "title": "Signing of the Third Bilateral Swap Arrangement between Japan and Malaysia",
-          "url": "http://www.boj.or.jp/en/intl_finance/cooperate/coop260915a.pdf",
-          "published_at": "2026-09-15",
-          "source_id": "boj-news",
-          "statement": "來源表示，日本銀行代表日本財務大臣與馬來西亞國家銀行簽署協議，於2026年9月18日生效。",
-          "caution": "生效日期不等於實際換匯交易日期。",
-          "type": "source_statement"
-        },
-        {
-          "id": "E-c2a749e37f532191",
-          "title": "Signing of the Third Bilateral Swap Arrangement between Japan and Malaysia",
-          "url": "http://www.boj.or.jp/en/intl_finance/cooperate/coop260915a.pdf",
-          "published_at": "2026-09-15",
-          "source_id": "boj-news",
-          "statement": "來源表示，此安排允許雙方以各自本幣換取美元，並允許馬來西亞國家銀行以馬幣換取日圓。",
-          "caution": "此處描述可用的換匯機制，未證明已發生交易。",
-          "type": "source_statement"
+          "title": "Signing of the Third Bilateral Swap Arrangement between Japan and Malaysia"
         },
         {
           "id": "E-cfecb53f9719737f",
-          "title": "US CPI all urban consumers (seasonally adjusted)",
           "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUSR0000SA0",
           "published_at": "2026-09-14",
           "source_id": "bls",
-          "statement": "來源表示，2026年7月與8月指數分別為332.813及334.131，8月高於7月。",
-          "caution": "日期代表觀測月份；數值屬目前擷取版本。",
-          "type": "source_statement"
+          "title": "US CPI all urban consumers (seasonally adjusted)"
         },
         {
           "id": "E-b5df0118557fb180",
-          "title": "US CPI all urban consumers (seasonally adjusted)",
           "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUSR0000SA0",
           "published_at": "2026-09-14",
           "source_id": "bls",
-          "statement": "來源表示，2026年5月指數為333.979，6月降至332.568。",
-          "caution": "單月回落不足以判定持續趨勢。",
-          "type": "source_statement"
+          "title": "US CPI all urban consumers (seasonally adjusted)"
         },
         {
           "id": "E-646a456f26151bbd",
-          "title": "(Reference) Change in the Guideline for Money Market Operations (September 2026 MPM)",
           "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf",
           "published_at": "2026-09-18",
           "source_id": "boj-news",
-          "statement": "來源表示，將因應經濟活動、物價及金融條件，繼續提高政策利率並調整貨幣寬鬆程度。",
-          "caution": "屬附帶條件的政策方向，未承諾下次升息日期或幅度。",
-          "type": "source_statement"
+          "title": "(Reference) Change in the Guideline for Money Market Operations (September 2026 MPM)"
         },
         {
           "id": "E-afcdd2c2f8968c76",
-          "title": "Bitcoin 與 Binance 公開現貨雷達 · 2026-09-20",
           "url": "https://developers.binance.com/docs/binance-spot-api-docs/rest-api/market-data-endpoints",
           "published_at": "2026-09-20",
           "source_id": "binance-opportunities",
-          "statement": "來源表示，BTCUSDT 排名第一、分數為 81.33，24 小時成交額為 985,418,519 USDT，30 日報酬為 2.6%，90 日區間最大回撤為 -24.2%。",
-          "caution": "成交額與百分比引用來源的四捨五入數值；排名僅適用於所分析樣本。",
-          "type": "source_statement"
+          "title": "Bitcoin and Binance public spot market radar · 2026-09-20"
         },
         {
           "id": "E-cbf2dbe0fbe3d88a",
-          "title": "Bitcoin 與 Binance 公開現貨雷達 · 2026-09-20",
           "url": "https://developers.binance.com/docs/binance-spot-api-docs/rest-api/market-data-endpoints",
           "published_at": "2026-09-20",
           "source_id": "binance-opportunities",
-          "statement": "來源表示，排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性，且多項市場與保管風險未納入分數。",
-          "caution": "分數的風險涵蓋範圍有限，也不可直接與股票研究分數比較。",
-          "type": "source_statement"
+          "title": "Bitcoin and Binance public spot market radar · 2026-09-20"
         }
       ],
       "transcript": [
         {
           "turn": 1,
           "speaker": "host",
-          "text": "歡迎收聽 edgeFinance4Podcast，我是 Ying。今天想和你一起追一條研究線：光互連設計看起來更簡潔，距離公司真正留下現金，還要跨過哪些關卡？我們會從長期技術談到公司，再把時間拉回未來兩週到半年。",
+          "text": "Welcome to edgeFinance4Podcast, I'm Ying, and today we're asking how a promising technical idea might become a durable business. We'll connect an optical link patent with Taiwan revenue observations, then examine the funding risks that could complicate that story.",
           "delivery": "warm",
           "source_ids": [],
           "start_seconds": 1.57,
-          "duration_seconds": 18.053
+          "duration_seconds": 15.641
         },
         {
           "turn": 2,
           "speaker": "cohost",
-          "text": "我是 Bing，歡迎來到 edgeFinance4Podcast。我會專門追問那些容易跳過的環節，像是少一個零件，是否真的少一筆成本。我們今天只沿著這份週報資料包討論，原文、數字語義和公司歸屬，仍有需要人工覆核的地方。",
+          "text": "And I'm Bing, bringing the investment risk questions to edgeFinance4Podcast. Our starting point is the September twentieth weekly report, with a distinction we'll keep returning to: a design claim, a reported sale, and cash left after investment answer different questions.",
           "delivery": "warm",
           "source_ids": [],
-          "start_seconds": 19.753,
-          "duration_seconds": 18.86
+          "start_seconds": 17.341,
+          "duration_seconds": 16.393
         },
         {
           "turn": 3,
           "speaker": "host",
-          "text": "那先約定一個讀法：聽到來源提出設計，就停在設計；聽到公司營收增加，就先確認期間與成長來源。我的問題是，如果一個技術方向值得追三到十年，現在又沒有估值依據，你會怎麼讓研究繼續前進？",
-          "delivery": "curious",
-          "source_ids": [],
-          "start_seconds": 38.834,
-          "duration_seconds": 17.933
-        },
-        {
-          "turn": 4,
-          "speaker": "cohost",
-          "text": "我會先寫下需要什麼證據才改變看法，也寫下什麼結果會讓假說失效。",
-          "delivery": "clear",
-          "source_ids": [],
-          "start_seconds": 56.986,
-          "duration_seconds": 7.362
-        },
-        {
-          "turn": 5,
-          "speaker": "host",
-          "text": "好，拿 Optical link architecture 這份專利來練習。來源描述，把波長濾波移出調變器與偵測器之間的位置，安排到調變之前，讓光資料訊號避開後段光學濾波。它宣稱能減輕相關損失，但這裡沒有同條件比較結果。",
+          "text": "The optical patent describes moving wavelength filtering ahead of modulation, the step that puts information onto the light. Compared with filtering between the modulator and detector, the proposed arrangement aims to avoid certain signal distortions associated with that conventional location.",
           "delivery": "clear",
           "source_ids": [
             "E-9be959da22da3dd4",
             "E-f54c827e73d403d1"
           ],
-          "start_seconds": 64.569,
-          "duration_seconds": 18.919
+          "start_seconds": 33.954,
+          "duration_seconds": 18.163
+        },
+        {
+          "turn": 4,
+          "speaker": "cohost",
+          "text": "What would we need to see before calling that an improvement a customer would actually pay for?",
+          "delivery": "curious",
+          "source_ids": [],
+          "start_seconds": 52.336,
+          "duration_seconds": 5.864
+        },
+        {
+          "turn": 5,
+          "speaker": "host",
+          "text": "A comparison under matching throughput, distance, error rate, and availability requirements, with the entire system included. The patent says filtering losses can be negligible, but the retained passage provides no measured loss figures, test conditions, or comparative results to establish that benefit.",
+          "delivery": "clear",
+          "source_ids": [
+            "E-9be959da22da3dd4",
+            "E-f54c827e73d403d1"
+          ],
+          "start_seconds": 58.46,
+          "duration_seconds": 20.63
         },
         {
           "turn": 6,
           "speaker": "cohost",
-          "text": "我想確認，這裡是改變濾波的位置，並沒有說整套系統都不需要濾波，對吧？而且來源列出的高頻衰減、振幅漣波、群延遲，是它想處理的問題。沒有改善幅度，就還不能把這些文字念成已經通過驗證的優勢。",
-          "delivery": "curious",
+          "text": "That makes the long-term question more specific: could the architecture reduce energy and total cost for useful data delivered? It's a reasonable hypothesis to investigate, but we're still missing the comparison that would tell us whether the proposed simplification survives real operating requirements.",
+          "delivery": "reflective",
           "source_ids": [
-            "E-f54c827e73d403d1",
-            "E-9be959da22da3dd4"
+            "E-9be959da22da3dd4",
+            "E-f54c827e73d403d1"
           ],
-          "start_seconds": 83.708,
-          "duration_seconds": 18.329
+          "start_seconds": 79.31,
+          "duration_seconds": 18.562
         },
         {
           "turn": 7,
           "speaker": "host",
-          "text": "對，重點是位置改變；效益大小還得靠相同條件的測試回答。",
+          "text": "Some configurations also describe identical transceivers and light sources at both ends, connected by a single fiber. That's an interesting design option, although I wouldn't combine every attractive feature in the document into one imaginary finished product.",
           "delivery": "clear",
           "source_ids": [
-            "E-9be959da22da3dd4"
+            "E-c291c331b2bdc37a"
           ],
-          "start_seconds": 102.257,
-          "duration_seconds": 4.439
+          "start_seconds": 98.092,
+          "duration_seconds": 16.946
         },
         {
           "turn": 8,
           "speaker": "cohost",
-          "text": "另外有個很容易聽錯的數字。以方向、偏振和波長的組合來算，兩個方向、兩種偏振、兩個波長形成八種可能狀態，架構使用其中四種。這是在描述配置，不能直接說有八個可用通道，更不能推算容量翻倍。",
-          "delivery": "clear",
-          "source_ids": [
-            "E-48928683a904dcc2"
-          ],
-          "start_seconds": 106.917,
-          "duration_seconds": 20.871
+          "text": "Where does that temptation get us into trouble: the fiber arrangement, the controls, or both?",
+          "delivery": "curious",
+          "source_ids": [],
+          "start_seconds": 115.258,
+          "duration_seconds": 5.025
         },
         {
           "turn": 9,
           "speaker": "host",
-          "text": "還有一些配置可不固定發射與接收埠，用單根光纖連接兩端，兩端採相同收發器與光源。這讓我想研究配置是否能簡化，但來源只提出可行安排。我想問你，看到這種簡化，你會優先找哪一項可能被藏起來的代價？",
-          "delivery": "curious",
+          "text": "Both, because the embodiments make different tradeoffs. The figure six configuration removes the described polarization controller using a dual-wavelength polarization-diversity approach, but it also requires two optical propagation paths in a duplex arrangement and lacks the stated simplex capability.",
+          "delivery": "clear",
           "source_ids": [
-            "E-c291c331b2bdc37a"
+            "E-8c0b6f0fbf9f1f67",
+            "E-a695ad2484115078"
           ],
-          "start_seconds": 128.008,
-          "duration_seconds": 18.121
+          "start_seconds": 120.543,
+          "duration_seconds": 20.447
         },
         {
           "turn": 10,
           "speaker": "cohost",
-          "text": "我會找控制的代價。來源說光纖中的偏振旋轉可能隨時間漂移，因此提出在偏振控制器周圍加入閉迴路追蹤系統。可惜沒有追蹤速度或穩定性結果；少掉的硬體成本，會不會在控制與維護上出現，是待驗證的反方解釋。",
-          "delivery": "reflective",
+          "text": "So removing a component doesn't establish a lower total bill. Another passage proposes closed-loop tracking because polarization can drift over time, yet it supplies no tracking speed or stability results; the controls could become part of the cost and reliability test.",
+          "delivery": "cautious",
           "source_ids": [
             "E-303feb2b0ed8ecae"
           ],
-          "start_seconds": 146.349,
-          "duration_seconds": 19.886
+          "start_seconds": 141.21,
+          "duration_seconds": 16.443
         },
         {
           "turn": 11,
           "speaker": "host",
-          "text": "那圖六移除偏振控制器，是否就能避開你剛才提出的疑問？",
+          "text": "Would you treat the claimed smaller transceiver footprint as enough to keep the cost hypothesis alive?",
           "delivery": "curious",
           "source_ids": [
-            "E-8c0b6f0fbf9f1f67"
+            "E-92368444b28f52fc"
           ],
-          "start_seconds": 166.455,
-          "duration_seconds": 4.791
+          "start_seconds": 157.874,
+          "duration_seconds": 4.742
         },
         {
           "turn": 12,
           "speaker": "cohost",
-          "text": "還不能這樣接。圖六改採雙波長傳輸的偏振分集方案；同一實施例又寫到不具單工能力，須以兩條光傳播路徑構成雙工配置。這些術語還要回原文細讀，但至少不能把前面的單纖優點和這裡移除控制器的優點拼成一套產品。",
-          "delivery": "cautious",
+          "text": "Alive, yes; demonstrated, no, because the patent links reduced or removed polarization controllers to a smaller footprint without quantifying the reduction. I'd keep that as a testable benefit and ask whether any space savings require extra hardware or complexity elsewhere.",
+          "delivery": "reflective",
           "source_ids": [
-            "E-8c0b6f0fbf9f1f67",
-            "E-a695ad2484115078",
-            "E-c291c331b2bdc37a"
+            "E-92368444b28f52fc"
           ],
-          "start_seconds": 171.466,
-          "duration_seconds": 21.451
+          "start_seconds": 162.876,
+          "duration_seconds": 17.974
         },
         {
           "turn": 13,
           "speaker": "host",
-          "text": "我收回剛才那個太快的連結。來源也宣稱，圖六和圖七減少或移除偏振控制器，可縮小收發器面積，可是沒有尺寸比較。比較完整的研究問題應該是：把全部光源、控制與光路算回去，系統還剩下多少節省？",
-          "delivery": "reflective",
+          "text": "Let's bring the company question in: the report associates this research hypothesis with NVIDIA, or NVDA, while leaving ownership verification open. Before attributing value, we'd need to review the assignee, rights chain, legal status, and any actual connection to a paid product.",
+          "delivery": "cautious",
           "source_ids": [
-            "E-92368444b28f52fc",
-            "E-a695ad2484115078"
+            "E-9be959da22da3dd4"
           ],
-          "start_seconds": 193.137,
-          "duration_seconds": 18.87
+          "start_seconds": 181.07,
+          "duration_seconds": 17.489
         },
         {
           "turn": 14,
           "speaker": "cohost",
-          "text": "對，零件變少是線索，總成本是否下降還是另一個需要測量的問題。",
-          "delivery": "clear",
-          "source_ids": [
-            "E-92368444b28f52fc"
-          ],
-          "start_seconds": 212.227,
-          "duration_seconds": 7.132
+          "text": "And even confirmed rights wouldn't tell us who keeps the savings, would they?",
+          "delivery": "curious",
+          "source_ids": [],
+          "start_seconds": 198.779,
+          "duration_seconds": 4.324
         },
         {
           "turn": 15,
           "speaker": "host",
-          "text": "所以我會要求比較表先固定有效吞吐量、距離、誤碼率與可用性，再比較每個有效傳輸位元的能耗和完整成本。如果同條件下兩者都沒有改善，就撤回成本優勢這一段；只是暫時沒新揭露，則只能記成尚未驗證。",
+          "text": "Right, value capture would require more than technical usefulness: a company would need relevant rights or integration advantages, customer acceptance, and economics that leave it some profit. If all the savings reach customers, the technology could succeed while the supplier captures much less value.",
           "delivery": "clear",
-          "source_ids": [
-            "E-9be959da22da3dd4",
-            "E-303feb2b0ed8ecae",
-            "E-a695ad2484115078"
-          ],
-          "start_seconds": 219.579,
-          "duration_seconds": 18.874
-        },
-        {
-          "turn": 16,
-          "speaker": "cohost",
-          "text": "我再加一個閱讀提醒：剛才引用的不同段落，都來自同一份專利文件。段落多，方便我們辨認取捨，卻沒有增加獨立實驗的數量。即使設計邏輯講得通，也還要等實作、可靠度，以及可以辨識的客戶驗收證據。",
-          "delivery": "cautious",
-          "source_ids": [
-            "E-9be959da22da3dd4",
-            "E-303feb2b0ed8ecae",
-            "E-a695ad2484115078"
-          ],
-          "start_seconds": 238.674,
-          "duration_seconds": 18.707
-        },
-        {
-          "turn": 17,
-          "speaker": "host",
-          "text": "接著談公司。以資料列出的單季期間，也就是二○二六年四月二十七日至七月二十六日，NVDA 研發費用為七十點五四億美元。這表示公司整體的研發投入規模；我們沒有費用分配，不能認定這筆錢投入剛才的光互連架構。",
-          "delivery": "clear",
-          "source_ids": [
-            "E-16d4f1202672b4b2"
-          ],
-          "start_seconds": 257.6,
-          "duration_seconds": 20.865
-        },
-        {
-          "turn": 18,
-          "speaker": "cohost",
-          "text": "那你會接受用研發費用，替這份專利的商業成功背書嗎？",
-          "delivery": "curious",
-          "source_ids": [
-            "E-16d4f1202672b4b2"
-          ],
-          "start_seconds": 278.685,
-          "duration_seconds": 5.159
-        },
-        {
-          "turn": 19,
-          "speaker": "host",
-          "text": "不會，研發支出本身沒有回答成果，更沒有回答這份專利的受讓人、有效權利和產品關聯。要討論 NVDA 能否取得價值，我會先確認權利鏈，再找付費產品的採用證據；公司標籤與研發數字並列，還不足以建立連結。",
-          "delivery": "cautious",
-          "source_ids": [
-            "E-16d4f1202672b4b2",
-            "E-9be959da22da3dd4"
-          ],
-          "start_seconds": 284.065,
-          "duration_seconds": 18.73
-        },
-        {
-          "turn": 20,
-          "speaker": "cohost",
-          "text": "即使未來確認連結，也要問節省由誰留下。假設技術確實替客戶省錢，公司可能藉差異化保留利潤，也可能把節省讓給客戶，或由其他關鍵供應商取得收益。這些是不同商業情境，今天都沒有證據讓我們選定其中一條。",
-          "delivery": "reflective",
           "source_ids": [
             "E-9be959da22da3dd4",
             "E-92368444b28f52fc"
           ],
-          "start_seconds": 303.014,
-          "duration_seconds": 19.96
+          "start_seconds": 203.363,
+          "duration_seconds": 19.456
+        },
+        {
+          "turn": 16,
+          "speaker": "cohost",
+          "text": "There's a separate financial observation, but let's establish its scope before the amount: companywide research spending, with no allocation to this architecture. The packet reports NVIDIA research and development expense of 7.054 billion dollars for April twenty-seventh through July twenty-sixth, 2026.",
+          "delivery": "clear",
+          "source_ids": [
+            "E-16d4f1202672b4b2"
+          ],
+          "start_seconds": 223.039,
+          "duration_seconds": 18.695
+        },
+        {
+          "turn": 17,
+          "speaker": "host",
+          "text": "That establishes spending, not a return on it, and doesn't tell us whether any of that amount funded this design. The financial observation adds context about company investment; it doesn't independently validate the patent's technical claims or connect those claims to revenue.",
+          "delivery": "cautious",
+          "source_ids": [
+            "E-16d4f1202672b4b2"
+          ],
+          "start_seconds": 241.954,
+          "duration_seconds": 15.963
+        },
+        {
+          "turn": 18,
+          "speaker": "cohost",
+          "text": "What would make you drop the hypothesis, rather than simply leave it waiting for evidence?",
+          "delivery": "curious",
+          "source_ids": [],
+          "start_seconds": 258.137,
+          "duration_seconds": 5.764
+        },
+        {
+          "turn": 19,
+          "speaker": "host",
+          "text": "If a matched comparison including every light source, controller, and optical path showed no energy or total-cost improvement, I'd reject the cost-advantage step. Persistent failure to meet customer reliability requirements would challenge deployment feasibility, while confirmed absence of relevant rights and adoption links would undermine the company-specific case.",
+          "delivery": "clear",
+          "source_ids": [
+            "E-303feb2b0ed8ecae",
+            "E-a695ad2484115078",
+            "E-9be959da22da3dd4"
+          ],
+          "start_seconds": 264.161,
+          "duration_seconds": 24.14
+        },
+        {
+          "turn": 20,
+          "speaker": "cohost",
+          "text": "And silence alone wouldn't establish those failures. For a hypothesis spanning three to ten years, I'd distinguish missing disclosure from a failed test, while keeping the maturity label at patent architecture research until performance and identifiable paid adoption evidence arrive.",
+          "delivery": "reflective",
+          "source_ids": [
+            "E-9be959da22da3dd4"
+          ],
+          "start_seconds": 288.522,
+          "duration_seconds": 18.856
         },
         {
           "turn": 21,
           "speaker": "host",
-          "text": "台灣研究候選可以從 TSM 和鴻海的需求線索談起。先看 TSM，以二○二六年八月對去年同月的營收口徑，年增約百分之五十三點三二。來源把變動歸因於先進製程產品需求增加，但沒有製程別收入或需求量來拆解。",
+          "text": "Taiwan gives us a different kind of evidence: reported revenue rather than a proposed architecture. For TSM, the comparison is August 2026 against August a year earlier, and the packet reports revenue growth of approximately 53.32 percent.",
           "delivery": "clear",
           "source_ids": [
-            "E-d7ac7348656a336d",
-            "E-dfe7a7565126d198"
+            "E-d7ac7348656a336d"
           ],
-          "start_seconds": 323.194,
-          "duration_seconds": 19.289
+          "start_seconds": 307.597,
+          "duration_seconds": 18.67
         },
         {
           "turn": 22,
           "speaker": "cohost",
-          "text": "營收線索比設計更靠近交易，但離股東能留下多少錢，仍有距離。",
-          "delivery": "reflective",
+          "text": "That's a substantial sales increase, but what supports the explanation for it?",
+          "delivery": "curious",
           "source_ids": [
             "E-d7ac7348656a336d"
           ],
-          "start_seconds": 342.703,
-          "duration_seconds": 6.338
+          "start_seconds": 326.487,
+          "duration_seconds": 5.317
         },
         {
           "turn": 23,
           "speaker": "host",
-          "text": "鴻海，ticker 是 2317.TW，則要換個期間讀：截至二○二六年八月，年初至今累計營收較去年同期增加約百分之三十九點七三。來源說主要受惠於伺服器產品出貨持續成長，沒有量化產品別貢獻。這和 TSM 的單月年增不能直接排名。",
+          "text": "The source attributes the change to increased demand for advanced-process products. That's useful attribution, although the retained evidence doesn't provide revenue by process or demand volumes, so we can't independently separate the contributions of quantity, price, and product mix.",
           "delivery": "clear",
           "source_ids": [
-            "E-f898e7c137d2e4c1",
-            "E-5fa87d795304dae8",
-            "E-d7ac7348656a336d"
+            "E-dfe7a7565126d198"
           ],
-          "start_seconds": 349.261,
-          "duration_seconds": 21.975
+          "start_seconds": 332.064,
+          "duration_seconds": 16.954
         },
         {
           "turn": 24,
           "speaker": "cohost",
-          "text": "我還會保留價格、產品組合、基期與交付時點這些替代解釋，現在沒有量價拆分可以排除。兩家公司都出現需求說明，也不能證明彼此有特定交易關係，更不能把所有伺服器出貨都稱為 AI 需求。你會先補哪個財務環節？",
-          "delivery": "curious",
+          "text": "Hon Hai, ticker 2317.TW, uses a different comparison: January through August against the same cumulative period a year earlier. Its reported growth is approximately 39.73 percent, so putting that beside TSM's monthly figure doesn't create a valid company growth ranking.",
+          "delivery": "clear",
           "source_ids": [
-            "E-dfe7a7565126d198",
-            "E-5fa87d795304dae8"
+            "E-f898e7c137d2e4c1",
+            "E-d7ac7348656a336d"
           ],
-          "start_seconds": 371.456,
-          "duration_seconds": 22.098
+          "start_seconds": 349.238,
+          "duration_seconds": 19.393
         },
         {
           "turn": 25,
           "speaker": "host",
-          "text": "我會把兩家公司分開，先補產品組合與毛利，再看應收款、存貨和收款，最後接資本支出。這是研究順序：先確認增量收入能留下單位利潤，再確認利潤有沒有變成現金，才有辦法問新增投資之後，還剩多少回報。",
-          "delivery": "clear",
+          "text": "Exactly, the windows differ, and cumulative revenue isn't a full-year result. Hon Hai's source attributes the increase primarily to continued server shipment growth, but it doesn't quantify that contribution with shipment totals or product-level revenue, and it doesn't identify all server demand as AI demand.",
+          "delivery": "cautious",
           "source_ids": [
-            "E-d7ac7348656a336d",
-            "E-f898e7c137d2e4c1"
+            "E-f898e7c137d2e4c1",
+            "E-5fa87d795304dae8"
           ],
-          "start_seconds": 393.774,
-          "duration_seconds": 19.725
+          "start_seconds": 368.852,
+          "duration_seconds": 22.056
         },
         {
           "turn": 26,
           "speaker": "cohost",
-          "text": "如果出貨持續增加，毛利和現金流卻變差，你會立刻否定長期需求嗎？",
+          "text": "Could both demand observations be accurate while the long-term shareholder argument still disappoints?",
           "delivery": "curious",
           "source_ids": [],
-          "start_seconds": 413.719,
-          "duration_seconds": 7.292
+          "start_seconds": 391.128,
+          "duration_seconds": 5.221
         },
         {
           "turn": 27,
           "speaker": "host",
-          "text": "不會立刻否定需求。我會先排除暫時收款時差和季節性；若連續數季惡化，且確認源於產品經濟性，就修正營收能轉成獲利的假說。若成長主要來自一次性認列，才回頭挑戰需求外推。不同環節失效，需要不同證據。",
+          "text": "Absolutely, if additional sales leave little margin or require enough investment and working capital to absorb the cash they generate. For TSM we'd investigate manufacturing and capital costs; for Hon Hai we'd investigate delivery economics and collections, without assuming these observations prove a specific relationship between them.",
+          "delivery": "clear",
+          "source_ids": [
+            "E-d7ac7348656a336d",
+            "E-5fa87d795304dae8"
+          ],
+          "start_seconds": 396.609,
+          "duration_seconds": 22.037
+        },
+        {
+          "turn": 28,
+          "speaker": "cohost",
+          "text": "I'd also challenge the leap from a strong reporting period to durable demand. Price changes, product mix, or delivery timing could contribute, so the next useful evidence would include comparable product data, margins, receivables, inventory, and cash generated after capital spending.",
           "delivery": "reflective",
           "source_ids": [
             "E-dfe7a7565126d198",
             "E-5fa87d795304dae8"
           ],
-          "start_seconds": 421.231,
-          "duration_seconds": 21.356
-        },
-        {
-          "turn": 28,
-          "speaker": "cohost",
-          "text": "這樣我接受把它們放進後續研究名單，但不會由這些營收數字判斷便宜或昂貴。光是成長率，沒有告訴我們價格包含多少期待。接下來也用同樣方法談風險：先說觀察窗口與成立條件，讓結論停在資料能支撐的位置。",
-          "delivery": "clear",
-          "source_ids": [
-            "E-d7ac7348656a336d",
-            "E-f898e7c137d2e4c1"
-          ],
-          "start_seconds": 442.807,
-          "duration_seconds": 20.69
+          "start_seconds": 418.865,
+          "duration_seconds": 18.593
         },
         {
           "turn": 29,
           "speaker": "host",
-          "text": "先看十四天窗口。以日本央行文件的無擔保隔夜拆款政策目標比較，利率由約百分之一提高到約百分之一點二五，差零點二五個百分點。這是政策目標的變化，資料沒有實際市場成交利率，不能直接說每家公司的融資成本已同步增加。",
-          "delivery": "clear",
-          "source_ids": [
-            "E-1f2bbb87513a90b4"
-          ],
-          "start_seconds": 463.717,
-          "duration_seconds": 19.821
+          "text": "Then what would change your mind in favor of a more durable business explanation?",
+          "delivery": "curious",
+          "source_ids": [],
+          "start_seconds": 437.678,
+          "duration_seconds": 4.438
         },
         {
           "turn": 30,
           "speaker": "cohost",
-          "text": "那九月二十四日，能直接當成這次所有政策調整的共同生效日嗎？",
-          "delivery": "curious",
+          "text": "Repeated evidence that relevant demand becomes profitable output and collected cash, with investment needs still covered. Conversely, sustained shipment growth alongside worsening margins and cash generation would challenge that link once temporary collection timing was ruled out; the current revenue observations don't resolve either outcome.",
+          "delivery": "clear",
           "source_ids": [
-            "E-039389590c47e7e0"
+            "E-dfe7a7565126d198",
+            "E-5fa87d795304dae8"
           ],
-          "start_seconds": 483.758,
-          "duration_seconds": 7.307
+          "start_seconds": 442.377,
+          "duration_seconds": 19.196
         },
         {
           "turn": 31,
           "speaker": "host",
-          "text": "不能。這個日期對應補充存款機制條款修訂的預定生效日，不能擴大到所有措施，也沒有證明後續執行結果。我們要把隔夜目標和存款機制各自讀清楚；同一政策事件的不同文件，也不能算成多次獨立的市場確認。",
-          "delivery": "cautious",
+          "text": "Now to the funding environment: comparing the prior and revised overnight policy settings, the Bank of Japan reference document describes a move from about 1 percent to about 1.25 percent. That is a policy setting, and the passage doesn't supply actual market transaction rates.",
+          "delivery": "clear",
           "source_ids": [
-            "E-039389590c47e7e0",
             "E-1f2bbb87513a90b4"
           ],
-          "start_seconds": 491.285,
-          "duration_seconds": 18.092
+          "start_seconds": 461.793,
+          "duration_seconds": 19.451
         },
         {
           "turn": 32,
           "speaker": "cohost",
-          "text": "我的條件式路徑是：若實際短期融資成本與外匯波動上升，依賴短期或跨幣別融資者可能縮減部位，再影響風險資產。要提高警戒，還得看到融資利差、匯率與出售壓力的資料；目前這條路徑只是待查，不能說被迫減倉已發生。",
+          "text": "So we have a policy change to investigate, but no demonstrated funding disruption from that number alone. A separate amendment to the complementary deposit facility is scheduled for September twenty-fourth; we shouldn't assign that date to every policy measure in these documents.",
           "delivery": "cautious",
           "source_ids": [
             "E-1f2bbb87513a90b4",
-            "E-2480657698990981"
+            "E-039389590c47e7e0"
           ],
-          "start_seconds": 509.597,
-          "duration_seconds": 20.53
+          "start_seconds": 481.463,
+          "duration_seconds": 14.82
         },
         {
           "turn": 33,
           "speaker": "host",
-          "text": "緩衝也得算進來。以協議的最高可用額度來說，日本與馬來西亞第三次雙邊換匯安排為六十億美元或等值日圓，資料記載九月十八日生效。不過額度是機制上限，生效是法律安排的時間，都不等於已發生這麼多換匯交易。",
-          "delivery": "clear",
-          "source_ids": [
-            "E-9e742d7b7e71bbe6",
-            "E-10e5187b0d8c6156"
-          ],
-          "start_seconds": 530.348,
-          "duration_seconds": 18.693
+          "text": "For the next fourteen days, what would turn that observation into a stronger liquidity concern?",
+          "delivery": "curious",
+          "source_ids": [],
+          "start_seconds": 496.503,
+          "duration_seconds": 5.244
         },
         {
           "turn": 34,
           "speaker": "cohost",
-          "text": "所以可以說有區域緩衝安排，還不能說資金缺口已經補上。",
-          "delivery": "clear",
+          "text": "Evidence that actual funding costs or currency volatility rise alongside wider financing spreads and forced position reductions would strengthen the concern. The conditional transmission is costlier funding leading to reduced holdings and price pressure, but the packet doesn't show that sequence occurring.",
+          "delivery": "cautious",
           "source_ids": [
-            "E-9e742d7b7e71bbe6"
+            "E-1f2bbb87513a90b4",
+            "E-2480657698990981"
           ],
-          "start_seconds": 549.26,
-          "duration_seconds": 4.945
+          "start_seconds": 502.007,
+          "duration_seconds": 18.695
         },
         {
           "turn": 35,
           "speaker": "host",
-          "text": "對，機制允許雙方以本幣換美元，也允許馬來西亞國家銀行以馬幣換日圓。它沒有保證全球美元流動性。另一份日本央行文件提醒關注中東局勢對金融、外匯、經濟與物價的影響，但沒有給衝擊幅度或機率。哪些情況會讓你降低警戒？",
-          "delivery": "curious",
+          "text": "For a possible buffer, distinguish available capacity from money actually used: the Japan–Malaysia swap arrangement has a ceiling of six billion dollars or equivalent yen. That gives us a stated regional facility size, without evidence here of a draw or a resolved funding shortage.",
+          "delivery": "clear",
           "source_ids": [
-            "E-c2a749e37f532191",
-            "E-2480657698990981"
+            "E-9e742d7b7e71bbe6"
           ],
-          "start_seconds": 554.425,
-          "duration_seconds": 20.463
+          "start_seconds": 520.922,
+          "duration_seconds": 22.253
         },
         {
           "turn": 36,
           "speaker": "cohost",
-          "text": "若政策落地後，實際融資市場平穩、沒有異常價差，再加上能源與外匯波動收斂，我會降低這條傳導路徑的警戒。如果只是看到換匯協議存在，還不夠。緩和條件和觸發條件都得有後續觀察，不能拿制度公告代替市場結果。",
-          "delivery": "clear",
+          "text": "Which limits how much reassurance we can take from the ceiling. Concern would ease with orderly funding markets and calmer currency conditions; the Bank of Japan also flags Middle East developments for attention, but supplies no quantified market impact or probability in the retained passage.",
+          "delivery": "reflective",
           "source_ids": [
-            "E-1f2bbb87513a90b4",
             "E-9e742d7b7e71bbe6",
             "E-2480657698990981"
           ],
-          "start_seconds": 575.108,
-          "duration_seconds": 20.625
+          "start_seconds": 543.395,
+          "duration_seconds": 25.446
         },
         {
           "turn": 37,
           "speaker": "host",
-          "text": "三十天窗口再看物價。以美國全體都市消費者、季節調整後 CPI 指數的同一數列比較，七月是三三二點八一三，八月是三三四點一三一。這支持八月指數高於七月，並沒有直接給出年通膨率，也不能單憑一次上升判定持續加速。",
+          "text": "For the thirty-day inflation question, compare consecutive months in the same seasonally adjusted US consumer price index series. The packet gives July at 332.813 and August at 334.131, an increase in the index level rather than an annual inflation rate.",
           "delivery": "clear",
           "source_ids": [
             "E-cfecb53f9719737f"
           ],
-          "start_seconds": 595.952,
-          "duration_seconds": 22.223
+          "start_seconds": 569.062,
+          "duration_seconds": 25.269
         },
         {
           "turn": 38,
           "speaker": "cohost",
-          "text": "我補反向線索：同口徑五月指數三三三點九七九，六月降到三三二點五六八，前面曾經回落。我也不會用那次回落宣布趨勢反轉。這幾個觀測點提醒我們，要等可比的後續資料，還要確認利率預期是否真的跟著變化。",
-          "delivery": "reflective",
+          "text": "And one monthly increase doesn't establish persistent acceleration, especially when the packet also records a decline from May to June. I'd need subsequent comparable observations and evidence of changes in market rates or financing costs before claiming that inflation had created a new funding squeeze.",
+          "delivery": "cautious",
           "source_ids": [
-            "E-b5df0118557fb180",
-            "E-cfecb53f9719737f"
+            "E-cfecb53f9719737f",
+            "E-b5df0118557fb180"
           ],
-          "start_seconds": 618.396,
-          "duration_seconds": 21.411
+          "start_seconds": 594.551,
+          "duration_seconds": 17.87
         },
         {
           "turn": 39,
           "speaker": "host",
-          "text": "日本央行另有附帶條件的方向：因應經濟活動、物價與金融條件，繼續提高政策利率並調整寬鬆程度。這沒有承諾下次日期或幅度。因此三十天內，我會等待物價與實際融資成本的共同證據，也保留物價降溫、利率預期穩定的緩和情境。",
-          "delivery": "cautious",
+          "text": "Does the Bank of Japan's stated direction fill that gap, or does it remain conditional too?",
+          "delivery": "curious",
           "source_ids": [
-            "E-646a456f26151bbd",
-            "E-cfecb53f9719737f"
+            "E-646a456f26151bbd"
           ],
-          "start_seconds": 640.027,
-          "duration_seconds": 22.034
+          "start_seconds": 612.641,
+          "duration_seconds": 6.001
         },
         {
           "turn": 40,
           "speaker": "cohost",
-          "text": "BTC 的市場雷達能不能補這塊？以資料所分析的 Binance 現貨樣本排名，BTCUSDT 第一，分數八十一點三三；以二十四小時成交額口徑，約九點八五億 USDT。這些描述流動性與价格路徑，我不會拿它來證明前面的利率傳導已經發生。",
-          "delivery": "curious",
+          "text": "It remains conditional on economic activity, prices, and financial conditions, without a promised next increase or its timing. Our thirty-day concern would strengthen if further price pressure and funding costs rose together, and ease if inflation cooled while financing and trading conditions stayed orderly.",
+          "delivery": "clear",
           "source_ids": [
-            "E-afcdd2c2f8968c76",
-            "E-cbf2dbe0fbe3d88a"
+            "E-646a456f26151bbd",
+            "E-cfecb53f9719737f"
           ],
-          "start_seconds": 662.28,
-          "duration_seconds": 21.695
+          "start_seconds": 618.902,
+          "duration_seconds": 19.237
         },
         {
           "turn": 41,
           "speaker": "host",
-          "text": "可以補價格觀察，但要保留不同窗口。資料的三十日報酬約正百分之二點六，九十日區間最大回撤則約負百分之二十四點二。兩者一起提醒我們，最近一段時間上漲，可以和較長期間曾有明顯回撤並存；這不是未來損失的預測。",
+          "text": "Crypto offers a useful reminder about different measurement windows: compare recent return with the worst peak-to-trough decline over a longer history. In the packet's BTCUSDT sample, the thirty-day return is positive 2.6 percent, while the ninety-day maximum drawdown is approximately 24.2 percent.",
           "delivery": "clear",
           "source_ids": [
             "E-afcdd2c2f8968c76"
           ],
-          "start_seconds": 684.195,
-          "duration_seconds": 19.359
+          "start_seconds": 638.358,
+          "duration_seconds": 21.749
         },
         {
           "turn": 42,
           "speaker": "cohost",
-          "text": "那排名第一，至少能不能說它是這份名單裡最安全的選擇？",
-          "delivery": "curious",
-          "source_ids": [
-            "E-afcdd2c2f8968c76"
-          ],
-          "start_seconds": 703.774,
-          "duration_seconds": 4.993
-        },
-        {
-          "turn": 43,
-          "speaker": "host",
-          "text": "不能，來源明確限制分數只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。交易所、監管、保管與穩定幣等風險沒有完整納入。我會把分數當研究順序，並且避免和股票研究分數直接比較，兩邊測量的東西不同。",
+          "text": "Those can coexist, and neither forecasts the next loss or gain. The ranking reflects Binance spot liquidity and price paths, with limited risk coverage; it doesn't establish technical value or safety, and it can't serve as a proxy for stock-market conditions.",
           "delivery": "cautious",
-          "source_ids": [
-            "E-cbf2dbe0fbe3d88a"
-          ],
-          "start_seconds": 708.987,
-          "duration_seconds": 21.907
-        },
-        {
-          "turn": 44,
-          "speaker": "cohost",
-          "text": "我同意，也修正剛才想用雷達補風險判斷的期待。它能提醒我們檢查歷史價格承受過什麼，卻沒有替股票市場提供代表性證據。三十天的傳導還要補市場深度、融資與資金流；若流動性保持正常，警戒理由也應隨資料調整。",
-          "delivery": "reflective",
           "source_ids": [
             "E-afcdd2c2f8968c76",
             "E-cbf2dbe0fbe3d88a"
           ],
-          "start_seconds": 731.115,
-          "duration_seconds": 22.984
+          "start_seconds": 660.327,
+          "duration_seconds": 16.229
         },
         {
-          "turn": 45,
+          "turn": 43,
           "speaker": "host",
-          "text": "九十天與一百八十天，我們就把問題留在公司能驗證的地方。沿著 TSM、鴻海的營收線索，九十天追問訂單、毛利與收款是否接得上；半年再問新增投資後能留下多少現金。這些是後續研究窗口，現有營收證據不足以判定信用壓力或回收結果。",
-          "delivery": "clear",
+          "text": "For ninety days, I'd bring the question back to demand and cash collection: are orders holding up, and does reported growth become operating cash? Rising receivables or inventory alongside weaker collections would warrant investigation, especially if fresh evidence also showed tighter lending terms.",
+          "delivery": "reflective",
+          "source_ids": [
+            "E-d7ac7348656a336d",
+            "E-5fa87d795304dae8"
+          ],
+          "start_seconds": 676.777,
+          "duration_seconds": 21.042
+        },
+        {
+          "turn": 44,
+          "speaker": "cohost",
+          "text": "That's a monitoring rule, and the retained revenue observations don't establish those warning signs. Over one hundred eighty days, I'd extend it to investment commitments: confirmed project delays, financing withdrawals, or worsening cash after capital spending would challenge the ability to fund continued expansion.",
+          "delivery": "cautious",
           "source_ids": [
             "E-d7ac7348656a336d",
             "E-f898e7c137d2e4c1"
           ],
-          "start_seconds": 754.318,
-          "duration_seconds": 21.287
+          "start_seconds": 698.038,
+          "duration_seconds": 17.25
+        },
+        {
+          "turn": 45,
+          "speaker": "host",
+          "text": "The easing case would be collected revenue, sustainable margins, and cash sufficient for investment and confirmed debt obligations. We lack the full orders, credit, maturity, and valuation evidence to decide that today, so all four risk windows remain unknown rather than low-risk assessments.",
+          "delivery": "clear",
+          "source_ids": [],
+          "start_seconds": 715.508,
+          "duration_seconds": 21.165
         },
         {
           "turn": 46,
           "speaker": "cohost",
-          "text": "若後續看到應收款與存貨增加、現金流轉弱，再有貸款條件收緊佐證，才提高中期警戒；若收款改善、現金足以支應投資與到期債務，則是緩和條件。這些都還是假設性規則。資料不足時，我會保留未知，既不填機率，也不把未知解讀成低風險。",
+          "text": "And the evidence itself still needs review: matched quotations don't establish correct interpretation, ownership, or independent verification. Several patent passages come from one document, and related policy documents describe one event; counting excerpts as separate confirmations would overstate what we've learned.",
           "delivery": "cautious",
-          "source_ids": [],
-          "start_seconds": 775.826,
-          "duration_seconds": 21.998
+          "source_ids": [
+            "E-9be959da22da3dd4",
+            "E-f54c827e73d403d1",
+            "E-1f2bbb87513a90b4",
+            "E-646a456f26151bbd"
+          ],
+          "start_seconds": 736.893,
+          "duration_seconds": 19.464
         },
         {
           "turn": 47,
           "speaker": "host",
-          "text": "今天我最想留下的做法，是每次往前推論，都問下一段證據在哪裡。專利要接測試，測試要接採用；營收要接利潤，利潤要接收款。下次若有新資料，我們可以清楚說出改變的是哪個環節，也承認哪些問題仍沒有答案。",
-          "delivery": "encouraging",
-          "source_ids": [],
-          "start_seconds": 798.043,
-          "duration_seconds": 19.733
+          "text": "My next research priorities are matched optical-system tests, verified company rights, and the connection between revenue and collected cash. Patent activity demonstrates technical claims and positioning, not a product, revenue, profit, or stock return; thanks for working through those distinctions with us on edgeFinance4Podcast.",
+          "delivery": "warm",
+          "source_ids": [
+            "E-9be959da22da3dd4",
+            "E-d7ac7348656a336d",
+            "E-f898e7c137d2e4c1"
+          ],
+          "start_seconds": 756.577,
+          "duration_seconds": 22.025
         },
         {
           "turn": 48,
           "speaker": "cohost",
-          "text": "謝謝收聽 edgeFinance4Podcast。本節目由 Codex 根據 EdgeFinance 已發布週報整理，Ying 與 Bing 的合成語音在本機由使用者提供的聲音樣本產生；內容是可追溯的研究討論，不是個人化投資建議。週報與來源連結都在說明欄，我們下次見。",
-          "delivery": "warm",
+          "text": "This episode was prepared by Codex from the published EdgeFinance weekly report. Ying and Bing use synthetic speech generated locally from user-supplied voice samples; the discussion is traceable research, not individualized investment advice.",
+          "delivery": "clear",
           "source_ids": [],
-          "start_seconds": 817.996,
-          "duration_seconds": 20.862
+          "start_seconds": 778.822,
+          "duration_seconds": 18.688
         }
       ],
       "chapters": [
         {
-          "title": "把研究問題說清楚",
-          "summary": "從技術設計到公司回報，需要哪些證據？",
+          "title": "The Optical Link Hypothesis",
+          "summary": "What relocating optical filtering might accomplish and how different configurations introduce tradeoffs.",
           "turn_start": 1,
-          "accent": "orange",
+          "accent": "sky",
           "start_seconds": 1.57
         },
         {
-          "title": "光互連的配置與代價",
-          "summary": "濾波位置、偏振控制與光路數不能拆開比較。",
-          "turn_start": 5,
-          "accent": "mint",
-          "start_seconds": 64.569
-        },
-        {
-          "title": "公司能留下多少價值",
-          "summary": "拆開研發投入、營收成長與現金回收。",
-          "turn_start": 17,
-          "accent": "gold",
-          "start_seconds": 257.6
-        },
-        {
-          "title": "日本政策的短期觀察窗",
-          "summary": "釐清政策目標、生效日期與區域換匯額度。",
-          "turn_start": 29,
-          "accent": "sky",
-          "start_seconds": 463.717
-        },
-        {
-          "title": "物價與市場雷達",
-          "summary": "檢查單月物價變化與 BTC 歷史價格風險。",
-          "turn_start": 37,
+          "title": "Who Could Capture Value?",
+          "summary": "The missing steps between a technical architecture, paid adoption, and retained profit.",
+          "turn_start": 13,
           "accent": "violet",
-          "start_seconds": 595.952
+          "start_seconds": 181.07
         },
         {
-          "title": "把中期未知變成研究問題",
-          "summary": "為 90 天與 180 天設定待驗證條件並整理收穫。",
-          "turn_start": 45,
+          "title": "Taiwan Revenue and the Cash Test",
+          "summary": "Separate comparisons for TSM and Hon Hai, with demand attribution and profitability boundaries.",
+          "turn_start": 21,
+          "accent": "mint",
+          "start_seconds": 307.597
+        },
+        {
+          "title": "Policy and Liquidity",
+          "summary": "Japan policy documents, inflation observations, and conditional 14-day and 30-day risks.",
+          "turn_start": 31,
           "accent": "orange",
-          "start_seconds": 754.318
+          "start_seconds": 461.793
+        },
+        {
+          "title": "The Longer Funding Test",
+          "summary": "Historical crypto risk, 90-day and 180-day monitoring, and the evidence needed to revise conclusions.",
+          "turn_start": 41,
+          "accent": "gold",
+          "start_seconds": 638.358
         }
       ]
     }

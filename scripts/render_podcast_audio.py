@@ -10,7 +10,7 @@ import sys
 from math import gcd
 from pathlib import Path
 
-SPEECH_NORMALIZATION_VERSION = "edgefinance-zh-natural-dialogue-v1"
+SPEECH_NORMALIZATION_VERSION = "edgefinance-en-us-natural-dialogue-v1"
 
 
 def main() -> None:
@@ -185,8 +185,8 @@ def synthesize_natural_turn(model, text: str, speaker_path: Path, output_path: P
     sf.write(output_path, combined, sample_rate, subtype="PCM_16")
 
 
-def split_speech_chunks(text: str, character_limit: int = 75) -> list[str]:
-    sentences = re.split(r"(?<=[。！？.!?])\s*", text.strip())
+def split_speech_chunks(text: str, character_limit: int = 225) -> list[str]:
+    sentences = re.split(r"(?<=[.!?])\s+", text.strip())
     chunks: list[str] = []
     for sentence in sentences:
         sentence = sentence.strip()
@@ -195,7 +195,7 @@ def split_speech_chunks(text: str, character_limit: int = 75) -> list[str]:
         if len(sentence) <= character_limit:
             chunks.append(sentence)
             continue
-        clauses = re.split(r"(?<=[，,；;])\s*", sentence)
+        clauses = re.split(r"(?<=,)\s+", sentence)
         current = ""
         for clause in clauses:
             candidate = f"{current} {clause}".strip()
@@ -212,8 +212,6 @@ def split_speech_chunks(text: str, character_limit: int = 75) -> list[str]:
 def split_by_words(text: str, character_limit: int) -> list[str]:
     if len(text) <= character_limit:
         return [text]
-    if " " not in text:
-        return [text[index:index + character_limit] for index in range(0, len(text), character_limit)]
     chunks: list[str] = []
     current = ""
     for word in text.split():
@@ -243,18 +241,20 @@ def normalize_for_speech(text: str) -> str:
         "PMI": "P M I",
         "CPI": "C P I",
         "PCE": "P C E",
-        "Bitcoin": "比特幣",
+        "CAGR": "C A G R",
+        "EBITDA": "E B I T D A",
+        "R&D": "R and D",
     }
     for source, target in replacements.items():
         text = re.sub(rf"\b{re.escape(source)}\b", target, text)
-    text = re.sub(r"(?<=\d)\s*[–-]\s*(?=\d)", "到", text)
-    text = re.sub(r"(?<=\d)\s*/\s*(?=\d)", "比", text)
-    text = text.replace("±", "正負").replace("−", "負").replace("%", "百分之")
-    text = text.replace("—", "，").replace("–", "，").replace("…", "，")
-    text = text.replace(";", "。 ").replace(":", "，").replace("&", "和")
+    text = re.sub(r"(?<=\d)\s*[–-]\s*(?=\d)", " to ", text)
+    text = re.sub(r"(?<=\d)\s*/\s*(?=\d)", " out of ", text)
+    text = text.replace("±", " plus or minus ").replace("−", " minus ").replace("%", " percent")
+    text = text.replace("—", ", ").replace("–", ", ").replace("…", ", ")
+    text = text.replace(";", ". ").replace(":", ", ").replace("&", " and ")
     text = re.sub(r"[\(\)\[\]{}]", ", ", text)
     text = re.sub(r"[\"“”‘’]", "", text)
-    text = re.sub(r"\s*/\s*", "或", text)
+    text = re.sub(r"\s*/\s*", " or ", text)
     text = re.sub(r"\.{2,}", ".", text)
     text = re.sub(r",\s*,+", ", ", text)
     text = re.sub(r"\s+([,.?!])", r"\1", text)

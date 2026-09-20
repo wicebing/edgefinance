@@ -4,7 +4,7 @@
 
 網站使用 [YAB LAB 原始標誌](https://github.com/wicebing/Copyright/blob/main/yabilab_logo_20241105.png) 作為品牌標誌與低透明度浮水印。
 
-目前為可運行 v0.5：採集、可恢復儲存、最多三份並行的 Codex 分段抽取／綜合分析、14／30／90／180 天風險卡、全球經濟與台灣即時頁，以及台灣上市櫃、SEC 美國／在美上市國際公司、Bitcoin／Binance 公開現貨與美國／歐洲／台灣每週核准專利雷達。週報會連回並比較過去 12 期的相似論點；每月 1–7 日執行時會從累積證據產生一份專題。每期週報還可用 Codex 產生 Ying／Bing 繁體中文對話、XTTS v2 MP3，以及含逐句畫面、中文字幕、縮圖與完整說明的 YouTube 上傳包。候選分數只決定查證順序；結論仍是待覆核研究假說，尚無完整估值、總報酬回測或經驗證的選股勝率。
+目前為可運行 v0.5：採集、可恢復儲存、最多三份並行的 Codex 分段抽取／綜合分析、14／30／90／180 天風險卡、全球經濟與台灣即時頁，以及台灣上市櫃、SEC 美國／在美上市國際公司、Bitcoin／Binance 公開現貨與美國／歐洲／台灣每週核准專利雷達。週報會連回並比較過去 12 期的相似論點；每月 1–7 日執行時會從累積證據產生一份專題。每期週報還可用 Codex 產生 Ying／Bing 美式英文對話、XTTS v2 MP3，以及含逐句英文畫面、英文字幕、縮圖與完整說明的 YouTube 上傳包。候選分數只決定查證順序；結論仍是待覆核研究假說，尚無完整估值、總報酬回測或經驗證的選股勝率。
 
 ## 開始使用
 
@@ -110,7 +110,7 @@ python -m venv .venv
 .\scripts\weekly-release.cmd
 ```
 
-Podcast 使用 `../tts/girl voice.m4a` 作為 Ying、`../tts/man voice.m4a` 作為 Bing。`setup.cmd` 會在既有 `../tts/vendor_coqui311` 環境補齊中文所需的 `pypinyin`；預設使用 CUDA，沒有可用 GPU 時改用 CPU。只先檢查講稿或指定裝置：
+Podcast 使用 `../tts/girl voice.m4a` 作為 Ying、`../tts/man voice.m4a` 作為 Bing，以美式英文撰寫與合成；預設使用 CUDA，沒有可用 GPU 時改用 CPU。只先檢查講稿或指定裝置：
 
 ```powershell
 .\scripts\podcast.cmd --script-only
@@ -119,7 +119,7 @@ Podcast 使用 `../tts/girl voice.m4a` 作為 Ying、`../tts/man voice.m4a` 作�
 
 講稿必須通過來源 ID、34–56 回合、雙方提問、對話平衡、章節與 YouTube 連結驗證才會合成。公開 MP3、逐字稿、章節與來源累積於 `public-media/`，GitHub Pages 的 `podcast.html` 會提供播放與下載。聲音 profile、分段 WAV、母帶、Codex packet 與 log 留在被忽略的 `data/`、`work/`。
 
-`youtube-output/` 每次重建，只保留最新一集的 1280×720 H.264／AAC 影片、繁體中文 SRT、內嵌 `zho` 字幕軌、YABILAB 縮圖及可貼到 YouTube 的文案。程式不會自行登入或公開發布 YouTube；請先試聽、預覽與核對來源，再手動上傳。`.cmd` 可避開本機 PowerShell execution policy；原 `.ps1` 版本仍保留。完整操作與故障排除見 [docs/PODCAST_AND_YOUTUBE.zh-TW.md](docs/PODCAST_AND_YOUTUBE.zh-TW.md)。
+`youtube-output/` 每次重建，只保留最新一集的 1280×720 H.264／AAC 影片、美式英文 SRT、內嵌 `eng` 字幕軌、YABILAB 縮圖及可貼到 YouTube 的英文文案。程式不會自行登入或公開發布 YouTube；請先試聽、預覽與核對來源，再手動上傳。`.cmd` 可避開本機 PowerShell execution policy；原 `.ps1` 版本仍保留。完整操作與故障排除見 [docs/PODCAST_AND_YOUTUBE.zh-TW.md](docs/PODCAST_AND_YOUTUBE.zh-TW.md)。
 
 ## 儲存與 MongoDB
 
