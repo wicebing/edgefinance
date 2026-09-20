@@ -139,5 +139,159 @@
     "origin": "uspto",
     "credential": "USPTO_API_KEY",
     "docs": "https://data.uspto.gov/apis/bulk-data/product"
+  },
+  {
+    "id": "world-bank-major-economies",
+    "name": "World Bank 主要經濟體總經指標",
+    "kind": "world_bank",
+    "enabled": true,
+    "origin": "world-bank",
+    "recent_values": 5,
+    "indicators": [
+      {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "name": "實質 GDP 年增率",
+        "unit": "percent"
+      },
+      {
+        "id": "FP.CPI.TOTL.ZG",
+        "name": "消費者物價年增率",
+        "unit": "percent"
+      },
+      {
+        "id": "SL.UEM.TOTL.ZS",
+        "name": "失業率",
+        "unit": "percent of labor force"
+      },
+      {
+        "id": "BN.CAB.XOKA.GD.ZS",
+        "name": "經常帳餘額占 GDP",
+        "unit": "percent of GDP"
+      },
+      {
+        "id": "NE.EXP.GNFS.ZS",
+        "name": "出口占 GDP",
+        "unit": "percent of GDP"
+      },
+      {
+        "id": "NE.IMP.GNFS.ZS",
+        "name": "進口占 GDP",
+        "unit": "percent of GDP"
+      },
+      {
+        "id": "NV.IND.MANF.ZS",
+        "name": "製造業增加值占 GDP",
+        "unit": "percent of GDP"
+      },
+      {
+        "id": "BX.KLT.DINV.WD.GD.ZS",
+        "name": "外國直接投資淨流入占 GDP",
+        "unit": "percent of GDP"
+      }
+    ],
+    "docs": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation"
+  },
+  {
+    "id": "ecb-fx",
+    "name": "ECB 主要貨幣參考匯率",
+    "kind": "ecb_fx",
+    "enabled": true,
+    "origin": "ecb",
+    "lookback_days": 120,
+    "currencies": [
+      "USD",
+      "GBP",
+      "JPY",
+      "CNY",
+      "CHF",
+      "CAD",
+      "AUD",
+      "KRW",
+      "INR",
+      "BRL",
+      "MXN",
+      "TRY",
+      "ZAR",
+      "IDR"
+    ],
+    "docs": "https://data.ecb.europa.eu/help/api/data"
+  },
+  {
+    "id": "taiwan-market",
+    "name": "臺灣證交所／櫃買中心每日行情",
+    "kind": "taiwan_market",
+    "enabled": true,
+    "origin": "twse-tpex",
+    "endpoints": [
+      {
+        "market": "TWSE",
+        "url": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+      },
+      {
+        "market": "TPEx",
+        "url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+      }
+    ],
+    "docs": "https://openapi.twse.com.tw/"
+  },
+  {
+    "id": "taiwan-revenue",
+    "name": "公開資訊觀測站上市櫃月營收",
+    "kind": "taiwan_revenue",
+    "enabled": true,
+    "origin": "mops",
+    "endpoints": [
+      {
+        "market": "TWSE",
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
+      },
+      {
+        "market": "TPEx",
+        "url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap05_O"
+      }
+    ],
+    "docs": "https://openapi.twse.com.tw/"
+  },
+  {
+    "id": "taiwan-disclosures",
+    "name": "公開資訊觀測站上市櫃重大訊息",
+    "kind": "taiwan_disclosures",
+    "enabled": true,
+    "origin": "mops",
+    "endpoints": [
+      {
+        "market": "TWSE",
+        "url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
+      },
+      {
+        "market": "TPEx",
+        "url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap04_O"
+      }
+    ],
+    "docs": "https://openapi.twse.com.tw/"
+  },
+  {
+    "id": "ecb-news",
+    "name": "European Central Bank 官方新聞",
+    "kind": "rss",
+    "enabled": true,
+    "url": "https://www.ecb.europa.eu/rss/press.html",
+    "origin": "ecb",
+    "topics": [
+      "macro"
+    ],
+    "docs": "https://www.ecb.europa.eu/home/html/rss.en.html"
+  },
+  {
+    "id": "boj-news",
+    "name": "Bank of Japan 官方最新公告",
+    "kind": "rss",
+    "enabled": true,
+    "url": "https://www.boj.or.jp/en/rss/whatsnew.xml",
+    "origin": "boj",
+    "topics": [
+      "macro"
+    ],
+    "docs": "https://www.boj.or.jp/en/rss/index.htm"
   }
 ]

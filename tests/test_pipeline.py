@@ -9,7 +9,7 @@ from urllib.parse import urlsplit, unquote
 import pytest
 from bs4 import BeautifulSoup
 from edgefinance.core import digest, jsonfile, public_url
-from edgefinance.analysis import chunks, validate_extraction, validate_synthesis, evidence_bundle, job_id
+from edgefinance.analysis import chunks, validate_extraction, validate_synthesis, evidence_bundle, job_id, _pack_records
 from edgefinance.collectors import parse_feed, parse_epo, financial_snapshot
 from edgefinance.report import build_report, render_site, validate_report
 from edgefinance.uspto import records, import_bulk, parse_patent
@@ -33,6 +33,13 @@ def test_chunks_cover_every_character():
     assert ''.join(p[1] for p in parts) == original
     assert all(original[a:b] == part for _,part,a,b in parts)
     assert all(parts[i][3] == parts[i+1][2] for i in range(len(parts)-1))
+
+
+def test_hierarchical_packets_retain_every_evidence_record():
+    records = [{"id": f"E-{i}", "statement": "x" * 80} for i in range(12)]
+    packets = _pack_records(records, max_chars=280)
+    assert [record for packet in packets for record in packet] == records
+    assert len(packets) > 1
 
 
 def test_quote_validation_rejects_invention():

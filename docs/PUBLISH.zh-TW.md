@@ -2,13 +2,14 @@
 
 本機完成研究，GitHub Actions 只發布已整理的靜態資料。
 
-1. 在 GitHub 建立空 repository。公開 repository 的程式與公開 JSON 可被其他人讀取。
-2. 使用實際網址設定 remote：`git remote add origin https://github.com/ACCOUNT/REPOSITORY.git`。
+1. Repository 已建立為 `wicebing/edgefinance`，remote 名稱目前是 `edgefinance`。
+2. GitHub Settings → Pages → Build and deployment → Source 必須選 **GitHub Actions**；這是 repository 一次性設定。
 3. 用 `.venv` 的 Python 執行 `python -m edgefinance validate` 與 `python -m pytest -q`。
 4. `git status --short`、`git diff --cached --stat` 檢查提交內容。提交程式、設定、文件、範本、workflow、測試及 `public-data/`；不用 `git add -f` 加入忽略檔。
-5. 提交並推送 `main`。如需設定 Git 身分，使用自己的名字和 email。
-6. 首次 push 會由 workflow 的 `enablement: true` 嘗試自動啟用 Pages。若帳號政策不允許自動啟用，再到 GitHub Settings → Pages → Source 選 **GitHub Actions**，並重新執行 **Verify and publish research**。
-7. 成功後 deployment job 與 Pages 設定會顯示正式網址。
+5. 提交並推送 `main`。工作流程只讀凍結的 `public-data/`，建立 `dist` artifact 後部署。
+6. **Verify and publish research** 的 build 與 deploy 都成功後，網址為 `https://wicebing.github.io/edgefinance/`。
+
+先前失敗發生在 `actions/configure-pages` 嘗試用 workflow token 建立 Pages 站點，GitHub 回覆 `Resource not accessible by integration`。目前 workflow 已移除 `enablement: true`；建立或切換 Pages source 由 repository Settings 完成，Action 只負責後續部署。
 
 `src refspec main does not match any` 表示本機 `main` 還沒有第一個 commit。依序執行 `git add -A`、`git commit -m "feat: build EdgeFinance research MVP"`，確認 `git branch --show-current` 為 `main` 後再 push。遠端 repository 不存在或未登入，會是不同的錯誤。
 

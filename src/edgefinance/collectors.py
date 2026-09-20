@@ -4,7 +4,6 @@ import csv
 import io
 import json
 import re
-import ssl
 import time
 import uuid
 from datetime import date, datetime, timedelta
@@ -25,7 +24,9 @@ class Fetcher:
         self.timeout = cfg["timeout_seconds"]
         self.retries = cfg["retries"]
         self.limit = cfg["max_response_mb"] * 1024 * 1024
-        self.client = httpx.Client(timeout=self.timeout, follow_redirects=True, verify=ssl.create_default_context(),
+        # httpx's default CA bundle is more portable than the OS store used by
+        # ssl.create_default_context() (notably for TWSE, TPEx and ECB on Windows).
+        self.client = httpx.Client(timeout=self.timeout, follow_redirects=True,
             headers={"User-Agent": project.secrets.get("SEC_USER_AGENT") or cfg["user_agent"]})
         self.last = 0.0
 
@@ -276,10 +277,11 @@ def collect(project: Project, as_of: str, source_ids: list[str] | None = None, *
                             if summary:
                                 emit({**entry, "text": summary, "coverage": "feed_summary", "kind": "article"}, raw)
                 elif source["kind"] == "sec":
-                    companies = project.companies[:project.settings["collection"]["sec_company_limit"]]
-                    state["discovered"] = len(project.companies)
-                    state["notes"].append(f"Selected-concept snapshots for {len(companies)}/{len(project.companies)} watchlist companies; not complete filings")
-                    if len(companies) < len(project.companies):
+                    sec_companies = [company for company in project.companies if company.get("cik")]
+                    companies = sec_companies[:project.settings["collection"]["sec_company_limit"]]
+                    state["discovered"] = len(sec_companies)
+                    state["notes"].append(f"Selected-concept snapshots for {len(companies)}/{len(sec_companies)} SEC-mapped companies; not complete filings")
+                    if len(companies) < len(sec_companies):
                         state["status"] = "partial"
                     for company in companies:
                         try:
@@ -419,6 +421,17 @@ def collect(project: Project, as_of: str, source_ids: list[str] | None = None, *
                                 "metadata": {"observations": rows, "vintage": as_of, "point_in_time_certified": True}}, raw)
                         except Exception as e:
                             failed(e)
+                elif source["kind"] == "world_bank":
+                    from .global_data import world_bank
+                    world_bank(project, fetch, store, source, as_of, cap, emit, state)
+                elif source["kind"] == "ecb_fx":
+                    from .global_data import ecb_fx
+                    ecb_fx(project, fetch, store, source, as_of, cap, emit, state)
+                elif source["kind"] in {"taiwan_market", "taiwan_revenue", "taiwan_disclosures"}:
+                    from .taiwan_data import taiwan_disclosures, taiwan_market, taiwan_revenue
+                    {"taiwan_market": taiwan_market, "taiwan_revenue": taiwan_revenue,
+                        "taiwan_disclosures": taiwan_disclosures}[source["kind"]](
+                            project, fetch, store, source, as_of, cap, emit, state)
                 elif source["kind"] == "odp_catalog":
                     raw, _ = fetch.get("https://api.uspto.gov/api/v1/datasets/products/search", headers={"x-api-key": project.secrets[key]})
                     state.update(status="catalog_only", notes=["Product catalog archived. Import selected authorized patent XML with import-file; bulk downloader not enabled."])

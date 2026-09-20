@@ -74,6 +74,8 @@ class Project:
         self.settings = tomllib.loads((self.root / "config/settings.toml").read_text(encoding="utf-8"))
         self.sources = readjson(self.root / "config/sources.json")
         self.companies = readjson(self.root / "config/companies.json")
+        economies = self.root / "config/economies.json"
+        self.economies = readjson(economies) if economies.exists() else []
         self.topics = readjson(self.root / "config/topics.json")
         self.secrets = {**dotenv_values(self.root / ".env"), **dotenv_values(self.root / "atlas-credentials.env"), **os.environ}
         self.data = self.root / "data"

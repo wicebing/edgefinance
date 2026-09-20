@@ -2,7 +2,7 @@
 
 每週在本機累積公開資料，使用 **Codex CLI 的 ChatGPT 訂閱登入**逐段閱讀、核對引用，生成繁體中文研究週報及 GitHub Pages 靜態網站。
 
-目前為可運行 MVP：採集、可恢復儲存、Codex 分段抽取／綜合分析、90／180 天風險卡、公司財務表、宏觀圖表、歷史週報及機器可讀 JSON。結論是待覆核研究假說，尚無完整估值、總報酬回測或經驗證的選股勝率。
+目前為可運行 v0.2：採集、可恢復儲存、Codex 分段抽取／綜合分析、90／180 天風險卡、公司財務表、全球經濟儀表板、台灣即時頁、歷史週報及機器可讀 JSON。結論是待覆核研究假說，尚無完整估值、總報酬回測或經驗證的選股勝率。
 
 ## 開始使用
 
@@ -71,6 +71,12 @@ python -m venv .venv
 | FRED／ALFRED | 指定 vintage 的 API，需要 FRED_API_KEY；未以實際 key 驗證 |
 | USPTO ODP API | 需要 USPTO_API_KEY，目前只保存產品目錄；全文由下載檔 inbox 接入 |
 | USPTO grants API | 另一路核准 XML 產品清單與 ZIP 下載、匯入；尚缺有效 key 驗證 |
+| World Bank | 18 個主要經濟體、8 組成長／通膨／就業／外貿／製造／FDI 指標，每組最近 5 個非空值；免 key，為現行修訂版 |
+| ECB | 14 種主要貨幣對歐元的官方參考匯率，最近 120 天；免 key，非可成交報價 |
+| ECB／BOJ 官方公告 | 官方 feed 發現後取得公告或 PDF；與既有 Federal Reserve feed 一起提供主要央行政策事件 |
+| TWSE／TPEx 日行情 | 上市與上櫃普通股最近交易日全市場快照，觀察公司依官方股票代號對應 |
+| MOPS 月營收 | 上市櫃全市場營收廣度及觀察公司財務列；單次上限可接續處理，不把未處理標成完整 |
+| MOPS 重大訊息 | 上市櫃官方最新重大訊息；作為事件線索，仍需核對附件與後續結果 |
 
 調整 `config/settings.toml`、`sources.json`、`topics.json`、`companies.json`。較大範圍增加磁碟、時間及訂閱用量。單次綜合證據上限為 180,000 字元；超過會停止綜合並揭露原因。主題分層綜合列入下一版，目前不能宣稱讀盡全球資訊。
 
@@ -109,9 +115,9 @@ Codex 接收隔離的公開資料包，唯讀 sandbox、關閉 shell／外部工
 
 ## GitHub Pages
 
-目前沒有指定 GitHub repository，尚未部署公開網址。建立空 repository 後，推送程式、設定、文件、測試及 `public-data/`；先用 `git status` 檢查。憑證、本機資料、模型 log 和舊 `News Scrapping/` 已忽略。
+Repository 為 `wicebing/edgefinance`，Pages 預定網址是 **https://wicebing.github.io/edgefinance/**。憑證、本機資料、模型 log 和舊 `News Scrapping/` 已忽略。
 
-Settings → Pages → Source 選 **GitHub Actions**。推送 `main` 或手動執行 `.github/workflows/pages.yml`，Actions 跑離線測試、驗證歷史 manifest、生成並部署 `dist`，不在雲端跑 Codex，也不需要 API 或 MongoDB 憑證。每週本機完成、閱讀週報後，再提交新的 `public-data/`。[詳細發布步驟](docs/PUBLISH.zh-TW.md)。
+Settings → Pages → Source 選 **GitHub Actions**。推送 `main` 或手動執行 `.github/workflows/pages.yml`，Actions 跑離線測試、驗證歷史 manifest、生成並部署 `dist`，不在雲端跑 Codex，也不需要 API 或 MongoDB 憑證。工作流程只部署既有 Pages 站點，不再嘗試用 `GITHUB_TOKEN` 建立站點。每週本機完成、閱讀週報後，再提交新的 `public-data/`。[詳細發布步驟](docs/PUBLISH.zh-TW.md)。
 
 ## 台灣智慧局專利
 
@@ -134,4 +140,4 @@ MVP 已接入 `tipo-grants`。每週先完整列出智慧局最新公報中的�
 .\.venv\Scripts\python.exe -m edgefinance build-site --from-public
 ```
 
-待辦见 [持續演化清單](docs/EVOLUTION.zh-TW.md)。原始規劃保留：[專案規劃](docs/PROJECT_PLAN.zh-TW.md)、[來源](docs/DATA_SOURCES.zh-TW.md)、[網頁規格](docs/REPORT_AND_SITE_SPEC.zh-TW.md)、[儲存決策](docs/STORAGE_AND_PUBLISHING.zh-TW.md)。規劃不是功能完成清單，實際狀態以本 README 為準。
+新版方向見 [專案規劃 v2](docs/PROJECT_PLAN_V2.zh-TW.md) 與 [全球及台灣資料契約](docs/GLOBAL_AND_TAIWAN_SOURCES.zh-TW.md)。其他待辦見 [持續演化清單](docs/EVOLUTION.zh-TW.md)。原始規劃保留：[專案規劃](docs/PROJECT_PLAN.zh-TW.md)、[來源](docs/DATA_SOURCES.zh-TW.md)、[網頁規格](docs/REPORT_AND_SITE_SPEC.zh-TW.md)、[儲存決策](docs/STORAGE_AND_PUBLISHING.zh-TW.md)。規劃不是功能完成清單，實際狀態以本 README 為準。

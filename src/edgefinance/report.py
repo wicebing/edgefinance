@@ -18,7 +18,16 @@ def build_report(project: Project, as_of: str, use_codex=True):
     try:
         evidence, summaries, coverage = evidence_bundle(project, store, as_of)
         docs = store.documents(as_of, latest_only=True)
-        previous = next((r for r in store.reports() if r["as_of"] <= as_of), None)
+        previous = next((r for r in store.reports() if r["as_of"] < as_of), None)
+        indicator_names = {indicator["id"]: indicator["name"] for source in project.sources
+            for indicator in source.get("indicators", [])}
+        def display_title(document):
+            if document["source_id"] == "world-bank-major-economies":
+                points = document.get("metadata", {}).get("observations", [])
+                if points and points[0].get("series") in indicator_names:
+                    return f"全球主要經濟體 · {indicator_names[points[0]['series']]}"
+            return document["title"]
+        display_titles = {document["id"]: display_title(document) for document in docs}
         runs = [json.loads(row[0]) for row in store.db.execute("SELECT payload FROM runs ORDER BY rowid DESC")]
         runs = [r for r in runs if r.get("as_of", "9999") <= as_of]
         run = runs[0] if runs else None
@@ -66,18 +75,44 @@ def build_report(project: Project, as_of: str, use_codex=True):
         errors += ["核心語意與公司歸屬仍需人工覆核；引用文字比對不等於獨立證實。",
             "尚無完整行情、公司行動與估值資料，不提供買進排序、目標價或回測獲利宣稱。"]
         report_id = as_of + "-" + uuid.uuid4().hex[:8]
-        timeline = [{"date": d["published_at"][:10], "title": d["title"], "kind": d["kind"], "url": d["url"],
+        timeline = [{"date": d["published_at"][:10], "title": display_titles[d["id"]], "kind": d["kind"], "url": d["url"],
             "source_id": d["source_id"], "first_seen_at": d["first_seen_at"]} for d in docs]
         observations = []
         for d in docs:
             if d["kind"] == "macro":
                 for point in d.get("metadata", {}).get("observations", []):
                     if "series" in point:
-                        observations.append({**point, "source_url": d["url"], "vintage": d["first_seen_at"]})
+                        normalized = {**point, "source_url": d["url"], "vintage": d["first_seen_at"]}
+                        if point["series"] in indicator_names:
+                            normalized["series_name"] = indicator_names[point["series"]]
+                        observations.append(normalized)
         # Multiple vintages may coexist locally. Plot only the latest observed version of each point.
         unique_points = {}
         for p in sorted(observations, key=lambda p: p["vintage"]):
-            unique_points[(p["series"], p["date"])] = p
+            unique_points[(p.get("economy", ""), p["series"], p["date"])] = p
+        current_points = list(unique_points.values())
+        global_economy_ids = {economy["id"] for economy in project.economies}
+        latest_global = {}
+        for point in sorted(current_points, key=lambda p: p["date"]):
+            if point.get("economy") in global_economy_ids:
+                latest_global[(point["economy"], point["series"])] = point
+        taiwan_markets, taiwan_revenue = {}, {}
+        for d in docs:
+            dashboard = d.get("metadata", {}).get("dashboard")
+            if not dashboard:
+                continue
+            if d["source_id"] == "taiwan-market":
+                old = taiwan_markets.get(dashboard["market"])
+                if not old or dashboard["date"] > old["date"]:
+                    taiwan_markets[dashboard["market"]] = dashboard
+            elif d["source_id"] == "taiwan-revenue" and d["kind"] == "macro":
+                old = taiwan_revenue.get(dashboard["market"])
+                if not old or dashboard["period"] > old["period"]:
+                    taiwan_revenue[dashboard["market"]] = dashboard
+        taiwan_disclosures = [{"title": d["title"], "published_at": d["published_at"], "url": d["url"],
+            "entities": d["entities"], "market": d.get("metadata", {}).get("market"),
+            "code": d.get("metadata", {}).get("code"), "event_date": d.get("metadata", {}).get("event_date")}
+            for d in docs if d["source_id"] == "taiwan-disclosures"]
         latest_states = {}
         for prior_run in runs:
             for state in prior_run.get("sources", []):
@@ -87,6 +122,10 @@ def build_report(project: Project, as_of: str, use_codex=True):
         source_states = source_states + [{"id": s["id"], "name": s["name"], "status": "not_run", "fetched": 0,
             "new": 0, "failed": 0, "discovered": None, "bounded": True, "notes": ["Not selected in latest collection run"], "docs": s.get("docs", "")}
             for s in project.sources if s.get("enabled") and s["id"] not in observed_sources]
+        configured_sources = {source["id"]: source for source in project.sources}
+        for source_state in source_states:
+            if source_state["id"] in configured_sources:
+                source_state["name"] = configured_sources[source_state["id"]]["name"]
         patent_updates = []
         patent_since = (date.fromisoformat(as_of) - timedelta(days=7)).isoformat()
         patent_feed_path = project.data / "patent-feeds" / "epo-grants.json"
@@ -114,12 +153,18 @@ def build_report(project: Project, as_of: str, use_codex=True):
                 for t in (previous or {}).get("theses", []) if t["id"] not in {x["id"] for x in synthesis["theses"]}],
             "next_week": synthesis["next_week"], "limitations": list(dict.fromkeys(errors)), "coverage": coverage,
             "sources": source_states, "source_manifest_id": (run or {}).get("id"),
-            "evidence": [{k: v for k, v in e.items() if k != "quote"} for e in evidence],
-            "documents": [{k: d.get(k) for k in ["id", "document_id", "title", "url", "kind", "published_at", "first_seen_at", "source_id", "coverage", "entities", "topics", "content_hash"]} for d in docs],
-            "timeline": timeline, "observations": list(unique_points.values()), "companies": project.companies, "topics": project.topics,
+            "evidence": [{**{k: v for k, v in e.items() if k not in {"quote", "title"}},
+                "title": display_titles.get(e["document_version"], e["title"])} for e in evidence],
+            "documents": [{**{k: d.get(k) for k in ["id", "document_id", "url", "kind", "published_at", "first_seen_at", "source_id", "coverage", "entities", "topics", "content_hash"]},
+                "title": display_titles[d["id"]]} for d in docs],
+            "timeline": timeline, "observations": current_points, "companies": project.companies, "topics": project.topics,
+            "economies": project.economies, "global_latest": sorted(latest_global.values(), key=lambda p: (p["series"], p["economy"])),
+            "taiwan": {"markets": sorted(taiwan_markets.values(), key=lambda row: row["market"]),
+                "revenue": sorted(taiwan_revenue.values(), key=lambda row: row["market"]),
+                "disclosures": sorted(taiwan_disclosures, key=lambda row: row["published_at"], reverse=True)[:50]},
             "previous_report_id": previous["id"] if previous else None, "execution": execution,
             "financials": [{"ticker": ticker, "rows": d.get("metadata", {}).get("observations", []),
-                "url": d["url"], "filed_at": d["published_at"], "retrieved_at": d["first_seen_at"]}
+                "url": d["url"], "source_id": d["source_id"], "filed_at": d["published_at"], "retrieved_at": d["first_seen_at"]}
                 for d in docs if d["kind"] == "financial" for ticker in d["entities"]],
             "outcomes": [json.loads(row[0]) for row in store.db.execute("SELECT payload FROM outcomes")],
             "checks": [{"id": f"{report_id}-risk-{r['horizon_days']}", "title": r["title"], "due_at": r["due_at"],
@@ -232,7 +277,8 @@ def render_site(project: Project, output: Path | None = None, from_public=False)
             # Small by-purpose files are convenient for both the frontend and external tools.
             for name, value in [("overview", {k: report[k] for k in ["id", "as_of", "status", "summary", "coverage", "theses", "risks"]}),
                 ("evidence", report["evidence"]), ("companies", report["companies"]), ("technologies", report["topics"]),
-                ("patents", report.get("patent_updates", []))]:
+                ("patents", report.get("patent_updates", [])), ("economies", report.get("economies", [])),
+                ("global", report.get("global_latest", [])), ("taiwan", report.get("taiwan", {}))]:
                 jsonfile(release_dir / f"{name}.json", value)
             files = [{"path": str(p.relative_to(public)).replace("\\", "/"), "sha256": digest(p.read_bytes()), "bytes": p.stat().st_size}
                 for p in sorted(release_dir.glob("*.json")) if p.name != "manifest.json"]
@@ -256,12 +302,22 @@ def render_site(project: Project, output: Path | None = None, from_public=False)
         "awaiting_download": "待放入下載檔案", "draft": "研究草稿"}
     template = env.get_template("page.html")
     series = {}
-    for point in current["observations"]:
-        series.setdefault(point["series"], []).append(point)
+    for point in current.get("observations", []):
+        label = point.get("series_name", point["series"])
+        if point.get("economy"):
+            label = f"{point.get('economy_name', point['economy'])} · {label}"
+        series.setdefault(label, []).append(point)
     for points in series.values():
         points.sort(key=lambda p: p["date"])
-    common = {"report": current, "reports": reports, "series": series, "project_name": "EdgeFinance"}
-    pages = [("index.html", "home", None), ("research.html", "research", None), ("risks.html", "risks", None),
+    risk_series = {name: points for name, points in series.items()
+        if not points[-1].get("economy") or points[-1].get("economy") == "TWN"}
+    global_indicators = {}
+    for point in current.get("global_latest", []):
+        global_indicators.setdefault(point.get("series_name", point["series"]), []).append(point)
+    common = {"report": current, "reports": reports, "series": risk_series,
+        "global_indicators": global_indicators, "project_name": "EdgeFinance"}
+    pages = [("index.html", "home", None), ("global.html", "global", None), ("taiwan.html", "taiwan", None),
+        ("research.html", "research", None), ("risks.html", "risks", None),
         ("patents.html", "patents", None),
         ("sources.html", "sources", None), ("archive.html", "archive", None), ("methodology.html", "methodology", None)]
     for company in current["companies"]:
