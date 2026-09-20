@@ -293,5 +293,46 @@
       "macro"
     ],
     "docs": "https://www.boj.or.jp/en/rss/index.htm"
+  },
+  {
+    "id": "taiwan-opportunities",
+    "name": "台灣上市櫃全市場研究候選雷達",
+    "kind": "taiwan_opportunities",
+    "enabled": true,
+    "origin": "twse-tpex-mops",
+    "markets": [
+      {
+        "market": "TWSE",
+        "market_url": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL",
+        "revenue_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+        "valuation_url": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL"
+      },
+      {
+        "market": "TPEx",
+        "market_url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes",
+        "revenue_url": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap05_O",
+        "valuation_url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_peratio_analysis",
+        "institutional_url": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading"
+      }
+    ],
+    "docs": "https://openapi.twse.com.tw/"
+  },
+  {
+    "id": "sec-opportunities",
+    "name": "SEC 美國與在美上市國際公司財務雷達",
+    "kind": "sec_opportunities",
+    "enabled": true,
+    "origin": "sec",
+    "docs": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+  },
+  {
+    "id": "binance-opportunities",
+    "name": "Bitcoin 與 Binance 公開現貨市場雷達",
+    "kind": "binance_opportunities",
+    "enabled": true,
+    "origin": "binance-public-market-data",
+    "top_symbols": 12,
+    "kline_days": 120,
+    "docs": "https://developers.binance.com/docs/binance-spot-api-docs/rest-api/market-data-endpoints"
   }
 ]

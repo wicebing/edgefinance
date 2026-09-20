@@ -2,7 +2,7 @@
 
 每週在本機累積公開資料，使用 **Codex CLI 的 ChatGPT 訂閱登入**逐段閱讀、核對引用，生成繁體中文研究週報及 GitHub Pages 靜態網站。
 
-目前為可運行 v0.2：採集、可恢復儲存、Codex 分段抽取／綜合分析、90／180 天風險卡、公司財務表、全球經濟儀表板、台灣即時頁、歷史週報及機器可讀 JSON。結論是待覆核研究假說，尚無完整估值、總報酬回測或經驗證的選股勝率。
+目前為可運行 v0.3：採集、可恢復儲存、Codex 分段抽取／綜合分析、90／180 天風險卡、全球經濟與台灣即時頁，以及台灣上市櫃、SEC 美國／在美上市國際公司、Bitcoin／Binance 公開現貨與每週專利權利人的研究候選雷達。候選分數只決定查證順序；結論仍是待覆核研究假說，尚無完整估值、總報酬回測或經驗證的選股勝率。
 
 ## 開始使用
 
@@ -61,6 +61,7 @@ python -m venv .venv
 | 來源 | 已實作方式與限制 |
 |---|---|
 | SEC | CIK／ticker 核對、Company Facts；30 家起始名單預設前 6 家，選定科目與期間，非全部申報全文 |
+| SEC 全市場雷達 | 官方上市代號母體，聯結最近已結束季度與去年同季的 Revenue、Net Income、R&D XBRL Frames；目前可比 2,336 家，會漏掉概念或財年無法對齊者 |
 | Federal Reserve、NASA | 官方 RSS 及可取得的文章；全文失敗明示 RSS 摘要，保留重試佇列 |
 | EPO | Publication Server 最新公開批次前 3 件；可能只有書目，非主題代表樣本或完整覆蓋 |
 | EPO grants | 完整列舉所選週間的核准／修訂案號；預設每次 2 件詳細 XML，佇列接續 |
@@ -77,8 +78,10 @@ python -m venv .venv
 | TWSE／TPEx 日行情 | 上市與上櫃普通股最近交易日全市場快照，觀察公司依官方股票代號對應 |
 | MOPS 月營收 | 上市櫃全市場營收廣度及觀察公司財務列；單次上限可接續處理，不把未處理標成完整 |
 | MOPS 重大訊息 | 上市櫃官方最新重大訊息；作為事件線索，仍需核對附件與後續結果 |
+| 台灣全市場雷達 | TWSE／TPEx 行情、MOPS 月營收、PE／PB／殖利率；TPEx 另顯示三大法人淨額但不納入跨市場分數。本期 1,946 家營收可比公司 |
+| Binance 公開市場 | `data-api.binance.vision` 的 Exchange Info、24h Ticker 與日 K；排除主要穩定幣後分析高流動性 USDT 現貨樣本，不使用帳戶或交易 API |
 
-調整 `config/settings.toml`、`sources.json`、`topics.json`、`companies.json`。較大範圍增加磁碟、時間及訂閱用量。單次綜合證據上限為 180,000 字元；超過會停止綜合並揭露原因。主題分層綜合列入下一版，目前不能宣稱讀盡全球資訊。
+調整 `config/settings.toml`、`sources.json`、`topics.json`、`companies.json`。較大範圍增加磁碟、時間及訂閱用量。大量證據會先分層壓縮、保留入選證據 ID，再進行最終綜合；目前不能宣稱讀盡全球資訊。
 
 ## 儲存與 MongoDB
 
@@ -140,4 +143,4 @@ MVP 已接入 `tipo-grants`。每週先完整列出智慧局最新公報中的�
 .\.venv\Scripts\python.exe -m edgefinance build-site --from-public
 ```
 
-新版方向見 [專案規劃 v2](docs/PROJECT_PLAN_V2.zh-TW.md) 與 [全球及台灣資料契約](docs/GLOBAL_AND_TAIWAN_SOURCES.zh-TW.md)。其他待辦見 [持續演化清單](docs/EVOLUTION.zh-TW.md)。原始規劃保留：[專案規劃](docs/PROJECT_PLAN.zh-TW.md)、[來源](docs/DATA_SOURCES.zh-TW.md)、[網頁規格](docs/REPORT_AND_SITE_SPEC.zh-TW.md)、[儲存決策](docs/STORAGE_AND_PUBLISHING.zh-TW.md)。規劃不是功能完成清單，實際狀態以本 README 為準。
+新版方向見 [專案規劃 v2](docs/PROJECT_PLAN_V2.zh-TW.md)、[多市場候選雷達](docs/MARKET_RADARS.zh-TW.md) 與 [全球及台灣資料契約](docs/GLOBAL_AND_TAIWAN_SOURCES.zh-TW.md)。其他待辦見 [持續演化清單](docs/EVOLUTION.zh-TW.md)。原始規劃保留：[專案規劃](docs/PROJECT_PLAN.zh-TW.md)、[來源](docs/DATA_SOURCES.zh-TW.md)、[網頁規格](docs/REPORT_AND_SITE_SPEC.zh-TW.md)、[儲存決策](docs/STORAGE_AND_PUBLISHING.zh-TW.md)。規劃不是功能完成清單，實際狀態以本 README 為準。

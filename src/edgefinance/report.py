@@ -11,6 +11,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .analysis import CodexError, evidence_bundle, synthesize
 from .core import PACKAGE, Project, digest, dumps, jsonfile, now, public_url, readjson, write
+from .opportunity_data import patent_candidate_radar
 
 
 def build_report(project: Project, as_of: str, use_codex=True):
@@ -143,6 +144,15 @@ def build_report(project: Project, as_of: str, use_codex=True):
             if d["origin"] == "uspto" and meta.get("patent_event") in {"new_grant", "other_grant_publication"} and patent_since <= d["published_at"] <= as_of:
                 patent_updates.append({"publication_number": meta["publication_number"], "kind_code": meta["kind_code"], "event": meta["patent_event"],
                     "published_at": d["published_at"], "url": d["url"], "detail_status": "complete", "title": d["title"], "assignees": meta.get("assignees", [])})
+        def latest_dashboard(source_id):
+            candidates = [d for d in docs if d["source_id"] == source_id and d.get("metadata", {}).get("dashboard")]
+            if not candidates:
+                return {}
+            return max(candidates, key=lambda d: (d["published_at"], d["first_seen_at"]))["metadata"]["dashboard"]
+        opportunities = {"taiwan": latest_dashboard("taiwan-opportunities"),
+            "sec": latest_dashboard("sec-opportunities"),
+            "crypto": latest_dashboard("binance-opportunities"),
+            "patents": patent_candidate_radar(project, patent_updates)}
         report = {"schema_version": 1, "id": report_id, "as_of": as_of, "generated_at": now(), "snapshot_frozen_at": now(),
             "decision_available_at": now(), "status": "partial" if errors else "draft", "review_status": "pending",
             "summary": synthesis["summary"], "theses": synthesis["theses"], "risks": synthesis["risks"],
@@ -159,6 +169,7 @@ def build_report(project: Project, as_of: str, use_codex=True):
                 "title": display_titles[d["id"]]} for d in docs],
             "timeline": timeline, "observations": current_points, "companies": project.companies, "topics": project.topics,
             "economies": project.economies, "global_latest": sorted(latest_global.values(), key=lambda p: (p["series"], p["economy"])),
+            "opportunities": opportunities,
             "taiwan": {"markets": sorted(taiwan_markets.values(), key=lambda row: row["market"]),
                 "revenue": sorted(taiwan_revenue.values(), key=lambda row: row["market"]),
                 "disclosures": sorted(taiwan_disclosures, key=lambda row: row["published_at"], reverse=True)[:50]},
@@ -278,7 +289,8 @@ def render_site(project: Project, output: Path | None = None, from_public=False)
             for name, value in [("overview", {k: report[k] for k in ["id", "as_of", "status", "summary", "coverage", "theses", "risks"]}),
                 ("evidence", report["evidence"]), ("companies", report["companies"]), ("technologies", report["topics"]),
                 ("patents", report.get("patent_updates", [])), ("economies", report.get("economies", [])),
-                ("global", report.get("global_latest", [])), ("taiwan", report.get("taiwan", {}))]:
+                ("global", report.get("global_latest", [])), ("taiwan", report.get("taiwan", {})),
+                ("opportunities", report.get("opportunities", {})), ("crypto", report.get("opportunities", {}).get("crypto", {}))]:
                 jsonfile(release_dir / f"{name}.json", value)
             files = [{"path": str(p.relative_to(public)).replace("\\", "/"), "sha256": digest(p.read_bytes()), "bytes": p.stat().st_size}
                 for p in sorted(release_dir.glob("*.json")) if p.name != "manifest.json"]
@@ -316,7 +328,8 @@ def render_site(project: Project, output: Path | None = None, from_public=False)
         global_indicators.setdefault(point.get("series_name", point["series"]), []).append(point)
     common = {"report": current, "reports": reports, "series": risk_series,
         "global_indicators": global_indicators, "project_name": "EdgeFinance"}
-    pages = [("index.html", "home", None), ("global.html", "global", None), ("taiwan.html", "taiwan", None),
+    pages = [("index.html", "home", None), ("opportunities.html", "opportunities", None),
+        ("crypto.html", "crypto", None), ("global.html", "global", None), ("taiwan.html", "taiwan", None),
         ("research.html", "research", None), ("risks.html", "risks", None),
         ("patents.html", "patents", None),
         ("sources.html", "sources", None), ("archive.html", "archive", None), ("methodology.html", "methodology", None)]

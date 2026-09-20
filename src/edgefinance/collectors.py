@@ -432,6 +432,11 @@ def collect(project: Project, as_of: str, source_ids: list[str] | None = None, *
                     {"taiwan_market": taiwan_market, "taiwan_revenue": taiwan_revenue,
                         "taiwan_disclosures": taiwan_disclosures}[source["kind"]](
                             project, fetch, store, source, as_of, cap, emit, state)
+                elif source["kind"] in {"taiwan_opportunities", "sec_opportunities", "binance_opportunities"}:
+                    from .opportunity_data import binance_opportunities, sec_opportunities, taiwan_opportunities
+                    {"taiwan_opportunities": taiwan_opportunities, "sec_opportunities": sec_opportunities,
+                        "binance_opportunities": binance_opportunities}[source["kind"]](
+                            project, fetch, store, source, as_of, cap, emit, state)
                 elif source["kind"] == "odp_catalog":
                     raw, _ = fetch.get("https://api.uspto.gov/api/v1/datasets/products/search", headers={"x-api-key": project.secrets[key]})
                     state.update(status="catalog_only", notes=["Product catalog archived. Import selected authorized patent XML with import-file; bulk downloader not enabled."])

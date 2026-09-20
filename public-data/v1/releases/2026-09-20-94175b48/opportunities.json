@@ -1,0 +1,4918 @@
+{
+  "crypto": {
+    "analyzed_pairs": 8,
+    "as_of": "2026-09-20",
+    "bitcoin": {
+      "base_asset": "BTC",
+      "cautions": [
+        "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+        "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+      ],
+      "change_24h_pct": -1.109,
+      "components": {
+        "30d_momentum": 10.71,
+        "data_completeness": 10.0,
+        "drawdown_resilience": 20.0,
+        "liquidity": 35.0,
+        "trend_consistency": 10.0,
+        "volatility_penalty": -0.94
+      },
+      "last_price": 80374.71,
+      "metrics": {
+        "annualized_volatility_pct": 39.681274591525764,
+        "close": 80374.7,
+        "daily_points": 120,
+        "date": "2026-09-20",
+        "max_drawdown_pct": -24.181083756099973,
+        "return_30d_pct": 2.599848375048497,
+        "return_7d_pct": 4.597342000814408,
+        "return_90d_pct": 25.546215940922213
+      },
+      "quote_asset": "USDT",
+      "quote_volume_24h": 995504622.3967372,
+      "rank": 1,
+      "reasons": [
+        "24h 成交額 995,504,622 USDT",
+        "30 日報酬 2.6%",
+        "90 日區間最大回撤 -24.2%"
+      ],
+      "score": 84.77,
+      "symbol": "BTCUSDT"
+    },
+    "candidates": [
+      {
+        "base_asset": "BTC",
+        "cautions": [
+          "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+          "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+        ],
+        "change_24h_pct": -1.109,
+        "components": {
+          "30d_momentum": 10.71,
+          "data_completeness": 10.0,
+          "drawdown_resilience": 20.0,
+          "liquidity": 35.0,
+          "trend_consistency": 10.0,
+          "volatility_penalty": -0.94
+        },
+        "last_price": 80374.71,
+        "metrics": {
+          "annualized_volatility_pct": 39.681274591525764,
+          "close": 80374.7,
+          "daily_points": 120,
+          "date": "2026-09-20",
+          "max_drawdown_pct": -24.181083756099973,
+          "return_30d_pct": 2.599848375048497,
+          "return_7d_pct": 4.597342000814408,
+          "return_90d_pct": 25.546215940922213
+        },
+        "quote_asset": "USDT",
+        "quote_volume_24h": 995504622.3967372,
+        "rank": 1,
+        "reasons": [
+          "24h 成交額 995,504,622 USDT",
+          "30 日報酬 2.6%",
+          "90 日區間最大回撤 -24.2%"
+        ],
+        "score": 84.77,
+        "symbol": "BTCUSDT"
+      },
+      {
+        "base_asset": "ETH",
+        "cautions": [
+          "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+          "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+        ],
+        "change_24h_pct": -2.465,
+        "components": {
+          "30d_momentum": 7.14,
+          "data_completeness": 10.0,
+          "drawdown_resilience": 17.14,
+          "liquidity": 30.0,
+          "trend_consistency": 10.0,
+          "volatility_penalty": -4.46
+        },
+        "last_price": 2574.74,
+        "metrics": {
+          "annualized_volatility_pct": 57.31350643126769,
+          "close": 2574.74,
+          "daily_points": 120,
+          "date": "2026-09-20",
+          "max_drawdown_pct": -25.80063511294316,
+          "return_30d_pct": 2.322457576600545,
+          "return_7d_pct": 3.941706027209224,
+          "return_90d_pct": 48.98477597949298
+        },
+        "quote_asset": "USDT",
+        "quote_volume_24h": 485609095.406058,
+        "rank": 2,
+        "reasons": [
+          "24h 成交額 485,609,095 USDT",
+          "30 日報酬 2.3%",
+          "90 日區間最大回撤 -25.8%"
+        ],
+        "score": 69.82,
+        "symbol": "ETHUSDT"
+      },
+      {
+        "base_asset": "SOL",
+        "cautions": [
+          "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+          "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+        ],
+        "change_24h_pct": -3.38,
+        "components": {
+          "30d_momentum": 14.29,
+          "data_completeness": 10.0,
+          "drawdown_resilience": 11.43,
+          "liquidity": 15.0,
+          "trend_consistency": 10.0,
+          "volatility_penalty": -4.93
+        },
+        "last_price": 108.07,
+        "metrics": {
+          "annualized_volatility_pct": 59.635820009008256,
+          "close": 108.06,
+          "daily_points": 120,
+          "date": "2026-09-20",
+          "max_drawdown_pct": -27.055236308197482,
+          "return_30d_pct": 15.300896286811794,
+          "return_7d_pct": 8.821752265861038,
+          "return_90d_pct": 50.18763029881863
+        },
+        "quote_asset": "USDT",
+        "quote_volume_24h": 232753605.55581,
+        "rank": 3,
+        "reasons": [
+          "24h 成交額 232,753,606 USDT",
+          "30 日報酬 15.3%",
+          "90 日區間最大回撤 -27.1%"
+        ],
+        "score": 55.79,
+        "symbol": "SOLUSDT"
+      },
+      {
+        "base_asset": "ZEC",
+        "cautions": [
+          "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+          "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+        ],
+        "change_24h_pct": -8.517,
+        "components": {
+          "30d_momentum": 25.0,
+          "data_completeness": 10.0,
+          "drawdown_resilience": 0.0,
+          "liquidity": 25.0,
+          "trend_consistency": 10.0,
+          "volatility_penalty": -15
+        },
+        "last_price": 1437.44,
+        "metrics": {
+          "annualized_volatility_pct": 136.6771694807795,
+          "close": 1438.16,
+          "daily_points": 120,
+          "date": "2026-09-20",
+          "max_drawdown_pct": -45.334681008342514,
+          "return_30d_pct": 95.8625573699048,
+          "return_7d_pct": 35.356235294117646,
+          "return_90d_pct": 225.1769281208312
+        },
+        "quote_asset": "USDT",
+        "quote_volume_24h": 275354092.66651,
+        "rank": 4,
+        "reasons": [
+          "24h 成交額 275,354,093 USDT",
+          "30 日報酬 95.9%",
+          "90 日區間最大回撤 -45.3%"
+        ],
+        "score": 55.0,
+        "symbol": "ZECUSDT"
+      },
+      {
+        "base_asset": "NEAR",
+        "cautions": [
+          "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+          "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+        ],
+        "change_24h_pct": -4.001,
+        "components": {
+          "30d_momentum": 21.43,
+          "data_completeness": 10.0,
+          "drawdown_resilience": 2.86,
+          "liquidity": 20.0,
+          "trend_consistency": 10.0,
+          "volatility_penalty": -14.79
+        },
+        "last_price": 3.527,
+        "metrics": {
+          "annualized_volatility_pct": 108.94268275318,
+          "close": 3.527,
+          "daily_points": 120,
+          "date": "2026-09-20",
+          "max_drawdown_pct": -43.62797302094427,
+          "return_30d_pct": 79.21747967479675,
+          "return_7d_pct": 53.48128807658834,
+          "return_90d_pct": 70.46882551957468
+        },
+        "quote_asset": "USDT",
+        "quote_volume_24h": 243426569.4325,
+        "rank": 5,
+        "reasons": [
+          "24h 成交額 243,426,569 USDT",
+          "30 日報酬 79.2%",
+          "90 日區間最大回撤 -43.6%"
+        ],
+        "score": 49.5,
+        "symbol": "NEARUSDT"
+      },
+      {
+        "base_asset": "AVAX",
+        "cautions": [
+          "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+          "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+        ],
+        "change_24h_pct": 8.941,
+        "components": {
+          "30d_momentum": 17.86,
+          "data_completeness": 10.0,
+          "drawdown_resilience": 8.57,
+          "liquidity": 0.0,
+          "trend_consistency": 10.0,
+          "volatility_penalty": -7.46
+        },
+        "last_price": 9.748,
+        "metrics": {
+          "annualized_volatility_pct": 72.31929759301036,
+          "close": 9.75,
+          "daily_points": 120,
+          "date": "2026-09-20",
+          "max_drawdown_pct": -36.6702470461869,
+          "return_30d_pct": 24.39397805562644,
+          "return_7d_pct": 33.744855967078195,
+          "return_90d_pct": 56.22496394808525
+        },
+        "quote_asset": "USDT",
+        "quote_volume_24h": 104722288.20451,
+        "rank": 6,
+        "reasons": [
+          "24h 成交額 104,722,288 USDT",
+          "30 日報酬 24.4%",
+          "90 日區間最大回撤 -36.7%"
+        ],
+        "score": 38.97,
+        "symbol": "AVAXUSDT"
+      },
+      {
+        "base_asset": "XRP",
+        "cautions": [
+          "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+          "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+        ],
+        "change_24h_pct": -2.483,
+        "components": {
+          "30d_momentum": 0.0,
+          "data_completeness": 10.0,
+          "drawdown_resilience": 14.29,
+          "liquidity": 10.0,
+          "trend_consistency": 0.0,
+          "volatility_penalty": -5.55
+        },
+        "last_price": 1.3784,
+        "metrics": {
+          "annualized_volatility_pct": 62.76787769151255,
+          "close": 1.3785,
+          "daily_points": 120,
+          "date": "2026-09-20",
+          "max_drawdown_pct": -26.454478164322715,
+          "return_30d_pct": -5.218646864686461,
+          "return_7d_pct": 2.7810915597971997,
+          "return_90d_pct": 22.04515272244356
+        },
+        "quote_asset": "USDT",
+        "quote_volume_24h": 230596685.57325,
+        "rank": 7,
+        "reasons": [
+          "24h 成交額 230,596,686 USDT",
+          "30 日報酬 -5.2%",
+          "90 日區間最大回撤 -26.5%"
+        ],
+        "score": 28.74,
+        "symbol": "XRPUSDT"
+      },
+      {
+        "base_asset": "SUI",
+        "cautions": [
+          "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+          "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+        ],
+        "change_24h_pct": -2.266,
+        "components": {
+          "30d_momentum": 3.57,
+          "data_completeness": 10.0,
+          "drawdown_resilience": 5.71,
+          "liquidity": 5.0,
+          "trend_consistency": 0.0,
+          "volatility_penalty": -6.39
+        },
+        "last_price": 0.8151,
+        "metrics": {
+          "annualized_volatility_pct": 66.95829912032167,
+          "close": 0.8152,
+          "daily_points": 120,
+          "date": "2026-09-20",
+          "max_drawdown_pct": -37.51677852348993,
+          "return_30d_pct": -3.38942877459113,
+          "return_7d_pct": 16.158449700769452,
+          "return_90d_pct": 13.253681578216181
+        },
+        "quote_asset": "USDT",
+        "quote_volume_24h": 117288005.12689,
+        "rank": 8,
+        "reasons": [
+          "24h 成交額 117,288,005 USDT",
+          "30 日報酬 -3.4%",
+          "90 日區間最大回撤 -37.5%"
+        ],
+        "score": 17.89,
+        "symbol": "SUIUSDT"
+      }
+    ],
+    "eligible_usdt_pairs": 483,
+    "limitations": [
+      "只使用公開市場資料，不使用帳戶、交易或下單 API。",
+      "只分析高流動性 USDT 現貨樣本，並非全部代幣的基本面盡職調查。",
+      "分數不可直接與股票研究分數比較。"
+    ],
+    "method": "liquidity 35 + 30d momentum 25 + drawdown resilience 20 + trend consistency 10 + completeness 10 - volatility penalty",
+    "venue": "Binance public spot market data"
+  },
+  "patents": [],
+  "sec": {
+    "candidates": [
+      {
+        "accession": "0001125345-26-000056",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 1125345,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 24.51,
+          "research_intensity": 19.02,
+          "revenue_growth": 44.67
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-MD",
+        "name": "MACROGENICS INC",
+        "net_margin_pct": 59.438961988304094,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 6869000,
+        "rank": 1,
+        "rd_intensity_pct": 118.1164717348928,
+        "reasons": [
+          "同季營收年增 378.0%",
+          "淨利率 59.4%",
+          "研發／營收 118.1%"
+        ],
+        "revenue": 32832000,
+        "revenue_growth_pct": 377.97350414907555,
+        "scope": "美國上市公司",
+        "score": 98.2,
+        "ticker": "MGNX"
+      },
+      {
+        "accession": "0001193125-26-336725",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 1590877,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 21.05,
+          "research_intensity": 19.02,
+          "revenue_growth": 44.67
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-MD",
+        "name": "REGENXBIO Inc.",
+        "net_margin_pct": 21.02315333413566,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 21359000,
+        "rank": 2,
+        "rd_intensity_pct": 51.92234699451023,
+        "reasons": [
+          "同季營收年增 405.7%",
+          "淨利率 21.0%",
+          "研發／營收 51.9%"
+        ],
+        "revenue": 108019000,
+        "revenue_growth_pct": 405.7306053654197,
+        "scope": "美國上市公司",
+        "score": 94.74,
+        "ticker": "RGNX"
+      },
+      {
+        "accession": "0001736297-26-000035",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 1736297,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.53,
+          "research_intensity": 17.72,
+          "revenue_growth": 43.27
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "Astera Labs, Inc.",
+        "net_margin_pct": 39.013251783893985,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 191925000,
+        "rank": 3,
+        "rd_intensity_pct": 34.63251783893986,
+        "reasons": [
+          "同季營收年增 104.5%",
+          "淨利率 39.0%",
+          "研發／營收 34.6%"
+        ],
+        "revenue": 392400000,
+        "revenue_growth_pct": 104.45486518171161,
+        "scope": "美國上市公司",
+        "score": 94.52,
+        "ticker": "ALAB"
+      },
+      {
+        "accession": "0001628280-26-060111",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 1807794,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 22.17,
+          "research_intensity": 15.92,
+          "revenue_growth": 43.55
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "KY-",
+        "name": "Credo Technology Group Holding Ltd",
+        "net_margin_pct": 27.019663759934698,
+        "period_end": "2026-08-01",
+        "period_start": "2026-05-03",
+        "prior_revenue": 223074000,
+        "rank": 4,
+        "rd_intensity_pct": 23.908827293357245,
+        "reasons": [
+          "同季營收年增 114.7%",
+          "淨利率 27.0%",
+          "研發／營收 23.9%"
+        ],
+        "revenue": 479003000,
+        "revenue_growth_pct": 114.72829643974647,
+        "scope": "國際／美國上市外國發行人",
+        "score": 91.64,
+        "ticker": "CRDO"
+      },
+      {
+        "accession": "0001713445-26-000100",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1713445,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 22.9,
+          "research_intensity": 17.02,
+          "revenue_growth": 41.59
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "NYSE",
+        "location": "US-CA",
+        "name": "Reddit, Inc.",
+        "net_margin_pct": 31.413396612022538,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 499627000,
+        "rank": 5,
+        "rd_intensity_pct": 28.733328777930318,
+        "reasons": [
+          "同季營收年增 61.1%",
+          "淨利率 31.4%",
+          "研發／營收 28.7%"
+        ],
+        "revenue": 804905000,
+        "revenue_growth_pct": 61.101181481385105,
+        "scope": "美國上市公司",
+        "score": 91.51,
+        "ticker": "RDDT"
+      },
+      {
+        "accession": "0001070081-26-000017",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 1070081,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 21.48,
+          "research_intensity": 16.74,
+          "revenue_growth": 43.19
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-NJ",
+        "name": "PTC THERAPEUTICS, INC.",
+        "net_margin_pct": 23.15994441347058,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 178875000,
+        "rank": 6,
+        "rd_intensity_pct": 27.50201792415934,
+        "reasons": [
+          "同季營收年增 101.5%",
+          "淨利率 23.2%",
+          "研發／營收 27.5%"
+        ],
+        "revenue": 360519000,
+        "revenue_growth_pct": 101.54800838574425,
+        "scope": "美國上市公司",
+        "score": 91.41,
+        "ticker": "PTCT"
+      },
+      {
+        "accession": "0000879169-26-000056",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 879169,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.27,
+          "research_intensity": 17.28,
+          "revenue_growth": 38.47
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-DE",
+        "name": "INCYTE CORP",
+        "net_margin_pct": 34.981562556188955,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 1215529000,
+        "rank": 7,
+        "rd_intensity_pct": 30.88040362261572,
+        "reasons": [
+          "同季營收年增 37.7%",
+          "淨利率 35.0%",
+          "研發／營收 30.9%"
+        ],
+        "revenue": 1674039000,
+        "revenue_growth_pct": 37.72102516682037,
+        "scope": "美國上市公司",
+        "score": 89.02,
+        "ticker": "INCY"
+      },
+      {
+        "accession": "0001217234-26-000046",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1217234,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 24.51,
+          "research_intensity": 12.89,
+          "revenue_growth": 40.51
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "CareDx, Inc.",
+        "net_margin_pct": 83.84818261739473,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 86679000,
+        "rank": 8,
+        "rd_intensity_pct": 16.958195652832934,
+        "reasons": [
+          "同季營收年增 52.2%",
+          "淨利率 83.8%",
+          "研發／營收 17.0%"
+        ],
+        "revenue": 131948000,
+        "revenue_growth_pct": 52.2260293727431,
+        "scope": "美國上市公司",
+        "score": 87.91,
+        "ticker": "CDNA"
+      },
+      {
+        "accession": "0000886163-26-000044",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 886163,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 24.51,
+          "research_intensity": 15.66,
+          "revenue_growth": 37.54
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-FL",
+        "name": "LIGAND PHARMACEUTICALS INC",
+        "net_margin_pct": 76.15907556560376,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 47627000,
+        "rank": 9,
+        "rd_intensity_pct": 23.0292182814438,
+        "reasons": [
+          "同季營收年增 33.7%",
+          "淨利率 76.2%",
+          "研發／營收 23.0%"
+        ],
+        "revenue": 63693000,
+        "revenue_growth_pct": 33.7329665945787,
+        "scope": "美國上市公司",
+        "score": 87.71,
+        "ticker": "LGND"
+      },
+      {
+        "accession": "0000883241-26-000025",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 883241,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 21.28,
+          "research_intensity": 17.07,
+          "revenue_growth": 39.3
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "SYNOPSYS INC",
+        "net_margin_pct": 22.036302972115074,
+        "period_end": "2026-07-31",
+        "period_start": "2026-05-01",
+        "prior_revenue": 1739737000,
+        "rank": 10,
+        "rd_intensity_pct": 29.058890788276265,
+        "reasons": [
+          "同季營收年增 42.4%",
+          "淨利率 22.0%",
+          "研發／營收 29.1%"
+        ],
+        "revenue": 2476822000,
+        "revenue_growth_pct": 42.36761073656537,
+        "scope": "美國上市公司",
+        "score": 87.65,
+        "ticker": "SNPS"
+      },
+      {
+        "accession": "0001178670-26-000062",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1178670,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 18.0,
+          "research_intensity": 17.38,
+          "revenue_growth": 42.07
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-MA",
+        "name": "ALNYLAM PHARMACEUTICALS, INC.",
+        "net_margin_pct": 12.742108899816259,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 773689000,
+        "rank": 11,
+        "rd_intensity_pct": 32.00237344958899,
+        "reasons": [
+          "同季營收年增 66.9%",
+          "淨利率 12.7%",
+          "研發／營收 32.0%"
+        ],
+        "revenue": 1290948000,
+        "revenue_growth_pct": 66.85619157051477,
+        "scope": "美國上市公司",
+        "score": 87.45,
+        "ticker": "ALNY"
+      },
+      {
+        "accession": "0001321655-26-000041",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1321655,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 24.51,
+          "research_intensity": 9.5,
+          "revenue_growth": 43.07
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-FL",
+        "name": "Palantir Technologies Inc.",
+        "net_margin_pct": 54.86487994610078,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 1003697000,
+        "rank": 12,
+        "rd_intensity_pct": 9.946607118499749,
+        "reasons": [
+          "同季營收年增 92.8%",
+          "淨利率 54.9%",
+          "研發／營收 9.9%"
+        ],
+        "revenue": 1935464000,
+        "revenue_growth_pct": 92.8334945705726,
+        "scope": "美國上市公司",
+        "score": 87.08,
+        "ticker": "PLTR"
+      },
+      {
+        "accession": "0001451809-26-000060",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 1451809,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 17.23,
+          "research_intensity": 15.58,
+          "revenue_growth": 43.88
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "SITIME Corp",
+        "net_margin_pct": 11.532598201128106,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 69494000,
+        "rank": 13,
+        "rd_intensity_pct": 22.941333401087455,
+        "reasons": [
+          "同季營收年增 126.5%",
+          "淨利率 11.5%",
+          "研發／營收 22.9%"
+        ],
+        "revenue": 157432000,
+        "revenue_growth_pct": 126.5404207557487,
+        "scope": "美國上市公司",
+        "score": 86.69,
+        "ticker": "SITM"
+      },
+      {
+        "accession": "0000002488-26-000123",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 2488,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 20.76,
+          "research_intensity": 15.1,
+          "revenue_growth": 40.26
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "ADVANCED MICRO DEVICES INC",
+        "net_margin_pct": 19.91158113730929,
+        "period_end": "2026-06-27",
+        "period_start": "2026-03-29",
+        "prior_revenue": 7685000000,
+        "rank": 14,
+        "rd_intensity_pct": 21.914008321775313,
+        "reasons": [
+          "同季營收年增 50.1%",
+          "淨利率 19.9%",
+          "研發／營收 21.9%"
+        ],
+        "revenue": 11536000000,
+        "revenue_growth_pct": 50.11060507482108,
+        "scope": "美國上市公司",
+        "score": 86.12,
+        "ticker": "AMD"
+      },
+      {
+        "accession": "0001376474-26-000514",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 724910,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 24.51,
+          "research_intensity": 8.68,
+          "revenue_growth": 42.61
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-MN",
+        "name": "NVE CORP /NEW/",
+        "net_margin_pct": 57.94959188628444,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 6104644,
+        "rank": 15,
+        "rd_intensity_pct": 8.578730379950004,
+        "reasons": [
+          "同季營收年增 80.7%",
+          "淨利率 57.9%",
+          "研發／營收 8.6%"
+        ],
+        "revenue": 11034057,
+        "revenue_growth_pct": 80.74857436404154,
+        "scope": "美國上市公司",
+        "score": 85.8,
+        "ticker": "NVEC"
+      },
+      {
+        "accession": "0001628280-26-050705",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1326801,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 22.01,
+          "research_intensity": 17.79,
+          "revenue_growth": 35.96
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "Meta Platforms, Inc.",
+        "net_margin_pct": 26.06536076709265,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 47516000000,
+        "rank": 16,
+        "rd_intensity_pct": 35.61783523297314,
+        "reasons": [
+          "同季營收年增 28.0%",
+          "淨利率 26.1%",
+          "研發／營收 35.6%"
+        ],
+        "revenue": 60801000000,
+        "revenue_growth_pct": 27.959003283104632,
+        "scope": "美國上市公司",
+        "score": 85.76,
+        "ticker": "META"
+      },
+      {
+        "accession": "0001045810-26-000075",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 1045810,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 24.51,
+          "research_intensity": 7.93,
+          "revenue_growth": 43.28
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "NVIDIA CORP",
+        "net_margin_pct": 62.03219671381507,
+        "period_end": "2026-07-26",
+        "period_start": "2026-04-27",
+        "prior_revenue": 46743000000,
+        "rank": 17,
+        "rd_intensity_pct": 7.331040001662839,
+        "reasons": [
+          "同季營收年增 105.9%",
+          "淨利率 62.0%",
+          "研發／營收 7.3%"
+        ],
+        "revenue": 96221000000,
+        "revenue_growth_pct": 105.85114348672526,
+        "scope": "美國上市公司",
+        "score": 85.72,
+        "ticker": "NVDA"
+      },
+      {
+        "accession": "0001493594-26-000038",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1493594,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 22.59,
+          "research_intensity": 15.02,
+          "revenue_growth": 38.04
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-MA",
+        "name": "MACOM Technology Solutions Holdings, Inc.",
+        "net_margin_pct": 29.426391652568253,
+        "period_end": "2026-07-03",
+        "period_start": "2026-04-04",
+        "prior_revenue": 252079000,
+        "rank": 18,
+        "rd_intensity_pct": 21.711562455257614,
+        "reasons": [
+          "同季營收年增 35.8%",
+          "淨利率 29.4%",
+          "研發／營收 21.7%"
+        ],
+        "revenue": 342237000,
+        "revenue_growth_pct": 35.7657718413672,
+        "scope": "美國上市公司",
+        "score": 85.65,
+        "ticker": "MTSI"
+      },
+      {
+        "accession": "0001104659-26-091987",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1446847,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.83,
+          "research_intensity": 14.09,
+          "revenue_growth": 37.23
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-MA",
+        "name": "IRONWOOD PHARMACEUTICALS INC",
+        "net_margin_pct": 45.373802425668565,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 85239000,
+        "rank": 19,
+        "rd_intensity_pct": 19.83439636945887,
+        "reasons": [
+          "同季營收年增 32.6%",
+          "淨利率 45.4%",
+          "研發／營收 19.8%"
+        ],
+        "revenue": 113041000,
+        "revenue_growth_pct": 32.616525299452135,
+        "scope": "美國上市公司",
+        "score": 85.15,
+        "ticker": "IRWD"
+      },
+      {
+        "accession": "0001193125-26-322462",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 751978,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.24,
+          "research_intensity": 11.6,
+          "revenue_growth": 40.16
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-MA",
+        "name": "VICOR CORP",
+        "net_margin_pct": 34.72012947151069,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 96046000,
+        "rank": 20,
+        "rd_intensity_pct": 14.398822478932976,
+        "reasons": [
+          "同季營收年增 49.3%",
+          "淨利率 34.7%",
+          "研發／營收 14.4%"
+        ],
+        "revenue": 143352000,
+        "revenue_growth_pct": 49.253482706203265,
+        "scope": "美國上市公司",
+        "score": 85.0,
+        "ticker": "VICR"
+      },
+      {
+        "accession": "0000056978-26-000032",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 56978,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 20.01,
+          "research_intensity": 11.07,
+          "revenue_growth": 43.75
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-PA",
+        "name": "KULICKE & SOFFA INDUSTRIES INC",
+        "net_margin_pct": 17.37725061968651,
+        "period_end": "2026-07-04",
+        "period_start": "2026-04-05",
+        "prior_revenue": 148413000,
+        "rank": 21,
+        "rd_intensity_pct": 13.290800190067461,
+        "reasons": [
+          "同季營收年增 122.6%",
+          "淨利率 17.4%",
+          "研發／營收 13.3%"
+        ],
+        "revenue": 330409000,
+        "revenue_growth_pct": 122.6280716648811,
+        "scope": "美國上市公司",
+        "score": 84.83,
+        "ticker": "KLIC"
+      },
+      {
+        "accession": "0001437749-26-025657",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 855658,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 15.69,
+          "research_intensity": 17.33,
+          "revenue_growth": 41.69
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-OR",
+        "name": "LATTICE SEMICONDUCTOR CORP",
+        "net_margin_pct": 9.627559317482183,
+        "period_end": "2026-07-04",
+        "period_start": "2026-04-05",
+        "prior_revenue": 123971000,
+        "rank": 22,
+        "rd_intensity_pct": 31.943166616106105,
+        "reasons": [
+          "同季營收年增 62.2%",
+          "淨利率 9.6%",
+          "研發／營收 31.9%"
+        ],
+        "revenue": 201079000,
+        "revenue_growth_pct": 62.198417371804695,
+        "scope": "美國上市公司",
+        "score": 84.71,
+        "ticker": "LSCC"
+      },
+      {
+        "accession": "0001628280-26-057061",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 2064124,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.52,
+          "research_intensity": 7.68,
+          "revenue_growth": 43.46
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-NV",
+        "name": "Figure Technology Solutions, Inc.",
+        "net_margin_pct": 38.76358671560544,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 106077000,
+        "rank": 23,
+        "rd_intensity_pct": 6.893540436548043,
+        "reasons": [
+          "同季營收年增 112.7%",
+          "淨利率 38.8%",
+          "研發／營收 6.9%"
+        ],
+        "revenue": 225588000,
+        "revenue_growth_pct": 112.6643853050143,
+        "scope": "美國上市公司",
+        "score": 84.66,
+        "ticker": "FIGR"
+      },
+      {
+        "accession": "0001628280-26-054327",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1673743,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 20.96,
+          "research_intensity": 12.45,
+          "revenue_growth": 40.7
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "NYSE",
+        "location": "US-CA",
+        "name": "Hinge Health, Inc.",
+        "net_margin_pct": 20.529375002936796,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 139098000,
+        "rank": 24,
+        "rd_intensity_pct": 16.00295089208099,
+        "reasons": [
+          "同季營收年增 53.0%",
+          "淨利率 20.5%",
+          "研發／營收 16.0%"
+        ],
+        "revenue": 212817000,
+        "revenue_growth_pct": 52.99788638226286,
+        "scope": "美國上市公司",
+        "score": 84.11,
+        "ticker": "HNGE"
+      },
+      {
+        "accession": "0001437749-26-027677",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 1051627,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 21.55,
+          "research_intensity": 8.22,
+          "revenue_growth": 44.23
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "AXT INC",
+        "net_margin_pct": 23.383555023219653,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 17974000,
+        "rank": 25,
+        "rd_intensity_pct": 7.671940994767698,
+        "reasons": [
+          "同季營收年增 164.8%",
+          "淨利率 23.4%",
+          "研發／營收 7.7%"
+        ],
+        "revenue": 47589000,
+        "revenue_growth_pct": 164.76577278290864,
+        "scope": "美國上市公司",
+        "score": 84.0,
+        "ticker": "AXTI"
+      },
+      {
+        "accession": "0001973239-26-000114",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1973239,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 21.01,
+          "research_intensity": 19.02,
+          "revenue_growth": 33.65
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "-",
+        "name": "ARM HOLDINGS PLC /UK",
+        "net_margin_pct": 20.946470131885185,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 1053000000,
+        "rank": 26,
+        "rd_intensity_pct": 65.01163692785104,
+        "reasons": [
+          "同季營收年增 22.4%",
+          "淨利率 20.9%",
+          "研發／營收 65.0%"
+        ],
+        "revenue": 1289000000,
+        "revenue_growth_pct": 22.41215574548907,
+        "scope": "國際／美國上市外國發行人",
+        "score": 83.68,
+        "ticker": "ARM"
+      },
+      {
+        "accession": "0000813672-26-000092",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 813672,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 21.49,
+          "research_intensity": 17.56,
+          "revenue_growth": 34.55
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "CADENCE DESIGN SYSTEMS INC",
+        "net_margin_pct": 23.167393627193267,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 1275441000,
+        "rank": 27,
+        "rd_intensity_pct": 33.530415266865305,
+        "reasons": [
+          "同季營收年增 24.2%",
+          "淨利率 23.2%",
+          "研發／營收 33.5%"
+        ],
+        "revenue": 1584451000,
+        "revenue_growth_pct": 24.227698498009698,
+        "scope": "美國上市公司",
+        "score": 83.6,
+        "ticker": "CDNS"
+      },
+      {
+        "accession": "0001410098-26-000056",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 1410098,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 21.96,
+          "research_intensity": 7.39,
+          "revenue_growth": 44.15
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-NJ",
+        "name": "CorMedix Inc.",
+        "net_margin_pct": 25.495678449146975,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 39736000,
+        "rank": 28,
+        "rd_intensity_pct": 6.557377049180328,
+        "reasons": [
+          "同季營收年增 156.5%",
+          "淨利率 25.5%",
+          "研發／營收 6.6%"
+        ],
+        "revenue": 101931000,
+        "revenue_growth_pct": 156.52053553452788,
+        "scope": "美國上市公司",
+        "score": 83.5,
+        "ticker": "CRMD"
+      },
+      {
+        "accession": "0000723125-26-000015",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 723125,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 24.51,
+          "research_intensity": 3.93,
+          "revenue_growth": 44.67
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-ID",
+        "name": "MICRON TECHNOLOGY INC",
+        "net_margin_pct": 68.12765341566963,
+        "period_end": "2026-05-28",
+        "period_start": "2026-02-27",
+        "prior_revenue": 9301000000,
+        "rank": 29,
+        "rd_intensity_pct": 3.1744500192975686,
+        "reasons": [
+          "同季營收年增 345.7%",
+          "淨利率 68.1%",
+          "研發／營收 3.2%"
+        ],
+        "revenue": 41456000000,
+        "revenue_growth_pct": 345.7155144608107,
+        "scope": "美國上市公司",
+        "score": 83.11,
+        "ticker": "MU"
+      },
+      {
+        "accession": "0000006281-26-000073",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 6281,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.17,
+          "research_intensity": 11.04,
+          "revenue_growth": 38.83
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-MA",
+        "name": "ANALOG DEVICES INC",
+        "net_margin_pct": 33.319832248398086,
+        "period_end": "2026-08-01",
+        "period_start": "2026-05-03",
+        "prior_revenue": 2880348000,
+        "rank": 30,
+        "rd_intensity_pct": 13.264380831045235,
+        "reasons": [
+          "同季營收年增 39.6%",
+          "淨利率 33.3%",
+          "研發／營收 13.3%"
+        ],
+        "revenue": 4021899000,
+        "revenue_growth_pct": 39.63239858517096,
+        "scope": "美國上市公司",
+        "score": 83.04,
+        "ticker": "ADI"
+      },
+      {
+        "accession": "0001628280-26-052878",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1651308,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 18.64,
+          "research_intensity": 17.84,
+          "revenue_growth": 36.37
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "CH-",
+        "name": "BeOne Medicines Ltd.",
+        "net_margin_pct": 13.90012498013279,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 1315300000,
+        "rank": 31,
+        "rd_intensity_pct": 35.90935509430399,
+        "reasons": [
+          "同季營收年增 29.6%",
+          "淨利率 13.9%",
+          "研發／營收 35.9%"
+        ],
+        "revenue": 1705071000,
+        "revenue_growth_pct": 29.633619706530823,
+        "scope": "國際／美國上市外國發行人",
+        "score": 82.85,
+        "ticker": "ONC"
+      },
+      {
+        "accession": "0000827054-26-000038",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 827054,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 19.34,
+          "research_intensity": 14.56,
+          "revenue_growth": 38.62
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-AZ",
+        "name": "MICROCHIP TECHNOLOGY INC",
+        "net_margin_pct": 15.47787431804405,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 1075500000,
+        "rank": 32,
+        "rd_intensity_pct": 20.805549942749376,
+        "reasons": [
+          "同季營收年增 38.0%",
+          "淨利率 15.5%",
+          "研發／營收 20.8%"
+        ],
+        "revenue": 1484700000,
+        "revenue_growth_pct": 38.04741980474198,
+        "scope": "美國上市公司",
+        "score": 82.52,
+        "ticker": "MCHP"
+      },
+      {
+        "accession": "0001628280-26-054832",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1680062,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 22.73,
+          "research_intensity": 11.63,
+          "revenue_growth": 38.12
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "ACM Research, Inc.",
+        "net_margin_pct": 30.37836398458277,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 215372000,
+        "rank": 33,
+        "rd_intensity_pct": 14.425148249174685,
+        "reasons": [
+          "同季營收年增 36.0%",
+          "淨利率 30.4%",
+          "研發／營收 14.4%"
+        ],
+        "revenue": 292919000,
+        "revenue_growth_pct": 36.006073212859604,
+        "scope": "美國上市公司",
+        "score": 82.48,
+        "ticker": "ACMR"
+      },
+      {
+        "accession": "0001104659-26-090090",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1802665,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 22.47,
+          "research_intensity": 13.25,
+          "revenue_growth": 36.62
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-PA",
+        "name": "Harmony Biosciences Holdings, Inc.",
+        "net_margin_pct": 28.86979485609308,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 200489000,
+        "rank": 34,
+        "rd_intensity_pct": 17.83374157991427,
+        "reasons": [
+          "同季營收年增 30.3%",
+          "淨利率 28.9%",
+          "研發／營收 17.8%"
+        ],
+        "revenue": 261280000,
+        "revenue_growth_pct": 30.321364264373596,
+        "scope": "美國上市公司",
+        "score": 82.34,
+        "ticker": "HRMY"
+      },
+      {
+        "accession": "0001596532-26-000175",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1596532,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.6,
+          "research_intensity": 10.27,
+          "revenue_growth": 38.41
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "NYSE",
+        "location": "US-CA",
+        "name": "Arista Networks, Inc.",
+        "net_margin_pct": 39.95454096254571,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 2204800000,
+        "rank": 35,
+        "rd_intensity_pct": 11.470171624337056,
+        "reasons": [
+          "同季營收年增 37.7%",
+          "淨利率 40.0%",
+          "研發／營收 11.5%"
+        ],
+        "revenue": 3035700000,
+        "revenue_growth_pct": 37.68595791001452,
+        "scope": "美國上市公司",
+        "score": 82.28,
+        "ticker": "ANET"
+      },
+      {
+        "accession": "0001601046-26-000036",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1601046,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 21.14,
+          "research_intensity": 12.84,
+          "revenue_growth": 38.19
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "NYSE",
+        "location": "US-CA",
+        "name": "Keysight Technologies, Inc.",
+        "net_margin_pct": 21.50595882990249,
+        "period_end": "2026-07-31",
+        "period_start": "2026-05-01",
+        "prior_revenue": 1352000000,
+        "rank": 36,
+        "rd_intensity_pct": 16.901408450704224,
+        "reasons": [
+          "同季營收年增 36.5%",
+          "淨利率 21.5%",
+          "研發／營收 16.9%"
+        ],
+        "revenue": 1846000000,
+        "revenue_growth_pct": 36.53846153846154,
+        "scope": "美國上市公司",
+        "score": 82.17,
+        "ticker": "KEYS"
+      },
+      {
+        "accession": "0001594805-26-000047",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1594805,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.72,
+          "research_intensity": 10.78,
+          "revenue_growth": 37.52
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-NV",
+        "name": "SHOPIFY INC.",
+        "net_margin_pct": 41.9201786212671,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 2680000000,
+        "rank": 37,
+        "rd_intensity_pct": 12.419759977672342,
+        "reasons": [
+          "同季營收年增 33.7%",
+          "淨利率 41.9%",
+          "研發／營收 12.4%"
+        ],
+        "revenue": 3583000000,
+        "revenue_growth_pct": 33.694029850746276,
+        "scope": "美國上市公司",
+        "score": 82.02,
+        "ticker": "SHOP"
+      },
+      {
+        "accession": "0001835632-26-000025",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1835632,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 17.04,
+          "research_intensity": 16.64,
+          "revenue_growth": 38.22
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-DE",
+        "name": "Marvell Technology, Inc.",
+        "net_margin_pct": 11.243748402876648,
+        "period_end": "2026-08-01",
+        "period_start": "2026-05-03",
+        "prior_revenue": 2006100000,
+        "rank": 38,
+        "rd_intensity_pct": 27.054356952506115,
+        "reasons": [
+          "同季營收年增 36.5%",
+          "淨利率 11.2%",
+          "研發／營收 27.1%"
+        ],
+        "revenue": 2739300000,
+        "revenue_growth_pct": 36.54852699267235,
+        "scope": "美國上市公司",
+        "score": 81.9,
+        "ticker": "MRVL"
+      },
+      {
+        "accession": "0001628280-26-050613",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1088856,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 19.82,
+          "research_intensity": 14.71,
+          "revenue_growth": 36.98
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "CORCEPT THERAPEUTICS INC",
+        "net_margin_pct": 16.782160243922437,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 194430000,
+        "rank": 39,
+        "rd_intensity_pct": 21.038700433735315,
+        "reasons": [
+          "同季營收年增 31.7%",
+          "淨利率 16.8%",
+          "研發／營收 21.0%"
+        ],
+        "revenue": 256147000,
+        "revenue_growth_pct": 31.742529445044497,
+        "scope": "美國上市公司",
+        "score": 81.51,
+        "ticker": "CORT"
+      },
+      {
+        "accession": "0001751008-26-000059",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1751008,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 24.51,
+          "research_intensity": 6.24,
+          "revenue_growth": 40.66
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "AppLovin Corp",
+        "net_margin_pct": 65.83912343282636,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 1258754000,
+        "rank": 40,
+        "rd_intensity_pct": 5.193207207413268,
+        "reasons": [
+          "同季營收年增 52.8%",
+          "淨利率 65.8%",
+          "研發／營收 5.2%"
+        ],
+        "revenue": 1923686000,
+        "revenue_growth_pct": 52.82461863080474,
+        "scope": "美國上市公司",
+        "score": 81.41,
+        "ticker": "APP"
+      },
+      {
+        "accession": "0001447669-26-000092",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1447669,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 24.51,
+          "research_intensity": 13.45,
+          "revenue_growth": 33.44
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "NYSE",
+        "location": "US-CA",
+        "name": "TWILIO INC",
+        "net_margin_pct": 71.19050303217487,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 1228425000,
+        "rank": 41,
+        "rd_intensity_pct": 18.23220635999597,
+        "reasons": [
+          "同季營收年增 22.0%",
+          "淨利率 71.2%",
+          "研發／營收 18.2%"
+        ],
+        "revenue": 1499089000,
+        "revenue_growth_pct": 22.033416773510805,
+        "scope": "美國上市公司",
+        "score": 81.4,
+        "ticker": "TWLO"
+      },
+      {
+        "accession": "0001104659-26-094444",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1006281,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 20.54,
+          "research_intensity": 15.07,
+          "revenue_growth": 35.75
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "NYSE",
+        "location": "US-NJ",
+        "name": "Protalix BioTherapeutics, Inc.",
+        "net_margin_pct": 18.983715319662245,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 15658000,
+        "rank": 42,
+        "rd_intensity_pct": 21.868717330116606,
+        "reasons": [
+          "同季營收年增 27.1%",
+          "淨利率 19.0%",
+          "研發／營收 21.9%"
+        ],
+        "revenue": 19896000,
+        "revenue_growth_pct": 27.066036530846848,
+        "scope": "美國上市公司",
+        "score": 81.36,
+        "ticker": "PLX"
+      },
+      {
+        "accession": "0001652044-26-000071",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1652044,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 24.51,
+          "research_intensity": 12.02,
+          "revenue_growth": 34.57
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "Alphabet Inc.",
+        "net_margin_pct": 93.65337740826071,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 96428000000,
+        "rank": 43,
+        "rd_intensity_pct": 15.208354202143646,
+        "reasons": [
+          "同季營收年增 24.2%",
+          "淨利率 93.7%",
+          "研發／營收 15.2%"
+        ],
+        "revenue": 119796000000,
+        "revenue_growth_pct": 24.23362508814868,
+        "scope": "美國上市公司",
+        "score": 81.1,
+        "ticker": "GOOG"
+      },
+      {
+        "accession": "0000872589-26-000025",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 872589,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 22.71,
+          "research_intensity": 17.95,
+          "revenue_growth": 30.3
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-NY",
+        "name": "REGENERON PHARMACEUTICALS, INC.",
+        "net_margin_pct": 30.22583727596896,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 3675600000,
+        "rank": 44,
+        "rd_intensity_pct": 38.02642925396788,
+        "reasons": [
+          "同季營收年增 16.7%",
+          "淨利率 30.2%",
+          "研發／營收 38.0%"
+        ],
+        "revenue": 4290700000,
+        "revenue_growth_pct": 16.734682772880618,
+        "scope": "美國上市公司",
+        "score": 80.96,
+        "ticker": "REGN"
+      },
+      {
+        "accession": "0001787306-26-000051",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1787306,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 17.25,
+          "research_intensity": 12.22,
+          "revenue_growth": 41.47
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "Arcutis Biotherapeutics, Inc.",
+        "net_margin_pct": 11.557742509298404,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 81504000,
+        "rank": 45,
+        "rd_intensity_pct": 15.674451913969554,
+        "reasons": [
+          "同季營收年增 59.3%",
+          "淨利率 11.6%",
+          "研發／營收 15.7%"
+        ],
+        "revenue": 129861000,
+        "revenue_growth_pct": 59.330830388692576,
+        "scope": "美國上市公司",
+        "score": 80.94,
+        "ticker": "ARQT"
+      },
+      {
+        "accession": "0001159036-26-000104",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1159036,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.94,
+          "research_intensity": 6.68,
+          "revenue_growth": 39.93
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "HALOZYME THERAPEUTICS, INC.",
+        "net_margin_pct": 47.79905987330535,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 325719000,
+        "rank": 46,
+        "rd_intensity_pct": 5.751363308447627,
+        "reasons": [
+          "同季營收年增 47.7%",
+          "淨利率 47.8%",
+          "研發／營收 5.8%"
+        ],
+        "revenue": 480999000,
+        "revenue_growth_pct": 47.6729942066628,
+        "scope": "美國上市公司",
+        "score": 80.55,
+        "ticker": "HALO"
+      },
+      {
+        "accession": "0001437749-26-025955",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1001316,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 10.12,
+          "research_intensity": 18.02,
+          "revenue_growth": 42.19
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-NC",
+        "name": "TG THERAPEUTICS, INC.",
+        "net_margin_pct": 3.237564233257744,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 141148000,
+        "rank": 47,
+        "rd_intensity_pct": 39.66837955353985,
+        "reasons": [
+          "同季營收年增 70.3%",
+          "淨利率 3.2%",
+          "研發／營收 39.7%"
+        ],
+        "revenue": 240335000,
+        "revenue_growth_pct": 70.27162977867204,
+        "scope": "美國上市公司",
+        "score": 80.33,
+        "ticker": "TGTX"
+      },
+      {
+        "accession": "0001104659-26-087545",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1730430,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 16.37,
+          "research_intensity": 12.71,
+          "revenue_growth": 41.05
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "GB-",
+        "name": "Kiniksa Pharmaceuticals International, plc",
+        "net_margin_pct": 10.440065681444992,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 156797000,
+        "rank": 48,
+        "rd_intensity_pct": 16.789408866995075,
+        "reasons": [
+          "同季營收年增 55.4%",
+          "淨利率 10.4%",
+          "研發／營收 16.8%"
+        ],
+        "revenue": 243600000,
+        "revenue_growth_pct": 55.3601153083286,
+        "scope": "國際／美國上市外國發行人",
+        "score": 80.13,
+        "ticker": "KNSA"
+      },
+      {
+        "accession": "0001628280-26-055698",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1699963,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 24.51,
+          "research_intensity": 19.02,
+          "revenue_growth": 26.29
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "Neutron Holdings, Inc.",
+        "net_margin_pct": 415.8510488525975,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 63505000,
+        "rank": 49,
+        "rd_intensity_pct": 43.985639870477264,
+        "reasons": [
+          "同季營收年增 11.8%",
+          "淨利率 415.9%",
+          "研發／營收 44.0%"
+        ],
+        "revenue": 71030000,
+        "revenue_growth_pct": 11.849460672387991,
+        "scope": "美國上市公司",
+        "score": 79.82,
+        "ticker": "LIME"
+      },
+      {
+        "accession": "0001185185-26-003983",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 39020,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 20.28,
+          "research_intensity": 7.01,
+          "revenue_growth": 42.17
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-NY",
+        "name": "FREQUENCY ELECTRONICS INC",
+        "net_margin_pct": 17.977911389706197,
+        "period_end": "2026-07-31",
+        "period_start": "2026-05-01",
+        "prior_revenue": 13812000,
+        "rank": 50,
+        "rd_intensity_pct": 6.16178414566543,
+        "reasons": [
+          "同季營收年增 69.8%",
+          "淨利率 18.0%",
+          "研發／營收 6.2%"
+        ],
+        "revenue": 23451000,
+        "revenue_growth_pct": 69.78714161598609,
+        "scope": "美國上市公司",
+        "score": 79.46,
+        "ticker": "FEIM"
+      },
+      {
+        "accession": "0001393052-26-000036",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1393052,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 22.6,
+          "research_intensity": 16.02,
+          "revenue_growth": 30.82
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "NYSE",
+        "location": "US-CA",
+        "name": "VEEVA SYSTEMS INC",
+        "net_margin_pct": 29.465506706625156,
+        "period_end": "2026-07-31",
+        "period_start": "2026-05-01",
+        "prior_revenue": 789081000,
+        "rank": 51,
+        "rd_intensity_pct": 24.022293992325125,
+        "reasons": [
+          "同季營收年增 17.6%",
+          "淨利率 29.5%",
+          "研發／營收 24.0%"
+        ],
+        "revenue": 927963000,
+        "revenue_growth_pct": 17.60047447600437,
+        "scope": "美國上市公司",
+        "score": 79.44,
+        "ticker": "VEEV"
+      },
+      {
+        "accession": "0001628280-26-060361",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 936395,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 19.52,
+          "research_intensity": 11.55,
+          "revenue_growth": 38.31
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "NYSE",
+        "location": "US-MD",
+        "name": "CIENA CORP",
+        "net_margin_pct": 15.942395829406347,
+        "period_end": "2026-08-01",
+        "period_start": "2026-05-03",
+        "prior_revenue": 1219385000,
+        "rank": 52,
+        "rd_intensity_pct": 14.16246142577862,
+        "reasons": [
+          "同季營收年增 37.0%",
+          "淨利率 15.9%",
+          "研發／營收 14.2%"
+        ],
+        "revenue": 1671129000,
+        "revenue_growth_pct": 37.04687198874843,
+        "scope": "美國上市公司",
+        "score": 79.38,
+        "ticker": "CIEN"
+      },
+      {
+        "accession": "0001437749-26-027684",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1710340,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 22.82,
+          "research_intensity": 3.39,
+          "revenue_growth": 43.15
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-IL",
+        "name": "Eton Pharmaceuticals, Inc.",
+        "net_margin_pct": 30.80156428742451,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 18928000,
+        "rank": 53,
+        "rd_intensity_pct": 2.64173029343691,
+        "reasons": [
+          "同季營收年增 98.6%",
+          "淨利率 30.8%",
+          "研發／營收 2.6%"
+        ],
+        "revenue": 37589000,
+        "revenue_growth_pct": 98.58939137785292,
+        "scope": "美國上市公司",
+        "score": 79.36,
+        "ticker": "ETON"
+      },
+      {
+        "accession": "0001104506-26-000041",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 1104506,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 5.61,
+          "research_intensity": 19.02,
+          "revenue_growth": 44.67
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-NJ",
+        "name": "INSMED Inc",
+        "net_margin_pct": -3.112205807006576,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 107415000,
+        "rank": 54,
+        "rd_intensity_pct": 49.36331630182897,
+        "reasons": [
+          "同季營收年增 296.1%",
+          "淨利率 -3.1%",
+          "研發／營收 49.4%"
+        ],
+        "revenue": 425486000,
+        "revenue_growth_pct": 296.11413675929805,
+        "scope": "美國上市公司",
+        "score": 79.3,
+        "ticker": "INSM"
+      },
+      {
+        "accession": "0001711279-26-000057",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1711279,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.87,
+          "research_intensity": 10.65,
+          "revenue_growth": 34.52
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-PA",
+        "name": "Krystal Biotech, Inc.",
+        "net_margin_pct": 45.93783026622603,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 96042000,
+        "rank": 55,
+        "rd_intensity_pct": 12.177282716277197,
+        "reasons": [
+          "同季營收年增 24.1%",
+          "淨利率 45.9%",
+          "研發／營收 12.2%"
+        ],
+        "revenue": 119222000,
+        "revenue_growth_pct": 24.135274150892315,
+        "scope": "美國上市公司",
+        "score": 79.04,
+        "ticker": "KRYS"
+      },
+      {
+        "accession": "0001039399-26-000033",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1039399,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 21.21,
+          "research_intensity": 10.5,
+          "revenue_growth": 37.04
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "FORMFACTOR INC",
+        "net_margin_pct": 21.76524345381464,
+        "period_end": "2026-06-27",
+        "period_start": "2026-03-29",
+        "prior_revenue": 195798000,
+        "rank": 56,
+        "rd_intensity_pct": 12.04258021545682,
+        "reasons": [
+          "同季營收年增 31.9%",
+          "淨利率 21.8%",
+          "研發／營收 12.0%"
+        ],
+        "revenue": 258242000,
+        "revenue_growth_pct": 31.892052012788685,
+        "scope": "美國上市公司",
+        "score": 78.75,
+        "ticker": "FORM"
+      },
+      {
+        "accession": "0001656472-26-000051",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1656472,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 24.51,
+          "research_intensity": 2.64,
+          "revenue_growth": 41.42
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "CA-ON",
+        "name": "Cronos Group Inc.",
+        "net_margin_pct": 60.52974135491539,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 33455000,
+        "rank": 57,
+        "rd_intensity_pct": 2.2921500933838925,
+        "reasons": [
+          "同季營收年增 58.4%",
+          "淨利率 60.5%",
+          "研發／營收 2.3%"
+        ],
+        "revenue": 53007000,
+        "revenue_growth_pct": 58.4426842026603,
+        "scope": "國際／美國上市外國發行人",
+        "score": 78.57,
+        "ticker": "CRON"
+      },
+      {
+        "accession": "0001628280-26-052556",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1582961,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 17.93,
+          "research_intensity": 14.51,
+          "revenue_growth": 36.08
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "NYSE",
+        "location": "US-CO",
+        "name": "DigitalOcean Holdings, Inc.",
+        "net_margin_pct": 12.602779674519176,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 218700000,
+        "rank": 58,
+        "rd_intensity_pct": 20.454577785364744,
+        "reasons": [
+          "同季營收年增 28.6%",
+          "淨利率 12.6%",
+          "研發／營收 20.5%"
+        ],
+        "revenue": 281184000,
+        "revenue_growth_pct": 28.57064471879287,
+        "scope": "美國上市公司",
+        "score": 78.52,
+        "ticker": "DOCN"
+      },
+      {
+        "accession": "0001193125-26-380207",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1002047,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 20.44,
+          "research_intensity": 11.3,
+          "revenue_growth": 36.44
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "NetApp, Inc.",
+        "net_margin_pct": 18.51851851851852,
+        "period_end": "2026-07-31",
+        "period_start": "2026-04-25",
+        "prior_revenue": 1559000000,
+        "rank": 59,
+        "rd_intensity_pct": 13.530864197530864,
+        "reasons": [
+          "同季營收年增 29.9%",
+          "淨利率 18.5%",
+          "研發／營收 13.5%"
+        ],
+        "revenue": 2025000000,
+        "revenue_growth_pct": 29.890955740859514,
+        "scope": "美國上市公司",
+        "score": 78.18,
+        "ticker": "NTAP"
+      },
+      {
+        "accession": "0001193125-26-338401",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 704532,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 20.06,
+          "research_intensity": 10.19,
+          "revenue_growth": 37.89
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "NYSE",
+        "location": "US-MA",
+        "name": "ONTO INNOVATION INC.",
+        "net_margin_pct": 17.515861381579523,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 253597000,
+        "rank": 60,
+        "rd_intensity_pct": 11.330724013417694,
+        "reasons": [
+          "同季營收年增 35.3%",
+          "淨利率 17.5%",
+          "研發／營收 11.3%"
+        ],
+        "revenue": 343129000,
+        "revenue_growth_pct": 35.30483404772138,
+        "scope": "美國上市公司",
+        "score": 78.14,
+        "ticker": "ONTO"
+      },
+      {
+        "accession": "0001628280-26-053424",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1782170,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.71,
+          "research_intensity": 11.89,
+          "revenue_growth": 32.47
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-WA",
+        "name": "Remitly Global, Inc.",
+        "net_margin_pct": 41.58447034873858,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 411852000,
+        "rank": 61,
+        "rd_intensity_pct": 14.954680949034243,
+        "reasons": [
+          "同季營收年增 20.2%",
+          "淨利率 41.6%",
+          "研發／營收 15.0%"
+        ],
+        "revenue": 495156000,
+        "revenue_growth_pct": 20.22668337169662,
+        "scope": "美國上市公司",
+        "score": 78.07,
+        "ticker": "RELY"
+      },
+      {
+        "accession": "0000718937-26-000037",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。",
+          "營收年增超過 100%，需查低基期、併購與會計重分類。"
+        ],
+        "cik": 718937,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 14.88,
+          "research_intensity": 9.76,
+          "revenue_growth": 43.42
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "STAAR SURGICAL CO",
+        "net_margin_pct": 8.6149569679799,
+        "period_end": "2026-07-03",
+        "period_start": "2026-04-04",
+        "prior_revenue": 44320000,
+        "rank": 62,
+        "rd_intensity_pct": 10.630245362698455,
+        "reasons": [
+          "同季營收年增 111.0%",
+          "淨利率 8.6%",
+          "研發／營收 10.6%"
+        ],
+        "revenue": 93535000,
+        "revenue_growth_pct": 111.04467509025268,
+        "scope": "美國上市公司",
+        "score": 78.06,
+        "ticker": "STAA"
+      },
+      {
+        "accession": "0002070849-26-000050",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 2070849,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 13.74,
+          "research_intensity": 12.35,
+          "revenue_growth": 41.94
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "BillionToOne, Inc.",
+        "net_margin_pct": 7.3587457057232655,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 66573000,
+        "rank": 63,
+        "rd_intensity_pct": 15.82029822381405,
+        "reasons": [
+          "同季營收年增 64.4%",
+          "淨利率 7.4%",
+          "研發／營收 15.8%"
+        ],
+        "revenue": 109448000,
+        "revenue_growth_pct": 64.40298619560483,
+        "scope": "美國上市公司",
+        "score": 78.03,
+        "ticker": "BLLN"
+      },
+      {
+        "accession": "0001628280-26-054458",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1561550,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 10.86,
+          "research_intensity": 19.02,
+          "revenue_growth": 38.0
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-NY",
+        "name": "Datadog, Inc.",
+        "net_margin_pct": 3.9732347470337617,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 826760000,
+        "rank": 64,
+        "rd_intensity_pct": 42.62038389447984,
+        "reasons": [
+          "同季營收年增 35.6%",
+          "淨利率 4.0%",
+          "研發／營收 42.6%"
+        ],
+        "revenue": 1121454000,
+        "revenue_growth_pct": 35.64444336929702,
+        "scope": "美國上市公司",
+        "score": 77.88,
+        "ticker": "DDOG"
+      },
+      {
+        "accession": "0001262039-26-000021",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1262039,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 22.61,
+          "research_intensity": 9.99,
+          "revenue_growth": 35.19
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "Fortinet, Inc.",
+        "net_margin_pct": 29.605937789931147,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 1630000000,
+        "rank": 65,
+        "rd_intensity_pct": 10.986864592997705,
+        "reasons": [
+          "同季營收年增 25.6%",
+          "淨利率 29.6%",
+          "研發／營收 11.0%"
+        ],
+        "revenue": 2047900000,
+        "revenue_growth_pct": 25.638036809815958,
+        "scope": "美國上市公司",
+        "score": 77.79,
+        "ticker": "FTNT"
+      },
+      {
+        "accession": "0001628280-26-058235",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 6951,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 22.34,
+          "research_intensity": 10.6,
+          "revenue_growth": 34.77
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "APPLIED MATERIALS INC /DE",
+        "net_margin_pct": 27.84421283598464,
+        "period_end": "2026-07-26",
+        "period_start": "2026-04-27",
+        "prior_revenue": 7302000000,
+        "rank": 66,
+        "rd_intensity_pct": 12.068019747668677,
+        "reasons": [
+          "同季營收年增 24.8%",
+          "淨利率 27.8%",
+          "研發／營收 12.1%"
+        ],
+        "revenue": 9115000000,
+        "revenue_growth_pct": 24.82881402355519,
+        "scope": "美國上市公司",
+        "score": 77.71,
+        "ticker": "AMAT"
+      },
+      {
+        "accession": "0001600620-26-000062",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1600620,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.81,
+          "research_intensity": 12.25,
+          "revenue_growth": 31.64
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "CA-AB",
+        "name": "Aurinia Pharmaceuticals Inc.",
+        "net_margin_pct": 44.95794280221101,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 70008000,
+        "rank": 67,
+        "rd_intensity_pct": 15.681326604181686,
+        "reasons": [
+          "同季營收年增 18.9%",
+          "淨利率 45.0%",
+          "研發／營收 15.7%"
+        ],
+        "revenue": 83220000,
+        "revenue_growth_pct": 18.87212889955434,
+        "scope": "國際／美國上市外國發行人",
+        "score": 77.7,
+        "ticker": "AUPH"
+      },
+      {
+        "accession": "0001474432-26-000088",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1474432,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 12.69,
+          "research_intensity": 16.23,
+          "revenue_growth": 38.49
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "NYSE",
+        "location": "US-CA",
+        "name": "Everpure, Inc.",
+        "net_margin_pct": 6.252561350132979,
+        "period_end": "2026-08-02",
+        "period_start": "2026-05-04",
+        "prior_revenue": 861002000,
+        "rank": 68,
+        "rd_intensity_pct": 24.770174163376616,
+        "reasons": [
+          "同季營收年增 37.7%",
+          "淨利率 6.3%",
+          "研發／營收 24.8%"
+        ],
+        "revenue": 1185898000,
+        "revenue_growth_pct": 37.73463940850312,
+        "scope": "美國上市公司",
+        "score": 77.41,
+        "ticker": "P"
+      },
+      {
+        "accession": "0001820144-26-000025",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1820144,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 18.08,
+          "research_intensity": 11.73,
+          "revenue_growth": 37.19
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "NYSE",
+        "location": "US-CA",
+        "name": "Grindr Inc.",
+        "net_margin_pct": 12.844401974836758,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 104220000,
+        "rank": 69,
+        "rd_intensity_pct": 14.699069046895133,
+        "reasons": [
+          "同季營收年增 32.5%",
+          "淨利率 12.8%",
+          "研發／營收 14.7%"
+        ],
+        "revenue": 138138000,
+        "revenue_growth_pct": 32.54461715601611,
+        "scope": "美國上市公司",
+        "score": 77.0,
+        "ticker": "GRND"
+      },
+      {
+        "accession": "0001647639-26-000063",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1647639,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 11.38,
+          "research_intensity": 16.41,
+          "revenue_growth": 39.16
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "Upstart Holdings, Inc.",
+        "net_margin_pct": 4.534860765324589,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 257291000,
+        "rank": 70,
+        "rd_intensity_pct": 25.735657018765696,
+        "reasons": [
+          "同季營收年增 41.7%",
+          "淨利率 4.5%",
+          "研發／營收 25.7%"
+        ],
+        "revenue": 364708000,
+        "revenue_growth_pct": 41.749225585037955,
+        "scope": "美國上市公司",
+        "score": 76.95,
+        "ticker": "UPST"
+      },
+      {
+        "accession": "0000814547-26-000030",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 814547,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.28,
+          "research_intensity": 8.45,
+          "revenue_growth": 35.21
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "NYSE",
+        "location": "US-MT",
+        "name": "FAIR ISAAC CORP",
+        "net_margin_pct": 35.17891152022878,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 536415000,
+        "rank": 71,
+        "rd_intensity_pct": 7.966323933383566,
+        "reasons": [
+          "同季營收年增 25.7%",
+          "淨利率 35.2%",
+          "研發／營收 8.0%"
+        ],
+        "revenue": 674188000,
+        "revenue_growth_pct": 25.6840319528723,
+        "scope": "美國上市公司",
+        "score": 76.94,
+        "ticker": "FICO"
+      },
+      {
+        "accession": "0000769397-26-000061",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 769397,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 21.73,
+          "research_intensity": 15.4,
+          "revenue_growth": 29.74
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-CA",
+        "name": "Autodesk, Inc.",
+        "net_margin_pct": 24.04692082111437,
+        "period_end": "2026-07-31",
+        "period_start": "2026-05-01",
+        "prior_revenue": 1763000000,
+        "rank": 72,
+        "rd_intensity_pct": 22.678396871945257,
+        "reasons": [
+          "同季營收年增 16.1%",
+          "淨利率 24.0%",
+          "研發／營收 22.7%"
+        ],
+        "revenue": 2046000000,
+        "revenue_growth_pct": 16.05218377765174,
+        "scope": "美國上市公司",
+        "score": 76.87,
+        "ticker": "ADSK"
+      },
+      {
+        "accession": "0001628280-26-052535",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1181412,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 4.68,
+          "research_intensity": 19.02,
+          "revenue_growth": 43.0
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-TX",
+        "name": "SPACE EXPLORATION TECHNOLOGIES CORP",
+        "net_margin_pct": -6.9234706936268235,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 4071000000,
+        "rank": 73,
+        "rd_intensity_pct": 45.40568210903507,
+        "reasons": [
+          "同季營收年增 91.9%",
+          "淨利率 -6.9%",
+          "研發／營收 45.4%"
+        ],
+        "revenue": 7814000000,
+        "revenue_growth_pct": 91.94301154507491,
+        "scope": "美國上市公司",
+        "score": 76.7,
+        "ticker": "SPCX"
+      },
+      {
+        "accession": "0000097476-26-000152",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 97476,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 23.34,
+          "research_intensity": 9.37,
+          "revenue_growth": 33.84
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "US-TX",
+        "name": "TEXAS INSTRUMENTS INC",
+        "net_margin_pct": 36.24382207578254,
+        "period_end": "2026-06-30",
+        "period_start": "2026-04-01",
+        "prior_revenue": 4448000000,
+        "rank": 74,
+        "rd_intensity_pct": 9.793153944719018,
+        "reasons": [
+          "同季營收年增 22.8%",
+          "淨利率 36.2%",
+          "研發／營收 9.8%"
+        ],
+        "revenue": 5463000000,
+        "revenue_growth_pct": 22.819244604316545,
+        "scope": "美國上市公司",
+        "score": 76.55,
+        "ticker": "TXN"
+      },
+      {
+        "accession": "0001413447-26-000045",
+        "cautions": [
+          "SEC Frames 只涵蓋可對齊此標準科目與曆季的申報公司，會漏掉採其他概念或財年邊界不同者。",
+          "此排序未含股價、估值、負債、稀釋與自由現金流。"
+        ],
+        "cik": 1413447,
+        "components": {
+          "data_completeness": 10.0,
+          "net_margin": 21.26,
+          "research_intensity": 13.04,
+          "revenue_growth": 31.95
+        },
+        "coverage": "3/3 核心欄位",
+        "exchange": "Nasdaq",
+        "location": "NL-",
+        "name": "NXP Semiconductors N.V.",
+        "net_margin_pct": 21.939359267734552,
+        "period_end": "2026-06-28",
+        "period_start": "2026-03-30",
+        "prior_revenue": 2926000000,
+        "rank": 75,
+        "rd_intensity_pct": 17.276887871853546,
+        "reasons": [
+          "同季營收年增 19.5%",
+          "淨利率 21.9%",
+          "研發／營收 17.3%"
+        ],
+        "revenue": 3496000000,
+        "revenue_growth_pct": 19.480519480519476,
+        "scope": "國際／美國上市外國發行人",
+        "score": 76.25,
+        "ticker": "NXPI"
+      }
+    ],
+    "comparable_companies": 2336,
+    "frame": "CY2026Q2",
+    "international_candidates": 118,
+    "limitations": [
+      "研究優先級不是投資建議或預期報酬。",
+      "金融業、外國私營發行人及採不同 XBRL 概念者可能不在可比母體。",
+      "需另接行情與估值資料，才可評估市場已反映程度。"
+    ],
+    "listed_securities": 10438,
+    "mapped_main_exchange_ciks": 6048,
+    "method": "cross-sectional percentile: revenue growth 45 + net margin 25 + R&D intensity 20 + completeness 10"
+  },
+  "taiwan": {
+    "as_of": "2026-09-20",
+    "candidate_count": 1946,
+    "candidates": [
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 56.0,
+        "code": "5508",
+        "components": {
+          "cash_yield": 9.92,
+          "data_completeness": 10.0,
+          "liquidity": 17.28,
+          "positive_pe_band": 19.76,
+          "revenue_growth": 39.33
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 1,
+        "dividend_yield_pct": 4.96,
+        "industry": "建材營造",
+        "institutional_net": -126391.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "永信建",
+        "pb": 2.23,
+        "pe": 18.3,
+        "rank": 1,
+        "reasons": [
+          "單月營收年增 633.6%",
+          "累計營收年增 60.2%",
+          "本益比 18.3",
+          "殖利率 4.96%",
+          "櫃買三大法人單日淨額 -126,391 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 633.6485802383911,
+        "revenue_ytd_yoy_pct": 60.19059588257221,
+        "score": 96.29,
+        "ticker": "5508.TWO",
+        "trade_value": 147780100.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 343.0,
+        "code": "2382",
+        "components": {
+          "cash_yield": 9.1,
+          "data_completeness": 10.0,
+          "liquidity": 19.35,
+          "positive_pe_band": 17.56,
+          "revenue_growth": 38.7
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 2,
+        "dividend_yield_pct": 4.55,
+        "industry": "電腦及週邊設備業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "廣達",
+        "pb": 5.43,
+        "pe": 14.95,
+        "rank": 1,
+        "reasons": [
+          "單月營收年增 177.5%",
+          "累計營收年增 102.6%",
+          "本益比 14.9",
+          "殖利率 4.55%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 177.453640698528,
+        "revenue_ytd_yoy_pct": 102.62669045483766,
+        "score": 94.71,
+        "ticker": "2382.TW",
+        "trade_value": 7412072502.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 74.2,
+        "code": "2348",
+        "components": {
+          "cash_yield": 10,
+          "data_completeness": 10.0,
+          "liquidity": 14.54,
+          "positive_pe_band": 19.77,
+          "revenue_growth": 39.7
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 3,
+        "dividend_yield_pct": 7.41,
+        "industry": "其他",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "海悅",
+        "pb": 1.75,
+        "pe": 17.71,
+        "rank": 2,
+        "reasons": [
+          "單月營收年增 540.6%",
+          "累計營收年增 80.6%",
+          "本益比 17.7",
+          "殖利率 7.41%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 540.5590508718318,
+        "revenue_ytd_yoy_pct": 80.61133112104658,
+        "score": 94.01,
+        "ticker": "2348.TW",
+        "trade_value": 164106551.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 650.0,
+        "code": "6691",
+        "components": {
+          "cash_yield": 6.76,
+          "data_completeness": 10.0,
+          "liquidity": 17.23,
+          "positive_pe_band": 18.85,
+          "revenue_growth": 39.0
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 4,
+        "dividend_yield_pct": 3.38,
+        "industry": "其他電子業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "洋基工程",
+        "pb": 10.57,
+        "pe": 19.44,
+        "rank": 3,
+        "reasons": [
+          "單月營收年增 213.7%",
+          "累計營收年增 112.8%",
+          "本益比 19.4",
+          "殖利率 3.38%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 213.69818881487726,
+        "revenue_ytd_yoy_pct": 112.82327209171589,
+        "score": 91.84,
+        "ticker": "6691.TW",
+        "trade_value": 866894643.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 186.5,
+        "code": "3231",
+        "components": {
+          "cash_yield": 5.9,
+          "data_completeness": 10.0,
+          "liquidity": 19.42,
+          "positive_pe_band": 17.45,
+          "revenue_growth": 38.59
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 5,
+        "dividend_yield_pct": 2.95,
+        "industry": "電腦及週邊設備業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "緯創",
+        "pb": 3.06,
+        "pe": 14.81,
+        "rank": 4,
+        "reasons": [
+          "單月營收年增 166.5%",
+          "累計營收年增 98.9%",
+          "本益比 14.8",
+          "殖利率 2.95%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 166.4840985505344,
+        "revenue_ytd_yoy_pct": 98.8701912579111,
+        "score": 91.36,
+        "ticker": "3231.TW",
+        "trade_value": 8275041854.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 80.5,
+        "code": "3706",
+        "components": {
+          "cash_yield": 9.94,
+          "data_completeness": 10.0,
+          "liquidity": 16.42,
+          "positive_pe_band": 17.1,
+          "revenue_growth": 37.66
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 6,
+        "dividend_yield_pct": 4.97,
+        "industry": "電腦及週邊設備業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "神達",
+        "pb": 1.4,
+        "pe": 14.38,
+        "rank": 5,
+        "reasons": [
+          "單月營收年增 119.9%",
+          "累計營收年增 52.6%",
+          "本益比 14.4",
+          "殖利率 4.97%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 119.89332334202707,
+        "revenue_ytd_yoy_pct": 52.56887075398791,
+        "score": 91.12,
+        "ticker": "3706.TW",
+        "trade_value": 471582230.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 59.8,
+        "code": "8926",
+        "components": {
+          "cash_yield": 7.1,
+          "data_completeness": 10.0,
+          "liquidity": 15.28,
+          "positive_pe_band": 18.74,
+          "revenue_growth": 39.7
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 7,
+        "dividend_yield_pct": 3.55,
+        "industry": "油電燃氣業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "台汽電",
+        "pb": 2.5,
+        "pe": 16.43,
+        "rank": 6,
+        "reasons": [
+          "單月營收年增 1263.6%",
+          "累計營收年增 824.8%",
+          "本益比 16.4",
+          "殖利率 3.55%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 1263.6234640055363,
+        "revenue_ytd_yoy_pct": 824.824638801328,
+        "score": 90.82,
+        "ticker": "8926.TW",
+        "trade_value": 242974037.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 262.0,
+        "code": "6667",
+        "components": {
+          "cash_yield": 8.94,
+          "data_completeness": 10.0,
+          "liquidity": 18.13,
+          "positive_pe_band": 19.93,
+          "revenue_growth": 33.37
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 8,
+        "dividend_yield_pct": 4.47,
+        "industry": "其他電子業",
+        "institutional_net": 529957.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "信紘科",
+        "pb": 5.19,
+        "pe": 17.91,
+        "rank": 2,
+        "reasons": [
+          "單月營收年增 69.1%",
+          "累計營收年增 10.5%",
+          "本益比 17.9",
+          "殖利率 4.47%",
+          "櫃買三大法人單日淨額 529,957 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 69.05867516933641,
+        "revenue_ytd_yoy_pct": 10.530222793110656,
+        "score": 90.37,
+        "ticker": "6667.TWO",
+        "trade_value": 377679000.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 270.0,
+        "code": "6613",
+        "components": {
+          "cash_yield": 7.4,
+          "data_completeness": 10.0,
+          "liquidity": 16.63,
+          "positive_pe_band": 18.38,
+          "revenue_growth": 37.59
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 9,
+        "dividend_yield_pct": 3.7,
+        "industry": "其他電子業",
+        "institutional_net": 175224.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "朋億*",
+        "pb": 3.27,
+        "pe": 15.97,
+        "rank": 3,
+        "reasons": [
+          "單月營收年增 186.8%",
+          "累計營收年增 63.6%",
+          "本益比 16.0",
+          "殖利率 3.70%",
+          "櫃買三大法人單日淨額 175,224 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 186.81734976223558,
+        "revenue_ytd_yoy_pct": 63.620117125070124,
+        "score": 90.0,
+        "ticker": "6613.TWO",
+        "trade_value": 86604500.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 242.5,
+        "code": "3147",
+        "components": {
+          "cash_yield": 5.36,
+          "data_completeness": 10.0,
+          "liquidity": 17.67,
+          "positive_pe_band": 17.66,
+          "revenue_growth": 38.29
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 10,
+        "dividend_yield_pct": 2.68,
+        "industry": "資訊服務業",
+        "institutional_net": 220091.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "大綜",
+        "pb": 5.48,
+        "pe": 15.07,
+        "rank": 4,
+        "reasons": [
+          "單月營收年增 233.5%",
+          "累計營收年增 112.0%",
+          "本益比 15.1",
+          "殖利率 2.68%",
+          "櫃買三大法人單日淨額 220,091 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 233.47826842384174,
+        "revenue_ytd_yoy_pct": 111.96193648884159,
+        "score": 88.98,
+        "ticker": "3147.TWO",
+        "trade_value": 230406500.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 266.5,
+        "code": "6811",
+        "components": {
+          "cash_yield": 7.88,
+          "data_completeness": 10.0,
+          "liquidity": 17.85,
+          "positive_pe_band": 18.81,
+          "revenue_growth": 34.25
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 11,
+        "dividend_yield_pct": 3.94,
+        "industry": "數位雲端",
+        "institutional_net": 229399.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "宏碁資訊",
+        "pb": 4.75,
+        "pe": 16.51,
+        "rank": 5,
+        "reasons": [
+          "單月營收年增 77.1%",
+          "累計營收年增 25.9%",
+          "本益比 16.5",
+          "殖利率 3.94%",
+          "櫃買三大法人單日淨額 229,399 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 77.11195291418402,
+        "revenue_ytd_yoy_pct": 25.852463373182637,
+        "score": 88.79,
+        "ticker": "6811.TWO",
+        "trade_value": 277739500.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 1125.0,
+        "code": "2404",
+        "components": {
+          "cash_yield": 7.12,
+          "data_completeness": 10.0,
+          "liquidity": 18.79,
+          "positive_pe_band": 19.18,
+          "revenue_growth": 33.56
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 12,
+        "dividend_yield_pct": 3.56,
+        "industry": "其他電子業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "漢唐",
+        "pb": 11.86,
+        "pe": 16.97,
+        "rank": 7,
+        "reasons": [
+          "單月營收年增 59.1%",
+          "累計營收年增 71.6%",
+          "本益比 17.0",
+          "殖利率 3.56%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 59.050412994601615,
+        "revenue_ytd_yoy_pct": 71.61194957406076,
+        "score": 88.65,
+        "ticker": "2404.TW",
+        "trade_value": 3644600475.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 179.5,
+        "code": "2344",
+        "components": {
+          "cash_yield": 0.56,
+          "data_completeness": 10.0,
+          "liquidity": 19.93,
+          "positive_pe_band": 18.57,
+          "revenue_growth": 39.37
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 13,
+        "dividend_yield_pct": 0.28,
+        "industry": "半導體業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "華邦電",
+        "pb": 4.9,
+        "pe": 19.79,
+        "rank": 8,
+        "reasons": [
+          "單月營收年增 289.4%",
+          "累計營收年增 177.4%",
+          "本益比 19.8",
+          "殖利率 0.28%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 289.42756449599915,
+        "revenue_ytd_yoy_pct": 177.3892901148317,
+        "score": 88.43,
+        "ticker": "2344.TW",
+        "trade_value": 24535435991.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 80.7,
+        "code": "6486",
+        "components": {
+          "cash_yield": 10,
+          "data_completeness": 10.0,
+          "liquidity": 9.97,
+          "positive_pe_band": 19.05,
+          "revenue_growth": 39.33
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 14,
+        "dividend_yield_pct": 7.43,
+        "industry": "通信網路業",
+        "institutional_net": -5892.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "互動",
+        "pb": 2.33,
+        "pe": 16.81,
+        "rank": 6,
+        "reasons": [
+          "單月營收年增 825.8%",
+          "累計營收年增 130.9%",
+          "本益比 16.8",
+          "殖利率 7.43%",
+          "櫃買三大法人單日淨額 -5,892 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 825.8113558796152,
+        "revenue_ytd_yoy_pct": 130.93748048323718,
+        "score": 88.35,
+        "ticker": "6486.TWO",
+        "trade_value": 4208500.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 525.0,
+        "code": "2408",
+        "components": {
+          "cash_yield": 0.52,
+          "data_completeness": 10.0,
+          "liquidity": 19.94,
+          "positive_pe_band": 18.1,
+          "revenue_growth": 39.7
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 15,
+        "dividend_yield_pct": 0.26,
+        "industry": "半導體業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "南亞科",
+        "pb": 5.62,
+        "pe": 20.37,
+        "rank": 9,
+        "reasons": [
+          "單月營收年增 560.9%",
+          "累計營收年增 638.2%",
+          "本益比 20.4",
+          "殖利率 0.26%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 560.8541425724004,
+        "revenue_ytd_yoy_pct": 638.1931640340957,
+        "score": 88.26,
+        "ticker": "2408.TW",
+        "trade_value": 41316772007.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 90.8,
+        "code": "2347",
+        "components": {
+          "cash_yield": 9.26,
+          "data_completeness": 10.0,
+          "liquidity": 15.67,
+          "positive_pe_band": 15.54,
+          "revenue_growth": 37.73
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 16,
+        "dividend_yield_pct": 4.63,
+        "industry": "電子通路業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "聯強",
+        "pb": 1.75,
+        "pe": 12.42,
+        "rank": 10,
+        "reasons": [
+          "單月營收年增 122.0%",
+          "累計營收年增 89.7%",
+          "本益比 12.4",
+          "殖利率 4.63%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 122.01643193808464,
+        "revenue_ytd_yoy_pct": 89.65916297833103,
+        "score": 88.2,
+        "ticker": "2347.TW",
+        "trade_value": 317642659.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 356.0,
+        "code": "2376",
+        "components": {
+          "cash_yield": 6.74,
+          "data_completeness": 10.0,
+          "liquidity": 18.4,
+          "positive_pe_band": 16.26,
+          "revenue_growth": 36.65
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 17,
+        "dividend_yield_pct": 3.37,
+        "industry": "電腦及週邊設備業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "技嘉",
+        "pb": 3.59,
+        "pe": 13.32,
+        "rank": 11,
+        "reasons": [
+          "單月營收年增 98.4%",
+          "累計營收年增 55.2%",
+          "本益比 13.3",
+          "殖利率 3.37%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 98.42707910183296,
+        "revenue_ytd_yoy_pct": 55.23396713556208,
+        "score": 88.05,
+        "ticker": "2376.TW",
+        "trade_value": 2393671278.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 113.5,
+        "code": "5351",
+        "components": {
+          "cash_yield": 0.0,
+          "data_completeness": 10.0,
+          "liquidity": 19.01,
+          "positive_pe_band": 19.66,
+          "revenue_growth": 39.33
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 18,
+        "dividend_yield_pct": 0.0,
+        "industry": "半導體業",
+        "institutional_net": 531288.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "鈺創",
+        "pb": 5.17,
+        "pe": 17.57,
+        "rank": 7,
+        "reasons": [
+          "單月營收年增 525.3%",
+          "累計營收年增 488.9%",
+          "本益比 17.6",
+          "殖利率 0.00%",
+          "櫃買三大法人單日淨額 531,288 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 525.3153245373534,
+        "revenue_ytd_yoy_pct": 488.92138522250326,
+        "score": 88.0,
+        "ticker": "5351.TWO",
+        "trade_value": 1180732500.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 39.2,
+        "code": "1709",
+        "components": {
+          "cash_yield": 5.1,
+          "data_completeness": 10.0,
+          "liquidity": 18.22,
+          "positive_pe_band": 18.8,
+          "revenue_growth": 35.53
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 19,
+        "dividend_yield_pct": 2.55,
+        "industry": "化學工業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "和益",
+        "pb": 2.08,
+        "pe": 19.5,
+        "rank": 12,
+        "reasons": [
+          "單月營收年增 82.7%",
+          "累計營收年增 22.3%",
+          "本益比 19.5",
+          "殖利率 2.55%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 82.66667069773207,
+        "revenue_ytd_yoy_pct": 22.25561662215326,
+        "score": 87.65,
+        "ticker": "1709.TW",
+        "trade_value": 1903118416.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 94.0,
+        "code": "9958",
+        "components": {
+          "cash_yield": 9.58,
+          "data_completeness": 10.0,
+          "liquidity": 15.41,
+          "positive_pe_band": 16.28,
+          "revenue_growth": 36.28
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 20,
+        "dividend_yield_pct": 4.79,
+        "industry": "鋼鐵工業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "世紀鋼",
+        "pb": 1.97,
+        "pe": 13.35,
+        "rank": 13,
+        "reasons": [
+          "單月營收年增 91.1%",
+          "累計營收年增 41.5%",
+          "本益比 13.3",
+          "殖利率 4.79%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 91.07038120062421,
+        "revenue_ytd_yoy_pct": 41.49150336764519,
+        "score": 87.55,
+        "ticker": "9958.TW",
+        "trade_value": 254615093.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 70.0,
+        "code": "2885",
+        "components": {
+          "cash_yield": 6.28,
+          "data_completeness": 10.0,
+          "liquidity": 18.77,
+          "positive_pe_band": 18.71,
+          "revenue_growth": 33.45
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 21,
+        "dividend_yield_pct": 3.14,
+        "industry": "金融保險業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "元大金",
+        "pb": 2.44,
+        "pe": 16.39,
+        "rank": 14,
+        "reasons": [
+          "單月營收年增 57.9%",
+          "累計營收年增 116.3%",
+          "本益比 16.4",
+          "殖利率 3.14%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 57.940258843989525,
+        "revenue_ytd_yoy_pct": 116.27641379493531,
+        "score": 87.21,
+        "ticker": "2885.TW",
+        "trade_value": 3618878957.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 960.0,
+        "code": "2357",
+        "components": {
+          "cash_yield": 8.76,
+          "data_completeness": 10.0,
+          "liquidity": 18.94,
+          "positive_pe_band": 16.83,
+          "revenue_growth": 32.37
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 22,
+        "dividend_yield_pct": 4.38,
+        "industry": "電腦及週邊設備業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "華碩",
+        "pb": 2.37,
+        "pe": 14.04,
+        "rank": 15,
+        "reasons": [
+          "單月營收年增 51.2%",
+          "累計營收年增 42.3%",
+          "本益比 14.0",
+          "殖利率 4.38%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 51.16688342643828,
+        "revenue_ytd_yoy_pct": 42.30457002299758,
+        "score": 86.9,
+        "ticker": "2357.TW",
+        "trade_value": 4350420784.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 250.5,
+        "code": "2317",
+        "components": {
+          "cash_yield": 5.72,
+          "data_completeness": 10.0,
+          "liquidity": 19.57,
+          "positive_pe_band": 18.81,
+          "revenue_growth": 32.67
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 23,
+        "dividend_yield_pct": 2.86,
+        "industry": "其他電子業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "鴻海",
+        "pb": 1.84,
+        "pe": 16.51,
+        "rank": 16,
+        "reasons": [
+          "單月營收年增 52.0%",
+          "累計營收年增 39.7%",
+          "本益比 16.5",
+          "殖利率 2.86%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 51.978131522564816,
+        "revenue_ytd_yoy_pct": 39.72709766894786,
+        "score": 86.77,
+        "ticker": "2317.TW",
+        "trade_value": 11233127681.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 205.5,
+        "code": "3036",
+        "components": {
+          "cash_yield": 7.6,
+          "data_completeness": 10.0,
+          "liquidity": 18.53,
+          "positive_pe_band": 14.04,
+          "revenue_growth": 36.58
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 24,
+        "dividend_yield_pct": 3.8,
+        "industry": "電子通路業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "文曄",
+        "pb": 2.1,
+        "pe": 10.55,
+        "rank": 17,
+        "reasons": [
+          "單月營收年增 98.2%",
+          "累計營收年增 109.2%",
+          "本益比 10.6",
+          "殖利率 3.80%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 98.21291582397657,
+        "revenue_ytd_yoy_pct": 109.20046830886439,
+        "score": 86.75,
+        "ticker": "3036.TW",
+        "trade_value": 2614548998.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 76.4,
+        "code": "5534",
+        "components": {
+          "cash_yield": 10,
+          "data_completeness": 10.0,
+          "liquidity": 13.93,
+          "positive_pe_band": 16.4,
+          "revenue_growth": 36.17
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 25,
+        "dividend_yield_pct": 6.62,
+        "industry": "建材營造",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "長虹",
+        "pb": 1.13,
+        "pe": 13.5,
+        "rank": 18,
+        "reasons": [
+          "單月營收年增 88.6%",
+          "累計營收年增 67.1%",
+          "本益比 13.5",
+          "殖利率 6.62%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 88.58141426234812,
+        "revenue_ytd_yoy_pct": 67.0501740981801,
+        "score": 86.5,
+        "ticker": "5534.TW",
+        "trade_value": 125432819.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 125.0,
+        "code": "3029",
+        "components": {
+          "cash_yield": 8.8,
+          "data_completeness": 10.0,
+          "liquidity": 17.18,
+          "positive_pe_band": 19.86,
+          "revenue_growth": 30.62
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 26,
+        "dividend_yield_pct": 4.4,
+        "industry": "資訊服務業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "零壹",
+        "pb": 3.95,
+        "pe": 17.83,
+        "rank": 19,
+        "reasons": [
+          "單月營收年增 44.4%",
+          "累計營收年增 20.1%",
+          "本益比 17.8",
+          "殖利率 4.40%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 44.443850807787626,
+        "revenue_ytd_yoy_pct": 20.12505547800622,
+        "score": 86.46,
+        "ticker": "3029.TW",
+        "trade_value": 836533491.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 396.5,
+        "code": "3260",
+        "components": {
+          "cash_yield": 8.58,
+          "data_completeness": 10.0,
+          "liquidity": 19.47,
+          "positive_pe_band": 9.7,
+          "revenue_growth": 38.56
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 27,
+        "dividend_yield_pct": 4.29,
+        "industry": "半導體業",
+        "institutional_net": 45360.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "威剛",
+        "pb": 3.26,
+        "pe": 5.13,
+        "rank": 8,
+        "reasons": [
+          "單月營收年增 279.8%",
+          "累計營收年增 218.1%",
+          "本益比 5.1",
+          "殖利率 4.29%",
+          "櫃買三大法人單日淨額 45,360 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 279.80697041038457,
+        "revenue_ytd_yoy_pct": 218.13605646502873,
+        "score": 86.31,
+        "ticker": "3260.TWO",
+        "trade_value": 2660734500.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 30.5,
+        "code": "5314",
+        "components": {
+          "cash_yield": 10,
+          "data_completeness": 10.0,
+          "liquidity": 19.58,
+          "positive_pe_band": 10.87,
+          "revenue_growth": 35.83
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 28,
+        "dividend_yield_pct": 103.67,
+        "industry": "其他",
+        "institutional_net": -10634400.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "世紀*",
+        "pb": 4.93,
+        "pe": 6.59,
+        "rank": 9,
+        "reasons": [
+          "單月營收年增 102.5%",
+          "累計營收年增 151.4%",
+          "本益比 6.6",
+          "殖利率 103.67%",
+          "櫃買三大法人單日淨額 -10,634,400 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 102.52220805278574,
+        "revenue_ytd_yoy_pct": 151.4041502193621,
+        "score": 86.28,
+        "ticker": "5314.TWO",
+        "trade_value": 3656192100.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 96.5,
+        "code": "2548",
+        "components": {
+          "cash_yield": 10,
+          "data_completeness": 10.0,
+          "liquidity": 16.29,
+          "positive_pe_band": 11.84,
+          "revenue_growth": 38.14
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 29,
+        "dividend_yield_pct": 8.81,
+        "industry": "建材營造",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "華固",
+        "pb": 1.48,
+        "pe": 7.8,
+        "rank": 20,
+        "reasons": [
+          "單月營收年增 139.5%",
+          "累計營收年增 105.3%",
+          "本益比 7.8",
+          "殖利率 8.81%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 139.52959372288657,
+        "revenue_ytd_yoy_pct": 105.3349499169469,
+        "score": 86.27,
+        "ticker": "2548.TW",
+        "trade_value": 430451577.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 194.5,
+        "code": "6214",
+        "components": {
+          "cash_yield": 6.16,
+          "data_completeness": 10.0,
+          "liquidity": 16.04,
+          "positive_pe_band": 19.87,
+          "revenue_growth": 34.01
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 30,
+        "dividend_yield_pct": 3.08,
+        "industry": "資訊服務業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "精誠",
+        "pb": 2.88,
+        "pe": 18.16,
+        "rank": 21,
+        "reasons": [
+          "單月營收年增 61.9%",
+          "累計營收年增 39.6%",
+          "本益比 18.2",
+          "殖利率 3.08%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 61.91075076871571,
+        "revenue_ytd_yoy_pct": 39.64975705779999,
+        "score": 86.08,
+        "ticker": "6214.TW",
+        "trade_value": 394180223.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 132.0,
+        "code": "6227",
+        "components": {
+          "cash_yield": 6.82,
+          "data_completeness": 10.0,
+          "liquidity": 17.95,
+          "positive_pe_band": 13.81,
+          "revenue_growth": 37.22
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 31,
+        "dividend_yield_pct": 3.41,
+        "industry": "電子通路業",
+        "institutional_net": -577971.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "茂綸",
+        "pb": 3.17,
+        "pe": 10.26,
+        "rank": 10,
+        "reasons": [
+          "單月營收年增 168.9%",
+          "累計營收年增 51.4%",
+          "本益比 10.3",
+          "殖利率 3.41%",
+          "櫃買三大法人單日淨額 -577,971 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 168.85623019694452,
+        "revenue_ytd_yoy_pct": 51.405757198601734,
+        "score": 85.8,
+        "ticker": "6227.TWO",
+        "trade_value": 299785000.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 31.4,
+        "code": "1442",
+        "components": {
+          "cash_yield": 10,
+          "data_completeness": 10.0,
+          "liquidity": 11.44,
+          "positive_pe_band": 19.71,
+          "revenue_growth": 34.42
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 32,
+        "dividend_yield_pct": 7.64,
+        "industry": "建材營造",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "名軒",
+        "pb": 1.56,
+        "pe": 18.36,
+        "rank": 22,
+        "reasons": [
+          "單月營收年增 64.6%",
+          "累計營收年增 -46.1%",
+          "本益比 18.4",
+          "殖利率 7.64%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 64.5678270192552,
+        "revenue_ytd_yoy_pct": -46.14378360052498,
+        "score": 85.57,
+        "ticker": "1442.TW",
+        "trade_value": 38501323.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 45.25,
+        "code": "2890",
+        "components": {
+          "cash_yield": 5.74,
+          "data_completeness": 10.0,
+          "liquidity": 18.38,
+          "positive_pe_band": 19.26,
+          "revenue_growth": 32.0
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 33,
+        "dividend_yield_pct": 2.87,
+        "industry": "金融保險業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "永豐金",
+        "pb": 2.47,
+        "pe": 17.08,
+        "rank": 23,
+        "reasons": [
+          "單月營收年增 49.5%",
+          "累計營收年增 53.9%",
+          "本益比 17.1",
+          "殖利率 2.87%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 49.48292252285266,
+        "revenue_ytd_yoy_pct": 53.91258195129241,
+        "score": 85.38,
+        "ticker": "2890.TW",
+        "trade_value": 2353866314.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 309.0,
+        "code": "6903",
+        "components": {
+          "cash_yield": 5.5,
+          "data_completeness": 10.0,
+          "liquidity": 16.42,
+          "positive_pe_band": 16.96,
+          "revenue_growth": 36.48
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 34,
+        "dividend_yield_pct": 2.75,
+        "industry": "其他電子業",
+        "institutional_net": 60279.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "巨漢",
+        "pb": 5.59,
+        "pe": 14.2,
+        "rank": 11,
+        "reasons": [
+          "單月營收年增 122.7%",
+          "累計營收年增 231.1%",
+          "本益比 14.2",
+          "殖利率 2.75%",
+          "櫃買三大法人單日淨額 60,279 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 122.70103872385356,
+        "revenue_ytd_yoy_pct": 231.10428709818348,
+        "score": 85.36,
+        "ticker": "6903.TWO",
+        "trade_value": 75763500.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 59.3,
+        "code": "8050",
+        "components": {
+          "cash_yield": 7.24,
+          "data_completeness": 10.0,
+          "liquidity": 16.4,
+          "positive_pe_band": 16.3,
+          "revenue_growth": 35.41
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 35,
+        "dividend_yield_pct": 3.62,
+        "industry": "電腦及週邊設備業",
+        "institutional_net": 228904.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "廣積",
+        "pb": 1.6,
+        "pe": 22.63,
+        "rank": 12,
+        "reasons": [
+          "單月營收年增 94.5%",
+          "累計營收年增 17.6%",
+          "本益比 22.6",
+          "殖利率 3.62%",
+          "櫃買三大法人單日淨額 228,904 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 94.47744867048132,
+        "revenue_ytd_yoy_pct": 17.621075487543397,
+        "score": 85.35,
+        "ticker": "8050.TWO",
+        "trade_value": 74044900.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 68.5,
+        "code": "8383",
+        "components": {
+          "cash_yield": 7.3,
+          "data_completeness": 10.0,
+          "liquidity": 17.19,
+          "positive_pe_band": 16.7,
+          "revenue_growth": 34.02
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 36,
+        "dividend_yield_pct": 3.65,
+        "industry": "半導體業",
+        "institutional_net": 760716.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "千附",
+        "pb": 2.03,
+        "pe": 13.87,
+        "rank": 13,
+        "reasons": [
+          "單月營收年增 73.6%",
+          "累計營收年增 60.5%",
+          "本益比 13.9",
+          "殖利率 3.65%",
+          "櫃買三大法人單日淨額 760,716 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 73.60021446411119,
+        "revenue_ytd_yoy_pct": 60.474595219159376,
+        "score": 85.21,
+        "ticker": "8383.TWO",
+        "trade_value": 130149200.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 29.8,
+        "code": "4114",
+        "components": {
+          "cash_yield": 10,
+          "data_completeness": 10.0,
+          "liquidity": 14.26,
+          "positive_pe_band": 19.68,
+          "revenue_growth": 31.19
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 37,
+        "dividend_yield_pct": 5.53,
+        "industry": "生技醫療業",
+        "institutional_net": 226911.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "健喬",
+        "pb": 1.73,
+        "pe": 18.4,
+        "rank": 14,
+        "reasons": [
+          "單月營收年增 49.9%",
+          "累計營收年增 25.5%",
+          "本益比 18.4",
+          "殖利率 5.53%",
+          "櫃買三大法人單日淨額 226,911 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 49.881070425781786,
+        "revenue_ytd_yoy_pct": 25.495925957484953,
+        "score": 85.13,
+        "ticker": "4114.TWO",
+        "trade_value": 23961700.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 61.0,
+        "code": "2609",
+        "components": {
+          "cash_yield": 6.56,
+          "data_completeness": 10.0,
+          "liquidity": 18.61,
+          "positive_pe_band": 16.59,
+          "revenue_growth": 33.27
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 38,
+        "dividend_yield_pct": 3.28,
+        "industry": "航運業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "陽明",
+        "pb": 0.65,
+        "pe": 13.74,
+        "rank": 24,
+        "reasons": [
+          "單月營收年增 56.2%",
+          "累計營收年增 11.9%",
+          "本益比 13.7",
+          "殖利率 3.28%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 56.170783181394626,
+        "revenue_ytd_yoy_pct": 11.925390308025573,
+        "score": 85.03,
+        "ticker": "2609.TW",
+        "trade_value": 2918539068.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 35.9,
+        "code": "1808",
+        "components": {
+          "cash_yield": 8.36,
+          "data_completeness": 10.0,
+          "liquidity": 14.43,
+          "positive_pe_band": 12.39,
+          "revenue_growth": 39.7
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 39,
+        "dividend_yield_pct": 4.18,
+        "industry": "建材營造",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "潤隆",
+        "pb": 2.32,
+        "pe": 8.49,
+        "rank": 25,
+        "reasons": [
+          "單月營收年增 33032.9%",
+          "累計營收年增 13849.6%",
+          "本益比 8.5",
+          "殖利率 4.18%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 33032.925531914894,
+        "revenue_ytd_yoy_pct": 13849.620888036583,
+        "score": 84.88,
+        "ticker": "1808.TW",
+        "trade_value": 157097654.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 2140.0,
+        "code": "8299",
+        "components": {
+          "cash_yield": 2.16,
+          "data_completeness": 10.0,
+          "liquidity": 19.93,
+          "positive_pe_band": 13.45,
+          "revenue_growth": 39.33
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 40,
+        "dividend_yield_pct": 1.08,
+        "industry": "半導體業",
+        "institutional_net": 2034122.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "群聯",
+        "pb": 4.64,
+        "pe": 9.81,
+        "rank": 15,
+        "reasons": [
+          "單月營收年增 376.5%",
+          "累計營收年增 279.0%",
+          "本益比 9.8",
+          "殖利率 1.08%",
+          "櫃買三大法人單日淨額 2,034,122 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 376.5177219159828,
+        "revenue_ytd_yoy_pct": 278.98954917231555,
+        "score": 84.87,
+        "ticker": "8299.TWO",
+        "trade_value": 12800060000.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 134.0,
+        "code": "8109",
+        "components": {
+          "cash_yield": 6.72,
+          "data_completeness": 10.0,
+          "liquidity": 15.71,
+          "positive_pe_band": 19.98,
+          "revenue_growth": 32.21
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 41,
+        "dividend_yield_pct": 3.36,
+        "industry": "電子零組件業",
+        "institutional_net": 268286.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "博大",
+        "pb": 3.64,
+        "pe": 18.03,
+        "rank": 16,
+        "reasons": [
+          "單月營收年增 56.1%",
+          "累計營收年增 30.7%",
+          "本益比 18.0",
+          "殖利率 3.36%",
+          "櫃買三大法人單日淨額 268,286 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 56.11513756740975,
+        "revenue_ytd_yoy_pct": 30.70145504441602,
+        "score": 84.62,
+        "ticker": "8109.TWO",
+        "trade_value": 49747500.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 69.1,
+        "code": "6874",
+        "components": {
+          "cash_yield": 10,
+          "data_completeness": 10.0,
+          "liquidity": 8.12,
+          "positive_pe_band": 18.95,
+          "revenue_growth": 37.5
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 42,
+        "dividend_yield_pct": 5.79,
+        "industry": "資訊服務業",
+        "institutional_net": 3000.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "倍力",
+        "pb": 3.17,
+        "pe": 16.69,
+        "rank": 17,
+        "reasons": [
+          "單月營收年增 182.5%",
+          "累計營收年增 55.0%",
+          "本益比 16.7",
+          "殖利率 5.79%",
+          "櫃買三大法人單日淨額 3,000 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 182.4825036313218,
+        "revenue_ytd_yoy_pct": 55.013554145556135,
+        "score": 84.57,
+        "ticker": "6874.TWO",
+        "trade_value": 1874300.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 518.0,
+        "code": "3044",
+        "components": {
+          "cash_yield": 4.9,
+          "data_completeness": 10.0,
+          "liquidity": 18.46,
+          "positive_pe_band": 16.65,
+          "revenue_growth": 34.46
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 43,
+        "dividend_yield_pct": 2.45,
+        "industry": "電子零組件業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "健鼎",
+        "pb": 4.89,
+        "pe": 22.19,
+        "rank": 26,
+        "reasons": [
+          "單月營收年增 65.5%",
+          "累計營收年增 38.7%",
+          "本益比 22.2",
+          "殖利率 2.45%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 65.47995924001005,
+        "revenue_ytd_yoy_pct": 38.71624949635544,
+        "score": 84.47,
+        "ticker": "3044.TW",
+        "trade_value": 2428970802.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 83.1,
+        "code": "8112",
+        "components": {
+          "cash_yield": 9.14,
+          "data_completeness": 10.0,
+          "liquidity": 16.06,
+          "positive_pe_band": 10.63,
+          "revenue_growth": 38.44
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 44,
+        "dividend_yield_pct": 4.57,
+        "industry": "電子通路業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "至上",
+        "pb": 2.04,
+        "pe": 6.29,
+        "rank": 27,
+        "reasons": [
+          "單月營收年增 154.8%",
+          "累計營收年增 177.4%",
+          "本益比 6.3",
+          "殖利率 4.57%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 154.83476822766156,
+        "revenue_ytd_yoy_pct": 177.4193050076764,
+        "score": 84.27,
+        "ticker": "8112.TW",
+        "trade_value": 400294656.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 207.5,
+        "code": "3357",
+        "components": {
+          "cash_yield": 4.9,
+          "data_completeness": 10.0,
+          "liquidity": 18.62,
+          "positive_pe_band": 18.82,
+          "revenue_growth": 31.66
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 45,
+        "dividend_yield_pct": 2.45,
+        "industry": "電子零組件業",
+        "institutional_net": 269139.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "臺慶科",
+        "pb": 2.11,
+        "pe": 19.47,
+        "rank": 18,
+        "reasons": [
+          "單月營收年增 53.1%",
+          "累計營收年增 32.2%",
+          "本益比 19.5",
+          "殖利率 2.45%",
+          "櫃買三大法人單日淨額 269,139 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 53.06726585348456,
+        "revenue_ytd_yoy_pct": 32.22016146268528,
+        "score": 84.0,
+        "ticker": "3357.TWO",
+        "trade_value": 568982000.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 124.5,
+        "code": "7740",
+        "components": {
+          "cash_yield": 5.34,
+          "data_completeness": 10.0,
+          "liquidity": 10.96,
+          "positive_pe_band": 17.96,
+          "revenue_growth": 39.7
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 46,
+        "dividend_yield_pct": 2.67,
+        "industry": "綠能環保",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "熙特爾-創",
+        "pb": 4.44,
+        "pe": 15.45,
+        "rank": 28,
+        "reasons": [
+          "單月營收年增 869.6%",
+          "累計營收年增 1444.0%",
+          "本益比 15.4",
+          "殖利率 2.67%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 869.634082504517,
+        "revenue_ytd_yoy_pct": 1443.9542897773272,
+        "score": 83.96,
+        "ticker": "7740.TW",
+        "trade_value": 33582045.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 138.5,
+        "code": "6206",
+        "components": {
+          "cash_yield": 7.94,
+          "data_completeness": 10.0,
+          "liquidity": 14.09,
+          "positive_pe_band": 17.84,
+          "revenue_growth": 34.08
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 47,
+        "dividend_yield_pct": 3.97,
+        "industry": "電腦及週邊設備業",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "飛捷",
+        "pb": 3.77,
+        "pe": 15.3,
+        "rank": 29,
+        "reasons": [
+          "單月營收年增 62.2%",
+          "累計營收年增 30.1%",
+          "本益比 15.3",
+          "殖利率 3.97%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 62.175214994119465,
+        "revenue_ytd_yoy_pct": 30.078514957922568,
+        "score": 83.95,
+        "ticker": "6206.TW",
+        "trade_value": 130050012.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 26.55,
+        "code": "8422",
+        "components": {
+          "cash_yield": 9.04,
+          "data_completeness": 10.0,
+          "liquidity": 15.62,
+          "positive_pe_band": 12.27,
+          "revenue_growth": 36.99
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 48,
+        "dividend_yield_pct": 4.52,
+        "industry": "綠能環保",
+        "institutional_net": null,
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "name": "可寧衛*",
+        "pb": 3.51,
+        "pe": 27.66,
+        "rank": 30,
+        "reasons": [
+          "單月營收年增 105.8%",
+          "累計營收年增 35.9%",
+          "本益比 27.7",
+          "殖利率 4.52%"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 105.8498562353335,
+        "revenue_ytd_yoy_pct": 35.88447270120056,
+        "score": 83.92,
+        "ticker": "8422.TW",
+        "trade_value": 304952365.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。",
+          "年增率超過 100%，可能受低基期、併購或認列時點影響。"
+        ],
+        "close": 22.3,
+        "code": "5206",
+        "components": {
+          "cash_yield": 10,
+          "data_completeness": 10.0,
+          "liquidity": 12.78,
+          "positive_pe_band": 11.78,
+          "revenue_growth": 39.33
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 49,
+        "dividend_yield_pct": 6.73,
+        "industry": "建材營造",
+        "institutional_net": 5461.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "坤悅",
+        "pb": 0.93,
+        "pe": 7.72,
+        "rank": 19,
+        "reasons": [
+          "單月營收年增 2630241.2%",
+          "累計營收年增 -15.4%",
+          "本益比 7.7",
+          "殖利率 6.73%",
+          "櫃買三大法人單日淨額 5,461 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 2630241.1764705884,
+        "revenue_ytd_yoy_pct": -15.3744999515524,
+        "score": 83.89,
+        "ticker": "5206.TWO",
+        "trade_value": 12299600.0
+      },
+      {
+        "cautions": [
+          "月營收不等於獲利或現金流；需再查毛利率、資本支出與應收帳款。",
+          "估值未做產業、景氣循環與一次性損益調整。"
+        ],
+        "close": 30.9,
+        "code": "4123",
+        "components": {
+          "cash_yield": 10,
+          "data_completeness": 10.0,
+          "liquidity": 15.41,
+          "positive_pe_band": 15.82,
+          "revenue_growth": 32.58
+        },
+        "coverage": "6/6 核心欄位",
+        "cross_market_rank": 50,
+        "dividend_yield_pct": 7.27,
+        "industry": "生技醫療業",
+        "institutional_net": 78556.0,
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "name": "晟德",
+        "pb": 1.36,
+        "pe": 23.23,
+        "rank": 20,
+        "reasons": [
+          "單月營收年增 61.5%",
+          "累計營收年增 22.2%",
+          "本益比 23.2",
+          "殖利率 7.27%",
+          "櫃買三大法人單日淨額 78,556 股"
+        ],
+        "revenue_period": "2026-08",
+        "revenue_yoy_pct": 61.52537476326518,
+        "revenue_ytd_yoy_pct": 22.202140082554152,
+        "score": 83.81,
+        "ticker": "4123.TWO",
+        "trade_value": 43264950.0
+      }
+    ],
+    "limitations": [
+      "分數是資料驅動的研究排序，不是買進建議或預期報酬。",
+      "上市與上櫃法人欄位覆蓋不同，法人淨額只展示、不納入跨市場分數。",
+      "目前未納入完整財報品質、產業估值常態、公司行動與交易成本。"
+    ],
+    "markets": [
+      {
+        "market": "TWSE",
+        "market_date": "2026-09-18",
+        "ranked": 1078,
+        "revenue_matched": 1078,
+        "revenue_period": "2026-08",
+        "source_urls": {
+          "market": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL",
+          "revenue": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+          "valuation": "https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL"
+        },
+        "universe": 1089,
+        "valuation_date": "2026-09-18"
+      },
+      {
+        "market": "TPEx",
+        "market_date": "2026-09-18",
+        "ranked": 868,
+        "revenue_matched": 868,
+        "revenue_period": "2026-08",
+        "source_urls": {
+          "institutional": "https://www.tpex.org.tw/openapi/v1/tpex_3insti_daily_trading",
+          "market": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes",
+          "revenue": "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap05_O",
+          "valuation": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_peratio_analysis"
+        },
+        "universe": 868,
+        "valuation_date": "2026-09-18"
+      }
+    ],
+    "method": "revenue growth 40 + liquidity 20 + positive P/E band 20 + cash yield 10 + completeness 10"
+  }
+}

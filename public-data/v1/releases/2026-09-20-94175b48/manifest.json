@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "release_id": "2026-09-20-94175b48",
+  "as_of": "2026-09-20",
+  "files": [
+    {
+      "path": "releases/2026-09-20-94175b48/companies.json",
+      "sha256": "e3141e43881ffdf48aec6a2eb648da85661457ada94c8f917aa2c2423fee19b9",
+      "bytes": 8884
+    },
+    {
+      "path": "releases/2026-09-20-94175b48/crypto.json",
+      "sha256": "e4ee9da7f8a2b9da3cc24d75eaa18127582169e272d7af6a1aea86b5cde099da",
+      "bytes": 11507
+    },
+    {
+      "path": "releases/2026-09-20-94175b48/economies.json",
+      "sha256": "7062ad49df3236604860ca8cb9074331ccbbd2c9456652b60d4b2670ddf3e2f0",
+      "bytes": 2004
+    },
+    {
+      "path": "releases/2026-09-20-94175b48/evidence.json",
+      "sha256": "bf8d709ae44a5fb0aec565623156a768711b52ab9bc95caef870a9fbd125c11a",
+      "bytes": 320752
+    },
+    {
+      "path": "releases/2026-09-20-94175b48/global.json",
+      "sha256": "d663dd3b7a10fd4f1752ae44b30f0e7d22b258eb3cb1d9466b03c232fbcac9af",
+      "bytes": 67992
+    },
+    {
+      "path": "releases/2026-09-20-94175b48/opportunities.json",
+      "sha256": "d53f3405b13d72eb89bd023e9af7fd1022ed3f3c321bf4d5b3be720c5991a730",
+      "bytes": 167206
+    },
+    {
+      "path": "releases/2026-09-20-94175b48/overview.json",
+      "sha256": "e2a259d2b39489b589d0d1269bb1f3c0fddd821a599ce950c4c9f836b14c7a73",
+      "bytes": 12569
+    },
+    {
+      "path": "releases/2026-09-20-94175b48/patents.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "releases/2026-09-20-94175b48/report.json",
+      "sha256": "80c349cd7ea29a540d4b84d3765bb3b2b4a6d48dce38a9ebece68320e93d64b8",
+      "bytes": 1988105
+    },
+    {
+      "path": "releases/2026-09-20-94175b48/taiwan.json",
+      "sha256": "f877c94d859308d1c01c671742881cf903567c441f4bb0f54bbb179fa8dd6cb0",
+      "bytes": 56533
+    },
+    {
+      "path": "releases/2026-09-20-94175b48/technologies.json",
+      "sha256": "525fe9ae9a87e384e2d933bdbbc0352c774a08c5378ba98c2edb0f6c092de678",
+      "bytes": 1073
+    }
+  ]
+}
