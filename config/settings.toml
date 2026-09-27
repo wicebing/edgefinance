@@ -25,6 +25,7 @@ chunk_characters = 10000
 max_jobs = 60
 workers = 3
 timeout_seconds = 240
+synthesis_timeout_seconds = 600
 max_minutes = 60
 
 [mongodb]

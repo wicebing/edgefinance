@@ -75,6 +75,12 @@ def job_id(doc: dict, index: int, text: str, model: str):
 
 
 def normalize(text):
+    # Structured feeds are stored as JSON text, so an original line break can
+    # appear either as the two characters ``\\r\\n`` in the source chunk or as
+    # a decoded line break in Codex's JSON result. Treat only JSON whitespace
+    # escapes as whitespace; all words, numbers and punctuation must still
+    # match the source verbatim.
+    text = re.sub(r"\\(?:r\\n|r|n|t)", " ", text)
     return re.sub(r"\s+", " ", text).strip()
 
 
@@ -88,6 +94,26 @@ def validate_extraction(result: dict, text: str):
             raise ValueError("Evidence quote absent or outside quote budget")
         if not fact["statement"].strip():
             raise ValueError("Empty fact")
+
+
+def recover_extraction(project: Project, item, model: str):
+    """Reuse a local Codex result that failed only an older validator."""
+    doc, index, text, start, end, job = item
+    work = project.root / "work" / "packs" / job
+    output, prompt_path = work / "result.json", work / "input.txt"
+    if not output.exists() or not prompt_path.exists():
+        return None
+    try:
+        result = readjson(output)
+        validate_extraction(result, text)
+    except (OSError, ValueError, KeyError, jsonschema.ValidationError):
+        return None
+    prompt = prompt_path.read_text(encoding="utf-8")
+    return {"result": result, "execution": {
+        "provider": "codex-subscription", "mode": "recovered_validated_work_pack",
+        "requested_model": model or "service-default", "recovered_at": now(),
+        "prompt_sha256": digest(prompt)},
+        "prompt_version": PROMPT_VERSION, "range": [start, end]}
 
 
 class CodexError(RuntimeError):
@@ -180,6 +206,19 @@ def analyze(project: Project, as_of: str, max_jobs: int | None = None):
         store.close()
         return stats
     try:
+        selected = pending[:budget]
+        pending_calls = []
+        for item in selected:
+            recovered = recover_extraction(project, item, model)
+            if recovered is None:
+                pending_calls.append(item)
+                continue
+            doc, index, text, start, end, job = item
+            store.save_analysis(job, doc["id"], index, "complete", recovered)
+            stats["completed"] += 1
+            print(f"Recovered validated result {doc['source_id']} {doc['id'][:8]} chunk {index + 1} ...", flush=True)
+        if not pending_calls:
+            return stats
         runner = CodexRunner(project)
         start_time = time.monotonic()
         workers = max(1, min(int(cfg.get("workers", 3)), 4))
@@ -200,13 +239,12 @@ def analyze(project: Project, as_of: str, max_jobs: int | None = None):
             validate_extraction(result, text)
             return item, {"result": result, "execution": meta, "prompt_version": PROMPT_VERSION, "range": [start, end]}
 
-        selected = pending[:budget]
         with ThreadPoolExecutor(max_workers=workers) as pool:
-            for offset in range(0, len(selected), workers):
+            for offset in range(0, len(pending_calls), workers):
                 if time.monotonic() - start_time >= cfg["max_minutes"] * 60:
                     stats["stop_reason"] = "Configured time budget reached"
                     break
-                batch = selected[offset:offset + workers]
+                batch = pending_calls[offset:offset + workers]
                 futures = {pool.submit(understand, item): item for item in batch}
                 stop = False
                 for future in as_completed(futures):
@@ -305,7 +343,8 @@ def _research_briefs(project, runner, evidence: list[dict], as_of: str):
             except (KeyError, jsonschema.ValidationError):
                 pass
         if result is None:
-            value, execution = runner.call(prompt, BRIEF_SCHEMA, task_id)
+            value, execution = runner.call(prompt, BRIEF_SCHEMA, task_id,
+                timeout_seconds=int(project.settings["analysis"].get("synthesis_timeout_seconds", 600)))
             result = {"result": value, "execution": execution}
             jsonfile(cache, result)
         value = result["result"]
@@ -395,7 +434,8 @@ def synthesize(project, evidence, summaries, previous, as_of):
             return result
         except (ValueError, jsonschema.ValidationError):
             pass  # Invalid previous attempts must not poison retry.
-    result, execution = runner.call(prompt, SYNTHESIS_SCHEMA, task_id)
+    result, execution = runner.call(prompt, SYNTHESIS_SCHEMA, task_id,
+        timeout_seconds=int(project.settings["analysis"].get("synthesis_timeout_seconds", 600)))
     validate_synthesis(result, evidence, project)
     if hierarchical:
         result["limitations"].append(
@@ -448,7 +488,8 @@ def synthesize_monthly_feature(project, evidence, reports, as_of):
     cache = project.data / "synthesis" / f"{task_id}.json"
     result = readjson(cache) if cache.exists() else None
     if result is None:
-        value, execution = runner.call(prompt, MONTHLY_SCHEMA, task_id)
+        value, execution = runner.call(prompt, MONTHLY_SCHEMA, task_id,
+            timeout_seconds=int(project.settings["analysis"].get("synthesis_timeout_seconds", 600)))
         result = {"result": value, "execution": execution}
         jsonfile(cache, result)
     value = result["result"]

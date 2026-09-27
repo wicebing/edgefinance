@@ -62,6 +62,15 @@ def test_quote_validation_rejects_invention():
     with pytest.raises(ValueError): validate_extraction(result, 'Revenue is 100 USD in Q1.')
 
 
+def test_quote_validation_equates_json_escaped_and_decoded_whitespace():
+    result = {'summary':'test','facts':[{'statement':'test','quote':'第一行\r\n第二行',
+        'type':'source_statement','caution':''}],'novelty':'','limitations':[]}
+    validate_extraction(result, r'{"explanation":"第一行\r\n第二行"}')
+    result['facts'][0]['quote'] = '第一行\r\n不同內容'
+    with pytest.raises(ValueError):
+        validate_extraction(result, r'{"explanation":"第一行\r\n第二行"}')
+
+
 def test_cutoff_and_latest_filing_preserve_periods():
     points = [dict(start='2025-01-01',end='2025-03-31',val=100,filed='2025-05-01',form='10-Q'),
         dict(start='2025-01-01',end='2025-03-31',val=110,filed='2026-05-01',form='10-Q'),
@@ -198,6 +207,25 @@ def test_complete_analysis_is_reused_without_calling_codex(project,document,monk
     s.close()
     monkeypatch.setattr(analysis,'CodexRunner',lambda _: (_ for _ in ()).throw(AssertionError('must not call')))
     assert analysis.analyze(project,'2026-01-02')['pending_before']==0
+
+
+def test_failed_analysis_recovers_newly_valid_work_pack(project,document,monkeypatch):
+    from edgefinance import analysis
+    s=project.store();doc,_=s.add(document,b'raw')
+    job=job_id(doc,0,doc['text'],'')
+    s.save_analysis(job,doc['id'],0,'failed',{'reason':'old validator'})
+    s.close()
+    work=project.root/'work/packs'/job;work.mkdir(parents=True)
+    jsonfile(work/'result.json',{'summary':'test','facts':[{'statement':'test',
+        'quote':'Revenue is 100 USD','type':'source_statement','caution':''}],
+        'novelty':'','limitations':[]})
+    (work/'input.txt').write_text('fixture prompt',encoding='utf-8')
+    monkeypatch.setattr(analysis,'CodexRunner',lambda _: (_ for _ in ()).throw(AssertionError('must not call')))
+    stats=analysis.analyze(project,'2026-01-02')
+    assert stats['completed']==1 and stats['failed']==0
+    s=project.store();saved=s.analyses()[job];s.close()
+    assert saved['status']=='complete'
+    assert saved['payload']['execution']['mode']=='recovered_validated_work_pack'
 
 
 def test_bls_missing_values_retained_as_gaps(project,monkeypatch):
