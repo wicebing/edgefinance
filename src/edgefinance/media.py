@@ -6,7 +6,7 @@ import os
 import re
 import shutil
 import subprocess
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 import jsonschema
@@ -79,7 +79,13 @@ def latest_report(project: Project, report_id: str | None = None) -> dict:
 
 
 def episode_id_for(as_of: str) -> str:
-    year, week, _ = date.fromisoformat(as_of).isocalendar()
+    report_date = date.fromisoformat(as_of)
+    # Match EdgeSport's publication cycle: name an episode for the ISO week
+    # containing the cycle's upcoming Saturday. A Sunday report therefore
+    # belongs to the week beginning the next day, rather than the ISO week
+    # that just ended.
+    cycle_end = report_date + timedelta(days=(5 - report_date.weekday()) % 7)
+    year, week, _ = cycle_end.isocalendar()
     return f"{year}-w{week:02d}"
 
 

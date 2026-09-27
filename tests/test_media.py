@@ -4,7 +4,9 @@ from edgefinance.media import episode_id_for, frame_durations, podcast_schema, p
 
 
 def test_episode_id_and_srt_time():
-    assert episode_id_for("2026-09-20") == "2026-w38"
+    assert episode_id_for("2026-09-20") == "2026-w39"
+    assert episode_id_for("2026-09-27") == "2026-w40"
+    assert episode_id_for("2026-09-28") == "2026-w40"
     assert srt_time(65.432) == "00:01:05,432"
     timeline = [{"start_seconds": 1.5}, {"start_seconds": 4.0}, {"start_seconds": 8.0}]
     durations = frame_durations(timeline, 10.0)
@@ -38,7 +40,7 @@ def test_packet_is_bounded_and_traceable(project):
         ],
     }
     packet = prepare_podcast_packet(project, report)
-    assert packet["episode_id"] == "2026-w38"
+    assert packet["episode_id"] == "2026-w39"
     assert [item["id"] for item in packet["sources"][:3]] == ["e1", "e2", "e3"]
     assert len(packet["sources"]) == 24
     assert packet["written_report_url"].endswith("report-2026-09-20-abcdef12.html")
