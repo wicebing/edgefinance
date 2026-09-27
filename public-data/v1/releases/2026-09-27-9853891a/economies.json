@@ -1,0 +1,128 @@
+[
+  {
+    "currency": "USD",
+    "id": "USA",
+    "name": "美國",
+    "region": "北美",
+    "tier": 1
+  },
+  {
+    "currency": "CNY",
+    "id": "CHN",
+    "name": "中國",
+    "region": "亞洲",
+    "tier": 1
+  },
+  {
+    "currency": "JPY",
+    "id": "JPN",
+    "name": "日本",
+    "region": "亞洲",
+    "tier": 1
+  },
+  {
+    "currency": "EUR",
+    "id": "DEU",
+    "name": "德國",
+    "region": "歐洲",
+    "tier": 1
+  },
+  {
+    "currency": "INR",
+    "id": "IND",
+    "name": "印度",
+    "region": "亞洲",
+    "tier": 1
+  },
+  {
+    "currency": "GBP",
+    "id": "GBR",
+    "name": "英國",
+    "region": "歐洲",
+    "tier": 1
+  },
+  {
+    "currency": "EUR",
+    "id": "FRA",
+    "name": "法國",
+    "region": "歐洲",
+    "tier": 1
+  },
+  {
+    "currency": "EUR",
+    "id": "ITA",
+    "name": "義大利",
+    "region": "歐洲",
+    "tier": 1
+  },
+  {
+    "currency": "CAD",
+    "id": "CAN",
+    "name": "加拿大",
+    "region": "北美",
+    "tier": 1
+  },
+  {
+    "currency": "BRL",
+    "id": "BRA",
+    "name": "巴西",
+    "region": "拉丁美洲",
+    "tier": 1
+  },
+  {
+    "currency": "KRW",
+    "id": "KOR",
+    "name": "韓國",
+    "region": "亞洲",
+    "tier": 1
+  },
+  {
+    "currency": "AUD",
+    "id": "AUS",
+    "name": "澳洲",
+    "region": "大洋洲",
+    "tier": 1
+  },
+  {
+    "currency": "MXN",
+    "id": "MEX",
+    "name": "墨西哥",
+    "region": "拉丁美洲",
+    "tier": 2
+  },
+  {
+    "currency": "IDR",
+    "id": "IDN",
+    "name": "印尼",
+    "region": "亞洲",
+    "tier": 2
+  },
+  {
+    "currency": "SAR",
+    "id": "SAU",
+    "name": "沙烏地阿拉伯",
+    "region": "中東",
+    "tier": 2
+  },
+  {
+    "currency": "TRY",
+    "id": "TUR",
+    "name": "土耳其",
+    "region": "歐亞",
+    "tier": 2
+  },
+  {
+    "currency": "ZAR",
+    "id": "ZAF",
+    "name": "南非",
+    "region": "非洲",
+    "tier": 2
+  },
+  {
+    "currency": "EUR",
+    "id": "EUU",
+    "name": "歐盟",
+    "region": "歐洲",
+    "tier": 1
+  }
+]

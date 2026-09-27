@@ -3,7 +3,6 @@ from __future__ import annotations
 import json
 import os
 import re
-import shutil
 import subprocess
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -13,6 +12,7 @@ from pathlib import Path
 import jsonschema
 
 from .core import Project, digest, dumps, jsonfile, now, readjson, write
+from .codex_cli import find_codex_command
 
 PROMPT_VERSION = "extract-1.0"
 SYNTHESIS_VERSION = "research-2.0"
@@ -99,17 +99,18 @@ class CodexRunner:
         self.project = project
         self.cfg = project.settings["analysis"]
         self.model = project.secrets.get("EDGEFINANCE_MODEL") or self.cfg.get("model", "")
-        self.executable = shutil.which("codex")
-        if not self.executable:
-            raise CodexError("Codex CLI not found; install it and run codex login")
+        self.command = find_codex_command(project.secrets)
+        if not self.command:
+            raise CodexError("Codex CLI not found; set EDGEFINANCE_CODEX_PATH or install Codex CLI and run codex login")
+        self.executable = self.command.executable
         allowed = {"PATH", "SYSTEMROOT", "WINDIR", "COMSPEC", "PATHEXT", "TEMP", "TMP", "USERPROFILE", "HOME", "APPDATA", "LOCALAPPDATA", "CODEX_HOME", "HTTP_PROXY", "HTTPS_PROXY", "NO_PROXY", "SSL_CERT_FILE", "SSL_CERT_DIR", "LANG"}
         self.env = {k: v for k, v in os.environ.items() if k.upper() in allowed}
         self.env["PYTHONUTF8"] = "1"
-        auth = subprocess.run([self.executable, "login", "status"], capture_output=True, env=self.env, timeout=30)
+        auth = subprocess.run(self.command.argv("login", "status"), capture_output=True, env=self.env, timeout=30)
         status = (auth.stdout + auth.stderr).decode("utf-8", "replace")
         if auth.returncode or "ChatGPT" not in status:
             raise CodexError("Subscription login required: run codex login; API-key fallback is disabled")
-        version = subprocess.run([self.executable, "--version"], capture_output=True, env=self.env, timeout=20)
+        version = subprocess.run(self.command.argv("--version"), capture_output=True, env=self.env, timeout=20)
         self.version = version.stdout.decode("utf-8", "replace").strip()
 
     def call(self, prompt: str, schema: dict, task_id: str, timeout_seconds: int | None = None):
@@ -120,8 +121,8 @@ class CodexRunner:
         output = work / "result.json"
         if output.exists():
             output.unlink()  # Never reuse stale output from a failed attempt.
-        command = [self.executable, "exec", "--ignore-user-config", "--skip-git-repo-check", "--sandbox", "read-only", "--ephemeral",
-            "-c", 'web_search="disabled"', "-c", 'approval_policy="never"', "-c", 'model_reasoning_effort="medium"']
+        command = self.command.argv("exec", "--ignore-user-config", "--skip-git-repo-check", "--sandbox", "read-only", "--ephemeral",
+            "-c", 'web_search="disabled"', "-c", 'approval_policy="never"', "-c", 'model_reasoning_effort="medium"')
         for feature in ["shell_tool", "multi_agent", "apps", "plugins", "hooks", "browser_use", "computer_use", "image_generation", "skill_search", "memories"]:
             command.extend(["--disable", feature])
         if self.model:

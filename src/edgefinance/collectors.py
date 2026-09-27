@@ -6,6 +6,7 @@ import json
 import re
 import time
 import uuid
+import zipfile
 from datetime import date, datetime, timedelta
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin
@@ -66,12 +67,62 @@ def html_text(raw: bytes, content_type=""):
         if len(text.strip()) < 100:
             raise ValueError("PDF requires OCR; no usable text")
         return "PDF document", text
+    if raw.startswith(b"PK\x03\x04") or "spreadsheetml" in content_type:
+        return "Excel workbook", xlsx_text(raw)
+    if raw.startswith(b"\xd0\xcf\x11\xe0"):
+        raise ValueError("Legacy binary Office document is unsupported")
     soup = BeautifulSoup(raw, "html.parser")
     title = soup.title.get_text(" ", strip=True) if soup.title else "Untitled source"
     for tag in soup.select("script,style,nav,footer,header,noscript,form"):
         tag.decompose()
     body = soup.select_one("article") or soup.select_one("main") or soup.body or soup
     return title, body.get_text("\n", strip=True)
+
+
+def xlsx_text(raw: bytes) -> str:
+    """Extract bounded, readable cells from an OOXML workbook without macros."""
+    with zipfile.ZipFile(io.BytesIO(raw)) as archive:
+        names = set(archive.namelist())
+        worksheets = sorted(name for name in names if re.fullmatch(r"xl/worksheets/sheet\d+\.xml", name))
+        if "[Content_Types].xml" not in names or not worksheets:
+            raise ValueError("Unsupported ZIP document")
+        members = [archive.getinfo(name) for name in worksheets]
+        if sum(member.file_size for member in members) > 32 * 1024 * 1024:
+            raise ValueError("Workbook exceeds decompressed text budget")
+        shared = []
+        if "xl/sharedStrings.xml" in names:
+            root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
+            for node in root.iter():
+                if local_name(node.tag) == "si":
+                    shared.append("".join(child.text or "" for child in node.iter() if local_name(child.tag) == "t"))
+        output, cells = [], 0
+        for sheet_number, name in enumerate(worksheets, 1):
+            output.append(f"[Sheet {sheet_number}]")
+            root = ET.fromstring(archive.read(name))
+            for row in (node for node in root.iter() if local_name(node.tag) == "row"):
+                values = []
+                for cell in (node for node in row if local_name(node.tag) == "c"):
+                    reference = cell.get("r", "cell")
+                    cell_type = cell.get("t", "")
+                    value_node = next((node for node in cell.iter() if local_name(node.tag) == "v"), None)
+                    if cell_type == "inlineStr":
+                        value = "".join(node.text or "" for node in cell.iter() if local_name(node.tag) == "t")
+                    else:
+                        value = value_node.text if value_node is not None and value_node.text is not None else ""
+                        if cell_type == "s" and value.isdigit() and int(value) < len(shared):
+                            value = shared[int(value)]
+                    value = re.sub(r"\s+", " ", value).strip()
+                    if value:
+                        values.append(f"{reference}={value}")
+                        cells += 1
+                        if cells > 100_000:
+                            raise ValueError("Workbook exceeds cell budget")
+                if values:
+                    output.append(" | ".join(values))
+        text = "\n".join(output)
+        if len(text.strip()) < 20:
+            raise ValueError("Workbook has no usable cell text")
+        return text
 
 
 def parsed_date(text: str):

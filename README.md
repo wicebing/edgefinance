@@ -8,7 +8,7 @@
 
 ## 開始使用
 
-需求：Python 3.11 以上、已安裝且登入 ChatGPT 的 Codex CLI。
+需求：Python 3.11 以上、已安裝且登入 ChatGPT 的 Codex CLI。Windows 會自動尋找一般 `PATH`、全域 npm，以及 VS Code／Insiders／Cursor 的 OpenAI 擴充套件；若仍找不到，可在 `.env` 設定 `EDGEFINANCE_CODEX_PATH=C:\完整路徑\codex.exe`。
 
 ```powershell
 .\scripts\setup.cmd

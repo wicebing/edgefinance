@@ -1,0 +1,6095 @@
+[
+  {
+    "assignees": [
+      "Intel Corporation"
+    ],
+    "authority": "USPTO",
+    "companies": [
+      "INTC"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745669",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Protective coating on an edge of a glass core",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745669-20260922.html"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940120",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "激發雷射系統、操作激發雷射系統的方法以及操作極紫外線（ＥＵＶ）光刻設備的激發雷射系統的方法",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114118986.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940105",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體結構、其形成方法及其形成系統",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114117635.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940104",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體結構、金屬鉚釘結構及製造半導體結構的方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114117605.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940101",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "具有背側金屬晶粒損壞環的半導體結構以及其製造及測試方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114117286.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940100",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置結構及其製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114117227.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940076",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體閘極結構及其形成方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114115452.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940060",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置及其形成方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114113885.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940056",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體結構及形成方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114113595.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939930",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置的製造方法以及薄膜",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114101924.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939893",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體結構、半導體裝置及形成半導體裝置的方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113149222.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939824",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "導電通孔、半導體裝置及其形成方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113138122.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939823",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體影像感測器結構及其形成方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113137952.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939804",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置結構及其形成方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113133205.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939788",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "光子積體電路裝置及其形成方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113128248.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939762",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置及其製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113121989.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939726",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置及其製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113105563.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939565",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置及其操作方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111132453.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939475",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體晶圓及其製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111114624.pdf"
+  },
+  {
+    "assignees": [
+      "Intel Corporation"
+    ],
+    "authority": "USPTO",
+    "companies": [
+      "INTC"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745668",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Dam surrounding a die on a substrate",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745668-20260922.html"
+  },
+  {
+    "assignees": [
+      "Intel Corporation"
+    ],
+    "authority": "USPTO",
+    "companies": [
+      "INTC"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745663",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Singulation of integrated circuit package substrates with glass cores",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745663-20260922.html"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940125",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "積體電路裝置及製造方法",
+    "topics": [],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114119134.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940051",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "應力測試的裝置及方法",
+    "topics": [],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114113398.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939999",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "時間數位轉換裝置",
+    "topics": [],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114108371.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939974",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "光學裝置及確定其參數的方法",
+    "topics": [],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114105804.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939807",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "光學裝置及其形成方法",
+    "topics": [],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113133693.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939795",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "光阻組成物",
+    "topics": [],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113129833.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939752",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "深溝槽電阻器結構及其形成方法",
+    "topics": [],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113119044.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939696",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "積體電路裝置及其製造方法",
+    "topics": [],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112123929.pdf"
+  },
+  {
+    "assignees": [
+      "台灣積體電路製造股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [
+      "TSM"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939517",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "記憶體陣列、記憶體系統及其操作方法",
+    "topics": [],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111124737.pdf"
+  },
+  {
+    "assignees": [
+      "VIDEOLABS, INC."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "K1",
+    "publication_number": "US7233790",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Device capability based discovery, packaging and provisioning of content for wireless mobile devices",
+    "topics": [
+      "automation",
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US07233790-20260922.html"
+  },
+  {
+    "assignees": [
+      "SAMSUNG ELECTRONICS CO., LTD."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745685",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package and method of manufacturing the semiconductor package",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745685-20260922.html"
+  },
+  {
+    "assignees": [
+      "Samsung Electronics Co., Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745684",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package and method of manufacturing the same",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745684-20260922.html"
+  },
+  {
+    "assignees": [
+      "INTERNATIONAL BUSINESS MACHINES CORPORATION"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745683",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Multi-chip high memory bandwidth configuration",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745683-20260922.html"
+  },
+  {
+    "assignees": [
+      "KABUSHIKI KAISHA TOSHIBA, Kawasaki (JP); and TOSHIBA ELECTRONIC DEVICES & STORAGE CORPORATION"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745682",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor device",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745682-20260922.html"
+  },
+  {
+    "assignees": [
+      "Apple Inc."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745681",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Chip singulation assisted structures and methods for improving bonding interface quality",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745681-20260922.html"
+  },
+  {
+    "assignees": [
+      "Samsung Electronics Co., Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745680",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package with reduced adhesive fillets",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745680-20260922.html"
+  },
+  {
+    "assignees": [
+      "KYOCERA AVX Components Corporation"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745679",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Package-on-package assembly containing a decoupling capacitor",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745679-20260922.html"
+  },
+  {
+    "assignees": [
+      "SAMSUNG ELECTRONICS CO., LTD."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745678",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745678-20260922.html"
+  },
+  {
+    "assignees": [
+      "Samsung Electronics Co., Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745676",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Substrate for semiconductor package and semiconductor package including the same",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745676-20260922.html"
+  },
+  {
+    "assignees": [
+      "SAMSUNG ELECTRONICS CO., LTD."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745674",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package having a plurality of semiconductor chips stacked on a semiconductor substrate",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745674-20260922.html"
+  },
+  {
+    "assignees": [
+      "Shanghai Tianma Micro-Electronics Co., Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745673",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "LED module, LED source substrate, display panel, and display apparatus",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745673-20260922.html"
+  },
+  {
+    "assignees": [
+      "Taiwan Semiconductor Manufacturing Company, Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745672",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor structure with integrated passive device having opposed solder bumps",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745672-20260922.html"
+  },
+  {
+    "assignees": [
+      "Yangtze Memory Technologies Co., Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745666",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Package structures, fabricating methods thereof, and memory systems",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745666-20260922.html"
+  },
+  {
+    "assignees": [
+      "Kulicke and Soffa Industries, Inc."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745664",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Wire bonding arrays, maintenance stations for wire bonding arrays, and related methods",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745664-20260922.html"
+  },
+  {
+    "assignees": [
+      "SEMICONDUCTOR COMPONENTS INDUSTRIES, LLC"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745662",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Molded thin semiconductor die packages and related methods",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745662-20260922.html"
+  },
+  {
+    "assignees": [
+      "SAMSUNG ELECTRONICS CO., LTD."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745659",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package including semiconductor chip having through-electrode",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745659-20260922.html"
+  },
+  {
+    "assignees": [
+      "秀霖環境科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940454",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "利用氫氟酸溶液生產氟化鈣產物的自動化生產方法",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115103194.pdf"
+  },
+  {
+    "assignees": [
+      "財團法人工業技術研究院"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940434",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "雷射熱消融探針及雷射熱消融系統",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114151503.pdf"
+  },
+  {
+    "assignees": [
+      "韓國鐵道技術硏究院"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940433",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "隔熱織物部件的設置/回收整合裝置",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114150958.pdf"
+  },
+  {
+    "assignees": [
+      "新加坡商星科金朋私人有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940422",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置及其製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114149112.pdf"
+  },
+  {
+    "assignees": [
+      "美商安托梅拉公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940417",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "於倍增區界面包含超晶格之單光子雪崩二極體（ＳＰＡＤ）元件及其相關方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114148385.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商中微眾硅（杭州）電子科技有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940409",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "一種用於半導體濕法設備的晶圓定位檢測方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114146017.pdf"
+  },
+  {
+    "assignees": [
+      "世界先進積體電路股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940406",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置及其製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114145899.pdf"
+  },
+  {
+    "assignees": [
+      "南韓商韓松化學股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940405",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "量子點光學片，以及包含該光學片的背光單元和顯示裝置",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114145169.pdf"
+  },
+  {
+    "assignees": [
+      "國立成功大學"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940401",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "電能回收系統及其動態分群與平衡邏輯控制方法",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114144721.pdf"
+  },
+  {
+    "assignees": [
+      "華碩電腦股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940394",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "後量子密碼身分認證系統以及後量子密碼身分認證方法",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114144082.pdf"
+  },
+  {
+    "assignees": [
+      "薩摩亞商波特蘭有限公司",
+      "吞拿約拿有限公司",
+      "林書平"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940354",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "超純類石墨烯增強型 β-SiC 陶瓷複合製品、其製造方法及半導體製程組件",
+    "topics": [
+      "advanced_materials",
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114139818.pdf"
+  },
+  {
+    "assignees": [
+      "林正祥"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939869",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "陶瓷膜濾浮除(CMFF)廢水處理系統及其處理方法",
+    "topics": [
+      "advanced_materials",
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113145633.pdf"
+  },
+  {
+    "assignees": [
+      "成新科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939861",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "散熱器之雷射轉動焊接方法",
+    "topics": [
+      "compute",
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113144911.pdf"
+  },
+  {
+    "assignees": [
+      "Establishment Labs S.A."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3454783B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "A METHOD OF MANUFACTURING A MEDICAL IMPLANT",
+    "topics": [
+      "digital_health"
+    ],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3454783NWB1"
+  },
+  {
+    "assignees": [
+      "Roche Diabetes Care GmbH",
+      "F. Hoffmann-La Roche AG"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3443997B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "MEDICAL DEVICE AND METHOD OF OPERATING A MEDICAL DEVICE AND DETECTION OF A SHORT CIRCUIT",
+    "topics": [
+      "digital_health"
+    ],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3443997NWB1"
+  },
+  {
+    "assignees": [
+      "The Trustees of The University of Pennsylvania"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3336096B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "COMPOSITIONS, COMPRISING IMPROVED IL-12 GENETIC CONSTRUCTS AND VACCINES, IMMUNOTHERAPEUTICS AND METHODS OF USING THE SAME",
+    "topics": [
+      "biotech"
+    ],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3336096NWB1"
+  },
+  {
+    "assignees": [
+      "United States Gypsum Company"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3313659B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "COMPOSITE GYPSUM BOARD AND METHODS RELATED THERETO",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3313659NWB1"
+  },
+  {
+    "assignees": [
+      "Centre National de la Recherche Scientifique",
+      "Université de Haute Alsace"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3274768B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "METAL-POLYMER COMPOSITE MATERIAL",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3274768NWB1"
+  },
+  {
+    "assignees": [
+      "The University of Tokyo"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3252829B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "ORGANIC SEMICONDUCTOR ELEMENT",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3252829NWB1"
+  },
+  {
+    "assignees": [
+      "IQS Group a.s."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3123214B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "ZONAL OPTICAL ELEMENTS",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3123214NWB1"
+  },
+  {
+    "assignees": [
+      "ABB Schweiz AG"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3086366B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "SEMICONDUCTOR ASSEMBLY",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3086366NWB1"
+  },
+  {
+    "assignees": [
+      "Shenzhen Carku Technology Co., Ltd."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP2922165B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "BATTERY PROTECTION APPARATUS",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2922165NWB1"
+  },
+  {
+    "assignees": [
+      "QUALCOMM Incorporated"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP2186366B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "AUTONOMOUS ADAPTATION OF TRANSMIT POWER",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2186366NWB1"
+  },
+  {
+    "assignees": [
+      "大陸商浙江楚風智能科技有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687972",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "橡膠自動化切條設備",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115206723.pdf"
+  },
+  {
+    "assignees": [
+      "致理學校財團法人致理科技大學"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687971",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "流程自動化智能系統",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115206720.pdf"
+  },
+  {
+    "assignees": [
+      "楊德仁",
+      "廖淑樺",
+      "曾建傑",
+      "許瓊茹"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687955",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "一種有機廢棄物生物轉化的多層自動化系統",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115206558.pdf"
+  },
+  {
+    "assignees": [
+      "中國信託商業銀行股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687924",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "信用卡交易智慧核身驗證系統",
+    "topics": [
+      "cybersecurity"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115206182.pdf"
+  },
+  {
+    "assignees": [
+      "全球微波綠能科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687914",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "一種移動式塑膠化學回收系統",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115206105.pdf"
+  },
+  {
+    "assignees": [
+      "威旺光電股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687911",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "具有改良散熱結構的微型顯示器",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115206069.pdf"
+  },
+  {
+    "assignees": [
+      "兔奇國際股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687892",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "穿戴式人體散熱裝置",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115205959.pdf"
+  },
+  {
+    "assignees": [
+      "吳東益"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687880",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "分區光譜調控鏡片之結構",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115205859.pdf"
+  },
+  {
+    "assignees": [
+      "廖志穎"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687871",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "雷射干擾器之無線區域網路更新裝置",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115205830.pdf"
+  },
+  {
+    "assignees": [
+      "鴻嘉彩藝印刷股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687837",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "廢紙回收系統及使用其的環保印刷工廠",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115205445.pdf"
+  },
+  {
+    "assignees": [
+      "崇越科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687835",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "高回收率的淨水系統",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115205414.pdf"
+  },
+  {
+    "assignees": [
+      "戴德森醫療財團法人嘉義基督教醫院"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687832",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "綠色呼吸手術室",
+    "topics": [
+      "digital_health"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115205394.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商蘇州安敏瑞電子科技有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687826",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "一種帶有四通道水冷接頭的電子設備水冷散熱裝置",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115205313.pdf"
+  },
+  {
+    "assignees": [
+      "台灣鈣鈦礦科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687796",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "鈣鈦礦配藥自動化設備",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115204773.pdf"
+  },
+  {
+    "assignees": [
+      "國泰世華商業銀行股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687793",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "自動化測試系統",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115204697.pdf"
+  },
+  {
+    "assignees": [
+      "鴻升環境科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687778",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "太陽能板回收剝離設備之加熱系統",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115204396.pdf"
+  },
+  {
+    "assignees": [
+      "鴻升環境科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687777",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "太陽能板回收剝離設備",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115204394.pdf"
+  },
+  {
+    "assignees": [
+      "恆耀環保科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687771",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "飛灰水洗設備之清洗廢水回收系統",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115204327.pdf"
+  },
+  {
+    "assignees": [
+      "恆耀環保科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687770",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "飛灰水洗廢水回收系統",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115204326.pdf"
+  },
+  {
+    "assignees": [
+      "翰林出版事業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687732",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "學習診斷與複習導引系統",
+    "topics": [
+      "biotech"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115203415.pdf"
+  },
+  {
+    "assignees": [
+      "區塊科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687713",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "基於區塊鏈的交易驗證系統",
+    "topics": [
+      "cybersecurity"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115202956.pdf"
+  },
+  {
+    "assignees": [
+      "資拓宏宇國際股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687706",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "結合人工智慧與自動化之大型主機現代化系統",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115202816.pdf"
+  },
+  {
+    "assignees": [
+      "雙鴻科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687700",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "散熱模組",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115202676.pdf"
+  },
+  {
+    "assignees": [
+      "創思達科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687687",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "具備全球導航衛星系統欺騙功能的無人機干擾系統及其電子裝置",
+    "topics": [
+      "aerospace"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115202181.pdf"
+  },
+  {
+    "assignees": [
+      "家碩科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687668",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體檢測設備",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115201106.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商立晶光電（廈門）有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940381",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "具有散熱系統的集魚燈",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114142788.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商北京北方華創微電子裝備有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940363",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "晶圓承載裝置溫度控制方法及半導體製程設備",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114140659.pdf"
+  },
+  {
+    "assignees": [
+      "新加坡商星科金朋私人有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940356",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體封裝以及用於形成半導體封裝的方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114140004.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商北京北方華創微電子裝備有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940355",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "製程腔室溫度控制方法、功率調節裝置及半導體製程設備",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114140002.pdf"
+  },
+  {
+    "assignees": [
+      "國立臺灣大學"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940353",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "一種5-去甲基川陳皮素(5-demethylnobiletin, 5-DMNB)在製備治療肥胖相關代謝疾病之藥物的用途",
+    "topics": [
+      "biotech"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114139787.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商北京北方華創微電子裝備有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940350",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "靜電卡盤電源和半導體製程設備",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114139234.pdf"
+  },
+  {
+    "assignees": [
+      "國立成功大學"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940349",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "電解質組成物及太陽能電池",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114139135.pdf"
+  },
+  {
+    "assignees": [
+      "秀傳醫療財團法人彰濱秀傳紀念醫院"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940326",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "微創手術傷口縫合用套管",
+    "topics": [
+      "digital_health"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114137283.pdf"
+  },
+  {
+    "assignees": [
+      "新加坡商星科金朋私人有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940323",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114137084.pdf"
+  },
+  {
+    "assignees": [
+      "台灣鈣鈦礦科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940322",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "鈣鈦礦太陽能電池模組封裝方法",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114137021.pdf"
+  },
+  {
+    "assignees": [
+      "秀霖環境科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940317",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "利用含氟溶液生產含氟結晶產物的自動化生產方法",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114136726.pdf"
+  },
+  {
+    "assignees": [
+      "新加坡商安靠科技新加坡控股私人有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940295",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體封裝及其製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114134560.pdf"
+  },
+  {
+    "assignees": [
+      "泓博無線通訊技術有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940292",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "筆記型電腦的散熱風扇天線",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114134232.pdf"
+  },
+  {
+    "assignees": [
+      "國立中山大學"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940286",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "可模組擴充之機械式電池串並聯切換機構、電池模組及多模組電池系統",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114133608.pdf"
+  },
+  {
+    "assignees": [
+      "世界先進積體電路股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940284",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體結構",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114133493.pdf"
+  },
+  {
+    "assignees": [
+      "國巨股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940269",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "介電陶瓷材料、積層陶瓷電容器及其製造方法",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114132628.pdf"
+  },
+  {
+    "assignees": [
+      "新加坡商安靠科技新加坡控股私人有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940263",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置以及製造半導體裝置的方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114131987.pdf"
+  },
+  {
+    "assignees": [
+      "荷蘭商ＡＳＭ　ＩＰ私人控股有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940260",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "用於蝕刻的半導體製程裝置及用於蝕刻層的方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114131517.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商北京北方華創微電子裝備有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940248",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "轉接裝置及半導體製程設備",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114130724.pdf"
+  },
+  {
+    "assignees": [
+      "立創光電股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940228",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "多接面光電元件的檢測方法",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114128930.pdf"
+  },
+  {
+    "assignees": [
+      "世界先進積體電路股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940215",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體結構及其形成方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114127883.pdf"
+  },
+  {
+    "assignees": [
+      "聯華電子股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940209",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體元件及其製作方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114127480.pdf"
+  },
+  {
+    "assignees": [
+      "日商東芝股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940206",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "電極、二次電池、電池包及車輛",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114127473.pdf"
+  },
+  {
+    "assignees": [
+      "富利紡科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940204",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "易回收耐磨聚酯襪",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114127345.pdf"
+  },
+  {
+    "assignees": [
+      "聚鼎科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940193",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "陶瓷熱敏元件",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114126385.pdf"
+  },
+  {
+    "assignees": [
+      "荷蘭商ＡＳＭＬ荷蘭公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940188",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "在半導體偵測器中形成頂部電極之內埋部分之方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114125976.pdf"
+  },
+  {
+    "assignees": [
+      "日商雅馬哈智能機器股份有限公司",
+      "學校法人東京理科大學"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940187",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置的製造裝置、及製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114125886.pdf"
+  },
+  {
+    "assignees": [
+      "劉峻逞"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940186",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "預防蓄電池熱失控及燃燒的控制系統",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114125818.pdf"
+  },
+  {
+    "assignees": [
+      "國立研究開發法人產業技術總合研究所"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940184",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "積層構造及其製造方法以及半導體裝置",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114125386.pdf"
+  },
+  {
+    "assignees": [
+      "鴻準精密工業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940183",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "散熱器以及終端裝置",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114125347.pdf"
+  },
+  {
+    "assignees": [
+      "美商萊特一號股份有限公司",
+      "大陸商東莞市星亮科技有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940182",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "快拆可更換軸承與馬達的散熱風扇結構",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114125218.pdf"
+  },
+  {
+    "assignees": [
+      "美商恩特葛瑞斯股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940165",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "具有保護塗層之靜電卡盤及其製造方法",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114123646.pdf"
+  },
+  {
+    "assignees": [
+      "國立成功大學"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940152",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "固態電解質薄片、其製備方法及使用其之鋰硫電池",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114121889.pdf"
+  },
+  {
+    "assignees": [
+      "國立宜蘭大學"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940148",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "發泡鎳電極、其製造方法及其應用於微生物燃料電池",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114121374.pdf"
+  },
+  {
+    "assignees": [
+      "新唐科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940143",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114120835.pdf"
+  },
+  {
+    "assignees": [
+      "林宏遠"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940139",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "金融產品交易策略驗證方法及金融商品交易方法",
+    "topics": [
+      "cybersecurity"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114120345.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商賽嵐（杭州）生物醫藥科技有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940128",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "一種包括TDG抑制劑和免疫檢查點抑制劑的藥物組合及其用途",
+    "topics": [
+      "biotech"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114119527.pdf"
+  },
+  {
+    "assignees": [
+      "鴻海精密工業股份有限公司",
+      "疆域醫創科技有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940118",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "護理機器人",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114118754.pdf"
+  },
+  {
+    "assignees": [
+      "中鋼機械股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940111",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "自動化焊接設備",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114118318.pdf"
+  },
+  {
+    "assignees": [
+      "即思創意股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940097",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體元件",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114117145.pdf"
+  },
+  {
+    "assignees": [
+      "國立臺灣科技大學"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940094",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "電化學儲能裝置",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114116848.pdf"
+  },
+  {
+    "assignees": [
+      "漢磊科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940078",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置的製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114115526.pdf"
+  },
+  {
+    "assignees": [
+      "成新科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940075",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "液冷散熱之管路連接裝置",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114115299.pdf"
+  },
+  {
+    "assignees": [
+      "美商晟碟科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940074",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "記憶體裝置中的程式化驗證技術",
+    "topics": [
+      "cybersecurity"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114115285.pdf"
+  },
+  {
+    "assignees": [
+      "日商川崎重工業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940066",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "真空環境下用機器人",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114114442.pdf"
+  },
+  {
+    "assignees": [
+      "美商迪斯尼２Ｄ公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940059",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "在半導體裝置基板上方形成電晶體互連的方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114113852.pdf"
+  },
+  {
+    "assignees": [
+      "鴻準精密工業股份有限公司",
+      "國立臺北科技大學"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940050",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "量子點材料、制備方法以及應用其之量子點膜和背光模組",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114113383.pdf"
+  },
+  {
+    "assignees": [
+      "新加坡商先進半導體私人有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940047",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "用於半導體的散熱材料",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114113027.pdf"
+  },
+  {
+    "assignees": [
+      "日商ＵＡＣＪ股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940044",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "複合材料",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114112823.pdf"
+  },
+  {
+    "assignees": [
+      "美商美光科技公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940039",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "重建半導體晶粒評估及功率傳送",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114112601.pdf"
+  },
+  {
+    "assignees": [
+      "旺矽科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940031",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "在探針系統中的系統漂移驗證的方法、探針系統的操作方法、探針系統和電腦可讀取儲存媒體",
+    "topics": [
+      "cybersecurity"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114112049.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商重慶萬國半導體科技有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940028",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "具有閘極突起結構的溝槽型功率半導體器件及其製備方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114111871.pdf"
+  },
+  {
+    "assignees": [
+      "鴻揚半導體股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940013",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置及其製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114109935.pdf"
+  },
+  {
+    "assignees": [
+      "弘塑科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940008",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "高溫液體供應系統、半導體製造裝置和高溫液體供應方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114109227.pdf"
+  },
+  {
+    "assignees": [
+      "台亞半導體股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I940005",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "光電二極體及其製造方法",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114108817.pdf"
+  },
+  {
+    "assignees": [
+      "美商納茲控股有限責任公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939997",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "加密使用者資料傳輸及儲存（NUTS）",
+    "topics": [
+      "cybersecurity"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114108268.pdf"
+  },
+  {
+    "assignees": [
+      "魏英斌"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939987",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "可完全回收的筒狀織物結構",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114107536.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商北京北方華創微電子裝備有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939982",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "進氣組件、半導體製程腔室及半導體製程方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114107028.pdf"
+  },
+  {
+    "assignees": [
+      "日商川崎重工業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939981",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "基板搬送機器人",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114106937.pdf"
+  },
+  {
+    "assignees": [
+      "日商信越化學工業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939973",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "有機膜形成方法及半導體裝置用基板之製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114105656.pdf"
+  },
+  {
+    "assignees": [
+      "日商矽濃電氣產業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939972",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "大尺寸半導體積體電路用托盤",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114105437.pdf"
+  },
+  {
+    "assignees": [
+      "日商鎧俠股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939971",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體記憶裝置之製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114105420.pdf"
+  },
+  {
+    "assignees": [
+      "南韓商東友精細化工有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939969",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "用於移除感光樹脂和抗反射塗層的稀釋劑組合物以及使用其移除感光樹脂和抗反射塗層的方法",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114105180.pdf"
+  },
+  {
+    "assignees": [
+      "佛教慈濟醫療財團法人"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939966",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "藥物配送系統",
+    "topics": [
+      "biotech"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114104838.pdf"
+  },
+  {
+    "assignees": [
+      "日商川崎重工業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939956",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "基板搬送機器人及基板搬送機器人之控制方法",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114104163.pdf"
+  },
+  {
+    "assignees": [
+      "日商日立全球先端科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939939",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體元件之製造系統及製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114102852.pdf"
+  },
+  {
+    "assignees": [
+      "日商國際電氣股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939931",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "基板處理方法，半導體裝置的製造方法，程式，及基板處理裝置",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114102143.pdf"
+  },
+  {
+    "assignees": [
+      "日商鎧俠股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939927",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置之製造方法及基板處理裝置",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114101856.pdf"
+  },
+  {
+    "assignees": [
+      "美商艾澤西公司",
+      "美商思進公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939923",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "與191P4D12蛋白結合之抗體藥物共軛物(ADC)",
+    "topics": [
+      "biotech"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114101352.pdf"
+  },
+  {
+    "assignees": [
+      "力技科技工程股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939919",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "低溫廢熱回收發電系統",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114100404.pdf"
+  },
+  {
+    "assignees": [
+      "美商知微電子有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939918",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置以及氣流產生封裝體",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114100233.pdf"
+  },
+  {
+    "assignees": [
+      "財團法人印刷創新科技研究發展中心"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939911",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "混紡材料之高光譜分析方法",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113150968.pdf"
+  },
+  {
+    "assignees": [
+      "美商布魯克斯自動機械美國公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939899",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "線性電機及用於輸送半導體基板的方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113149783.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商西安奕斯偉材料科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939894",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "晶圓及其表面奈米形貌的預測方法、裝置、設備及介質",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113149240.pdf"
+  },
+  {
+    "assignees": [
+      "特崴光波導股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939884",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "光電模組製造方法",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113148106.pdf"
+  },
+  {
+    "assignees": [
+      "全盈支付金融科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939881",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "基於電子支付之減碳消費方法",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113147969.pdf"
+  },
+  {
+    "assignees": [
+      "聯發科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939873",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體封裝及其製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113146073.pdf"
+  },
+  {
+    "assignees": [
+      "宏碁股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939870",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "離心式散熱風扇",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113145722.pdf"
+  },
+  {
+    "assignees": [
+      "宏碁股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939857",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "電池之韌體的更新方法、復原方法與備份方法",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113143839.pdf"
+  },
+  {
+    "assignees": [
+      "旺矽科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939847",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "用於對整合在半導體晶圓的電子受測裝置進行測試的探針系統、探針卡、探針頭、探針及由探針卡進行測試的電子受測裝置",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113141895.pdf"
+  },
+  {
+    "assignees": [
+      "日商大金工業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939809",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "非水電解質電池用黏結劑、電極合劑、電極及非水電解質電池",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113133982.pdf"
+  },
+  {
+    "assignees": [
+      "南韓商聚醯亞胺先端材料有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939802",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "脈衝耐久性改善的聚醯亞胺清漆及由其製備的聚醯亞胺塗層材料",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113132340.pdf"
+  },
+  {
+    "assignees": [
+      "日商國際電氣股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939798",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "處理容器、處理裝置及半導體裝置的製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113130955.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商北京北方華創微電子裝備有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939796",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "下電極饋入裝置和半導體加工設備",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113130026.pdf"
+  },
+  {
+    "assignees": [
+      "聯華電子股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939794",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體元件及其製作方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113129760.pdf"
+  },
+  {
+    "assignees": [
+      "威斯康辛校友研究基金會"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939783",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "在基板上形成經排列細長奈米粒子之膜的方法、使基板之二氧化矽表面圖案化的方法及場效電晶體",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113127512.pdf"
+  },
+  {
+    "assignees": [
+      "川裕工業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939776",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "熱固性樹脂組成物及包含其之感應器塗層製備",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113126569.pdf"
+  },
+  {
+    "assignees": [
+      "美商基美電子公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939775",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "單片多層陶瓷電容器及電子器件",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113126275.pdf"
+  },
+  {
+    "assignees": [
+      "日商國際電氣股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939771",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "顯示處理裝置、基板處理裝置、顯示方法、基板處理方法、半導體器件的製造方法及記錄媒體",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113125244.pdf"
+  },
+  {
+    "assignees": [
+      "國立臺灣科技大學"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939769",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "使用含多醣分散劑形成奈米層狀材料之方法",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113124770.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商北京北方華創微電子裝備有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939766",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體器件的製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113124006.pdf"
+  },
+  {
+    "assignees": [
+      "日商國際電氣股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939755",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "基板處理方法、半導體器件的製造方法、基板處理裝置及電腦可讀取之記錄媒體",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113119710.pdf"
+  },
+  {
+    "assignees": [
+      "德商Ｑ安特公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939742",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "用於製造半導體晶圓之方法以及半導體晶圓",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113115311.pdf"
+  },
+  {
+    "assignees": [
+      "日商旭化成股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939734",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置、及其製造方法、以及絕緣層及再配線層",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113109634.pdf"
+  },
+  {
+    "assignees": [
+      "美商席凡索斯公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939727",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "水處理及淡化",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/113105566.pdf"
+  },
+  {
+    "assignees": [
+      "日商國際電氣股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939710",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "基板處理裝置，電漿生成裝置，電漿生成方法，基板處理方法，半導體裝置的製造方法及程式",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112133678.pdf"
+  },
+  {
+    "assignees": [
+      "華泰電子股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939705",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體封裝件及其製法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112130493.pdf"
+  },
+  {
+    "assignees": [
+      "新加坡商星科金朋私人有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939687",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "以二步驟處理形成電磁干擾屏蔽之材料以避免汙染電連接器的半導體裝置及方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112119553.pdf"
+  },
+  {
+    "assignees": [
+      "聯華電子股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939678",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體布局圖案以及其形成方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112115899.pdf"
+  },
+  {
+    "assignees": [
+      "日商力森諾科股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939673",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體用接著膜、切割晶粒接合膜及製造半導體裝置之方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112111468.pdf"
+  },
+  {
+    "assignees": [
+      "日商積水化學工業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939672",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "陶瓷生片用樹脂組成物",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112110671.pdf"
+  },
+  {
+    "assignees": [
+      "日商發那科股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939669",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "支架、機器人、熔接裝置以及機器人系統",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112110310.pdf"
+  },
+  {
+    "assignees": [
+      "日商奧野製藥工業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939668",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "含矽鋁合金用去污劑及含矽鋁合金之去污方法",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112110002.pdf"
+  },
+  {
+    "assignees": [
+      "日商東麗股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939666",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "碳纖維基材、預浸體、多孔質結構體及其製造方法、預成形體、纖維強化樹脂成形體、夾層結構體及航空器構件",
+    "topics": [
+      "aerospace"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112109458.pdf"
+  },
+  {
+    "assignees": [
+      "日商力森諾科股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939664",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "感光性樹脂組成物、感光性樹脂薄膜、多層印刷線路板及半導體封裝體、以及多層印刷線路板的製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112108488.pdf"
+  },
+  {
+    "assignees": [
+      "美商應用材料股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939663",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "藉由分級材料進行陶瓷工程",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112108003.pdf"
+  },
+  {
+    "assignees": [
+      "日商山陽特殊製鋼股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939662",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "熱加工用合金工具鋼",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112107209.pdf"
+  },
+  {
+    "assignees": [
+      "日商山陽色素股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939661",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "含有電極用碳奈米管的粉末、電極合劑膏、蓄電裝置用電極、蓄電裝置及含有電極用碳奈米管的製造方法",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112106498.pdf"
+  },
+  {
+    "assignees": [
+      "美商環球高級金屬美國公司",
+      "國立大學法人信州大學"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939655",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "以MOx共催化劑改質的單晶TA3N5奈米粒子、催化劑、使用該催化劑於水分解之方法及製造該催化劑之方法",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112105356.pdf"
+  },
+  {
+    "assignees": [
+      "日商奧璐佳瑙股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939652",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "水處理方法及水處理裝置",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/112103379.pdf"
+  },
+  {
+    "assignees": [
+      "香港商愛科諾生物醫藥（香港）有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939642",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "具有IRAK4抑制活性的化合物，包含其的藥物組合物，及其應用",
+    "topics": [
+      "biotech"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111150669.pdf"
+  },
+  {
+    "assignees": [
+      "法商液態空氣喬治斯克勞帝方法研究開發股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939639",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "空氣分離裝置及氮回收方法",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111149210.pdf"
+  },
+  {
+    "assignees": [
+      "新加坡商星科金朋私人有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939630",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置和以開槽基板形成選擇性電磁干擾屏蔽的方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111147193.pdf"
+  },
+  {
+    "assignees": [
+      "美商英特爾股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939617",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "包含可抽換ＰＨＹ電路的微電子晶片和包含該晶片的半導體封裝",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111144758.pdf"
+  },
+  {
+    "assignees": [
+      "日商信越半導體股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939616",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "雙面研磨裝置、半導體矽晶圓的雙面研磨方法及雙面研磨矽晶圓的製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111143961.pdf"
+  },
+  {
+    "assignees": [
+      "日商昭榮化學工業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939612",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "包括量子點顏色轉換材料的發光裝置及其製造方法",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111143505.pdf"
+  },
+  {
+    "assignees": [
+      "南韓商愛思開海力士有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939609",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體記憶體裝置",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111142936.pdf"
+  },
+  {
+    "assignees": [
+      "美商科磊股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939605",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "用於基於半導體之應用之知識蒸餾",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111140356.pdf"
+  },
+  {
+    "assignees": [
+      "日商信越半導體股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939599",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "接合型半導體晶圓的製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111139587.pdf"
+  },
+  {
+    "assignees": [
+      "德商可樂麗歐洲有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939594",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "壓實之聚乙烯縮醛於陶瓷生胚片作為黏合劑之用途，懸浮液組成物，壓實體，以及用於製備該壓實體之方法",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111138033.pdf"
+  },
+  {
+    "assignees": [
+      "日商ＪＳＲ股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939585",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體基板的製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111136611.pdf"
+  },
+  {
+    "assignees": [
+      "日商迪思科股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939579",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "雷射加工裝置",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111135132.pdf"
+  },
+  {
+    "assignees": [
+      "日商積水化學工業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939572",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置製造用黏著帶",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111133682.pdf"
+  },
+  {
+    "assignees": [
+      "日商信越半導體股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939571",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "氮化物半導體晶圓的製造方法、及氮化物半導體晶圓",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111133641.pdf"
+  },
+  {
+    "assignees": [
+      "日商杜羅普科材料股份有限公司",
+      "南韓商杜邦特用材料韓國股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939563",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "固化性矽酮組成物、密封材料及光半導體裝置",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111131835.pdf"
+  },
+  {
+    "assignees": [
+      "聯華電子股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939561",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體記憶體元件",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111131601.pdf"
+  },
+  {
+    "assignees": [
+      "日商富士軟片股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939552",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "剝離薄膜、剝離薄膜之製造方法、陶瓷電容器",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111130469.pdf"
+  },
+  {
+    "assignees": [
+      "南韓商三星電子股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939547",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體記憶體裝置",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111129946.pdf"
+  },
+  {
+    "assignees": [
+      "南韓商普因特工程有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939542",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "微凸塊及其製造方法、用於電性連接的中介物、半導體封裝、多段積層型半導體元件以及顯示器",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111128699.pdf"
+  },
+  {
+    "assignees": [
+      "南韓商易安愛富科技有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939536",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "用於處理半導體基板的組合物以及半導體基板的處理方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111127597.pdf"
+  },
+  {
+    "assignees": [
+      "南韓商三星電子股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939524",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置及其製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111125836.pdf"
+  },
+  {
+    "assignees": [
+      "美商京瓷ＡＶＸ元件公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939521",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "多層陶瓷電容器、電路板、及積體電路封裝",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111125747.pdf"
+  },
+  {
+    "assignees": [
+      "美商應用材料股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939515",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "用於半導體製造前驅物的安瓿",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111124080.pdf"
+  },
+  {
+    "assignees": [
+      "日商半導體能源研究所股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939513",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體裝置及半導體裝置的驅動方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111123728.pdf"
+  },
+  {
+    "assignees": [
+      "富采光電股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939512",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體元件及其製作方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111123680.pdf"
+  },
+  {
+    "assignees": [
+      "南韓商三星電子股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939507",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "圖案形成方法和使用該方法的半導體裝置製造方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111123173.pdf"
+  },
+  {
+    "assignees": [
+      "日商發那科股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939489",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "機器人模擬裝置",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111117842.pdf"
+  },
+  {
+    "assignees": [
+      "美商應用材料股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939478",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "用於在半導體處理期間產生磁場的設備",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111115429.pdf"
+  },
+  {
+    "assignees": [
+      "日商三菱瓦斯化學股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939463",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "固體電解質粉末之製造方法及全固體電池之製造方法",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111111527.pdf"
+  },
+  {
+    "assignees": [
+      "俄羅斯聯邦商拜奧卡德聯合股份公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939460",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "與ＧＤ２（神經節苷脂ＧＤ２）特異性結合的單克隆抗體或其抗原結合片段及其用途",
+    "topics": [
+      "biotech"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111111114.pdf"
+  },
+  {
+    "assignees": [
+      "南韓商三星顯示器有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939456",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "發光元件、包括其的顯示裝置及半導體結構",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111109295.pdf"
+  },
+  {
+    "assignees": [
+      "日商富士軟片股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939436",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "半導體元件用組成物、基板的清洗方法",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/111102142.pdf"
+  },
+  {
+    "assignees": [
+      "法商ＧＥＮＦＩＴ公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939411",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "化合物在製備治療肝衰竭之藥物的用途",
+    "topics": [
+      "biotech"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/110142756.pdf"
+  },
+  {
+    "assignees": [
+      "日商東京威力科創股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939409",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "腔室狀況的診斷方法",
+    "topics": [
+      "biotech"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/110142493.pdf"
+  },
+  {
+    "assignees": [
+      "美商科思創有限責任公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939401",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "模組化電池組",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/110137479.pdf"
+  },
+  {
+    "assignees": [
+      "日商日產化學股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939393",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "阻劑下層膜形成組成物、阻劑下層膜、半導體裝置之製造方法，及聚合物",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/110128480.pdf"
+  },
+  {
+    "assignees": [
+      "美商蘭姆研究公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939387",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "用於半導體處理機台之具有斜角氣體分配通道的噴淋頭面板",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/110121619.pdf"
+  },
+  {
+    "assignees": [
+      "荷蘭商庫力克及索發荷蘭公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939367",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "用於接收由雷射輔助轉移程序轉移的離散組件之膠布、系統及方法",
+    "topics": [
+      "quantum_photonics"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/109143085.pdf"
+  },
+  {
+    "assignees": [
+      "美商義凱西技術公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "I",
+    "publication_number": "I939366",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "用於稀疏金屬導電層穩定化之透明導電膜塗層與處理",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/109140374.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商北京石頭世紀科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "D",
+    "publication_number": "D246838",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "清潔機器人",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115300763.pdf"
+  },
+  {
+    "assignees": [
+      "大陸商北京石頭世紀科技股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "D",
+    "publication_number": "D246809",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "清潔機器人的主刷罩",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114306159.pdf"
+  },
+  {
+    "assignees": [
+      "德商柯銳世科技再生有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "D",
+    "publication_number": "D246776",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "電池(部分)",
+    "topics": [
+      "energy"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114304216.pdf"
+  },
+  {
+    "assignees": [
+      "南韓商ＬＧ電子股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "pending",
+    "event": "new_grant",
+    "kind_code": "D",
+    "publication_number": "D246753",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "真空清掃機器人",
+    "topics": [
+      "automation"
+    ],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/114302686.pdf"
+  },
+  {
+    "assignees": [
+      "WAG ACQUISITION, L.L.C."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "K1",
+    "publication_number": "US9762636",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Streaming media delivery system",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US09762636-20260922.html"
+  },
+  {
+    "assignees": [
+      "WAG ACQUISITION, L.L.C."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "K1",
+    "publication_number": "US9729594",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Streaming media delivery system",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US09729594-20260922.html"
+  },
+  {
+    "assignees": [
+      "FINTIV, INC."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "K1",
+    "publication_number": "US9189785",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Debit network routing selection using a scannable code",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US09189785-20260922.html"
+  },
+  {
+    "assignees": [
+      "TOPIA TECHNOLOGY, INC."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "K1",
+    "publication_number": "US9143561",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Architecture for management of digital files across distributed network",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US09143561-20260922.html"
+  },
+  {
+    "assignees": [
+      "PICTOMETRY INTERNATIONAL CORPORATION"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "K1",
+    "publication_number": "US8593518",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Computer system for continuous oblique panning",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US08593518-20260922.html"
+  },
+  {
+    "assignees": [
+      "EAGLE VIEW TECHNOLOGIES, INC."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "K1",
+    "publication_number": "US8078436",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Aerial roof estimation systems and methods",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US08078436-20260922.html"
+  },
+  {
+    "assignees": [
+      "SLINGSHOT PRINTING LLC"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "K1",
+    "publication_number": "US7938523",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Fluid supply tank ventilation for a micro-fluid ejection head",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US07938523-20260922.html"
+  },
+  {
+    "assignees": [
+      "LEMKO CORPORATION"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "K1",
+    "publication_number": "US7855988",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "System, method, and device for routing calls using a distributed mobile architecture",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US07855988-20260922.html"
+  },
+  {
+    "assignees": [
+      "WILDSEED MOBILE LLC"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "K1",
+    "publication_number": "US7376414",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Method and system for inserting advertisements into broadcast content",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US07376414-20260922.html"
+  },
+  {
+    "assignees": [
+      "SLINGSHOT PRINTING LLC"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "K1",
+    "publication_number": "US7195341",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Power and ground buss layout for reduced substrate size",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US07195341-20260922.html"
+  },
+  {
+    "assignees": [
+      "OPTRONIC SCIENCES LLC"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "K1",
+    "publication_number": "US7168842",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Light emitting diode backlight package",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US07168842-20260922.html"
+  },
+  {
+    "assignees": [
+      "BRIDGELUX, INC."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745677",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Color-temperature-tunable lighting devices",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745677-20260922.html"
+  },
+  {
+    "assignees": [
+      "ETRON TECHNOLOGY, INC."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745675",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Memory module with reduced bonding wires",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745675-20260922.html"
+  },
+  {
+    "assignees": [
+      "Samsung Display Co., Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745671",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Display device having first and second organic planarization layers with respective first and second openings therein that are not aligned with each other and expose a conductive pattern",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745671-20260922.html"
+  },
+  {
+    "assignees": [
+      "ELTA SYSTEMS LTD."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745670",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Encapsulation techniques",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745670-20260922.html"
+  },
+  {
+    "assignees": [
+      "TDK Corporation"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745667",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Electronic circuit package, its manufacturing method, and electronic device having electronic circuit package",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745667-20260922.html"
+  },
+  {
+    "assignees": [
+      "SAMSUNG ELECTRO-MECHANICS CO., LTD."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745665",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Substrate and method of manufacturing the same",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745665-20260922.html"
+  },
+  {
+    "assignees": [
+      "Apple Inc."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745661",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Scalable extreme large size substrate integration",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745661-20260922.html"
+  },
+  {
+    "assignees": [
+      "IBIDEN CO., LTD."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12745660",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Wiring substrate",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US12745660-20260922.html"
+  },
+  {
+    "assignees": [
+      "Ecole Polytechnique Fédérale de Lausanne (EPFL)"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3454719B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "SYSTEM AND METHOD FOR RETINAL ABSORPTION PHASE AND DARK FIELD IMAGING WITH OBLIQUE ILLUMINATION",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3454719NWB1"
+  },
+  {
+    "assignees": [
+      "Tyco Electronics (Shanghai) Co. Ltd."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3447555B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "FIBER OPTIC CONNECTOR",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3447555NWB1"
+  },
+  {
+    "assignees": [
+      "Statsports Group Limited"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3443375B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "SYSTEM FOR INDOOR AND OUTDOOR POSITION MEASUREMENT",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3443375NWB1"
+  },
+  {
+    "assignees": [
+      "Sumitomo Metal Mining Co., Ltd."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3431564B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "NEAR-INFRARED SHIELDING MATERIAL MICROPARTICLES, PRODUCTION METHOD THEREOF, AND NEAR-INFRARED SHIELDING MATERIAL MICROPARTICLE DISPERSION",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3431564NWB1"
+  },
+  {
+    "assignees": [
+      "Monument Chemical Houston, LLC"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3417038B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "PROCESS FOR PREPARING TIER 3 REFERENCE FUEL",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3417038NWB1"
+  },
+  {
+    "assignees": [
+      "LG Energy Solution, Ltd."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3404794B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "CELL BALANCING SYSTEM AND CONTROL METHOD",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3404794NWB1"
+  },
+  {
+    "assignees": [
+      "ExxonMobil Technology and Engineering Company"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3377210B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "MULTIPHASE SEPARATOR AND METHODS OF USE THEREOF FOR PRODUCING HYDROCARBONS FROM OXYGENATES AND OLEFINS",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3377210NWB1"
+  },
+  {
+    "assignees": [
+      "AGC Glass Europe"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3356137B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "VEHICLE GLAZING",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3356137NWB1"
+  },
+  {
+    "assignees": [
+      "Boston Scientific Scimed, Inc."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3331467B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "MULTIPURPOSE ELECTRODE",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3331467NWB1"
+  },
+  {
+    "assignees": [
+      "Leica Microsystems CMS GmbH"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3326019B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "LIGHT SHEET MICROSCOPE FOR SIMULTANEOUSLY IMAGING A PLURALITY OF OBJECT PLANES",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3326019NWB1"
+  },
+  {
+    "assignees": [
+      "Enedym Inc."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3295543B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "SWITCHED RELUCTANCE MACHINE WITH EVEN POLE-PHASE INDEX",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3295543NWB1"
+  },
+  {
+    "assignees": [
+      "QUALCOMM Incorporated"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3292645B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "BLOCK ACKNOWLEDGEMENT MECHANISM FOR ACKNOWLEDGING DL-MU DATA ON UL-MU WIRELESS COMMUNICATION SYSTEM",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3292645NWB1"
+  },
+  {
+    "assignees": [
+      "Chart Energy & Chemicals, Inc."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3280963B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "MIXED REFRIGERANT LIQUEFACTION SYSTEM AND METHOD",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3280963NWB1"
+  },
+  {
+    "assignees": [
+      "Maad, Kristofer",
+      "C-Rad Imaging AB"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3265852B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "IONIZING RADIATION DETECTING DEVICE",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3265852NWB1"
+  },
+  {
+    "assignees": [
+      "Abbott Diabetes Care Inc."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3256040B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "DEVICES AND SYSTEMS FOR DISTINGUISHING CANCEROUS AND NON-CANCEROUS SKIN TISSUE",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3256040NWB1"
+  },
+  {
+    "assignees": [
+      "Aerogel Technologies, LLC"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3253817B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "SYSTEMS AND METHODS FOR PRODUCING AEROGEL MATERIALS",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3253817NWB1"
+  },
+  {
+    "assignees": [
+      "Apple Inc."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3251068B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "USER INTERFACE FOR PAYMENTS",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3251068NWB1"
+  },
+  {
+    "assignees": [
+      "LG Display Co., Ltd."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3226301B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "ORGANIC LIGHT EMITTING DISPLAY DEVICE",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3226301NWB1"
+  },
+  {
+    "assignees": [
+      "Pfanner Schutzbekleidung GmbH"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3223641B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "ITEM OF CLOTHING HAVING AN INTEGRATED POCKET",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3223641NWB1"
+  },
+  {
+    "assignees": [
+      "Shenzhen First Union Technology Co., Ltd."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3179830B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "HEATING ASSEMBLY, ATOMIZER AND ELECTRONIC CIGARETTE HAVING SAME",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3179830NWB1"
+  },
+  {
+    "assignees": [
+      "Endress+Hauser Flowtec AG"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3155628B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "COIL ARRANGEMENT, AND ELECTRO-MECHANICAL SWITCH OR MEASUREMENT TRANSDUCER AND MEASURING DEVICE  FORMED THEREWITH",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3155628NWB1"
+  },
+  {
+    "assignees": [
+      "Murata Manufacturing Co., Ltd."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3144570B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "VALVE AND FLUID CONTROL DEVICE",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3144570NWB1"
+  },
+  {
+    "assignees": [
+      "3M Innovative Properties Company"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3140684B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "COLORED RETROREFLECTIVE ARTICLES",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3140684NWB1"
+  },
+  {
+    "assignees": [
+      "Femtometrix, Inc."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3132467B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "WAFER METROLOGY TECHNOLOGIES",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3132467NWB1"
+  },
+  {
+    "assignees": [
+      "Bioverativ Therapeutics Inc."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3123090B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "LYOPHILIZED FACTOR IX FORMULATIONS",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3123090NWB1"
+  },
+  {
+    "assignees": [
+      "Toray Industries, Inc."
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP3116055B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "POLYMER ELECTROLYTE MEMBRANE AND SOLID POLYMER FUEL CELL, MEMBRANE-ELECTRODE ASSEMBLY, AND CATALYST-LAYER-PROVIDED ELECTROLYTE MEMBRANE USING SAME",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3116055NWB1"
+  },
+  {
+    "assignees": [
+      "Metso Finland Oy"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP2827993B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "IMPROVEMENTS IN A ROTOR FOR A ROCK CRUSHER",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2827993NWB1"
+  },
+  {
+    "assignees": [
+      "Danstar Ferment AG",
+      "Universidade Federal de Lavras"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP2826385B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "STABILITY OF SILAGE INOCULANTS AND METHODS FOR IMPROVING AEROBIC STABILITY OF SILAGE",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2826385NWB1"
+  },
+  {
+    "assignees": [
+      "PExA AB"
+    ],
+    "authority": "EPO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B1",
+    "publication_number": "EP2811902B1",
+    "published_at": "2026-09-23",
+    "source_id": "epo-grants",
+    "title": "A DEVICE AND METHOD FOR NON-INVASIVE ANALYSIS OF PARTICLES DURING MEDICAL VENTILATION",
+    "topics": [],
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2811902NWB1"
+  },
+  {
+    "assignees": [
+      "MATSUSHITA ELECTRIC INDUSTRIAL CO., LTD."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "other_grant_publication",
+    "kind_code": "C1",
+    "publication_number": "US6584443",
+    "published_at": "2026-09-22",
+    "source_id": "uspto-gazette-grants",
+    "title": "Apparatus and method for audio data/audio-related information transfer",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week38/OG/html/1550-4/US06584443-20260922.html"
+  },
+  {
+    "assignees": [
+      "經碩精密有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "not_selected",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687983",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "管端面修整機",
+    "topics": [],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115206915.pdf"
+  },
+  {
+    "assignees": [
+      "巨將金屬工業有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "not_selected",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687982",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "自行車車架避震器",
+    "topics": [],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115206893.pdf"
+  },
+  {
+    "assignees": [
+      "詠基工業股份有限公司"
+    ],
+    "authority": "TIPO",
+    "companies": [],
+    "detail_status": "not_selected",
+    "event": "new_grant",
+    "kind_code": "M",
+    "publication_number": "M687981",
+    "published_at": "2026-09-21",
+    "source_id": "tipo-grants",
+    "title": "具隱藏式切刀的切管器",
+    "topics": [],
+    "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053027/pdfdata/115206869.pdf"
+  },
+  {
+    "assignees": [
+      "Cirrus Logic Inc."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740483",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Electronic circuit fabrication",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740483-20260915.html"
+  },
+  {
+    "assignees": [
+      "Beijing Roborock Technology Co., Ltd., Beijing (CN)"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148266",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Part of cleaning head for a floor washing appliance",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148266-20260915.html"
+  },
+  {
+    "assignees": [
+      "SAMSUNG ELECTRONICS CO., LTD."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740472",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor device and method for manufacturing the same",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740472-20260915.html"
+  },
+  {
+    "assignees": [
+      "Innolux Corporation"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740474",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Electronic device and manufacturing method of the same",
+    "topics": [
+      "advanced_materials"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740474-20260915.html"
+  },
+  {
+    "assignees": [
+      "Foshan Heshan E-commerce Co., Ltd., Foshan (CN)"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148270",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Record cleaning device",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148270-20260915.html"
+  },
+  {
+    "assignees": [
+      "Ningbo Haitu Import and Export Co., Ltd., Ningbo (CN)"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148282",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Panel of the electronic safe",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148282-20260915.html"
+  },
+  {
+    "assignees": [
+      "Samsung Electronics Co., Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740482",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740482-20260915.html"
+  },
+  {
+    "assignees": [
+      "Kaiping S&D Manufacturing Ltd, Kaiping (CN)"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148275",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Trolley",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148275-20260915.html"
+  },
+  {
+    "assignees": [
+      "ADEIA SEMICONDUCTOR BONDING TECHNOLOGIES INC."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740490",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Molded direct bonded and interconnected stack",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740490-20260915.html"
+  },
+  {
+    "assignees": [
+      "Hyundai Motor Company;, Seoul (KR); and Kia Corporation"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740492",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Power module",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740492-20260915.html"
+  },
+  {
+    "assignees": [],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148277",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Multi functional handcart",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148277-20260915.html"
+  },
+  {
+    "assignees": [
+      "Jiangmen jiuyang supply chain co., ltd, Jiangmen (CN)"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148278",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Folding shopping cart",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148278-20260915.html"
+  },
+  {
+    "assignees": [
+      "Omco Sumo, Inc."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148280",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Pendant",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148280-20260915.html"
+  },
+  {
+    "assignees": [],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148274",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Hand truck",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148274-20260915.html"
+  },
+  {
+    "assignees": [],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148269",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Laundry hamper",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148269-20260915.html"
+  },
+  {
+    "assignees": [
+      "SANSHA ELECTRIC MANUFACTURING CO., LTD."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740471",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Power semiconductor module",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740471-20260915.html"
+  },
+  {
+    "assignees": [
+      "Intel Corporation"
+    ],
+    "authority": "USPTO",
+    "companies": [
+      "INTC"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740480",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Package architecture with memory chips having different process regions",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740480-20260915.html"
+  },
+  {
+    "assignees": [
+      "SEIKO EPSON CORPORATION"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740496",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740496-20260915.html"
+  },
+  {
+    "assignees": [
+      "EKO Development LTD., Guangzhou (CN)"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148267",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Diaper pail",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148267-20260915.html"
+  },
+  {
+    "assignees": [
+      "Samsung Display Co., Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740477",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Display device",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740477-20260915.html"
+  },
+  {
+    "assignees": [],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148272",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Garbage can",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148272-20260915.html"
+  },
+  {
+    "assignees": [
+      "Miele & Cie. KG, Gütersloh (DE)"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148265",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Vacuum cleaner",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148265-20260915.html"
+  },
+  {
+    "assignees": [
+      "SAMSUNG ELECTRONICS CO., LTD."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740481",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package with a non-conductive film having a flux comprising a dibenzocyclooctadiene (DBCOD)-based compound",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740481-20260915.html"
+  },
+  {
+    "assignees": [
+      "Intel Corporation"
+    ],
+    "authority": "USPTO",
+    "companies": [
+      "INTC"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740475",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Silicon nitride liner for promotion of mold adhesion in integrated circuits",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740475-20260915.html"
+  },
+  {
+    "assignees": [
+      "Samsung Electronics Co., Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740470",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package manufacturing method and semiconductor package",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740470-20260915.html"
+  },
+  {
+    "assignees": [
+      "Intel Corporation"
+    ],
+    "authority": "USPTO",
+    "companies": [
+      "INTC"
+    ],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740476",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Package architecture with vertical stacking of integrated circuit dies having planarized edges and multi-side routing",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740476-20260915.html"
+  },
+  {
+    "assignees": [
+      "SAMSUNG ELECTRONICS CO., LTD."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740494",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package including an edge region having a plurality of solder balls therein",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740494-20260915.html"
+  },
+  {
+    "assignees": [
+      "Adeia Semiconductor Bonding Technologies Inc."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740487",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Strong bonding structures and methods of forming the same",
+    "topics": [
+      "climate_water"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740487-20260915.html"
+  },
+  {
+    "assignees": [
+      "ALEDIA"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740489",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Method for transferring an optoelectronic device",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740489-20260915.html"
+  },
+  {
+    "assignees": [
+      "Samsung Electronics Co., Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740485",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package and method of manufacturing the semiconductor package",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740485-20260915.html"
+  },
+  {
+    "assignees": [
+      "NANYA TECHNOLOGY CORPORATION"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740486",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Electronic device including stacked semiconductor chips and method of manufacturing the same",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740486-20260915.html"
+  },
+  {
+    "assignees": [],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148276",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Push cart",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148276-20260915.html"
+  },
+  {
+    "assignees": [
+      "Tricam Industries, LLC"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148279",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Wheelbarrow wheel guard crossbar",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148279-20260915.html"
+  },
+  {
+    "assignees": [
+      "CANON KABUSHIKI KAISHA"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740479",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Method of forming a die structure including a controlled thickness layer and an apparatus for performing the method",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740479-20260915.html"
+  },
+  {
+    "assignees": [
+      "Nickolas Brands, LLC"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148271",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Trash can receptacle",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148271-20260915.html"
+  },
+  {
+    "assignees": [
+      "Taiwan Semiconductor Manufacturing Company Limited"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740484",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Radiant substrate heating for thermocompressive bonding and apparatus for implementing the same",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740484-20260915.html"
+  },
+  {
+    "assignees": [
+      "Amkor Technology Singapore Holding Pte. Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740473",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor devices and methods of manufacturing semiconductor devices",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740473-20260915.html"
+  },
+  {
+    "assignees": [],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148268",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Laundry basket",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148268-20260915.html"
+  },
+  {
+    "assignees": [
+      "Samsung Electronics Co., Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740491",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740491-20260915.html"
+  },
+  {
+    "assignees": [
+      "SAMSUNG ELECTRONICS CO., LTD."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740488",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor package",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740488-20260915.html"
+  },
+  {
+    "assignees": [
+      "Tricam Industries, LLC"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148273",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Hose reel cart",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148273-20260915.html"
+  },
+  {
+    "assignees": [
+      "ACTRON TECHNOLOGY CORPORATION"
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740495",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Semiconductor module having signal assembly in first and second molding compound",
+    "topics": [
+      "compute",
+      "digital_health"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740495-20260915.html"
+  },
+  {
+    "assignees": [
+      "Samsung Electronics Co., Ltd."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "B2",
+    "publication_number": "US12740478",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "System on chip having three-dimensional chiplet structure and electronic device including the system on chip",
+    "topics": [
+      "compute"
+    ],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/US12740478-20260915.html"
+  },
+  {
+    "assignees": [
+      "Superior Industries, Inc."
+    ],
+    "authority": "USPTO",
+    "companies": [],
+    "detail_status": "complete",
+    "event": "new_grant",
+    "kind_code": "S",
+    "publication_number": "USD1148281",
+    "published_at": "2026-09-15",
+    "source_id": "uspto-gazette-grants",
+    "title": "Conveyor load zone impact cradle pad",
+    "topics": [],
+    "url": "https://patentsgazette.uspto.gov/week37/OG/html/1550-3/USD1148281-20260915.html"
+  }
+]

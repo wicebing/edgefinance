@@ -3,7 +3,6 @@ from __future__ import annotations
 import argparse
 import gzip
 import json
-import shutil
 import subprocess
 import sys
 import traceback
@@ -88,14 +87,16 @@ def main():
             ThreadingHTTPServer(("127.0.0.1", args.port), handler).serve_forever()
             return
         if args.command == "doctor":
+            from .codex_cli import find_codex_command
             from .mongo import ping
-            executable = shutil.which("codex")
+            command = find_codex_command(project.secrets)
             mode = "missing"
-            if executable:
-                p = subprocess.run([executable, "login", "status"], capture_output=True, timeout=30)
+            if command:
+                p = subprocess.run(command.argv("login", "status"), capture_output=True, timeout=30)
                 mode = "chatgpt" if "ChatGPT" in (p.stdout + p.stderr).decode("utf-8", "replace") else "not_subscription"
             credentials = {key for source in project.sources for key in ([source["credential"]] if source.get("credential") else source.get("credentials", []))}
-            result = {"python": sys.version.split()[0], "codex": mode, "watchlist_companies": len(project.companies),
+            result = {"python": sys.version.split()[0], "codex": mode,
+                "codex_source": command.source if command else None, "watchlist_companies": len(project.companies),
                 "topics": len(project.topics), "source_keys": {key: bool(project.secrets.get(key)) for key in sorted(credentials)},
                 "atlas_configured": bool(project.secrets.get("MONGODB_URI")), "automatic_paid_api_fallback": False}
             if args.mongodb:

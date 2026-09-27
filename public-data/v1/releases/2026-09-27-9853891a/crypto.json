@@ -1,0 +1,495 @@
+{
+  "analyzed_pairs": 12,
+  "as_of": "2026-09-27",
+  "bitcoin": {
+    "base_asset": "BTC",
+    "cautions": [
+      "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+      "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+    ],
+    "change_24h_pct": 0.51,
+    "components": {
+      "30d_momentum": 0.0,
+      "data_completeness": 10.0,
+      "drawdown_resilience": 20.0,
+      "liquidity": 35.0,
+      "trend_consistency": 10.0,
+      "volatility_penalty": -1.21
+    },
+    "last_price": 84458.23,
+    "metrics": {
+      "annualized_volatility_pct": 41.04294919096155,
+      "close": 84458.23,
+      "daily_points": 120,
+      "date": "2026-09-27",
+      "max_drawdown_pct": -20.42728823407971,
+      "return_30d_pct": 8.494169311743827,
+      "return_7d_pct": 4.040786912710326,
+      "return_90d_pct": 40.15588395725802
+    },
+    "quote_asset": "USDT",
+    "quote_volume_24h": 646736602.4942417,
+    "rank": 1,
+    "reasons": [
+      "24h 成交額 646,736,602 USDT",
+      "30 日報酬 8.5%",
+      "90 日區間最大回撤 -20.4%"
+    ],
+    "score": 73.79,
+    "symbol": "BTCUSDT"
+  },
+  "candidates": [
+    {
+      "base_asset": "BTC",
+      "cautions": [
+        "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+        "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+      ],
+      "change_24h_pct": 0.51,
+      "components": {
+        "30d_momentum": 0.0,
+        "data_completeness": 10.0,
+        "drawdown_resilience": 20.0,
+        "liquidity": 35.0,
+        "trend_consistency": 10.0,
+        "volatility_penalty": -1.21
+      },
+      "last_price": 84458.23,
+      "metrics": {
+        "annualized_volatility_pct": 41.04294919096155,
+        "close": 84458.23,
+        "daily_points": 120,
+        "date": "2026-09-27",
+        "max_drawdown_pct": -20.42728823407971,
+        "return_30d_pct": 8.494169311743827,
+        "return_7d_pct": 4.040786912710326,
+        "return_90d_pct": 40.15588395725802
+      },
+      "quote_asset": "USDT",
+      "quote_volume_24h": 646736602.4942417,
+      "rank": 1,
+      "reasons": [
+        "24h 成交額 646,736,602 USDT",
+        "30 日報酬 8.5%",
+        "90 日區間最大回撤 -20.4%"
+      ],
+      "score": 73.79,
+      "symbol": "BTCUSDT"
+    },
+    {
+      "base_asset": "ETH",
+      "cautions": [
+        "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+        "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+      ],
+      "change_24h_pct": 0.274,
+      "components": {
+        "30d_momentum": 4.55,
+        "data_completeness": 10.0,
+        "drawdown_resilience": 18.18,
+        "liquidity": 28.64,
+        "trend_consistency": 10.0,
+        "volatility_penalty": -4.52
+      },
+      "last_price": 2698.25,
+      "metrics": {
+        "annualized_volatility_pct": 57.6088551118016,
+        "close": 2698.25,
+        "daily_points": 120,
+        "date": "2026-09-27",
+        "max_drawdown_pct": -21.881804276012584,
+        "return_30d_pct": 10.457262158179127,
+        "return_7d_pct": 2.0051338079018377,
+        "return_90d_pct": 67.27420384732218
+      },
+      "quote_asset": "USDT",
+      "quote_volume_24h": 248549124.308693,
+      "rank": 2,
+      "reasons": [
+        "24h 成交額 248,549,124 USDT",
+        "30 日報酬 10.5%",
+        "90 日區間最大回撤 -21.9%"
+      ],
+      "score": 66.85,
+      "symbol": "ETHUSDT"
+    },
+    {
+      "base_asset": "SOL",
+      "cautions": [
+        "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+        "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+      ],
+      "change_24h_pct": -0.288,
+      "components": {
+        "30d_momentum": 9.09,
+        "data_completeness": 10.0,
+        "drawdown_resilience": 14.55,
+        "liquidity": 25.45,
+        "trend_consistency": 10.0,
+        "volatility_penalty": -5.21
+      },
+      "last_price": 121.25,
+      "metrics": {
+        "annualized_volatility_pct": 61.05095379708845,
+        "close": 121.24,
+        "daily_points": 120,
+        "date": "2026-09-27",
+        "max_drawdown_pct": -24.551188743328478,
+        "return_30d_pct": 16.409025444071034,
+        "return_7d_pct": 9.058199154448143,
+        "return_90d_pct": 61.3092070250133
+      },
+      "quote_asset": "USDT",
+      "quote_volume_24h": 214103005.07781,
+      "rank": 3,
+      "reasons": [
+        "24h 成交額 214,103,005 USDT",
+        "30 日報酬 16.4%",
+        "90 日區間最大回撤 -24.6%"
+      ],
+      "score": 63.88,
+      "symbol": "SOLUSDT"
+    },
+    {
+      "base_asset": "ZEC",
+      "cautions": [
+        "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+        "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+      ],
+      "change_24h_pct": 6.813,
+      "components": {
+        "30d_momentum": 20.45,
+        "data_completeness": 10.0,
+        "drawdown_resilience": 3.64,
+        "liquidity": 31.82,
+        "trend_consistency": 10.0,
+        "volatility_penalty": -15
+      },
+      "last_price": 1641.27,
+      "metrics": {
+        "annualized_volatility_pct": 135.62401240380447,
+        "close": 1641.28,
+        "daily_points": 120,
+        "date": "2026-09-27",
+        "max_drawdown_pct": -41.60569826280336,
+        "return_30d_pct": 105.0446623774127,
+        "return_7d_pct": 8.756700880639823,
+        "return_90d_pct": 302.7680981595092
+      },
+      "quote_asset": "USDT",
+      "quote_volume_24h": 263422227.15019,
+      "rank": 4,
+      "reasons": [
+        "24h 成交額 263,422,227 USDT",
+        "30 日報酬 105.0%",
+        "90 日區間最大回撤 -41.6%"
+      ],
+      "score": 60.91,
+      "symbol": "ZECUSDT"
+    },
+    {
+      "base_asset": "SUI",
+      "cautions": [
+        "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+        "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+      ],
+      "change_24h_pct": 0.479,
+      "components": {
+        "30d_momentum": 15.91,
+        "data_completeness": 10.0,
+        "drawdown_resilience": 9.09,
+        "liquidity": 15.91,
+        "trend_consistency": 10.0,
+        "volatility_penalty": -8.59
+      },
+      "last_price": 1.1747,
+      "metrics": {
+        "annualized_volatility_pct": 77.95910144911703,
+        "close": 1.1745,
+        "daily_points": 120,
+        "date": "2026-09-27",
+        "max_drawdown_pct": -27.216886307795406,
+        "return_30d_pct": 57.905350900779794,
+        "return_7d_pct": 30.87809226654783,
+        "return_90d_pct": 67.14102746549027
+      },
+      "quote_asset": "USDT",
+      "quote_volume_24h": 78982725.72115,
+      "rank": 5,
+      "reasons": [
+        "24h 成交額 78,982,726 USDT",
+        "30 日報酬 57.9%",
+        "90 日區間最大回撤 -27.2%"
+      ],
+      "score": 52.32,
+      "symbol": "SUIUSDT"
+    },
+    {
+      "base_asset": "NEAR",
+      "cautions": [
+        "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+        "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+      ],
+      "change_24h_pct": 4.12,
+      "components": {
+        "30d_momentum": 25.0,
+        "data_completeness": 10.0,
+        "drawdown_resilience": 1.82,
+        "liquidity": 19.09,
+        "trend_consistency": 10.0,
+        "volatility_penalty": -14.67
+      },
+      "last_price": 5.08,
+      "metrics": {
+        "annualized_volatility_pct": 108.37233083060207,
+        "close": 5.08,
+        "daily_points": 120,
+        "date": "2026-09-27",
+        "max_drawdown_pct": -43.62797302094427,
+        "return_30d_pct": 178.50877192982458,
+        "return_7d_pct": 21.910247180225582,
+        "return_90d_pct": 172.38605898123325
+      },
+      "quote_asset": "USDT",
+      "quote_volume_24h": 132774449.7292,
+      "rank": 6,
+      "reasons": [
+        "24h 成交額 132,774,450 USDT",
+        "30 日報酬 178.5%",
+        "90 日區間最大回撤 -43.6%"
+      ],
+      "score": 51.24,
+      "symbol": "NEARUSDT"
+    },
+    {
+      "base_asset": "XRP",
+      "cautions": [
+        "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+        "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+      ],
+      "change_24h_pct": -2.786,
+      "components": {
+        "30d_momentum": 2.27,
+        "data_completeness": 10.0,
+        "drawdown_resilience": 10.91,
+        "liquidity": 22.27,
+        "trend_consistency": 10.0,
+        "volatility_penalty": -6.05
+      },
+      "last_price": 1.5213,
+      "metrics": {
+        "annualized_volatility_pct": 65.25061674076424,
+        "close": 1.5212,
+        "daily_points": 120,
+        "date": "2026-09-27",
+        "max_drawdown_pct": -25.46136534133533,
+        "return_30d_pct": 9.929180517415826,
+        "return_7d_pct": 7.8482807515065645,
+        "return_90d_pct": 43.64494806421153
+      },
+      "quote_asset": "USDT",
+      "quote_volume_24h": 177099585.20686,
+      "rank": 7,
+      "reasons": [
+        "24h 成交額 177,099,585 USDT",
+        "30 日報酬 9.9%",
+        "90 日區間最大回撤 -25.5%"
+      ],
+      "score": 49.4,
+      "symbol": "XRPUSDT"
+    },
+    {
+      "base_asset": "QNT",
+      "cautions": [
+        "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+        "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+      ],
+      "change_24h_pct": 68.641,
+      "components": {
+        "30d_momentum": 22.73,
+        "data_completeness": 10.0,
+        "drawdown_resilience": 12.73,
+        "liquidity": 3.18,
+        "trend_consistency": 10.0,
+        "volatility_penalty": -13.43
+      },
+      "last_price": 168.59,
+      "metrics": {
+        "annualized_volatility_pct": 102.15858154351712,
+        "close": 167.76,
+        "daily_points": 120,
+        "date": "2026-09-27",
+        "max_drawdown_pct": -24.919398173025254,
+        "return_30d_pct": 174.43153934238507,
+        "return_7d_pct": 161.47132169576062,
+        "return_90d_pct": 155.34246575342462
+      },
+      "quote_asset": "USDT",
+      "quote_volume_24h": 54391379.77295,
+      "rank": 8,
+      "reasons": [
+        "24h 成交額 54,391,380 USDT",
+        "30 日報酬 174.4%",
+        "90 日區間最大回撤 -24.9%"
+      ],
+      "score": 45.21,
+      "symbol": "QNTUSDT"
+    },
+    {
+      "base_asset": "BNB",
+      "cautions": [
+        "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+        "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+      ],
+      "change_24h_pct": -0.301,
+      "components": {
+        "30d_momentum": 6.82,
+        "data_completeness": 10.0,
+        "drawdown_resilience": 16.36,
+        "liquidity": 0.0,
+        "trend_consistency": 10.0,
+        "volatility_penalty": -0.78
+      },
+      "last_price": 772.57,
+      "metrics": {
+        "annualized_volatility_pct": 38.88204142200815,
+        "close": 772.57,
+        "daily_points": 120,
+        "date": "2026-09-27",
+        "max_drawdown_pct": -23.084934205896836,
+        "return_30d_pct": 11.72863609411834,
+        "return_7d_pct": 0.0012943978461299466,
+        "return_90d_pct": 38.0772805261653
+      },
+      "quote_asset": "USDT",
+      "quote_volume_24h": 47854492.49284,
+      "rank": 9,
+      "reasons": [
+        "24h 成交額 47,854,492 USDT",
+        "30 日報酬 11.7%",
+        "90 日區間最大回撤 -23.1%"
+      ],
+      "score": 42.4,
+      "symbol": "BNBUSDT"
+    },
+    {
+      "base_asset": "ENA",
+      "cautions": [
+        "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+        "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+      ],
+      "change_24h_pct": 0.979,
+      "components": {
+        "30d_momentum": 18.18,
+        "data_completeness": 10.0,
+        "drawdown_resilience": 5.45,
+        "liquidity": 9.55,
+        "trend_consistency": 10.0,
+        "volatility_penalty": -15
+      },
+      "last_price": 0.2681,
+      "metrics": {
+        "annualized_volatility_pct": 122.01393565229841,
+        "close": 0.268,
+        "daily_points": 120,
+        "date": "2026-09-27",
+        "max_drawdown_pct": -36.24999999999999,
+        "return_30d_pct": 65.02463054187196,
+        "return_7d_pct": 23.559243891194104,
+        "return_90d_pct": 240.1015228426396
+      },
+      "quote_asset": "USDT",
+      "quote_volume_24h": 72087300.057089,
+      "rank": 10,
+      "reasons": [
+        "24h 成交額 72,087,300 USDT",
+        "30 日報酬 65.0%",
+        "90 日區間最大回撤 -36.2%"
+      ],
+      "score": 38.18,
+      "symbol": "ENAUSDT"
+    },
+    {
+      "base_asset": "TAO",
+      "cautions": [
+        "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+        "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+      ],
+      "change_24h_pct": 2.386,
+      "components": {
+        "30d_momentum": 11.36,
+        "data_completeness": 10.0,
+        "drawdown_resilience": 7.27,
+        "liquidity": 6.36,
+        "trend_consistency": 10.0,
+        "volatility_penalty": -10.7
+      },
+      "last_price": 321.8,
+      "metrics": {
+        "annualized_volatility_pct": 88.47936159731194,
+        "close": 321.9,
+        "daily_points": 120,
+        "date": "2026-09-27",
+        "max_drawdown_pct": -30.72378138847859,
+        "return_30d_pct": 35.99493029150824,
+        "return_7d_pct": 23.003439052350004,
+        "return_90d_pct": 54.31447746883988
+      },
+      "quote_asset": "USDT",
+      "quote_volume_24h": 57961093.29037,
+      "rank": 11,
+      "reasons": [
+        "24h 成交額 57,961,093 USDT",
+        "30 日報酬 36.0%",
+        "90 日區間最大回撤 -30.7%"
+      ],
+      "score": 34.29,
+      "symbol": "TAOUSDT"
+    },
+    {
+      "base_asset": "WLD",
+      "cautions": [
+        "加密資產排名只反映 Binance 現貨流動性與價格路徑，不代表技術價值或安全性。",
+        "高動能可能快速反轉；交易所、市場操縱、監管、託管與穩定幣風險未進入分數。"
+      ],
+      "change_24h_pct": 8.863,
+      "components": {
+        "30d_momentum": 13.64,
+        "data_completeness": 10.0,
+        "drawdown_resilience": 0.0,
+        "liquidity": 12.73,
+        "trend_consistency": 10.0,
+        "volatility_penalty": -15
+      },
+      "last_price": 0.5257,
+      "metrics": {
+        "annualized_volatility_pct": 139.42893197206965,
+        "close": 0.5257,
+        "daily_points": 120,
+        "date": "2026-09-27",
+        "max_drawdown_pct": -55.59176418308398,
+        "return_30d_pct": 38.34210526315789,
+        "return_7d_pct": 20.71182548794488,
+        "return_90d_pct": 24.899025896887615
+      },
+      "quote_asset": "USDT",
+      "quote_volume_24h": 72840869.22919,
+      "rank": 12,
+      "reasons": [
+        "24h 成交額 72,840,869 USDT",
+        "30 日報酬 38.3%",
+        "90 日區間最大回撤 -55.6%"
+      ],
+      "score": 31.37,
+      "symbol": "WLDUSDT"
+    }
+  ],
+  "eligible_usdt_pairs": 487,
+  "limitations": [
+    "只使用公開市場資料，不使用帳戶、交易或下單 API。",
+    "只分析高流動性 USDT 現貨樣本，並非全部代幣的基本面盡職調查。",
+    "分數不可直接與股票研究分數比較。"
+  ],
+  "method": "liquidity 35 + 30d momentum 25 + drawdown resilience 20 + trend consistency 10 + completeness 10 - volatility penalty",
+  "venue": "Binance public spot market data"
+}

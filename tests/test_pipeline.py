@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 from edgefinance.core import digest, jsonfile, public_url
 from edgefinance.analysis import (chunks, validate_extraction, validate_synthesis, evidence_bundle, job_id,
     _balanced_brief_evidence, _pack_records, synthesize_monthly_feature)
-from edgefinance.collectors import parse_feed, parse_epo, financial_snapshot
+from edgefinance.collectors import parse_feed, parse_epo, financial_snapshot, html_text
 from edgefinance.report import build_report, render_site, validate_report
 from edgefinance.uspto import records, import_bulk, parse_patent
 
@@ -79,6 +79,20 @@ def test_feed_skips_undated_and_invalid_links():
 def test_epo_bibliography_not_mistaken_for_full_text():
     doc = parse_epo(b'<ep-patent-document doc-number="123"><B540><B541>en</B541><B542>Test invention</B542></B540></ep-patent-document>', 'https://example.org/EP123/document.xml','2026-01-01')
     assert doc['title'] == 'Test invention' and doc['coverage'] == 'bibliographic_only'
+
+
+def test_xlsx_is_extracted_as_cells_instead_of_binary_html():
+    workbook = io.BytesIO()
+    with zipfile.ZipFile(workbook, 'w') as archive:
+        archive.writestr('[Content_Types].xml', '<Types/>')
+        archive.writestr('xl/sharedStrings.xml', '<sst><si><t>Policy rate</t></si></sst>')
+        archive.writestr('xl/worksheets/sheet1.xml',
+            '<worksheet><sheetData><row r="1"><c r="A1" t="s"><v>0</v></c>'
+            '<c r="B1"><v>0.25</v></c></row></sheetData></worksheet>')
+    title, text = html_text(workbook.getvalue(),
+        'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+    assert title == 'Excel workbook'
+    assert 'A1=Policy rate' in text and 'B1=0.25' in text and '\ufffd' not in text
 
 
 @pytest.mark.parametrize('url',['javascript:alert(1)','https://user:password@example.org','https://example.org/?api_key=abc','file:///private'])

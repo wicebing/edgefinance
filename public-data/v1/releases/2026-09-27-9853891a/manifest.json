@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "release_id": "2026-09-27-9853891a",
+  "as_of": "2026-09-27",
+  "files": [
+    {
+      "path": "releases/2026-09-27-9853891a/companies.json",
+      "sha256": "e3141e43881ffdf48aec6a2eb648da85661457ada94c8f917aa2c2423fee19b9",
+      "bytes": 8884
+    },
+    {
+      "path": "releases/2026-09-27-9853891a/crypto.json",
+      "sha256": "6f3c7f61575dbf658a62ed694540fbc66ca3c9957e7c1a7e7f21829b5d8bb69d",
+      "bytes": 16408
+    },
+    {
+      "path": "releases/2026-09-27-9853891a/economies.json",
+      "sha256": "7062ad49df3236604860ca8cb9074331ccbbd2c9456652b60d4b2670ddf3e2f0",
+      "bytes": 2004
+    },
+    {
+      "path": "releases/2026-09-27-9853891a/evidence.json",
+      "sha256": "4b0b49b81cb4ce2f23171401bc7544ad9fa4fe7b9812e5db38486d0c8af6185d",
+      "bytes": 929770
+    },
+    {
+      "path": "releases/2026-09-27-9853891a/global.json",
+      "sha256": "627350be34507941da40708feeba0f6c61a2227cb99e6d37f7d9cac999fd6cbe",
+      "bytes": 67992
+    },
+    {
+      "path": "releases/2026-09-27-9853891a/history.json",
+      "sha256": "3c5a51c3ca2c48024038b63bf6ebdcbdb3ebc2e811b590f210462b885fca5f5b",
+      "bytes": 7355
+    },
+    {
+      "path": "releases/2026-09-27-9853891a/monthly-feature.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "bytes": 3
+    },
+    {
+      "path": "releases/2026-09-27-9853891a/opportunities.json",
+      "sha256": "ebf7b44ed4c590afa339cdcb69d1b04a0eff019cb7ef6669a1802999e1d742e9",
+      "bytes": 311764
+    },
+    {
+      "path": "releases/2026-09-27-9853891a/overview.json",
+      "sha256": "a8bf5dc923e833859c3807445ce91958770bd0d350610bdb74761dbc5167a39f",
+      "bytes": 16128
+    },
+    {
+      "path": "releases/2026-09-27-9853891a/patent-landscape.json",
+      "sha256": "2c709773cf6a01df3277706db2efcca5ed713a85482a59199ddce6f373818167",
+      "bytes": 156174
+    },
+    {
+      "path": "releases/2026-09-27-9853891a/patents.json",
+      "sha256": "e8b5d79c81242632a05d9343d721d9df77e2ef6d85a7952349122a36422c52a7",
+      "bytes": 175566
+    },
+    {
+      "path": "releases/2026-09-27-9853891a/report.json",
+      "sha256": "333d5fe26030ec33138bb05b91b0f8864e00c37bbddf6ff2ed828358a4b12778",
+      "bytes": 3684434
+    },
+    {
+      "path": "releases/2026-09-27-9853891a/taiwan.json",
+      "sha256": "2f863d469310d639273d700c878cdd5e68b021cd7ae8405c3fdb9137bc7890cc",
+      "bytes": 59574
+    },
+    {
+      "path": "releases/2026-09-27-9853891a/technologies.json",
+      "sha256": "55565aa59c78fd71139a397baed7685c1f05016100196f6d060538bfbaf99c3e",
+      "bytes": 4185
+    }
+  ]
+}

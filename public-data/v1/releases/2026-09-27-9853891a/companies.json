@@ -1,0 +1,581 @@
+[
+  {
+    "aliases": [
+      "Nvidia Corp",
+      "NVIDIA Corporation",
+      "輝達公司"
+    ],
+    "cik": "1045810",
+    "name": "NVIDIA",
+    "ticker": "NVDA",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "Advanced Micro Devices Inc",
+      "超微半導體公司"
+    ],
+    "cik": "2488",
+    "name": "Advanced Micro Devices",
+    "ticker": "AMD",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "Vertiv Holdings"
+    ],
+    "cik": "1674101",
+    "name": "Vertiv",
+    "ticker": "VRT",
+    "topics": [
+      "compute",
+      "energy"
+    ]
+  },
+  {
+    "aliases": [
+      "Eaton Corporation"
+    ],
+    "cik": "1551182",
+    "name": "Eaton",
+    "ticker": "ETN",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [
+      "Rockwell Automation Inc"
+    ],
+    "cik": "1024478",
+    "name": "Rockwell Automation",
+    "ticker": "ROK",
+    "topics": [
+      "automation"
+    ]
+  },
+  {
+    "aliases": [
+      "Teradyne Inc"
+    ],
+    "cik": "97210",
+    "name": "Teradyne",
+    "ticker": "TER",
+    "topics": [
+      "automation"
+    ]
+  },
+  {
+    "aliases": [
+      "Broadcom Corporation",
+      "博通公司"
+    ],
+    "cik": "1730168",
+    "name": "Broadcom",
+    "ticker": "AVGO",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "Intel Corporation",
+      "英特爾公司"
+    ],
+    "cik": "50863",
+    "name": "Intel",
+    "ticker": "INTC",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "TSMC",
+      "台灣積體電路製造股份有限公司",
+      "台積電"
+    ],
+    "cik": "1046179",
+    "local_codes": [
+      "2330"
+    ],
+    "market": "TWSE",
+    "name": "Taiwan Semiconductor Manufacturing",
+    "ticker": "TSM",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "ASML Netherlands B.V.",
+      "艾司摩爾公司"
+    ],
+    "cik": "937966",
+    "name": "ASML",
+    "ticker": "ASML",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "Applied Materials Inc",
+      "應用材料公司"
+    ],
+    "cik": "6951",
+    "name": "Applied Materials",
+    "ticker": "AMAT",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "Lam Research Corporation",
+      "科林研發公司"
+    ],
+    "cik": "707549",
+    "name": "Lam Research",
+    "ticker": "LRCX",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "319201",
+    "name": "KLA",
+    "ticker": "KLAC",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "Micron Technology Inc",
+      "美光科技公司"
+    ],
+    "cik": "723125",
+    "name": "Micron Technology",
+    "ticker": "MU",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1835632",
+    "name": "Marvell Technology",
+    "ticker": "MRVL",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1596532",
+    "name": "Arista Networks",
+    "ticker": "ANET",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "820318",
+    "name": "Coherent",
+    "ticker": "COHR",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1633978",
+    "name": "Lumentum",
+    "ticker": "LITE",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1996810",
+    "name": "GE Vernova",
+    "ticker": "GEV",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "753308",
+    "name": "NextEra Energy",
+    "ticker": "NEE",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1274494",
+    "name": "First Solar",
+    "ticker": "FSLR",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1463101",
+    "name": "Enphase Energy",
+    "ticker": "ENPH",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1868941",
+    "name": "Fluence Energy",
+    "ticker": "FLNC",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1758766",
+    "name": "Stem",
+    "ticker": "STEM",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "915913",
+    "name": "Albemarle",
+    "ticker": "ALB",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "909037",
+    "name": "Sociedad Quimica y Minera",
+    "ticker": "SQM",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1091587",
+    "name": "ABB",
+    "ticker": "ABB",
+    "topics": [
+      "automation",
+      "energy"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "851205",
+    "name": "Cognex",
+    "ticker": "CGNX",
+    "topics": [
+      "automation"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1837240",
+    "name": "Symbotic",
+    "ticker": "SYM",
+    "topics": [
+      "automation"
+    ]
+  },
+  {
+    "aliases": [],
+    "cik": "1035267",
+    "name": "Intuitive Surgical",
+    "ticker": "ISRG",
+    "topics": [
+      "automation"
+    ]
+  },
+  {
+    "aliases": [
+      "聯發科"
+    ],
+    "local_codes": [
+      "2454"
+    ],
+    "market": "TWSE",
+    "name": "MediaTek",
+    "ticker": "2454.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "鴻海"
+    ],
+    "local_codes": [
+      "2317"
+    ],
+    "market": "TWSE",
+    "name": "Hon Hai Precision Industry",
+    "ticker": "2317.TW",
+    "topics": [
+      "automation"
+    ]
+  },
+  {
+    "aliases": [
+      "台達電"
+    ],
+    "local_codes": [
+      "2308"
+    ],
+    "market": "TWSE",
+    "name": "Delta Electronics",
+    "ticker": "2308.TW",
+    "topics": [
+      "energy"
+    ]
+  },
+  {
+    "aliases": [
+      "廣達"
+    ],
+    "local_codes": [
+      "2382"
+    ],
+    "market": "TWSE",
+    "name": "Quanta Computer",
+    "ticker": "2382.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "緯創"
+    ],
+    "local_codes": [
+      "3231"
+    ],
+    "market": "TWSE",
+    "name": "Wistron",
+    "ticker": "3231.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "緯穎"
+    ],
+    "local_codes": [
+      "6669"
+    ],
+    "market": "TWSE",
+    "name": "Wiwynn",
+    "ticker": "6669.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "日月光投控"
+    ],
+    "local_codes": [
+      "3711"
+    ],
+    "market": "TWSE",
+    "name": "ASE Technology Holding",
+    "ticker": "3711.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "聯電"
+    ],
+    "local_codes": [
+      "2303"
+    ],
+    "market": "TWSE",
+    "name": "United Microelectronics",
+    "ticker": "2303.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "瑞昱"
+    ],
+    "local_codes": [
+      "2379"
+    ],
+    "market": "TWSE",
+    "name": "Realtek Semiconductor",
+    "ticker": "2379.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "聯詠"
+    ],
+    "local_codes": [
+      "3034"
+    ],
+    "market": "TWSE",
+    "name": "Novatek Microelectronics",
+    "ticker": "3034.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "華碩"
+    ],
+    "local_codes": [
+      "2357"
+    ],
+    "market": "TWSE",
+    "name": "ASUSTeK Computer",
+    "ticker": "2357.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "英業達"
+    ],
+    "local_codes": [
+      "2356"
+    ],
+    "market": "TWSE",
+    "name": "Inventec",
+    "ticker": "2356.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "奇鋐"
+    ],
+    "local_codes": [
+      "3017"
+    ],
+    "market": "TWSE",
+    "name": "Asia Vital Components",
+    "ticker": "3017.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "世芯-KY"
+    ],
+    "local_codes": [
+      "3661"
+    ],
+    "market": "TWSE",
+    "name": "Alchip Technologies",
+    "ticker": "3661.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "創意"
+    ],
+    "local_codes": [
+      "3443"
+    ],
+    "market": "TWSE",
+    "name": "Global Unichip",
+    "ticker": "3443.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "大立光"
+    ],
+    "local_codes": [
+      "3008"
+    ],
+    "market": "TWSE",
+    "name": "Largan Precision",
+    "ticker": "3008.TW",
+    "topics": [
+      "compute"
+    ]
+  },
+  {
+    "aliases": [
+      "上銀"
+    ],
+    "local_codes": [
+      "2049"
+    ],
+    "market": "TWSE",
+    "name": "HIWIN Technologies",
+    "ticker": "2049.TW",
+    "topics": [
+      "automation"
+    ]
+  },
+  {
+    "aliases": [
+      "亞德客-KY"
+    ],
+    "local_codes": [
+      "1590"
+    ],
+    "market": "TWSE",
+    "name": "Airtac International",
+    "ticker": "1590.TW",
+    "topics": [
+      "automation"
+    ]
+  },
+  {
+    "aliases": [
+      "AES-KY"
+    ],
+    "local_codes": [
+      "6781"
+    ],
+    "market": "TWSE",
+    "name": "AES-KY",
+    "ticker": "6781.TW",
+    "topics": [
+      "energy"
+    ]
+  }
+]
