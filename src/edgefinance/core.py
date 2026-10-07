@@ -88,6 +88,15 @@ class Project:
         lower = text.lower()
         return [t["id"] for t in self.topics if any(k.lower() in lower for k in t["keywords"])]
 
+    def company_tickers(self, names) -> list[str]:
+        """Map exact normalized legal/alias names to configured tickers."""
+        if isinstance(names, str):
+            names = [names]
+        normalized = {re.sub(r"[^a-z0-9\u4e00-\u9fff]", "", str(name).lower()) for name in (names or [])}
+        return [company["ticker"] for company in self.companies if any(
+            re.sub(r"[^a-z0-9\u4e00-\u9fff]", "", str(name).lower()) in normalized
+            for name in [company["name"], *company.get("aliases", [])])]
+
 
 class Store:
     def __init__(self, data: Path):

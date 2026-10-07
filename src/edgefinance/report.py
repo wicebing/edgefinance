@@ -19,6 +19,10 @@ def build_report(project: Project, as_of: str, use_codex=True):
     try:
         evidence, summaries, coverage = evidence_bundle(project, store, as_of)
         docs = store.documents(as_of, latest_only=True)
+        def mapped_entities(document):
+            metadata = document.get("metadata", {})
+            names = [*(metadata.get("assignees") or []), *(metadata.get("applicants") or [])]
+            return sorted(set(document.get("entities", [])) | set(project.company_tickers(names)))
         stored_reports = store.reports()
         previous = next((r for r in stored_reports if r["as_of"] < as_of), None)
         indicator_names = {indicator["id"]: indicator["name"] for source in project.sources
@@ -139,7 +143,7 @@ def build_report(project: Project, as_of: str, use_codex=True):
                 patent_updates.append({"authority": "USPTO", "source_id": d["source_id"],
                     "publication_number": meta["publication_number"], "kind_code": meta["kind_code"], "event": meta["patent_event"],
                     "published_at": d["published_at"], "url": d["url"], "detail_status": "complete", "title": d["title"],
-                    "assignees": meta.get("assignees", []), "topics": d.get("topics", []), "companies": d.get("entities", [])})
+                    "assignees": meta.get("assignees", []), "topics": d.get("topics", []), "companies": mapped_entities(d)})
                 patent_keys.add(key)
         def latest_dashboard(source_id):
             candidates = [d for d in docs if d["source_id"] == source_id and d.get("metadata", {}).get("dashboard")]
@@ -173,7 +177,12 @@ def build_report(project: Project, as_of: str, use_codex=True):
             "history": [{"report_id": item["id"], "as_of": item["as_of"], "assessment": old["assessment"], "title": old["title"]}
                 for item in prior_reports[:12] for old in item.get("risks", []) if old["horizon_days"] == risk["horizon_days"]][:8]}
             for risk in synthesis["risks"]]
-        monthly_feature = synthesize_monthly_feature(project, evidence, stored_reports, as_of) if use_codex else None
+        monthly_feature = None
+        if use_codex:
+            try:
+                monthly_feature = synthesize_monthly_feature(project, evidence, stored_reports, as_of)
+            except CodexError as monthly_error:
+                errors.append(f"本月專題未通過證據驗證，週報仍保留發布：{monthly_error}")
         report = {"schema_version": 2, "id": report_id, "as_of": as_of, "generated_at": now(), "snapshot_frozen_at": now(),
             "decision_available_at": now(), "status": "partial" if errors else "draft", "review_status": "pending",
             "summary": synthesis["summary"], "theses": synthesis["theses"], "risks": synthesis["risks"],
@@ -187,8 +196,8 @@ def build_report(project: Project, as_of: str, use_codex=True):
             "sources": source_states, "source_manifest_id": (run or {}).get("id"),
             "evidence": [{**{k: v for k, v in e.items() if k not in {"quote", "title"}},
                 "title": display_titles.get(e["document_version"], e["title"])} for e in evidence],
-            "documents": [{**{k: d.get(k) for k in ["id", "document_id", "url", "kind", "published_at", "first_seen_at", "source_id", "coverage", "entities", "topics", "content_hash"]},
-                "title": display_titles[d["id"]]} for d in docs],
+            "documents": [{**{k: d.get(k) for k in ["id", "document_id", "url", "kind", "published_at", "first_seen_at", "source_id", "coverage", "topics", "content_hash"]},
+                "entities": mapped_entities(d), "title": display_titles[d["id"]]} for d in docs],
             "timeline": timeline, "observations": current_points, "companies": project.companies, "topics": project.topics,
             "economies": project.economies, "global_latest": sorted(latest_global.values(), key=lambda p: (p["series"], p["economy"])),
             "opportunities": opportunities,

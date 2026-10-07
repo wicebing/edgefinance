@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "release_id": "2026-10-05-7294ecc0",
+  "as_of": "2026-10-05",
+  "files": [
+    {
+      "path": "releases/2026-10-05-7294ecc0/companies.json",
+      "sha256": "5f8589c1c7dde01120491cd1d24664d4f09d4afb799655905c4df731677e6445",
+      "bytes": 9017
+    },
+    {
+      "path": "releases/2026-10-05-7294ecc0/crypto.json",
+      "sha256": "5cfe439fc1780ff6b45891fb5b103844510d855e3c7b8aeadaf302b875270541",
+      "bytes": 16418
+    },
+    {
+      "path": "releases/2026-10-05-7294ecc0/economies.json",
+      "sha256": "7062ad49df3236604860ca8cb9074331ccbbd2c9456652b60d4b2670ddf3e2f0",
+      "bytes": 2004
+    },
+    {
+      "path": "releases/2026-10-05-7294ecc0/evidence.json",
+      "sha256": "72535ee18cd2af84b41a5d806d5597ee245b6120be43244ef5c78def17f52d2c",
+      "bytes": 2045945
+    },
+    {
+      "path": "releases/2026-10-05-7294ecc0/global.json",
+      "sha256": "627350be34507941da40708feeba0f6c61a2227cb99e6d37f7d9cac999fd6cbe",
+      "bytes": 67992
+    },
+    {
+      "path": "releases/2026-10-05-7294ecc0/history.json",
+      "sha256": "8a45e5c475916da0eac8e595b3e7b8a943a2ab5e5312fd607bb4437cca7ad7ca",
+      "bytes": 9822
+    },
+    {
+      "path": "releases/2026-10-05-7294ecc0/monthly-feature.json",
+      "sha256": "148f56474d2f9bab5ea73fcdf3ac1b4bac562440f1ee8e3107395f3602ee3409",
+      "bytes": 14457
+    },
+    {
+      "path": "releases/2026-10-05-7294ecc0/opportunities.json",
+      "sha256": "88a51804a98d6c36fc5f65db0fcbeee7b9af1ca5fb525cf38d073e9d2fef4d56",
+      "bytes": 305430
+    },
+    {
+      "path": "releases/2026-10-05-7294ecc0/overview.json",
+      "sha256": "c3fc71d944c67611b1571bdb207b1b3d92ac4cb2f37371a362489a2c6f57630b",
+      "bytes": 15274
+    },
+    {
+      "path": "releases/2026-10-05-7294ecc0/patent-landscape.json",
+      "sha256": "7b96cd3895e76e7c81ea5d150328c496f2ea9eb32b9a86155a3f1c7e82117be7",
+      "bytes": 148276
+    },
+    {
+      "path": "releases/2026-10-05-7294ecc0/patents.json",
+      "sha256": "b0d0852c0f3566773421f3f4998768070a42c2ff77026a1512033673c514ac79",
+      "bytes": 194870
+    },
+    {
+      "path": "releases/2026-10-05-7294ecc0/report.json",
+      "sha256": "37e446baacf227bf0cb34cdddf0b9dc0bf13b434a1fb51151b8f783b3c224597",
+      "bytes": 5430450
+    },
+    {
+      "path": "releases/2026-10-05-7294ecc0/taiwan.json",
+      "sha256": "482a15b7b05d5b0c05b2a9be979275edb3c530bb8ae93977136e228264b328dd",
+      "bytes": 61467
+    },
+    {
+      "path": "releases/2026-10-05-7294ecc0/technologies.json",
+      "sha256": "55565aa59c78fd71139a397baed7685c1f05016100196f6d060538bfbaf99c3e",
+      "bytes": 4185
+    }
+  ]
+}

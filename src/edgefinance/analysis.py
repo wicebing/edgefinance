@@ -278,6 +278,9 @@ def evidence_bundle(project, store, as_of):
     evidence, summaries, coverage = [], [], {"documents": 0, "completed_documents": 0, "chunks": 0, "completed_chunks": 0, "failed_chunks": 0}
     for doc in store.documents(as_of, latest_only=True):
         coverage["documents"] += 1
+        metadata = doc.get("metadata", {})
+        organization_names = [*(metadata.get("assignees") or []), *(metadata.get("applicants") or [])]
+        entities = sorted(set(doc.get("entities", [])) | set(project.company_tickers(organization_names)))
         expected = chunks(doc["text"], cfg["chunk_characters"])
         done = 0
         for index, text, start, end in expected:
@@ -297,7 +300,7 @@ def evidence_bundle(project, store, as_of):
                     "origin": doc["origin"], "title": doc["title"], "url": doc["url"], "published_at": doc["published_at"],
                     "statement": fact["statement"], "type": fact["type"], "caution": fact["caution"],
                     "quote": fact["quote"], "locator": f"normalized characters {start}–{end}, chunk {index + 1}",
-                    "kind": doc["kind"], "entities": doc["entities"], "topics": doc["topics"],
+                    "kind": doc["kind"], "entities": entities, "topics": doc["topics"],
                     "verification": "quote_matched; semantic_review_pending"})
         coverage["completed_documents"] += int(done == len(expected))
     coverage["pending_chunks"] = coverage["chunks"] - coverage["completed_chunks"]
@@ -449,6 +452,20 @@ def synthesize(project, evidence, summaries, previous, as_of):
     return result
 
 
+def validate_monthly_feature(value, topic_id, selected, previous, project):
+    jsonschema.validate(value, MONTHLY_SCHEMA)
+    ids = {item["id"] for item in selected}
+    report_ids = {report["id"] for report in previous}
+    company_ids = {company["ticker"] for company in project.companies}
+    evidenced_companies = {ticker for item in selected for ticker in item.get("entities", [])}
+    if (value["topic_id"] != topic_id or not set(value["related_report_ids"]) <= report_ids
+            or not set(value["companies"]) <= company_ids or not set(value["companies"]) <= evidenced_companies):
+        raise CodexError("Monthly feature contains unknown topic, company, or report")
+    for section in value["sections"]:
+        if not section["evidence_ids"] or not set(section["evidence_ids"]) <= ids:
+            raise CodexError("Monthly feature contains missing or invented evidence")
+
+
 def synthesize_monthly_feature(project, evidence, reports, as_of):
     """Create the first-week monthly deep dive from retained evidence/history."""
     if date.fromisoformat(as_of).day > 7 or not evidence:
@@ -487,23 +504,35 @@ def synthesize_monthly_feature(project, evidence, reports, as_of):
     task_id = "monthly-" + digest(prompt + runner.model + SYNTHESIS_VERSION)[:24]
     cache = project.data / "synthesis" / f"{task_id}.json"
     result = readjson(cache) if cache.exists() else None
+    if result is not None:
+        try:
+            validate_monthly_feature(result["result"], topic_id, selected, previous, project)
+        except (KeyError, ValueError, CodexError, jsonschema.ValidationError):
+            result = None
+    if result is None:
+        candidates = sorted((project.data / "synthesis").glob("monthly-*.json"),
+            key=lambda path: path.stat().st_mtime, reverse=True)
+        for candidate_path in candidates:
+            if candidate_path == cache:
+                continue
+            try:
+                candidate = readjson(candidate_path)
+                validate_monthly_feature(candidate["result"], topic_id, selected, previous, project)
+            except (OSError, KeyError, ValueError, CodexError, jsonschema.ValidationError):
+                continue
+            result = {"result": candidate["result"], "execution": {
+                "provider": "codex-subscription", "mode": "recovered_validated_monthly_cache",
+                "recovered_at": now(), "prompt_sha256": digest(prompt),
+                "original_execution": candidate.get("execution", {})}}
+            jsonfile(cache, result)
+            break
     if result is None:
         value, execution = runner.call(prompt, MONTHLY_SCHEMA, task_id,
             timeout_seconds=int(project.settings["analysis"].get("synthesis_timeout_seconds", 600)))
         result = {"result": value, "execution": execution}
         jsonfile(cache, result)
     value = result["result"]
-    jsonschema.validate(value, MONTHLY_SCHEMA)
-    ids = {item["id"] for item in selected}
-    report_ids = {report["id"] for report in previous}
-    company_ids = {company["ticker"] for company in project.companies}
-    evidenced_companies = {ticker for item in selected for ticker in item.get("entities", [])}
-    if (value["topic_id"] != topic_id or not set(value["related_report_ids"]) <= report_ids
-            or not set(value["companies"]) <= company_ids or not set(value["companies"]) <= evidenced_companies):
-        raise CodexError("Monthly feature contains unknown topic, company, or report")
-    for section in value["sections"]:
-        if not section["evidence_ids"] or not set(section["evidence_ids"]) <= ids:
-            raise CodexError("Monthly feature contains missing or invented evidence")
+    validate_monthly_feature(value, topic_id, selected, previous, project)
     value.update(edition=as_of[:7], published_at=as_of, execution=result["execution"])
     return value
 

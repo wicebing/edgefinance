@@ -1,0 +1,3621 @@
+{
+  "as_of": "2026-10-05",
+  "assignees_available": 1717,
+  "details_complete": 119,
+  "latest_batches": [
+    {
+      "assignees_available": 37,
+      "authority": "USPTO",
+      "batch_date": "2026-09-29",
+      "details_complete": 39,
+      "details_pending": 7196,
+      "events": 7235,
+      "latency_days": 6,
+      "new_grants": 31,
+      "source_id": "uspto-gazette-grants",
+      "status": "partial",
+      "titles_available": 39
+    },
+    {
+      "assignees_available": 40,
+      "authority": "EPO",
+      "batch_date": "2026-09-30",
+      "details_complete": 40,
+      "details_pending": 2138,
+      "events": 2178,
+      "latency_days": 5,
+      "new_grants": 2159,
+      "source_id": "epo-grants",
+      "status": "partial",
+      "titles_available": 40
+    },
+    {
+      "assignees_available": 1640,
+      "authority": "TIPO",
+      "batch_date": "2026-10-01",
+      "details_complete": 40,
+      "details_pending": 1600,
+      "events": 1640,
+      "latency_days": 4,
+      "new_grants": 1640,
+      "source_id": "tipo-grants",
+      "status": "partial",
+      "titles_available": 1640
+    }
+  ],
+  "limitations": [
+    "USPTO Gazette 可免金鑰完整列舉每週案號，但個別頁只提供書目與畫面上的第一項請求項；完整全文仍需 ODP PTGRXML 或本機 ZIP。",
+    "EPO 已完整列舉最新 B 類公開案號，但只有分批取得的 XML 才有題名、權利人與請求項。",
+    "TIPO 公報提供全批次題名與申請人；個案 API 只補全優先權、分類與程序歷程。",
+    "專利件數與文字關鍵字不代表專利品質、有效性、自由實施、可量產性或公司營收。"
+  ],
+  "method": "Each authority's latest retained grant batch; topic matching uses configured title keywords; company mapping requires exact configured names.",
+  "new_grants": 3830,
+  "organizations": [
+    {
+      "assignee": "三陽工業股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 10,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688075",
+          "published_at": "2026-10-01",
+          "title": "具增壓裝置之引擎系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115203694.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688014",
+          "published_at": "2026-10-01",
+          "title": "引擎吊架結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115201026.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688004",
+          "published_at": "2026-10-01",
+          "title": "車載防水充電連接裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115200139.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688003",
+          "published_at": "2026-10-01",
+          "title": "防水充電連接裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115200138.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M687998",
+          "published_at": "2026-10-01",
+          "title": "載貨用機車及其機車用貨架",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114213538.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "M687995",
+          "published_at": "2026-10-01",
+          "title": "傳動散熱結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114212859.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M687989",
+          "published_at": "2026-10-01",
+          "title": "摩托車免鑰匙啟動控制模組配置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114211186.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941293",
+          "published_at": "2026-10-01",
+          "title": "燃油機車之循跡防滑控制方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114124950.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941054",
+          "published_at": "2026-10-01",
+          "title": "斜坡緩降之方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114103868.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247016",
+          "published_at": "2026-10-01",
+          "title": "摩托車",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301000.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": [
+        "compute"
+      ]
+    },
+    {
+      "assignee": "中華電信股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 9,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941477",
+          "published_at": "2026-10-01",
+          "title": "惡意連線的偵測系統和偵測方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114145021.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941466",
+          "published_at": "2026-10-01",
+          "title": "惡意網址的偵測系統和偵測方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114143830.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941407",
+          "published_at": "2026-10-01",
+          "title": "公雲網段的管理裝置和管理方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114135733.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941309",
+          "published_at": "2026-10-01",
+          "title": "無人機射頻訊號偵測追蹤系統、方法及電腦可讀媒介",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114126441.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941301",
+          "published_at": "2026-10-01",
+          "title": "申請與產製後量子密碼學多用途憑證的系統及其方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114125517.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941015",
+          "published_at": "2026-10-01",
+          "title": "用於防止傳真長時呼叫之傳真系統、方法及其電腦可讀媒介",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113149962.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940973",
+          "published_at": "2026-10-01",
+          "title": "用於判斷設備故障的系統及方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113142507.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940971",
+          "published_at": "2026-10-01",
+          "title": "網路節能管控系統、方法及電腦可讀媒介",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113142362.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940883",
+          "published_at": "2026-10-01",
+          "title": "電池交換媒合方法、電腦可讀取儲存媒體及伺服器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113117034.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": [
+        "energy",
+        "quantum_photonics"
+      ]
+    },
+    {
+      "assignee": "南韓商三星電子股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 10,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940924",
+          "published_at": "2026-10-01",
+          "title": "使用者設備及其操作方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113129936.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940912",
+          "published_at": "2026-10-01",
+          "title": "顯示裝置及其操作方法、及電子系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113126358.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940871",
+          "published_at": "2026-10-01",
+          "title": "含釕薄膜的製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113110358.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940817",
+          "published_at": "2026-10-01",
+          "title": "儲存裝置與用於管理偏壓模式切換的方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112126441.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940805",
+          "published_at": "2026-10-01",
+          "title": "用於在儲存裝置中放置資料的設備",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112120794.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940802",
+          "published_at": "2026-10-01",
+          "title": "記憶體裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112118396.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940675",
+          "published_at": "2026-10-01",
+          "title": "影像感測器、包括影像感測器的影像處理系統以及影像處理方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111133691.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940652",
+          "published_at": "2026-10-01",
+          "title": "次取樣鎖相環以及積體電路",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111128573.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940640",
+          "published_at": "2026-10-01",
+          "title": "半導體積體電路以及測試半導體積體電路的方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111125732.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940613",
+          "published_at": "2026-10-01",
+          "title": "開關調節器和電源管理積體電路",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111119902.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": [
+        "compute"
+      ]
+    },
+    {
+      "assignee": "友達光電股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 15,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941514",
+          "published_at": "2026-10-01",
+          "title": "複合式天線單元",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114152069.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941509",
+          "published_at": "2026-10-01",
+          "title": "光波導模組",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114151366.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941501",
+          "published_at": "2026-10-01",
+          "title": "顯示裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114150019.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941487",
+          "published_at": "2026-10-01",
+          "title": "顯示模組",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114146506.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941435",
+          "published_at": "2026-10-01",
+          "title": "具有多個顯示器的顯示裝置與顯示方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114138974.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941426",
+          "published_at": "2026-10-01",
+          "title": "半導體元件及其製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114137424.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941425",
+          "published_at": "2026-10-01",
+          "title": "顯示裝置及車用顯示裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114137381.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941424",
+          "published_at": "2026-10-01",
+          "title": "防窺顯示裝置及車用防窺顯示裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114137310.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941418",
+          "published_at": "2026-10-01",
+          "title": "像素結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114136538.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941409",
+          "published_at": "2026-10-01",
+          "title": "顯示裝置及車用顯示裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114135780.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": [
+        "compute"
+      ]
+    },
+    {
+      "assignee": "台灣積體電路製造股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [
+        "3443.TW",
+        "TSM"
+      ],
+      "complete_details": 29,
+      "mapping_status": "exact configured name",
+      "patent_count": 29,
+      "patents": [
+        {
+          "detail_status": "complete",
+          "publication_number": "I941513",
+          "published_at": "2026-10-01",
+          "title": "半導體裝置的形成方法及蝕刻方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114152064.pdf"
+        },
+        {
+          "detail_status": "complete",
+          "publication_number": "I941324",
+          "published_at": "2026-10-01",
+          "title": "半導體裝置及其形成方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114127823.pdf"
+        },
+        {
+          "detail_status": "complete",
+          "publication_number": "I941284",
+          "published_at": "2026-10-01",
+          "title": "封裝基板之佈線層、封裝基板與半導體封裝結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114124150.pdf"
+        },
+        {
+          "detail_status": "complete",
+          "publication_number": "I941230",
+          "published_at": "2026-10-01",
+          "title": "半導體結構及其製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114119571.pdf"
+        },
+        {
+          "detail_status": "complete",
+          "publication_number": "I941219",
+          "published_at": "2026-10-01",
+          "title": "互補場效電晶體結構、半導體裝置結構及其形成方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114118951.pdf"
+        },
+        {
+          "detail_status": "complete",
+          "publication_number": "I941216",
+          "published_at": "2026-10-01",
+          "title": "半導體處理工具、擴散板及蝕刻操作的方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114118857.pdf"
+        },
+        {
+          "detail_status": "complete",
+          "publication_number": "I941204",
+          "published_at": "2026-10-01",
+          "title": "半導體裝置和其形成方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114118336.pdf"
+        },
+        {
+          "detail_status": "complete",
+          "publication_number": "I941196",
+          "published_at": "2026-10-01",
+          "title": "半導體結構及其形成方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114117024.pdf"
+        },
+        {
+          "detail_status": "complete",
+          "publication_number": "I941193",
+          "published_at": "2026-10-01",
+          "title": "半導體裝置與其形成方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114116831.pdf"
+        },
+        {
+          "detail_status": "complete",
+          "publication_number": "I941177",
+          "published_at": "2026-10-01",
+          "title": "記憶體元件及其形成方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114115245.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": [
+        "advanced_materials",
+        "compute"
+      ]
+    },
+    {
+      "assignee": "台達電子工業股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 10,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688091",
+          "published_at": "2026-10-01",
+          "title": "電源轉換電路及所適用的電源轉換器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115203998.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941552",
+          "published_at": "2026-10-01",
+          "title": "基於電磁波的估速方法、系統及其處理器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115111889.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941371",
+          "published_at": "2026-10-01",
+          "title": "電力系統及其操作方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114131554.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941215",
+          "published_at": "2026-10-01",
+          "title": "測試治具及其操作方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114118829.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941178",
+          "published_at": "2026-10-01",
+          "title": "雙層天線結構及光學相位陣列晶片",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114115312.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941171",
+          "published_at": "2026-10-01",
+          "title": "冷卻裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114114744.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941167",
+          "published_at": "2026-10-01",
+          "title": "磁集成元件",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114114227.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941128",
+          "published_at": "2026-10-01",
+          "title": "磁性組件",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114111389.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940895",
+          "published_at": "2026-10-01",
+          "title": "非暫態電腦可讀取儲存媒體與提示訊息生成方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113121797.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246954",
+          "published_at": "2026-10-01",
+          "title": "風扇扇葉",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114305207.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": []
+    },
+    {
+      "assignee": "富邦產物保險股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 8,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688170",
+          "published_at": "2026-10-01",
+          "title": "預測理賠申訴風險系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115205405.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688146",
+          "published_at": "2026-10-01",
+          "title": "火災風險與損失轉換系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115205189.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688145",
+          "published_at": "2026-10-01",
+          "title": "火災風險與損失評估系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115205188.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688128",
+          "published_at": "2026-10-01",
+          "title": "雙向即時情緒感知系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115204905.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688127",
+          "published_at": "2026-10-01",
+          "title": "天災風險評估系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115204882.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688107",
+          "published_at": "2026-10-01",
+          "title": "車險理賠流程動態預測系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115204319.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "M687999",
+          "published_at": "2026-10-01",
+          "title": "基於電池健康度之車險評估及定價系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114213683.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M687990",
+          "published_at": "2026-10-01",
+          "title": "車賠申請系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114211429.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": [
+        "energy"
+      ]
+    },
+    {
+      "assignee": "日商住友化學股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 10,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941084",
+          "published_at": "2026-10-01",
+          "title": "聚合性液晶混合組合物、相位差板、橢圓偏光板及有機EL顯示裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114106763.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940814",
+          "published_at": "2026-10-01",
+          "title": "著色組成物、彩色濾光片、顯示裝置及化合物",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112124824.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940810",
+          "published_at": "2026-10-01",
+          "title": "組成物、膜及顯示裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112122321.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940746",
+          "published_at": "2026-10-01",
+          "title": "偏光板及圖像顯示裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112100268.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940743",
+          "published_at": "2026-10-01",
+          "title": "樹脂、硬化性樹脂組成物、硬化膜及其製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111150871.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940719",
+          "published_at": "2026-10-01",
+          "title": "偏光膜的製造方法及偏光膜",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111144449.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940669",
+          "published_at": "2026-10-01",
+          "title": "鹽、酸產生劑、抗蝕劑組成物及抗蝕劑圖案的製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111132348.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940631",
+          "published_at": "2026-10-01",
+          "title": "化合物、組合物、薄膜、積層體及顯示裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111124015.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940554",
+          "published_at": "2026-10-01",
+          "title": "硬化膜、硬化膜的製造方法及顯示裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111106898.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940523",
+          "published_at": "2026-10-01",
+          "title": "偏光板及使用該偏光板的圖像顯示裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/110140977.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": []
+    },
+    {
+      "assignee": "日商島野股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 10,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941405",
+          "published_at": "2026-10-01",
+          "title": "人力驅動載具之電源供應裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114135509.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940886",
+          "published_at": "2026-10-01",
+          "title": "自行車後鏈輪總成",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113118334.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940759",
+          "published_at": "2026-10-01",
+          "title": "用於人力驅動車之切換單元及操作裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112103203.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940718",
+          "published_at": "2026-10-01",
+          "title": "用於人力車輛之曲柄總成的曲柄臂",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111144331.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940687",
+          "published_at": "2026-10-01",
+          "title": "用於人力驅動車之操作裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111135577.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940530",
+          "published_at": "2026-10-01",
+          "title": "操作裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/110143892.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940528",
+          "published_at": "2026-10-01",
+          "title": "用於人力車輛之電組件",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/110143130.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940512",
+          "published_at": "2026-10-01",
+          "title": "自行車變速器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/110129903.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940507",
+          "published_at": "2026-10-01",
+          "title": "用於人力驅動車之電池保持裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/110127098.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940504",
+          "published_at": "2026-10-01",
+          "title": "把手總成",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/110124425.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": [
+        "energy"
+      ]
+    },
+    {
+      "assignee": "日商東京威力科創股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 25,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941562",
+          "published_at": "2026-10-01",
+          "title": "基板處理裝置、基板處理方法及記憶媒體",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115117805.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941506",
+          "published_at": "2026-10-01",
+          "title": "基板處理裝置及基板處理方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114150992.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941387",
+          "published_at": "2026-10-01",
+          "title": "電漿處理裝置、蝕刻方法、具有三維結構之ＮＡＮＤ快閃記憶體之製造方法及蝕刻氣體組合物",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114133128.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941229",
+          "published_at": "2026-10-01",
+          "title": "蝕刻方法及電漿處理裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114119470.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940970",
+          "published_at": "2026-10-01",
+          "title": "電漿處理裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113142336.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940818",
+          "published_at": "2026-10-01",
+          "title": "基板處理裝置及基板處理方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112126836.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940781",
+          "published_at": "2026-10-01",
+          "title": "基板載置台、基板處理裝置及基板處理方法(一)",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112108670.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940760",
+          "published_at": "2026-10-01",
+          "title": "基板處理設備",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112103416.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940733",
+          "published_at": "2026-10-01",
+          "title": "測定器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111149403.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940731",
+          "published_at": "2026-10-01",
+          "title": "異物檢測裝置及異物檢測方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111148366.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": [
+        "compute"
+      ]
+    },
+    {
+      "assignee": "日商鎧俠股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 9,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941397",
+          "published_at": "2026-10-01",
+          "title": "固態儲存裝置及其閒置狀態偵測方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114134543.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941299",
+          "published_at": "2026-10-01",
+          "title": "半導體裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114125451.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941101",
+          "published_at": "2026-10-01",
+          "title": "半導體裝置之製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114107938.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941065",
+          "published_at": "2026-10-01",
+          "title": "半導體記憶裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114105061.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941050",
+          "published_at": "2026-10-01",
+          "title": "半導體記憶裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114103695.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941047",
+          "published_at": "2026-10-01",
+          "title": "記憶體裝置及記憶體系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114103124.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941045",
+          "published_at": "2026-10-01",
+          "title": "記憶體裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114102908.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941044",
+          "published_at": "2026-10-01",
+          "title": "半導體記憶裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114102644.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940858",
+          "published_at": "2026-10-01",
+          "title": "半導體記憶裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113105864.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": [
+        "compute"
+      ]
+    },
+    {
+      "assignee": "日商ＤＩＣ股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 18,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941120",
+          "published_at": "2026-10-01",
+          "title": "熱可塑性樹脂組成物、成型體、熱可塑性樹脂組成物的製造方法及成型體的製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114110208.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941010",
+          "published_at": "2026-10-01",
+          "title": "電流控制模組、暨具備其之電池及電子機器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113149250.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940981",
+          "published_at": "2026-10-01",
+          "title": "電路基板及安裝基板之製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113143712.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940908",
+          "published_at": "2026-10-01",
+          "title": "工件之雙面研磨裝置以及工件之雙面研磨方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113125617.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940811",
+          "published_at": "2026-10-01",
+          "title": "釔質保護膜及其製造方法以及構件",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112123136.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940792",
+          "published_at": "2026-10-01",
+          "title": "順應單元",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112111983.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940788",
+          "published_at": "2026-10-01",
+          "title": "光學構件、感測器模組、及光學構件的製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112110820.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940783",
+          "published_at": "2026-10-01",
+          "title": "感放射線性組成物、圖案形成方法及光降解性鹼",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112108976.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940780",
+          "published_at": "2026-10-01",
+          "title": "反射型光罩基底以及反射型光罩及其製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112108478.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940751",
+          "published_at": "2026-10-01",
+          "title": "樹脂組成物、成形品及顯示裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112102221.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": [
+        "compute",
+        "energy"
+      ]
+    },
+    {
+      "assignee": "法商雷諾簡化股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 11,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247029",
+          "published_at": "2026-10-01",
+          "title": "座椅",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301142.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246941",
+          "published_at": "2026-10-01",
+          "title": "後視鏡",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114303446D01.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246940",
+          "published_at": "2026-10-01",
+          "title": "車燈",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114303445D01.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246935",
+          "published_at": "2026-10-01",
+          "title": "左投射燈",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114302394D01.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246934",
+          "published_at": "2026-10-01",
+          "title": "右投射燈",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114302394.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246933",
+          "published_at": "2026-10-01",
+          "title": "左後行李箱燈",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114302393D01.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246932",
+          "published_at": "2026-10-01",
+          "title": "右後行李箱燈",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114302393.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246931",
+          "published_at": "2026-10-01",
+          "title": "左側汽車聚光燈",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114302372D01.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246930",
+          "published_at": "2026-10-01",
+          "title": "右側汽車聚光燈",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114302372.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246929",
+          "published_at": "2026-10-01",
+          "title": "右後擋泥板燈",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114302318D01.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": []
+    },
+    {
+      "assignee": "美商應用材料股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 33,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941543",
+          "published_at": "2026-10-01",
+          "title": "使用含硼及鹵素的前驅物的含金屬硬遮罩開孔方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115107557.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941332",
+          "published_at": "2026-10-01",
+          "title": "在低開放區域及／或高深寬比蝕刻應用中的終點偵測",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114128282.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941291",
+          "published_at": "2026-10-01",
+          "title": "半導體處理腔室和適合於在半導體處理腔室中感測溫度的方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114124829.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941143",
+          "published_at": "2026-10-01",
+          "title": "用於設置在處理腔室中的套件",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114112809.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941088",
+          "published_at": "2026-10-01",
+          "title": "用於高深寬比接點之氧化矽及氮化矽交替層之選擇性蝕刻",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114107106.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941046",
+          "published_at": "2026-10-01",
+          "title": "用於電漿系統的製程階段過渡偵測",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114103113.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940955",
+          "published_at": "2026-10-01",
+          "title": "用於混合接合應用之拋光製品、形成拋光製品的方法以及拋光基板的方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113138646.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940882",
+          "published_at": "2026-10-01",
+          "title": "具有氣體回收的處理腔室",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113116522.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940834",
+          "published_at": "2026-10-01",
+          "title": "EUV光阻劑與底層之黏著調節",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112144466.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940831",
+          "published_at": "2026-10-01",
+          "title": "金屬間隙填充方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112143790.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": [
+        "automation",
+        "biotech",
+        "climate_water",
+        "compute"
+      ]
+    },
+    {
+      "assignee": "致伸科技股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 9,
+      "patents": [
+        {
+          "detail_status": "pending",
+          "publication_number": "M688184",
+          "published_at": "2026-10-01",
+          "title": "自主移動機器人",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115205551.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M687994",
+          "published_at": "2026-10-01",
+          "title": "光學編碼器以及應用此光學編碼器的滾輪模組",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114212054.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941472",
+          "published_at": "2026-10-01",
+          "title": "一體化光學感測模組及其製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114144354.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941416",
+          "published_at": "2026-10-01",
+          "title": "具有邊緣學習影像分類功能之邊緣運算裝置及應用於其上之邊緣學習影像分類方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114136413.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941260",
+          "published_at": "2026-10-01",
+          "title": "震動模組",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114121838.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941237",
+          "published_at": "2026-10-01",
+          "title": "剪刀式機構及包括其之異形按鍵結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114120250.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941097",
+          "published_at": "2026-10-01",
+          "title": "可更換電池的鍵盤",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114107714.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941080",
+          "published_at": "2026-10-01",
+          "title": "薄膜組件及應用其的觸控鍵盤",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114106400.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940974",
+          "published_at": "2026-10-01",
+          "title": "避障運動載具",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113142819.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": [
+        "automation",
+        "energy",
+        "quantum_photonics"
+      ]
+    },
+    {
+      "assignee": "英屬開曼群島商鴻騰精密科技股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 11,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688045",
+          "published_at": "2026-10-01",
+          "title": "卡緣連接器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115202793.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688006",
+          "published_at": "2026-10-01",
+          "title": "卡緣連接器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115200369.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688002",
+          "published_at": "2026-10-01",
+          "title": "電路板組件及蓋體",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114213799.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941322",
+          "published_at": "2026-10-01",
+          "title": "電力連接器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114127444.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941262",
+          "published_at": "2026-10-01",
+          "title": "插座連接器及插頭連接器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114122026.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941247",
+          "published_at": "2026-10-01",
+          "title": "電力連接器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114120983.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941243",
+          "published_at": "2026-10-01",
+          "title": "限位結構、連接器及電子設備",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114120733.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940782",
+          "published_at": "2026-10-01",
+          "title": "晶片加溫裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112108790.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940764",
+          "published_at": "2026-10-01",
+          "title": "晶片連接器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112104935.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940604",
+          "published_at": "2026-10-01",
+          "title": "電連接器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111117751.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": []
+    },
+    {
+      "assignee": "蔡彥雄",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 10,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688050",
+          "published_at": "2026-10-01",
+          "title": "蹺蹺板軌道單元",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115202874.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688049",
+          "published_at": "2026-10-01",
+          "title": "能夠隨時拆裝玩具車的軌道玩具",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115202873.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688048",
+          "published_at": "2026-10-01",
+          "title": "軌道玩具",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115202872.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688047",
+          "published_at": "2026-10-01",
+          "title": "易取放玩具車的軌道玩具",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115202871.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688026",
+          "published_at": "2026-10-01",
+          "title": "玩具插接結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115202057.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247051",
+          "published_at": "2026-10-01",
+          "title": "玩具軌道組件(1)",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301631.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247050",
+          "published_at": "2026-10-01",
+          "title": "玩具軌道組件(2)",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301630.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247049",
+          "published_at": "2026-10-01",
+          "title": "玩具軌道組件(3)",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301629.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247048",
+          "published_at": "2026-10-01",
+          "title": "玩具軌道組件(4)",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301628.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247047",
+          "published_at": "2026-10-01",
+          "title": "玩具軌道車",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301627.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": []
+    },
+    {
+      "assignee": "陳郁智",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 10,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688190",
+          "published_at": "2026-10-01",
+          "title": "一種吊臂限位系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115205721.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246997",
+          "published_at": "2026-10-01",
+          "title": "起重機車尾支撐腳架及車後斗護欄之部分（十三）",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115300657.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246996",
+          "published_at": "2026-10-01",
+          "title": "起重機車尾支撐腳架之部分（五）",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115300656.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246995",
+          "published_at": "2026-10-01",
+          "title": "起重機車尾支撐腳架及車後斗護欄之部分（十）",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115300655.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246994",
+          "published_at": "2026-10-01",
+          "title": "起重機車尾支撐腳架之部分（四）",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115300654.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246993",
+          "published_at": "2026-10-01",
+          "title": "起重機車尾支撐腳架及車後斗護欄之部分（七）",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115300653.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246992",
+          "published_at": "2026-10-01",
+          "title": "起重機車尾支撐腳架之部分（三）",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115300652.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246991",
+          "published_at": "2026-10-01",
+          "title": "起重機車尾支撐腳架及車後斗護欄之部分（四）",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115300651.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246990",
+          "published_at": "2026-10-01",
+          "title": "起重機車尾支撐腳架之部分（二）",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115300650.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246989",
+          "published_at": "2026-10-01",
+          "title": "起重機車尾支撐腳架之部分（一）",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115300648.pdf"
+        }
+      ],
+      "score": 100,
+      "topics": []
+    },
+    {
+      "assignee": "中國鋼鐵股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 8,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688317",
+          "published_at": "2026-10-01",
+          "title": "設備監診裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115207131.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688225",
+          "published_at": "2026-10-01",
+          "title": "冷卻系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206227.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688220",
+          "published_at": "2026-10-01",
+          "title": "鋼捲配重吊掛運輸裝置及其組合",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206156.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688176",
+          "published_at": "2026-10-01",
+          "title": "多功能量儀校正整合定位座",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115205452.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941553",
+          "published_at": "2026-10-01",
+          "title": "高爐爐床碳磚縫隙預測方法及系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115112523.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941547",
+          "published_at": "2026-10-01",
+          "title": "水性表面處理劑、表面處理鍍鋅鋼板及其製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115109809.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941529",
+          "published_at": "2026-10-01",
+          "title": "鋼胚數量辨識系統及方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115103144.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940976",
+          "published_at": "2026-10-01",
+          "title": "電磁鋼鐵損值的預估方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113143003.pdf"
+        }
+      ],
+      "score": 96,
+      "topics": []
+    },
+    {
+      "assignee": "美商蘭姆研究公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 8,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941313",
+          "published_at": "2026-10-01",
+          "title": "用於減式金屬蝕刻的原子層蝕刻",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114126884.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941132",
+          "published_at": "2026-10-01",
+          "title": "基板處理系統及基板處理工具",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114111662.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941063",
+          "published_at": "2026-10-01",
+          "title": "異常電漿事件偵測方法及設備",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114104803.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940986",
+          "published_at": "2026-10-01",
+          "title": "基板處理系統用的具有降低電容變化的可移動邊緣環",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113144614.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940705",
+          "published_at": "2026-10-01",
+          "title": "用於基板處理系統的液體輸送系統之使用受控壓力的惰性驅淨氣體的除氣系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111141312.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940585",
+          "published_at": "2026-10-01",
+          "title": "在基於高TCR控制中的信號濾波方案之使用",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111115761.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940565",
+          "published_at": "2026-10-01",
+          "title": "基板處理系統及形成記憶體結構的方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111110053.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940490",
+          "published_at": "2026-10-01",
+          "title": "用以防止沉積及晶圓滑動的主軸臂沖洗",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/109144446.pdf"
+        }
+      ],
+      "score": 96,
+      "topics": []
+    },
+    {
+      "assignee": "美商高通公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 8,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940728",
+          "published_at": "2026-10-01",
+          "title": "用於對無線通訊進行修改的基於部署的統計",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111147622.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940725",
+          "published_at": "2026-10-01",
+          "title": "用於針對無ＳＳＢ ＤＬ ＢＷＰ中的ＲＡＣＨ和ＳＤＴ的同步的方法和裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111146454.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940721",
+          "published_at": "2026-10-01",
+          "title": "用於被動及器件整合的雙面再分布層（ＲＤＬ）基板",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111144856.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940620",
+          "published_at": "2026-10-01",
+          "title": "用於多電壓軌薄閘極輸出驅動器的靜電放電電路、裝置與方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111121501.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940598",
+          "published_at": "2026-10-01",
+          "title": "電源電路的一開關電晶體的閘極驅動器、電源管理積體電路、開關模式電源電路及供應電力的方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111117089.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940547",
+          "published_at": "2026-10-01",
+          "title": "用於移動設備速度和處理系統操作頻率的互動控制的方法、控制系統、處理器可讀取媒體及處理系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111104648.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940546",
+          "published_at": "2026-10-01",
+          "title": "三維垂直螺旋電感器及其製造方法和變壓器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111104405.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940514",
+          "published_at": "2026-10-01",
+          "title": "用於非地面網路的細胞類型選擇",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/110134369.pdf"
+        }
+      ],
+      "score": 96,
+      "topics": []
+    },
+    {
+      "assignee": "聯華電子股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 7,
+      "patents": [
+        {
+          "detail_status": "pending",
+          "publication_number": "I941457",
+          "published_at": "2026-10-01",
+          "title": "具有凸塊下緩衝層的半導體結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114142177.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941413",
+          "published_at": "2026-10-01",
+          "title": "射頻前端電路",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114136128.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941366",
+          "published_at": "2026-10-01",
+          "title": "光控制元件結構以及其製作方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114131350.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941086",
+          "published_at": "2026-10-01",
+          "title": "半導體結構及其形成方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114107012.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940950",
+          "published_at": "2026-10-01",
+          "title": "半導體裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113137888.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940799",
+          "published_at": "2026-10-01",
+          "title": "半導體結構以及其形成方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112116566.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940749",
+          "published_at": "2026-10-01",
+          "title": "半導體結構及其製作方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112102171.pdf"
+        }
+      ],
+      "score": 92,
+      "topics": [
+        "compute"
+      ]
+    },
+    {
+      "assignee": "中國信託商業銀行股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 7,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688328",
+          "published_at": "2026-10-01",
+          "title": "智能行員訓練系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115207441.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688322",
+          "published_at": "2026-10-01",
+          "title": "外出作業管理系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115207184.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688321",
+          "published_at": "2026-10-01",
+          "title": "結匯管控系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115207183.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688266",
+          "published_at": "2026-10-01",
+          "title": "多叢集服務導流系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206511.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688264",
+          "published_at": "2026-10-01",
+          "title": "跨行資金智能調度系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206508.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941318",
+          "published_at": "2026-10-01",
+          "title": "旅遊意圖預測模型建立方法及系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114127259.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941157",
+          "published_at": "2026-10-01",
+          "title": "線上偽冒交易預測裝置及其方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114113497.pdf"
+        }
+      ],
+      "score": 84,
+      "topics": []
+    },
+    {
+      "assignee": "光寶科技股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 7,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941382",
+          "published_at": "2026-10-01",
+          "title": "樹脂膠片及包含其之銅箔基板",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114132652.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941271",
+          "published_at": "2026-10-01",
+          "title": "功率放大器的線性化方法及其電子裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114122852.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941208",
+          "published_at": "2026-10-01",
+          "title": "諧振式轉換器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114118483.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941207",
+          "published_at": "2026-10-01",
+          "title": "諧振式轉換器及集成式磁芯模組",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114118482.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940997",
+          "published_at": "2026-10-01",
+          "title": "按鍵結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113147049.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940953",
+          "published_at": "2026-10-01",
+          "title": "電源轉換裝置及其控制方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113138292.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940925",
+          "published_at": "2026-10-01",
+          "title": "變壓器裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113130149.pdf"
+        }
+      ],
+      "score": 84,
+      "topics": []
+    },
+    {
+      "assignee": "啓碁科技股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 7,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941507",
+          "published_at": "2026-10-01",
+          "title": "天線結構及電子裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114151032.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941423",
+          "published_at": "2026-10-01",
+          "title": "天線結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114137147.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941380",
+          "published_at": "2026-10-01",
+          "title": "標籤讀取裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114132446.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941325",
+          "published_at": "2026-10-01",
+          "title": "天線結構及電子裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114127860.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941300",
+          "published_at": "2026-10-01",
+          "title": "電子裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114125488.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941174",
+          "published_at": "2026-10-01",
+          "title": "功率補償方法及功率補償系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114115156.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941110",
+          "published_at": "2026-10-01",
+          "title": "組合蓋結構及包材結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114108911.pdf"
+        }
+      ],
+      "score": 84,
+      "topics": []
+    },
+    {
+      "assignee": "瑞士商明門瑞士股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 7,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941392",
+          "published_at": "2026-10-01",
+          "title": "煞車機構、移動式車架和兒童載具",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114133549.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941329",
+          "published_at": "2026-10-01",
+          "title": "角度調節機構及包含其的載具",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114128126.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941160",
+          "published_at": "2026-10-01",
+          "title": "載具安裝部以及座椅",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114113628.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941017",
+          "published_at": "2026-10-01",
+          "title": "兒童約束系統及其定位組件",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113150256.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940983",
+          "published_at": "2026-10-01",
+          "title": "適配器、適配器裝置及兒童載具",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113143885.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940826",
+          "published_at": "2026-10-01",
+          "title": "刹車機構、移動式車架和兒童載具",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112138921.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940537",
+          "published_at": "2026-10-01",
+          "title": "具有兒童載具及與其耦接之旅行整理器的旅行系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/110147637.pdf"
+        }
+      ],
+      "score": 84,
+      "topics": []
+    },
+    {
+      "assignee": "財團法人工業技術研究院",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 7,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941515",
+          "published_at": "2026-10-01",
+          "title": "體內疾病快篩裝置、其體內快篩單元、內儲程式之電腦可讀取記錄媒體及辨識特定影像的快速回饋方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114152325.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941512",
+          "published_at": "2026-10-01",
+          "title": "可撓式消融管及應用其之消融方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114151911.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941508",
+          "published_at": "2026-10-01",
+          "title": "目標區域的座標建立方法和系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114151109.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941500",
+          "published_at": "2026-10-01",
+          "title": "外骨骼之模擬方法、系統、以及電腦程式產品",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114149784.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941021",
+          "published_at": "2026-10-01",
+          "title": "溫控混料裝置及應用於溫控混料裝置的待混料裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113151134.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940881",
+          "published_at": "2026-10-01",
+          "title": "製備聚醯亞胺膜的組合物及封裝結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113115760.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940836",
+          "published_at": "2026-10-01",
+          "title": "可致動雙極板、包含其的電解槽單元及電解槽",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112146910.pdf"
+        }
+      ],
+      "score": 84,
+      "topics": []
+    },
+    {
+      "assignee": "大陸商長江存儲科技有限責任公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 6,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941462",
+          "published_at": "2026-10-01",
+          "title": "記憶體系統及其執行方法、控制器以及記憶體裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114142601.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941148",
+          "published_at": "2026-10-01",
+          "title": "三維ＮＡＮＤ記憶體元件",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114112976.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941078",
+          "published_at": "2026-10-01",
+          "title": "解碼器、解碼方法、記憶體系統和控制器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114106280.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940939",
+          "published_at": "2026-10-01",
+          "title": "半導體封裝結構及其製備方法、存儲系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113134350.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940910",
+          "published_at": "2026-10-01",
+          "title": "晶片封裝結構、半導體結構及其製作方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113126059.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940736",
+          "published_at": "2026-10-01",
+          "title": "三維儲存元件及其輸入／輸出參考電壓訓練方法，以及記憶體系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111150187.pdf"
+        }
+      ],
+      "score": 80,
+      "topics": [
+        "compute"
+      ]
+    },
+    {
+      "assignee": "日商日產化學股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 6,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940770",
+          "published_at": "2026-10-01",
+          "title": "含有自交聯性聚合物之光硬化性樹脂組成物",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112106244.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940697",
+          "published_at": "2026-10-01",
+          "title": "降低揮發性醛發生之含有金屬氧化物粒子之組成物",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111139119.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940668",
+          "published_at": "2026-10-01",
+          "title": "熱硬化性組成物",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111132152.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940574",
+          "published_at": "2026-10-01",
+          "title": "積層體、剝離劑組成物及加工後之半導體基板之製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111111261.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940526",
+          "published_at": "2026-10-01",
+          "title": "形成阻劑下層膜之組成物、阻劑下層膜及半導體裝置之製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/110142530.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940491",
+          "published_at": "2026-10-01",
+          "title": "積層體",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/109144874.pdf"
+        }
+      ],
+      "score": 80,
+      "topics": [
+        "compute"
+      ]
+    },
+    {
+      "assignee": "日商發那科股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 6,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940773",
+          "published_at": "2026-10-01",
+          "title": "開袋系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112106461.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940763",
+          "published_at": "2026-10-01",
+          "title": "力檢測裝置及機器人",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112104871.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940682",
+          "published_at": "2026-10-01",
+          "title": "位置姿勢計測系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111135140.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940588",
+          "published_at": "2026-10-01",
+          "title": "機器人控制裝置及機器人控制系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111116215.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940563",
+          "published_at": "2026-10-01",
+          "title": "輸入輸出單元及通信系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111109979.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940557",
+          "published_at": "2026-10-01",
+          "title": "三維測量系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111108034.pdf"
+        }
+      ],
+      "score": 80,
+      "topics": [
+        "automation"
+      ]
+    },
+    {
+      "assignee": "SAMSUNG ELECTRONICS CO., LTD.",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 4,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 4,
+      "patents": [
+        {
+          "detail_status": "complete",
+          "publication_number": "US12751324",
+          "published_at": "2026-09-29",
+          "title": "Semiconductor package manufactured through a thermocompression process using a non-conductive film (NCF)",
+          "url": "https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US12751324-20260929.html"
+        },
+        {
+          "detail_status": "complete",
+          "publication_number": "US12751330",
+          "published_at": "2026-09-29",
+          "title": "Semiconductor package",
+          "url": "https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US12751330-20260929.html"
+        },
+        {
+          "detail_status": "complete",
+          "publication_number": "US12751331",
+          "published_at": "2026-09-29",
+          "title": "Semiconductor chip, semiconductor device, and semiconductor package including the same",
+          "url": "https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US12751331-20260929.html"
+        },
+        {
+          "detail_status": "complete",
+          "publication_number": "US12751338",
+          "published_at": "2026-09-29",
+          "title": "Packaged integrated circuit devices with enhanced dam structures that provide increased yield and reliability",
+          "url": "https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US12751338-20260929.html"
+        }
+      ],
+      "score": 76,
+      "topics": [
+        "compute"
+      ]
+    },
+    {
+      "assignee": "日商半導體能源研究所股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941441",
+          "published_at": "2026-10-01",
+          "title": "顯示裝置以及電子裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114139934.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940969",
+          "published_at": "2026-10-01",
+          "title": "半導體裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113141894.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940812",
+          "published_at": "2026-10-01",
+          "title": "半導體裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112123707.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940806",
+          "published_at": "2026-10-01",
+          "title": "二次電池以及電子裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112120988.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940480",
+          "published_at": "2026-10-01",
+          "title": "發光器件、發光裝置、電子裝置、照明設備及化合物",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/109123821.pdf"
+        }
+      ],
+      "score": 76,
+      "topics": [
+        "compute",
+        "energy"
+      ]
+    },
+    {
+      "assignee": "日商斯庫林集團股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 6,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941417",
+          "published_at": "2026-10-01",
+          "title": "基板資訊取得裝置及基板處理裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114136468.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941261",
+          "published_at": "2026-10-01",
+          "title": "顆粒去除方法及基板處理裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114121973.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941106",
+          "published_at": "2026-10-01",
+          "title": "直接描繪裝置及直接描繪方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114108801.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941096",
+          "published_at": "2026-10-01",
+          "title": "支援方法、記錄媒體、支援系統及基板處理系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114107567.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247038",
+          "published_at": "2026-10-01",
+          "title": "電腦程式產品之圖形化使用者介面",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301294.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247037",
+          "published_at": "2026-10-01",
+          "title": "電腦程式產品之圖形化使用者介面",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301293.pdf"
+        }
+      ],
+      "score": 72,
+      "topics": []
+    },
+    {
+      "assignee": "瑞士商哈利溫士頓公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 6,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247078",
+          "published_at": "2026-10-01",
+          "title": "耳環組",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301953.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247077",
+          "published_at": "2026-10-01",
+          "title": "耳環組",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301952.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247076",
+          "published_at": "2026-10-01",
+          "title": "項鍊",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301950.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247043",
+          "published_at": "2026-10-01",
+          "title": "吊墜項鍊",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301427.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247027",
+          "published_at": "2026-10-01",
+          "title": "耳環組",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301124.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247026",
+          "published_at": "2026-10-01",
+          "title": "項鍊",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301123.pdf"
+        }
+      ],
+      "score": 72,
+      "topics": []
+    },
+    {
+      "assignee": "瑞士商百達翡麗日內瓦股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 6,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247069",
+          "published_at": "2026-10-01",
+          "title": "錶盤",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301825.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247068",
+          "published_at": "2026-10-01",
+          "title": "錶殼",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301824.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247067",
+          "published_at": "2026-10-01",
+          "title": "錶盤",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301823.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247064",
+          "published_at": "2026-10-01",
+          "title": "錶殼",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301805.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247063",
+          "published_at": "2026-10-01",
+          "title": "錶",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301803.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247062",
+          "published_at": "2026-10-01",
+          "title": "錶",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301802.pdf"
+        }
+      ],
+      "score": 72,
+      "topics": []
+    },
+    {
+      "assignee": "英業達股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 6,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688147",
+          "published_at": "2026-10-01",
+          "title": "外殼結構及筆記型電腦",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115205194.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941481",
+          "published_at": "2026-10-01",
+          "title": "儲存載具",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114145837.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941465",
+          "published_at": "2026-10-01",
+          "title": "基於人工智慧之球柵陣列元件偏移缺陷的光學檢測方法、裝置及電子設備",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114143779.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941412",
+          "published_at": "2026-10-01",
+          "title": "在虛擬演唱會中以團體任務觸發演出機制之裝置及方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114136062.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941368",
+          "published_at": "2026-10-01",
+          "title": "截斷止漏型冷卻系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114131411.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940991",
+          "published_at": "2026-10-01",
+          "title": "雙層遮擋感知與軟非極大值抑制結合的雙列直插封裝缺陷圖像後處理系統及其方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113145785.pdf"
+        }
+      ],
+      "score": 72,
+      "topics": []
+    },
+    {
+      "assignee": "華碩電腦股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 6,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688217",
+          "published_at": "2026-10-01",
+          "title": "鉸鏈模組",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206106.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941545",
+          "published_at": "2026-10-01",
+          "title": "智慧型眼鏡充電系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115109430.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941378",
+          "published_at": "2026-10-01",
+          "title": "光固化塗料及表面處理方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114132276.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941292",
+          "published_at": "2026-10-01",
+          "title": "電子裝置與其螢幕亮度調整方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114124834.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941042",
+          "published_at": "2026-10-01",
+          "title": "用於可攜式電子裝置之供電系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114102068.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940885",
+          "published_at": "2026-10-01",
+          "title": "閥值推估方法及電子裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113117480.pdf"
+        }
+      ],
+      "score": 72,
+      "topics": []
+    },
+    {
+      "assignee": "中原大學",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941567",
+          "published_at": "2026-10-01",
+          "title": "樣品缺陷分析演算法以及晶圓級缺陷分析系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115122922.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941530",
+          "published_at": "2026-10-01",
+          "title": "太陽能烘衣系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115103182.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941350",
+          "published_at": "2026-10-01",
+          "title": "太陽能溫控烘烤設備",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114130168.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941256",
+          "published_at": "2026-10-01",
+          "title": "致冷加熱兩用溫控箱",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114121670.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941099",
+          "published_at": "2026-10-01",
+          "title": "一種自然殺手細胞分離薄膜及其塗層組成",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114107829.pdf"
+        }
+      ],
+      "score": 68,
+      "topics": [
+        "advanced_materials"
+      ]
+    },
+    {
+      "assignee": "力晶積成電子製造股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941469",
+          "published_at": "2026-10-01",
+          "title": "DRAM結構及其製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114144157.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941451",
+          "published_at": "2026-10-01",
+          "title": "光罩結構的設計方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114140939.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941395",
+          "published_at": "2026-10-01",
+          "title": "薄膜形成方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114133966.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941386",
+          "published_at": "2026-10-01",
+          "title": "物理不可複製功能產生器結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114133073.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I941040",
+          "published_at": "2026-10-01",
+          "title": "橫向擴散金屬氧化物半導體結構及其製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114102004.pdf"
+        }
+      ],
+      "score": 68,
+      "topics": [
+        "compute"
+      ]
+    },
+    {
+      "assignee": "日商富士軟片股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940962",
+          "published_at": "2026-10-01",
+          "title": "洗淨液",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113141064.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940769",
+          "published_at": "2026-10-01",
+          "title": "樹脂組成物、硬化物、積層體、硬化物之製造方法、積層體之製造方法、半導體元件之製造方法及半導體元件、以及化合物",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112106016.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940752",
+          "published_at": "2026-10-01",
+          "title": "感光化射線性或感放射線性樹脂組成物、感光化射線性或感放射線性膜、圖案形成方法及電子器件之製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112102341.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940661",
+          "published_at": "2026-10-01",
+          "title": "聚合物薄膜及積層體",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111130628.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940543",
+          "published_at": "2026-10-01",
+          "title": "著色組成物、膜、濾光器、固體攝像元件、圖像顯示裝置及化合物",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111103496.pdf"
+        }
+      ],
+      "score": 68,
+      "topics": [
+        "compute"
+      ]
+    },
+    {
+      "assignee": "美商英特爾股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940663",
+          "published_at": "2026-10-01",
+          "title": "經由回蝕以改善單元縮放之具有降低磊晶源極／汲極跨距的電晶體",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111130883.pdf"
+        },
+        {
+          "detail_status": "pending",
+          "publication_number": "I940655",
+          "published_at": "2026-10-01",
+          "title": "用於Ｎ型金屬氧化物半導體（Ｎ型ＭＯＳ）性能調整的電晶體結構中的閘極端蓋及邊界佈局",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111128892.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940567",
+          "published_at": "2026-10-01",
+          "title": "使用用於介面分離的適應性互連層的通用混合接合表面層",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111110097.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940566",
+          "published_at": "2026-10-01",
+          "title": "自動對準的側向觸點",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111110096.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940489",
+          "published_at": "2026-10-01",
+          "title": "用於射線追蹤管線中之雙精確度射線遍歷的設備及方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/109144377.pdf"
+        }
+      ],
+      "score": 68,
+      "topics": [
+        "compute"
+      ]
+    },
+    {
+      "assignee": "南韓商尼奧辛普利克斯股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247034",
+          "published_at": "2026-10-01",
+          "title": "標籤",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301178.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247033",
+          "published_at": "2026-10-01",
+          "title": "化妝品容器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301177.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247032",
+          "published_at": "2026-10-01",
+          "title": "化妝品容器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301176.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247031",
+          "published_at": "2026-10-01",
+          "title": "化妝品容器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301175.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D247030",
+          "published_at": "2026-10-01",
+          "title": "化妝品容器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115301174.pdf"
+        }
+      ],
+      "score": 60,
+      "topics": []
+    },
+    {
+      "assignee": "國立陽明交通大學",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941493",
+          "published_at": "2026-10-01",
+          "title": "雙頻透射陣列天線及雙頻透射天線單元",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114148199.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941415",
+          "published_at": "2026-10-01",
+          "title": "使用區域記憶庫的三維語意場景重建方法與電子裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114136381.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941082",
+          "published_at": "2026-10-01",
+          "title": "動態導通電阻量測電路",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114106690.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940839",
+          "published_at": "2026-10-01",
+          "title": "用於預防或治療SARS-CoV-2感染的組成物及方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112148377.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940747",
+          "published_at": "2026-10-01",
+          "title": "靈芝免疫調節蛋白及其重組體於治療腦瘤的用途",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112100287.pdf"
+        }
+      ],
+      "score": 60,
+      "topics": []
+    },
+    {
+      "assignee": "大陸商東莞立洋電機有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688286",
+          "published_at": "2026-10-01",
+          "title": "插拔式電連接裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206691.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688285",
+          "published_at": "2026-10-01",
+          "title": "插拔式電連接裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206690.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688284",
+          "published_at": "2026-10-01",
+          "title": "具有防外張功能的插拔式電連接裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206672.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688283",
+          "published_at": "2026-10-01",
+          "title": "具有旋轉鎖定把手的端子台",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206670.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688160",
+          "published_at": "2026-10-01",
+          "title": "具有全屏蔽的分配器結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115205325.pdf"
+        }
+      ],
+      "score": 60,
+      "topics": []
+    },
+    {
+      "assignee": "大陸商町洋機電（中國）有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688286",
+          "published_at": "2026-10-01",
+          "title": "插拔式電連接裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206691.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688285",
+          "published_at": "2026-10-01",
+          "title": "插拔式電連接裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206690.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688284",
+          "published_at": "2026-10-01",
+          "title": "具有防外張功能的插拔式電連接裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206672.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688283",
+          "published_at": "2026-10-01",
+          "title": "具有旋轉鎖定把手的端子台",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206670.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688160",
+          "published_at": "2026-10-01",
+          "title": "具有全屏蔽的分配器結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115205325.pdf"
+        }
+      ],
+      "score": 60,
+      "topics": []
+    },
+    {
+      "assignee": "德商梅賽德斯賓士集團股份公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246968",
+          "published_at": "2026-10-01",
+          "title": "車燈",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114305860.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246967",
+          "published_at": "2026-10-01",
+          "title": "車燈",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114305859.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246966",
+          "published_at": "2026-10-01",
+          "title": "車燈",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114305858.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246965",
+          "published_at": "2026-10-01",
+          "title": "車燈",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114305857.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "D246921",
+          "published_at": "2026-10-01",
+          "title": "車輛之燈具",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114300359.pdf"
+        }
+      ],
+      "score": 60,
+      "topics": []
+    },
+    {
+      "assignee": "日商日本製鐵股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941190",
+          "published_at": "2026-10-01",
+          "title": "熔融Zn-Al-Mg鍍敷鋼材",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114116530.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941100",
+          "published_at": "2026-10-01",
+          "title": "熔接金屬、熔接接頭、及液態氫壓力容器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114107877.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I941018",
+          "published_at": "2026-10-01",
+          "title": "廢塑膠的輸送裝置及廢塑膠的儲藏料斗",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113150434.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940922",
+          "published_at": "2026-10-01",
+          "title": "鍍覆鋼板及其製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113129222.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940917",
+          "published_at": "2026-10-01",
+          "title": "熔融鍍敷鋼材",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113128668.pdf"
+        }
+      ],
+      "score": 60,
+      "topics": []
+    },
+    {
+      "assignee": "日商日本電氣硝子股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940943",
+          "published_at": "2026-10-01",
+          "title": "透明構件的製造方法及蓋構件",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113135085.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940879",
+          "published_at": "2026-10-01",
+          "title": "澄清裝置、玻璃物品的製造方法及管狀構件",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113113582.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940768",
+          "published_at": "2026-10-01",
+          "title": "玻璃板包裝體和玻璃板雙重包裝體",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112105625.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940601",
+          "published_at": "2026-10-01",
+          "title": "無鹼玻璃板",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111117404.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940600",
+          "published_at": "2026-10-01",
+          "title": "無鹼玻璃板",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111117403.pdf"
+        }
+      ],
+      "score": 60,
+      "topics": []
+    },
+    {
+      "assignee": "日商日東電工股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940816",
+          "published_at": "2026-10-01",
+          "title": "保護片材",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/112125426.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940689",
+          "published_at": "2026-10-01",
+          "title": "黏著片材、光學構件及觸控面板",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111135716.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940606",
+          "published_at": "2026-10-01",
+          "title": "密封用樹脂片材及電子零件裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111118331.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940552",
+          "published_at": "2026-10-01",
+          "title": "電感器及其製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/111105778.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "I940536",
+          "published_at": "2026-10-01",
+          "title": "轉印用雙面黏著片材",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/110147443.pdf"
+        }
+      ],
+      "score": 60,
+      "topics": []
+    },
+    {
+      "assignee": "町洋企業股份有限公司",
+      "caution": "專利件數不等於品質、自由實施、有效權利或可商業化收入；權利人對上市公司映射需人工覆核。",
+      "companies": [],
+      "complete_details": 0,
+      "mapping_status": "unresolved / manual review",
+      "patent_count": 5,
+      "patents": [
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688286",
+          "published_at": "2026-10-01",
+          "title": "插拔式電連接裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206691.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688285",
+          "published_at": "2026-10-01",
+          "title": "插拔式電連接裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206690.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688284",
+          "published_at": "2026-10-01",
+          "title": "具有防外張功能的插拔式電連接裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206672.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688283",
+          "published_at": "2026-10-01",
+          "title": "具有旋轉鎖定把手的端子台",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206670.pdf"
+        },
+        {
+          "detail_status": "not_selected",
+          "publication_number": "M688160",
+          "published_at": "2026-10-01",
+          "title": "具有全屏蔽的分配器結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115205325.pdf"
+        }
+      ],
+      "score": 60,
+      "topics": []
+    }
+  ],
+  "titles_available": 1719,
+  "topic_trends": [
+    {
+      "authorities": [
+        "EPO",
+        "TIPO",
+        "USPTO"
+      ],
+      "companies": [
+        "3443.TW",
+        "MU",
+        "TSM"
+      ],
+      "count": 126,
+      "examples": [
+        {
+          "authority": "USPTO",
+          "publication_number": "US12751341",
+          "title": "Semiconductor assemblies with system and methods for aligning dies using registration marks",
+          "url": "https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US12751341-20260929.html"
+        },
+        {
+          "authority": "USPTO",
+          "publication_number": "US12751342",
+          "title": "Semiconductor structure with daisy chain and a method of manufacturing the same",
+          "url": "https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US12751342-20260929.html"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I941513",
+          "title": "半導體裝置的形成方法及蝕刻方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114152064.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I941324",
+          "title": "半導體裝置及其形成方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114127823.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I941284",
+          "title": "封裝基板之佈線層、封裝基板與半導體封裝結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114124150.pdf"
+        }
+      ],
+      "name": "運算、互連與散熱",
+      "topic_id": "compute"
+    },
+    {
+      "authorities": [
+        "EPO",
+        "TIPO",
+        "USPTO"
+      ],
+      "companies": [],
+      "count": 29,
+      "examples": [
+        {
+          "authority": "USPTO",
+          "publication_number": "US7080330",
+          "title": "Concurrent measurement of critical dimension and overlay in semiconductor manufacturing",
+          "url": "https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US07080330-20260929.html"
+        },
+        {
+          "authority": "EPO",
+          "publication_number": "EP3460879B1",
+          "title": "BATTERY CELL TO WHICH BUS BAR IS APPLIED",
+          "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3460879NWB1"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I941558",
+          "title": "用於製造二次電池之負電極材料的瀝青粉末",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115114540.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "M688267",
+          "title": "可更換電池之自行車雷達",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206522.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "M688085",
+          "title": "具有沸石薄膜層結構的固態或半固態鋰電池",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115203908.pdf"
+        }
+      ],
+      "name": "儲能與電力基礎設施",
+      "topic_id": "energy"
+    },
+    {
+      "authorities": [
+        "TIPO"
+      ],
+      "companies": [
+        "TSM"
+      ],
+      "count": 18,
+      "examples": [
+        {
+          "authority": "TIPO",
+          "publication_number": "I941131",
+          "title": "奈米片電晶體的結構及其形成方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114111577.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I940847",
+          "title": "奈米結構場效電晶體及其製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113104065.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I941532",
+          "title": "製造微結構及／或奈米結構之裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115103630.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I941504",
+          "title": "含鈣鈦礦複合材料及白光光源裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114150510.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I941390",
+          "title": "散熱結構及散熱塗層",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114133464.pdf"
+        }
+      ],
+      "name": "先進材料與製造製程",
+      "topic_id": "advanced_materials"
+    },
+    {
+      "authorities": [
+        "TIPO"
+      ],
+      "companies": [],
+      "count": 17,
+      "examples": [
+        {
+          "authority": "TIPO",
+          "publication_number": "I941138",
+          "title": "雷射加工方法，半導體裝置製造方法，以及檢查裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114112279.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I940532",
+          "title": "具有碳奈米結構添加劑之聚合物及彈性體組成物以及由其形成之用於EMI和RFI屏蔽及具有量子隧道複合效應之壓力感測密封件之製品",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/110145855.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "M688272",
+          "title": "以超音波定位的雷射治療系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206550.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "M688159",
+          "title": "光電轉換裝置",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115205298.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I941486",
+          "title": "光電電晶體",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114146440.pdf"
+        }
+      ],
+      "name": "量子、光電與新型感測",
+      "topic_id": "quantum_photonics"
+    },
+    {
+      "authorities": [
+        "EPO",
+        "TIPO"
+      ],
+      "companies": [],
+      "count": 15,
+      "examples": [
+        {
+          "authority": "EPO",
+          "publication_number": "EP2731609B1",
+          "title": "ORAL LONG ACTING DRUG DELIVERY SYSTEM",
+          "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2731609NWB1"
+        },
+        {
+          "authority": "EPO",
+          "publication_number": "EP3331911B1",
+          "title": "METHOD FOR INCREASING THE GALACTOSE CONTENT OF RECOMBINANT PROTEINS",
+          "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3331911NWB1"
+        },
+        {
+          "authority": "EPO",
+          "publication_number": "EP3454868B1",
+          "title": "DRUG DELIVERY SYSTEM FOR THE DELIVERY OF ANTIVIRAL AGENTS",
+          "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3454868NWB1"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I941188",
+          "title": "一種siRNA、siRNA綴合物、藥物組合物、試劑盒及其用途",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114116345.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I940995",
+          "title": "抗體-藥物結合物之新穎製造方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/113147001.pdf"
+        }
+      ],
+      "name": "生物科技、藥物與精準醫療",
+      "topic_id": "biotech"
+    },
+    {
+      "authorities": [
+        "EPO",
+        "TIPO",
+        "USPTO"
+      ],
+      "companies": [],
+      "count": 14,
+      "examples": [
+        {
+          "authority": "USPTO",
+          "publication_number": "US7623033",
+          "title": "Methods and systems for tracking items using a sensor web",
+          "url": "https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US07623033-20260929.html"
+        },
+        {
+          "authority": "EPO",
+          "publication_number": "EP3180602B1",
+          "title": "A MICROWAVE MOISTURE METER AND SENSOR",
+          "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3180602NWB1"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "M688276",
+          "title": "用於自動化設備的厚板型偏心凸輪式自動夾板器",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206604.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "M688184",
+          "title": "自主移動機器人",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115205551.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "M688042",
+          "title": "平衡陀螺儀自走式救難偵測機器人",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115202606.pdf"
+        }
+      ],
+      "name": "機器人與真實世界自動化",
+      "topic_id": "automation"
+    },
+    {
+      "authorities": [
+        "EPO",
+        "TIPO"
+      ],
+      "companies": [],
+      "count": 9,
+      "examples": [
+        {
+          "authority": "EPO",
+          "publication_number": "EP3046645B1",
+          "title": "WATER TREATMENT SYSTEM FOR TREATING WATER FROM OIL PRODUCTION STREAMS",
+          "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3046645NWB1"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I941551",
+          "title": "海水淡化滷水全資源化製程",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115111532.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "M688236",
+          "title": "處理硝酸銅廢液的回收系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206305.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "M688179",
+          "title": "廢棄床墊的回收處理設備",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115205481.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "M688059",
+          "title": "具太陽能發電及雨水回收之雙層鋼鋁艙體結構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115203185.pdf"
+        }
+      ],
+      "name": "氣候、水與循環經濟技術",
+      "topic_id": "climate_water"
+    },
+    {
+      "authorities": [
+        "TIPO"
+      ],
+      "companies": [],
+      "count": 3,
+      "examples": [
+        {
+          "authority": "TIPO",
+          "publication_number": "I941242",
+          "title": "驗證二維條碼的方法、裝置和系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114120693.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I941162",
+          "title": "資安綜合風險評估方法及系統",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114113851.pdf"
+        },
+        {
+          "authority": "TIPO",
+          "publication_number": "I941028",
+          "title": "可驗證分析之整合多評準決策與系統動力學進行政策模擬系統及其方法",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/114100171.pdf"
+        }
+      ],
+      "name": "資安、隱私與可信運算",
+      "topic_id": "cybersecurity"
+    },
+    {
+      "authorities": [
+        "TIPO"
+      ],
+      "companies": [],
+      "count": 1,
+      "examples": [
+        {
+          "authority": "TIPO",
+          "publication_number": "M688219",
+          "title": "自主式天頂追蹤衛星天線機構",
+          "url": "https://cloud.tipo.gov.tw/S220/downloads/patent/isu053028/pdfdata/115206135.pdf"
+        }
+      ],
+      "name": "太空、航空與低軌通訊",
+      "topic_id": "aerospace"
+    },
+    {
+      "authorities": [
+        "EPO"
+      ],
+      "companies": [],
+      "count": 1,
+      "examples": [
+        {
+          "authority": "EPO",
+          "publication_number": "EP3461522B1",
+          "title": "ASSEMBLY FOR THE PRODUCTION OF A MEDICAL DEVICE",
+          "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3461522NWB1"
+        }
+      ],
+      "name": "醫療器材與數位健康",
+      "topic_id": "digital_health"
+    }
+  ],
+  "total_events": 11053
+}

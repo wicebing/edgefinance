@@ -261,6 +261,24 @@ def test_company_without_mapped_evidence_is_rejected(project):
     validate_synthesis(result,[{'id':'E-1','entities':['NVDA']}],project)
 
 
+def test_exact_patent_legal_name_is_mapped_in_retained_evidence(project):
+    from edgefinance.analysis import evidence_bundle
+    document = {'source_id':'fixture','url':'https://example.org/patent','title':'Semiconductor fixture',
+        'published_at':'2026-01-01','text':'A retained patent fact long enough for exact quote validation.',
+        'kind':'patent','metadata':{'assignees':['TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY LTD.']},
+        'entities':[]}
+    s=project.store();doc,_=s.add(document,b'raw')
+    job=job_id(doc,0,doc['text'],'')
+    s.save_analysis(job,doc['id'],0,'complete',{'result':{'summary':'test','facts':[{
+        'statement':'test','quote':'A retained patent fact','type':'source_statement','caution':''}],
+        'novelty':'','limitations':[]}})
+    evidence,_,_=evidence_bundle(project,s,'2026-01-02');s.close()
+    assert evidence[0]['entities']==['TSM']
+    assert project.company_tickers(['GLOBAL UNICHIP CORPORATION'])==['3443.TW']
+    assert project.company_tickers(['創意電子股份有限公司'])==['3443.TW']
+    assert project.company_tickers(['Taiwan Semiconductor Manufacturing Test'])==[]
+
+
 def test_monthly_feature_only_runs_in_first_week(project):
     assert synthesize_monthly_feature(project,[{'id':'E-1'}],[],'2026-09-20') is None
 
